@@ -1,0 +1,52 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+HUB_FILE="${1:-skillshare-hub.json}"
+
+if [ ! -f "$HUB_FILE" ]; then
+  echo "ERROR: $HUB_FILE not found"
+  exit 1
+fi
+
+# Check valid JSON
+if ! jq empty "$HUB_FILE" 2>/dev/null; then
+  echo "ERROR: Invalid JSON in $HUB_FILE"
+  exit 1
+fi
+echo "OK: valid JSON"
+
+# Check required fields
+missing=$(jq -r '.skills[] | select(.name == "" or .name == null or .description == "" or .description == null or .source == "" or .source == null) | .name // "unnamed"' "$HUB_FILE")
+if [ -n "$missing" ]; then
+  echo "ERROR: Skills missing required fields: $missing"
+  exit 1
+fi
+echo "OK: required fields present"
+
+# Check no duplicate names
+dupes=$(jq -r '[.skills[].name] | group_by(.) | map(select(length > 1)) | flatten | .[]' "$HUB_FILE")
+if [ -n "$dupes" ]; then
+  echo "ERROR: Duplicate skill names: $dupes"
+  exit 1
+fi
+echo "OK: no duplicate names"
+
+# Check name format (lowercase, hyphens only)
+bad_names=$(jq -r '.skills[].name | select(test("^[a-z0-9][a-z0-9-]*$") | not)' "$HUB_FILE")
+if [ -n "$bad_names" ]; then
+  echo "ERROR: Invalid skill names (must be lowercase, hyphens): $bad_names"
+  exit 1
+fi
+echo "OK: name format valid"
+
+# Check formatting (sorted by name, jq default 2-space indent)
+expected=$(jq '.skills |= sort_by(.name)' "$HUB_FILE")
+actual=$(cat "$HUB_FILE")
+if [ "$expected" != "$actual" ]; then
+  echo "ERROR: $HUB_FILE is not formatted. Run: make format"
+  exit 1
+fi
+echo "OK: formatting correct"
+
+echo ""
+echo "Validation passed: $(jq '.skills | length' "$HUB_FILE") skills"
