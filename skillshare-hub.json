@@ -12,13 +12,12 @@
       ]
     },
     {
-      "name": "test",
-      "description": "Verify and fix ASCII box-drawing diagram alignment in markdown files",
-      "source": "runkids/my-skills",
-      "skill": "remotion",
+      "name": "skill-creator",
+      "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
+      "source": "anthropics/skills",
+      "skill": "skill-creator",
       "tags": [
-        "test",
-        "workflow"
+        "skill"
       ]
     }
   ]

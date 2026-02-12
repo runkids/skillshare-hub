@@ -68,19 +68,20 @@ while IFS= read -r source; do
 
   echo "$audit_output"
 
-  # Extract risk score
+  # Extract risk score and label
   risk=$(echo "$audit_output" | sed -n 's/.*Risk: \([A-Z]* ([0-9]*\/[0-9]*)\).*/\1/p' | tail -1)
   [ -z "$risk" ] && risk="N/A"
+  risk_label=$(echo "$risk" | awk '{print $1}')
 
-  if echo "$audit_output" | grep -q "Passed:.*0" && echo "$audit_output" | grep -q "Failed:"; then
-    results+=("| \`${source}\` | :x: Failed | ${risk} |")
-    details+=("DETAIL_SEP### \`${source}\`"$'\n'"\`\`\`"$'\n'"${audit_output}"$'\n'"\`\`\`")
-    log_error "Security audit failed for ${source}"
-    failed=1
-  elif echo "$audit_output" | grep -q "config not found"; then
+  if echo "$audit_output" | grep -q "config not found"; then
     results+=("| \`${source}\` | :x: No config | - |")
     details+=("DETAIL_SEP### \`${source}\`"$'\n'"No skillshare config found. Run \`skillshare init\` in the source repo.")
     log_error "No skillshare config found for ${source}. Run 'skillshare init' in the source repo."
+    failed=1
+  elif [[ "$risk_label" == "HIGH" || "$risk_label" == "CRITICAL" ]]; then
+    results+=("| \`${source}\` | :x: Risk ${risk_label} | ${risk} |")
+    details+=("DETAIL_SEP### \`${source}\`"$'\n'"\`\`\`"$'\n'"${audit_output}"$'\n'"\`\`\`")
+    log_error "Risk ${risk_label} for ${source}"
     failed=1
   else
     results+=("| \`${source}\` | :white_check_mark: Passed | ${risk} |")
