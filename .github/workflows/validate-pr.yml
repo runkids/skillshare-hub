@@ -8,7 +8,7 @@ on:
       - '.github/workflows/validate-pr.yml'
 
 permissions:
-  contents: read
+  contents: write
   pull-requests: write
 
 jobs:
@@ -16,16 +16,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
 
       - name: Build hub.json from skills/
         run: ./scripts/build.sh
 
-      - name: Check hub.json is up to date
+      - name: Auto-commit hub.json if changed
         run: |
           if ! git diff --quiet skillshare-hub.json; then
-            echo "::error::skillshare-hub.json is out of date. Run 'make build' and commit the result."
-            git diff skillshare-hub.json
-            exit 1
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add skillshare-hub.json
+            git commit -m "chore: auto-build skillshare-hub.json [skip ci]"
+            git push
           fi
 
       - name: Validate hub.json
@@ -37,6 +41,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: ${{ github.head_ref }}
           fetch-depth: 0
 
       - name: Install skillshare

@@ -31,8 +31,8 @@ if [ -n "$dupes" ]; then
 fi
 echo "OK: no duplicate names"
 
-# Check no duplicate sources
-dupe_sources=$(jq -r '[.skills[].source] | group_by(.) | map(select(length > 1)) | flatten | unique | .[]' "$HUB_FILE")
+# Check no duplicate sources (source + skill combo)
+dupe_sources=$(jq -r '[.skills[] | (.source + if .skill then "/" + .skill else "" end)] | group_by(.) | map(select(length > 1)) | flatten | unique | .[]' "$HUB_FILE")
 if [ -n "$dupe_sources" ]; then
   echo "ERROR: Duplicate skill sources: $dupe_sources"
   exit 1
