@@ -39,10 +39,12 @@ jobs:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
           CI: "true"
           AUDIT_REPORT: /tmp/audit-report.md
-        run: ./scripts/audit.sh || echo "audit_failed=true" >> "$GITHUB_OUTPUT"
+        run: |
+          ./scripts/audit.sh || echo "audit_failed=true" >> "$GITHUB_OUTPUT"
+          [ -f /tmp/audit-report.md ] && echo "has_report=true" >> "$GITHUB_OUTPUT"
 
       - name: Comment PR with audit results
-        if: always() && hashFiles('/tmp/audit-report.md') != ''
+        if: always() && steps.audit.outputs.has_report == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
@@ -57,7 +59,7 @@ jobs:
           gh pr comment "${PR_NUMBER}" --body-file /tmp/audit-report.md
 
       - name: Show audit summary
-        if: always() && hashFiles('/tmp/audit-report.md') != ''
+        if: always() && steps.audit.outputs.has_report == 'true'
         run: cat /tmp/audit-report.md >> "$GITHUB_STEP_SUMMARY"
 
       - name: Fail if audit failed
