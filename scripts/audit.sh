@@ -64,7 +64,7 @@ while IFS= read -r source; do
     continue
   fi
 
-  audit_output=$(skillshare audit "$clone_dir" --threshold high 2>&1) || true
+  audit_output=$(skillshare audit "$clone_dir" --threshold high 2>&1 | sed 's/\x1b\[[0-9;]*m//g') || true
 
   echo "$audit_output"
 
