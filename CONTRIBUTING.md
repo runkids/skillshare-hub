@@ -19,7 +19,7 @@ Thanks for sharing your skill with the community!
 
 | File | Description |
 |------|-------------|
-| `skills/core.json` | Hub meta-skills (skillshare, skill-creator, find-skills, template-skill) |
+| `skills/skill.json` | Hub meta-skills (skillshare, skill-creator, find-skills, template-skill) |
 | `skills/anthropic.json` | Skills from `anthropics/skills` |
 | `skills/marketing.json` | Skills from `coreyhaines31/marketingskills` |
 | `skills/workflow.json` | Skills from `obra/superpowers` and `obra/episodic-memory` |
