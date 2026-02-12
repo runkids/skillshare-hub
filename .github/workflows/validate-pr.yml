@@ -6,6 +6,10 @@ on:
       - 'scripts/**'
       - '.github/workflows/validate-pr.yml'
 
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -34,7 +38,32 @@ jobs:
           skillshare version
 
       - name: Audit new skills
+        id: audit
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
           CI: "true"
-        run: ./scripts/audit.sh
+          AUDIT_REPORT: /tmp/audit-report.md
+        run: ./scripts/audit.sh || echo "audit_failed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Comment PR with audit results
+        if: always() && hashFiles('/tmp/audit-report.md') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          # Delete previous audit comment if exists
+          gh api "repos/${{ github.repository }}/issues/${PR_NUMBER}/comments" \
+            --jq '.[] | select(.body | startswith("## Skill Audit Results")) | .id' \
+            | while read -r id; do
+                gh api -X DELETE "repos/${{ github.repository }}/issues/comments/${id}"
+              done
+
+          gh pr comment "${PR_NUMBER}" --body-file /tmp/audit-report.md
+
+      - name: Show audit summary
+        if: always() && hashFiles('/tmp/audit-report.md') != ''
+        run: cat /tmp/audit-report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Fail if audit failed
+        if: steps.audit.outputs.audit_failed == 'true'
+        run: exit 1
