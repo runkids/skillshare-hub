@@ -57,6 +57,13 @@ while IFS= read -r source; do
     # github.com shorthand: github.com/owner/repo[/path]
     clone_url="https://github.com/${BASH_REMATCH[1]}.git"
     subpath="${BASH_REMATCH[3]}"
+  elif [[ "$source" =~ ^(https?://[^/]+)/([^/]+/[^/]+)/src/branch/[^/]+/(.+)$ ]]; then
+    # Gitea/Forgejo browser URL: https://host/owner/repo/src/branch/main/path
+    clone_url="${BASH_REMATCH[1]}/${BASH_REMATCH[2]}.git"
+    subpath="${BASH_REMATCH[3]}"
+  elif [[ "$source" =~ ^(https?://[^/]+)/([^/]+/[^/]+)/src/branch/ ]]; then
+    # Gitea/Forgejo repo URL (branch root, no subpath)
+    clone_url="${BASH_REMATCH[1]}/${BASH_REMATCH[2]}.git"
   elif [[ "$source" == http* ]]; then
     # Other HTTP URLs — use as-is
     clone_url="$source"
@@ -87,28 +94,42 @@ while IFS= read -r source; do
     audit_target="$clone_dir/$subpath"
   fi
 
-  audit_output=$(skillshare audit "$audit_target" --threshold high 2>&1 | sed 's/\x1b\[[0-9;]*m//g') || true
+  audit_json=$(skillshare audit "$audit_target" --threshold high --json 2>/dev/null) || true
 
-  echo "$audit_output"
-
-  # Extract risk score and label
-  risk=$(echo "$audit_output" | sed -n 's/.*Risk: \([A-Z]* ([0-9]*\/[0-9]*)\).*/\1/p' | tail -1)
-  [ -z "$risk" ] && risk="N/A"
-  risk_label=$(echo "$risk" | awk '{print $1}')
-
-  if echo "$audit_output" | grep -q "config not found"; then
-    results+=("| \`${source}\` | :x: No config | - |")
-    details+=("DETAIL_SEP### \`${source}\`"$'\n'"No skillshare config found. Run \`skillshare init\` in the source repo.")
-    log_error "No skillshare config found for ${source}. Run 'skillshare init' in the source repo."
+  # Check if output is valid audit JSON
+  if ! echo "$audit_json" | jq -e '.summary' >/dev/null 2>&1; then
+    # Not valid JSON — command errored (e.g. path not found)
+    audit_err=$(skillshare audit "$audit_target" --threshold high 2>&1) || true
+    echo "$audit_err"
+    results+=("| \`${source}\` | :x: Error | - |")
+    details+=("DETAIL_SEP### \`${source}\`"$'\n'"\`\`\`"$'\n'"${audit_err}"$'\n'"\`\`\`")
     failed=1
-  elif [[ "$risk_label" == "HIGH" || "$risk_label" == "CRITICAL" ]]; then
+    rm -rf "$clone_dir"
+    log_endgroup
+    continue
+  fi
+
+  # Extract risk info with jq
+  risk_score=$(echo "$audit_json" | jq -r '.summary.riskScore')
+  risk_label=$(echo "$audit_json" | jq -r '.summary.riskLabel' | tr '[:lower:]' '[:upper:]')
+  risk="${risk_label} (${risk_score}/100)"
+
+  # Format findings for display
+  findings_text=$(echo "$audit_json" | jq -r '
+    [.results[] | (.findings // [])[] | "  \(.severity): \(.message) (\(.file):\(.line))\n  \"\(.snippet)\""]
+    | join("\n\n")')
+  audit_display="Risk: ${risk}"
+  [ -n "$findings_text" ] && audit_display="${audit_display}"$'\n\n'"${findings_text}"
+  echo "$audit_display"
+
+  if [[ "$risk_label" == "HIGH" || "$risk_label" == "CRITICAL" ]]; then
     results+=("| \`${source}\` | :x: Risk ${risk_label} | ${risk} |")
-    details+=("DETAIL_SEP### \`${source}\`"$'\n'"\`\`\`"$'\n'"${audit_output}"$'\n'"\`\`\`")
+    details+=("DETAIL_SEP### \`${source}\`"$'\n'"\`\`\`"$'\n'"${audit_display}"$'\n'"\`\`\`")
     log_error "Risk ${risk_label} for ${source}"
     failed=1
   else
     results+=("| \`${source}\` | :white_check_mark: Passed | ${risk} |")
-    details+=("DETAIL_SEP### \`${source}\`"$'\n'"\`\`\`"$'\n'"${audit_output}"$'\n'"\`\`\`")
+    details+=("DETAIL_SEP### \`${source}\`"$'\n'"\`\`\`"$'\n'"${audit_display}"$'\n'"\`\`\`")
   fi
 
   rm -rf "$clone_dir"

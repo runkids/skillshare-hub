@@ -31,7 +31,6 @@ jobs:
         run: |
           curl -fsSL https://raw.githubusercontent.com/runkids/skillshare/main/install.sh | sh
           skillshare version
-          skillshare init -g --no-copy --no-targets --no-git --no-skill
 
       - name: Audit new skills
         id: audit
