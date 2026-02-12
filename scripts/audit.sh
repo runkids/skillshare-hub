@@ -44,10 +44,27 @@ details=()
 while IFS= read -r source; do
   [ -z "$source" ] && continue
 
-  if [[ "$source" == http* ]]; then
+  # Parse source into clone_url + optional subpath
+  subpath=""
+  if [[ "$source" =~ ^https?://github\.com/([^/]+/[^/]+)/tree/[^/]+/(.+)$ ]]; then
+    # GitHub browser URL: https://github.com/owner/repo/tree/branch/path
+    clone_url="https://github.com/${BASH_REMATCH[1]}.git"
+    subpath="${BASH_REMATCH[2]}"
+  elif [[ "$source" =~ ^https?://github\.com/([^/]+/[^/]+)/?$ ]]; then
+    # GitHub repo URL (no subpath): https://github.com/owner/repo
+    clone_url="https://github.com/${BASH_REMATCH[1]}.git"
+  elif [[ "$source" =~ ^github\.com/([^/]+/[^/]+)(/(.+))?$ ]]; then
+    # github.com shorthand: github.com/owner/repo[/path]
+    clone_url="https://github.com/${BASH_REMATCH[1]}.git"
+    subpath="${BASH_REMATCH[3]}"
+  elif [[ "$source" == http* ]]; then
+    # Other HTTP URLs — use as-is
     clone_url="$source"
   else
-    clone_url="https://github.com/${source}.git"
+    # GitHub shorthand: owner/repo[/path]
+    owner_repo=$(echo "$source" | cut -d'/' -f1-2)
+    subpath=$(echo "$source" | cut -d'/' -f3-)
+    clone_url="https://github.com/${owner_repo}.git"
   fi
 
   safe_name=$(echo "$source" | tr '/' '-')
@@ -64,7 +81,13 @@ while IFS= read -r source; do
     continue
   fi
 
-  audit_output=$(skillshare audit "$clone_dir" --threshold high 2>&1 | sed 's/\x1b\[[0-9;]*m//g') || true
+  # Audit subpath if specified, otherwise audit entire clone
+  audit_target="$clone_dir"
+  if [ -n "$subpath" ] && [ -d "$clone_dir/$subpath" ]; then
+    audit_target="$clone_dir/$subpath"
+  fi
+
+  audit_output=$(skillshare audit "$audit_target" --threshold high 2>&1 | sed 's/\x1b\[[0-9;]*m//g') || true
 
   echo "$audit_output"
 
