@@ -12,12 +12,37 @@ Thanks for sharing your skill with the community!
 
 ## Skill Entry Format
 
+Single-skill repo:
+
 ```json
 {
   "name": "my-skill",
   "description": "One-line description of what the skill does",
-  "source": "your-github-username/your-repo",
+  "source": "your-username/your-repo",
   "tags": ["relevant", "tags"]
+}
+```
+
+Multi-skill repo (use `skill` to specify which one):
+
+```json
+{
+  "name": "ascii-box-check",
+  "description": "Verify and fix ASCII box-drawing diagram alignment",
+  "source": "runkids/my-skills",
+  "skill": "ascii-box-check",
+  "tags": ["docs", "workflow"]
+}
+```
+
+Non-GitHub platforms (GitLab, Bitbucket, self-hosted, etc.):
+
+```json
+{
+  "name": "deploy-guard",
+  "description": "Pre-deployment safety checks and rollback procedures",
+  "source": "https://gitlab.com/team/deploy-guard",
+  "tags": ["devops", "security"]
 }
 ```
 
@@ -27,7 +52,8 @@ Thanks for sharing your skill with the community!
 |-------|----------|-------------|
 | `name` | Yes | Unique skill name — lowercase, hyphens only (e.g. `commit-helper`) |
 | `description` | Yes | One-line description of what the skill does |
-| `source` | Yes | GitHub `owner/repo` or full URL |
+| `source` | Yes | GitHub `owner/repo`, full git URL, or any platform URL |
+| `skill` | No | Specific skill name within a multi-skill repo (installs via `-s`) |
 | `tags` | No | 1-3 classification tags |
 
 ### Tags
@@ -49,8 +75,11 @@ Feel free to introduce new tags if none fit — maintainers may suggest changes 
 
 ```bash
 # Search the hub
-skillshare search --hub https://raw.githubusercontent.com/nicholasgasior/skillshare-hub/main/skillshare-hub.json <query>
+skillshare search --hub https://raw.githubusercontent.com/runkids/skillshare-hub/main/skillshare-hub.json <query>
 
 # Install a skill you found
 skillshare install <source>
+
+# Install a specific skill from a multi-skill repo
+skillshare install <source> -s <skill>
 ```

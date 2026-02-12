@@ -1,4 +1,12 @@
 {
   "schemaVersion": 1,
-  "skills": []
+  "skills": [
+    {
+      "name": "ascii-box-check",
+      "description": "Verify and fix ASCII box-drawing diagram alignment in markdown files",
+      "source": "runkids/my-skills",
+      "skill": "ascii-box-check",
+      "tags": ["docs", "workflow"]
+    }
+  ]
 }
