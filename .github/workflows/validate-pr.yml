@@ -28,14 +28,10 @@ jobs:
           fetch-depth: 0
 
       - name: Install skillshare
-        env:
-          GH_TOKEN: ${{ github.token }}
         run: |
-          gh release download --repo runkids/skillshare \
-            --pattern 'skillshare_*_linux_amd64.tar.gz' \
-            --output /tmp/skillshare.tar.gz
-          tar xzf /tmp/skillshare.tar.gz -C /usr/local/bin skillshare
+          curl -fsSL https://raw.githubusercontent.com/runkids/skillshare/main/install.sh | sh
           skillshare version
+          skillshare init -g --no-copy --no-targets --no-git --no-skill
 
       - name: Audit new skills
         id: audit

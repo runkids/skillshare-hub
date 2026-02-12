@@ -76,7 +76,9 @@ while IFS= read -r source; do
     log_error "Security audit failed for ${source}"
     failed=1
   elif echo "$audit_output" | grep -q "config not found"; then
-    results+=("| \`${source}\` | :warning: Skipped (no config) | - |")
+    results+=("| \`${source}\` | :x: No config | - |")
+    log_error "No skillshare config found for ${source}. Run 'skillshare init' in the source repo."
+    failed=1
   else
     results+=("| \`${source}\` | :white_check_mark: Passed | ${risk} |")
   fi
