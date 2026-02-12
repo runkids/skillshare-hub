@@ -1,0 +1,124 @@
+name: Validate PR
+on:
+  pull_request:
+    paths: ['skillshare-hub.json']
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate hub.json
+        run: |
+          # Check valid JSON
+          jq empty skillshare-hub.json || exit 1
+
+          # Check required fields
+          missing=$(jq -r '.skills[] | select(.name == "" or .name == null or .description == "" or .description == null or .source == "" or .source == null) | .name // "unnamed"' skillshare-hub.json)
+          if [ -n "$missing" ]; then
+            echo "ERROR: Skills missing required fields: $missing"
+            exit 1
+          fi
+
+          # Check no duplicate names
+          dupes=$(jq -r '[.skills[].name] | group_by(.) | map(select(length > 1)) | flatten | .[]' skillshare-hub.json)
+          if [ -n "$dupes" ]; then
+            echo "ERROR: Duplicate skill names: $dupes"
+            exit 1
+          fi
+
+          # Check name format (lowercase, hyphens only)
+          bad_names=$(jq -r '.skills[].name | select(test("^[a-z0-9][a-z0-9-]*$") | not)' skillshare-hub.json)
+          if [ -n "$bad_names" ]; then
+            echo "ERROR: Invalid skill names (must be lowercase, hyphens): $bad_names"
+            exit 1
+          fi
+
+          echo "Validation passed: $(jq '.skills | length' skillshare-hub.json) skills"
+
+  audit:
+    needs: validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Find new/changed skill sources
+        id: diff
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          # Get base version sources (empty if file doesn't exist in base)
+          base_sources=$(git show "${BASE_SHA}:skillshare-hub.json" 2>/dev/null \
+            | jq -r '.skills[] | "\(.name)|\(.source)"' | sort) || base_sources=""
+
+          pr_sources=$(jq -r '.skills[] | "\(.name)|\(.source)"' skillshare-hub.json | sort)
+
+          # Find new or changed entries (name|source pairs not in base)
+          new_sources=$(comm -13 <(echo "$base_sources") <(echo "$pr_sources") | cut -d'|' -f2)
+
+          if [ -z "$new_sources" ]; then
+            echo "No new or changed skill sources to audit"
+            echo "has_new=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "New/changed sources to audit:"
+            echo "$new_sources"
+            echo "$new_sources" > /tmp/new-sources.txt
+            echo "has_new=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Download skillshare
+        if: steps.diff.outputs.has_new == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download --repo runkids/skillshare \
+            --pattern 'skillshare_*_linux_amd64.tar.gz' \
+            --output /tmp/skillshare.tar.gz
+          tar xzf /tmp/skillshare.tar.gz -C /usr/local/bin skillshare
+          skillshare version
+
+      - name: Audit new skills
+        if: steps.diff.outputs.has_new == 'true'
+        run: |
+          failed=0
+          while IFS= read -r source; do
+            [ -z "$source" ] && continue
+
+            # Determine clone URL
+            if [[ "$source" == http* ]]; then
+              clone_url="$source"
+            else
+              clone_url="https://github.com/${source}.git"
+            fi
+
+            safe_name=$(echo "$source" | tr '/' '-')
+            clone_dir="/tmp/audit-${safe_name}"
+
+            echo "::group::Auditing ${source}"
+
+            if ! git clone --depth 1 "$clone_url" "$clone_dir" 2>&1; then
+              echo "::error::Failed to clone ${source}"
+              failed=1
+              echo "::endgroup::"
+              continue
+            fi
+
+            if ! skillshare audit "$clone_dir" --threshold high; then
+              echo "::error::Security audit failed for ${source}"
+              failed=1
+            fi
+
+            rm -rf "$clone_dir"
+            echo "::endgroup::"
+          done < /tmp/new-sources.txt
+
+          if [ "$failed" -ne 0 ]; then
+            echo ""
+            echo "::error::One or more skills failed the security audit. Please fix the flagged issues and push again."
+            exit 1
+          fi
+
+          echo "All new skills passed the security audit"
