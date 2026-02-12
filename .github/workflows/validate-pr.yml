@@ -1,7 +1,10 @@
 name: Validate PR
 on:
   pull_request:
-    paths: ['skillshare-hub.json']
+    paths:
+      - 'skillshare-hub.json'
+      - 'scripts/**'
+      - '.github/workflows/validate-pr.yml'
 
 jobs:
   validate:
