@@ -2,6 +2,7 @@ name: Validate PR
 on:
   pull_request:
     paths:
+      - 'skills/**'
       - 'skillshare-hub.json'
       - 'scripts/**'
       - '.github/workflows/validate-pr.yml'
@@ -15,6 +16,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Build hub.json from skills/
+        run: ./scripts/build.sh
+
+      - name: Check hub.json is up to date
+        run: |
+          if ! git diff --quiet skillshare-hub.json; then
+            echo "::error::skillshare-hub.json is out of date. Run 'make build' and commit the result."
+            git diff skillshare-hub.json
+            exit 1
+          fi
 
       - name: Validate hub.json
         run: ./scripts/validate.sh

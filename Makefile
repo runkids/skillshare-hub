@@ -1,7 +1,9 @@
-.PHONY: format validate audit ci
+.PHONY: build format validate audit ci
 
-format: ## Format skillshare-hub.json (sort by name, 2-space indent)
-	@./scripts/format.sh
+build: ## Build skillshare-hub.json from skills/*.json
+	@./scripts/build.sh
+
+format: build ## Alias for build (build already sorts and formats)
 
 validate: ## Validate skillshare-hub.json format and rules
 	@./scripts/validate.sh
@@ -9,4 +11,4 @@ validate: ## Validate skillshare-hub.json format and rules
 audit: ## Audit new/changed skills against main
 	@./scripts/audit.sh main
 
-ci: validate audit ## Run full CI locally
+ci: build validate audit ## Run full CI locally

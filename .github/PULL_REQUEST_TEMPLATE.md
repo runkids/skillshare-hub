@@ -12,7 +12,8 @@
 
 ## Checklist
 
-- [ ] `skillshare-hub.json` is valid JSON
+- [ ] Added entry to the correct `skills/*.json` category file (see [CONTRIBUTING.md](../CONTRIBUTING.md#categories))
+- [ ] Ran `make build` and committed the updated `skillshare-hub.json`
 - [ ] `name` is lowercase with hyphens only
 - [ ] `description` is a clear one-liner
 - [ ] `source` repo is publicly accessible and contains a valid `SKILL.md`
