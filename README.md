@@ -10,8 +10,6 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
 </p>
 
-> **🚧 Under Active Development** — This hub is still in early development. Schema, CI validation, and content may change without notice.
-
 ## What is this?
 
 A community-maintained index of [skillshare](https://github.com/runkids/skillshare) skills. Anyone can submit their skill via Pull Request — every submission is validated by CI and security-scanned with `skillshare audit`.
