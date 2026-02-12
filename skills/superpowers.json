@@ -1,0 +1,135 @@
+[
+  {
+    "name": "brainstorming",
+    "description": "Structured creative brainstorming and ideation before implementation",
+    "source": "obra/superpowers/brainstorming",
+    "tags": [
+      "workflow",
+      "superpowers"
+    ]
+  },
+  {
+    "name": "dispatching-parallel-agents",
+    "description": "Dispatch and coordinate independent tasks across parallel agents",
+    "source": "obra/superpowers/dispatching-parallel-agents",
+    "tags": [
+      "workflow",
+      "superpowers",
+      "agent"
+    ]
+  },
+  {
+    "name": "executing-plans",
+    "description": "Execute implementation plans step-by-step with review checkpoints",
+    "source": "obra/superpowers/executing-plans",
+    "tags": [
+      "workflow",
+      "superpowers"
+    ]
+  },
+  {
+    "name": "finishing-a-development-branch",
+    "description": "Complete and integrate development branch work with proper review",
+    "source": "obra/superpowers/finishing-a-development-branch",
+    "tags": [
+      "git",
+      "workflow",
+      "superpowers"
+    ]
+  },
+  {
+    "name": "receiving-code-review",
+    "description": "Process and implement code review feedback effectively",
+    "source": "obra/superpowers/receiving-code-review",
+    "tags": [
+      "code-review"
+    ]
+  },
+  {
+    "name": "requesting-code-review",
+    "description": "Request and structure code reviews for effective feedback",
+    "source": "obra/superpowers/requesting-code-review",
+    "tags": [
+      "code-review"
+    ]
+  },
+  {
+    "name": "subagent-driven-development",
+    "description": "Execute implementation tasks using coordinated parallel subagents",
+    "source": "obra/superpowers/subagent-driven-development",
+    "tags": [
+      "workflow",
+      "superpowers",
+      "agent"
+    ]
+  },
+  {
+    "name": "systematic-debugging",
+    "description": "Systematic approach to diagnosing and fixing bugs before proposing solutions",
+    "source": "obra/superpowers/systematic-debugging",
+    "tags": [
+      "workflow",
+      "superpowers",
+      "testing"
+    ]
+  },
+  {
+    "name": "test-driven-development",
+    "description": "Enforce test-driven development workflow — write tests first, then implement",
+    "source": "obra/superpowers/test-driven-development",
+    "tags": [
+      "testing",
+      "workflow",
+      "superpowers"
+    ]
+  },
+  {
+    "name": "using-git-worktrees",
+    "description": "Use git worktrees for isolated feature development without stashing",
+    "source": "obra/superpowers/using-git-worktrees",
+    "tags": [
+      "git",
+      "workflow",
+      "superpowers"
+    ]
+  },
+  {
+    "name": "using-superpowers",
+    "description": "Discover and use available superpowers skills at conversation start",
+    "source": "obra/superpowers/using-superpowers",
+    "tags": [
+      "workflow",
+      "superpowers",
+      "skill"
+    ]
+  },
+  {
+    "name": "verification-before-completion",
+    "description": "Run verification commands before claiming work is complete or fixed",
+    "source": "obra/superpowers/verification-before-completion",
+    "tags": [
+      "workflow",
+      "superpowers",
+      "testing"
+    ]
+  },
+  {
+    "name": "writing-plans",
+    "description": "Create structured, step-by-step implementation plans before writing code",
+    "source": "obra/superpowers/writing-plans",
+    "tags": [
+      "workflow",
+      "superpowers"
+    ]
+  },
+  {
+    "name": "writing-skills",
+    "description": "Create, edit, and verify skills for AI code agents",
+    "source": "obra/superpowers/writing-skills",
+    "tags": [
+      "skill",
+      "workflow",
+      "superpowers"
+    ]
+  }
+]
