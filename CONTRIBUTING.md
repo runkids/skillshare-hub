@@ -27,7 +27,7 @@ Thanks for sharing your skill with the community!
 | `skills/vercel.json` | Skills from `vercel-labs/*` and `vercel/*` |
 | `skills/community.json` | Everything else — independent authors and orgs |
 
-If your skill doesn't fit an existing category, add it to `skills/community.json`.
+> **Not sure where to put your skill?** Just add it to `skills/community.json`. Maintainers will move it if needed.
 
 ## Skill Entry Format
 
