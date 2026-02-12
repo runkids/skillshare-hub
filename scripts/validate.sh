@@ -31,6 +31,14 @@ if [ -n "$dupes" ]; then
 fi
 echo "OK: no duplicate names"
 
+# Check no duplicate sources
+dupe_sources=$(jq -r '[.skills[].source] | group_by(.) | map(select(length > 1)) | flatten | unique | .[]' "$HUB_FILE")
+if [ -n "$dupe_sources" ]; then
+  echo "ERROR: Duplicate skill sources: $dupe_sources"
+  exit 1
+fi
+echo "OK: no duplicate sources"
+
 # Check name format (lowercase, hyphens only)
 bad_names=$(jq -r '.skills[].name | select(test("^[a-z0-9][a-z0-9-]*$") | not)' "$HUB_FILE")
 if [ -n "$bad_names" ]; then
