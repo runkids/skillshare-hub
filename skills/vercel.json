@@ -1,0 +1,65 @@
+[
+  {
+    "name": "agent-browser",
+    "description": "Browser automation agent for web page interactions using Playwright",
+    "source": "vercel-labs/agent-browser",
+    "tags": [
+      "agent",
+      "browser"
+    ]
+  },
+  {
+    "name": "find-skills",
+    "description": "Discover and install skills from the open agent skills ecosystem",
+    "source": "vercel-labs/skills/find-skills",
+    "tags": [
+      "skill",
+      "agent"
+    ]
+  },
+  {
+    "name": "next-best-practices",
+    "description": "Next.js performance optimization and best practices from Vercel",
+    "source": "vercel-labs/next-skills/next-best-practices",
+    "tags": [
+      "react",
+      "frontend"
+    ]
+  },
+  {
+    "name": "vercel-composition-patterns",
+    "description": "React composition patterns and component architecture from Vercel Engineering",
+    "source": "vercel-labs/agent-skills/vercel-composition-patterns",
+    "tags": [
+      "react",
+      "frontend"
+    ]
+  },
+  {
+    "name": "vercel-react-best-practices",
+    "description": "React performance optimization and best practices from Vercel Engineering",
+    "source": "vercel-labs/agent-skills/vercel-react-best-practices",
+    "tags": [
+      "react",
+      "frontend"
+    ]
+  },
+  {
+    "name": "vercel-react-native-skills",
+    "description": "React Native performance and best practices from Vercel Engineering",
+    "source": "vercel-labs/agent-skills/vercel-react-native-skills",
+    "tags": [
+      "react",
+      "frontend"
+    ]
+  },
+  {
+    "name": "web-design-guidelines",
+    "description": "Review UI code for Web Interface Guidelines compliance and design quality",
+    "source": "vercel-labs/agent-skills/web-design-guidelines",
+    "tags": [
+      "design",
+      "frontend"
+    ]
+  }
+]

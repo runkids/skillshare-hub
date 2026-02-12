@@ -1,0 +1,144 @@
+[
+  {
+    "name": "algorithmic-art",
+    "description": "Generate algorithmic and generative art with code",
+    "source": "anthropics/skills/algorithmic-art",
+    "tags": [
+      "design"
+    ]
+  },
+  {
+    "name": "brand-guidelines",
+    "description": "Create and maintain brand identity guidelines and visual standards",
+    "source": "anthropics/skills/brand-guidelines",
+    "tags": [
+      "design"
+    ]
+  },
+  {
+    "name": "canvas-design",
+    "description": "Design and generate HTML canvas-based visuals and interactive graphics",
+    "source": "anthropics/skills/canvas-design",
+    "tags": [
+      "design",
+      "frontend"
+    ]
+  },
+  {
+    "name": "doc-coauthoring",
+    "description": "Collaborative document writing, editing, and coauthoring",
+    "source": "anthropics/skills/doc-coauthoring",
+    "tags": [
+      "docs"
+    ]
+  },
+  {
+    "name": "docx",
+    "description": "Create and edit Word documents programmatically",
+    "source": "anthropics/skills/docx",
+    "tags": [
+      "docs"
+    ]
+  },
+  {
+    "name": "frontend-design",
+    "description": "Create distinctive, production-grade frontend interfaces with high design quality",
+    "source": "anthropics/skills/frontend-design",
+    "tags": [
+      "design",
+      "frontend"
+    ]
+  },
+  {
+    "name": "internal-comms",
+    "description": "Draft internal communications, announcements, and team updates",
+    "source": "anthropics/skills/internal-comms",
+    "tags": [
+      "docs"
+    ]
+  },
+  {
+    "name": "mcp-builder",
+    "description": "Build Model Context Protocol (MCP) servers and tools for AI agents",
+    "source": "anthropics/skills/mcp-builder",
+    "tags": [
+      "ai",
+      "agent"
+    ]
+  },
+  {
+    "name": "pdf",
+    "description": "Generate and manipulate PDF documents programmatically",
+    "source": "anthropics/skills/pdf",
+    "tags": [
+      "docs"
+    ]
+  },
+  {
+    "name": "pptx",
+    "description": "Create and edit PowerPoint presentations programmatically",
+    "source": "anthropics/skills/pptx",
+    "tags": [
+      "docs"
+    ]
+  },
+  {
+    "name": "skill-creator",
+    "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
+    "source": "anthropics/skills",
+    "skill": "skill-creator",
+    "tags": [
+      "skill"
+    ]
+  },
+  {
+    "name": "slack-gif-creator",
+    "description": "Create animated GIFs for Slack from text prompts and images",
+    "source": "anthropics/skills/slack-gif-creator",
+    "tags": [
+      "design"
+    ]
+  },
+  {
+    "name": "template-skill",
+    "description": "Template and starter for creating new AI agent skills",
+    "source": "anthropics/skills",
+    "skill": "template-skill",
+    "tags": [
+      "skill"
+    ]
+  },
+  {
+    "name": "theme-factory",
+    "description": "Create and customize UI themes, color palettes, and design tokens",
+    "source": "anthropics/skills/theme-factory",
+    "tags": [
+      "design",
+      "frontend"
+    ]
+  },
+  {
+    "name": "web-artifacts-builder",
+    "description": "Build multi-component web artifacts using React, Tailwind, and modern frontend tools",
+    "source": "anthropics/skills/web-artifacts-builder",
+    "tags": [
+      "frontend"
+    ]
+  },
+  {
+    "name": "webapp-testing",
+    "description": "End-to-end web application testing with Playwright and modern testing tools",
+    "source": "anthropics/skills/webapp-testing",
+    "tags": [
+      "testing"
+    ]
+  },
+  {
+    "name": "xlsx",
+    "description": "Create and edit Excel spreadsheets programmatically",
+    "source": "anthropics/skills/xlsx",
+    "tags": [
+      "docs"
+    ]
+  }
+]

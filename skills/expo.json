@@ -1,0 +1,80 @@
+[
+  {
+    "name": "building-native-ui",
+    "description": "Build beautiful native UIs with Expo and React Native",
+    "source": "expo/skills/building-native-ui",
+    "tags": [
+      "react",
+      "frontend"
+    ]
+  },
+  {
+    "name": "expo-api-routes",
+    "description": "Create API routes in Expo Router with EAS Hosting",
+    "source": "expo/skills/expo-api-routes",
+    "tags": [
+      "react",
+      "backend"
+    ]
+  },
+  {
+    "name": "expo-cicd-workflows",
+    "description": "Write EAS CI/CD workflow YAML files for Expo projects",
+    "source": "expo/skills/expo-cicd-workflows",
+    "tags": [
+      "devops",
+      "react"
+    ]
+  },
+  {
+    "name": "expo-deployment",
+    "description": "Deploy Expo apps to iOS App Store, Android Play Store, and web hosting",
+    "source": "expo/skills/expo-deployment",
+    "tags": [
+      "devops",
+      "react"
+    ]
+  },
+  {
+    "name": "expo-dev-client",
+    "description": "Build and distribute Expo development clients locally or via TestFlight",
+    "source": "expo/skills/expo-dev-client",
+    "tags": [
+      "react"
+    ]
+  },
+  {
+    "name": "expo-tailwind-setup",
+    "description": "Set up Tailwind CSS v4 in Expo with NativeWind for universal styling",
+    "source": "expo/skills/expo-tailwind-setup",
+    "tags": [
+      "react",
+      "frontend"
+    ]
+  },
+  {
+    "name": "native-data-fetching",
+    "description": "Implement data fetching patterns in Expo and React Native apps",
+    "source": "expo/skills/native-data-fetching",
+    "tags": [
+      "react"
+    ]
+  },
+  {
+    "name": "upgrading-expo",
+    "description": "Upgrade Expo SDK versions and resolve dependency compatibility issues",
+    "source": "expo/skills/upgrading-expo",
+    "tags": [
+      "react"
+    ]
+  },
+  {
+    "name": "use-dom",
+    "description": "Use Expo DOM components to run web code in native webviews and incrementally migrate web to native",
+    "source": "expo/skills/use-dom",
+    "tags": [
+      "react",
+      "frontend"
+    ]
+  }
+]

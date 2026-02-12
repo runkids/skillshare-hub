@@ -1,0 +1,204 @@
+[
+  {
+    "name": "ab-test-setup",
+    "description": "Set up and run A/B tests for marketing optimization",
+    "source": "coreyhaines31/marketingskills/ab-test-setup",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "name": "analytics-tracking",
+    "description": "Set up analytics tracking and measurement plans for marketing",
+    "source": "coreyhaines31/marketingskills/analytics-tracking",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "name": "competitor-alternatives",
+    "description": "Analyze competitors and craft alternative positioning strategies",
+    "source": "coreyhaines31/marketingskills/competitor-alternatives",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "name": "content-strategy",
+    "description": "Develop content marketing strategy and editorial plans",
+    "source": "coreyhaines31/marketingskills/content-strategy",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "name": "copy-editing",
+    "description": "Edit and improve marketing copy for clarity and impact",
+    "source": "coreyhaines31/marketingskills/copy-editing",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "name": "copywriting",
+    "description": "Write persuasive marketing copy and sales content",
+    "source": "coreyhaines31/marketingskills/copywriting",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "name": "email-sequence",
+    "description": "Design email marketing sequences and drip campaign automations",
+    "source": "coreyhaines31/marketingskills/email-sequence",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "name": "form-cro",
+    "description": "Optimize form design and user flow for higher conversion rates",
+    "source": "coreyhaines31/marketingskills/form-cro",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "name": "free-tool-strategy",
+    "description": "Create free tools as marketing lead generation and growth strategy",
+    "source": "coreyhaines31/marketingskills/free-tool-strategy",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "name": "launch-strategy",
+    "description": "Plan and execute product launch strategies and go-to-market plans",
+    "source": "coreyhaines31/marketingskills/launch-strategy",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "name": "marketing-ideas",
+    "description": "Generate creative marketing campaign ideas and growth strategies",
+    "source": "coreyhaines31/marketingskills/marketing-ideas",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "name": "marketing-psychology",
+    "description": "Apply psychological principles to marketing and persuasion strategies",
+    "source": "coreyhaines31/marketingskills/marketing-psychology",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "name": "onboarding-cro",
+    "description": "Optimize user onboarding flows for activation and conversion",
+    "source": "coreyhaines31/marketingskills/onboarding-cro",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "name": "page-cro",
+    "description": "Optimize landing pages for higher conversion rates",
+    "source": "coreyhaines31/marketingskills/page-cro",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "name": "paid-ads",
+    "description": "Create and optimize paid advertising campaigns across platforms",
+    "source": "coreyhaines31/marketingskills/paid-ads",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "name": "paywall-upgrade-cro",
+    "description": "Optimize paywall and upgrade prompts for subscription conversion",
+    "source": "coreyhaines31/marketingskills/paywall-upgrade-cro",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "name": "popup-cro",
+    "description": "Design and optimize marketing popups for conversion and engagement",
+    "source": "coreyhaines31/marketingskills/popup-cro",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "name": "pricing-strategy",
+    "description": "Design and optimize pricing models, tiers, and monetization strategies",
+    "source": "coreyhaines31/marketingskills/pricing-strategy",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "name": "product-marketing-context",
+    "description": "Define product positioning, messaging, and marketing context",
+    "source": "coreyhaines31/marketingskills/product-marketing-context",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "name": "programmatic-seo",
+    "description": "Create programmatic SEO pages at scale for organic traffic growth",
+    "source": "coreyhaines31/marketingskills/programmatic-seo",
+    "tags": [
+      "marketing",
+      "seo"
+    ]
+  },
+  {
+    "name": "referral-program",
+    "description": "Design and implement customer referral programs for growth",
+    "source": "coreyhaines31/marketingskills/referral-program",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "name": "schema-markup",
+    "description": "Implement structured data and schema markup for better SEO",
+    "source": "coreyhaines31/marketingskills/schema-markup",
+    "tags": [
+      "seo"
+    ]
+  },
+  {
+    "name": "seo-audit",
+    "description": "Audit website SEO and provide actionable optimization recommendations",
+    "source": "coreyhaines31/marketingskills/seo-audit",
+    "tags": [
+      "marketing",
+      "seo"
+    ]
+  },
+  {
+    "name": "signup-flow-cro",
+    "description": "Optimize signup flows and registration for higher conversion",
+    "source": "coreyhaines31/marketingskills/signup-flow-cro",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "name": "social-content",
+    "description": "Create engaging social media content and posts across platforms",
+    "source": "coreyhaines31/marketingskills/social-content",
+    "tags": [
+      "marketing"
+    ]
+  }
+]

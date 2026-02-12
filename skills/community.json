@@ -1,0 +1,141 @@
+[
+  {
+    "name": "agent-tools",
+    "description": "Run 150+ AI apps in the cloud via inference.sh CLI — image, video, LLM, search, and more",
+    "source": "inf-sh/skills/agent-tools",
+    "tags": [
+      "agent",
+      "ai"
+    ]
+  },
+  {
+    "name": "audit-website",
+    "description": "Security audit and vulnerability scanning for websites",
+    "source": "squirrelscan/skills/audit-website",
+    "tags": [
+      "security"
+    ]
+  },
+  {
+    "name": "better-auth-best-practices",
+    "description": "Better Auth library best practices for authentication and authorization",
+    "source": "better-auth/skills/better-auth-best-practices",
+    "tags": [
+      "security",
+      "backend"
+    ]
+  },
+  {
+    "name": "clawdirect",
+    "description": "Directory of social web experiences for AI agents — browse, like, and manage listings",
+    "source": "napoleond/clawdirect/clawdirect",
+    "tags": [
+      "agent"
+    ]
+  },
+  {
+    "name": "clawdirect-dev",
+    "description": "Development tools and utilities for ClawDirect directory extensions",
+    "source": "napoleond/clawdirect/clawdirect-dev",
+    "tags": [
+      "agent"
+    ]
+  },
+  {
+    "name": "create-auth-skill",
+    "description": "Create custom authentication skills using Better Auth framework",
+    "source": "better-auth/skills/create-auth-skill",
+    "tags": [
+      "security",
+      "skill"
+    ]
+  },
+  {
+    "name": "design-md",
+    "description": "Design system documentation and component specification in Markdown",
+    "source": "google-labs-code/stitch-skills/design-md",
+    "tags": [
+      "design",
+      "docs"
+    ]
+  },
+  {
+    "name": "inf-agent-browser",
+    "description": "Browser automation for AI agents via inference.sh with element refs and session management",
+    "source": "inf-sh/skills/agent-browser",
+    "tags": [
+      "agent",
+      "browser"
+    ]
+  },
+  {
+    "name": "instaclaw",
+    "description": "AI agent photo sharing platform — generate, share, and interact with AI-created content",
+    "source": "napoleond/instaclaw",
+    "tags": [
+      "agent"
+    ]
+  },
+  {
+    "name": "ralph-tui-prd",
+    "description": "Generate structured product requirements documents for AI agent execution with ralph-tui",
+    "source": "subsy/ralph-tui/ralph-tui-prd",
+    "tags": [
+      "workflow",
+      "docs"
+    ]
+  },
+  {
+    "name": "react-components",
+    "description": "React component patterns and best practices from Google Labs",
+    "source": "google-labs-code/stitch-skills/react:components",
+    "tags": [
+      "react",
+      "frontend"
+    ]
+  },
+  {
+    "name": "remotion-best-practices",
+    "description": "Best practices for creating videos programmatically with Remotion in React",
+    "source": "remotion-dev/skills/remotion-best-practices",
+    "tags": [
+      "react"
+    ]
+  },
+  {
+    "name": "skillshare",
+    "description": "Built-in AI skill for skillshare – helps install, search, and manage skills from the hub",
+    "source": "https://github.com/runkids/skillshare/tree/main/skills/skillshare",
+    "tags": [
+      "skillshare",
+      "agent",
+      "skill"
+    ]
+  },
+  {
+    "name": "supabase-postgres-best-practices",
+    "description": "PostgreSQL best practices, query optimization, and security for Supabase",
+    "source": "supabase/agent-skills/supabase-postgres-best-practices",
+    "tags": [
+      "backend"
+    ]
+  },
+  {
+    "name": "ui-ux-pro-max",
+    "description": "UI/UX design intelligence with 50 styles, 21 palettes, 50 font pairings, and 20 chart types",
+    "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "tags": [
+      "design",
+      "frontend"
+    ]
+  },
+  {
+    "name": "vue-best-practices",
+    "description": "Vue 3 best practices with Composition API, script setup, and TypeScript",
+    "source": "hyf0/vue-skills/vue-best-practices",
+    "tags": [
+      "vue",
+      "frontend"
+    ]
+  }
+]
