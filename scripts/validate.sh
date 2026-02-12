@@ -39,5 +39,14 @@ if [ -n "$bad_names" ]; then
 fi
 echo "OK: name format valid"
 
+# Check formatting (sorted by name, jq default 2-space indent)
+expected=$(jq '.skills |= sort_by(.name)' "$HUB_FILE")
+actual=$(cat "$HUB_FILE")
+if [ "$expected" != "$actual" ]; then
+  echo "ERROR: $HUB_FILE is not formatted. Run: make format"
+  exit 1
+fi
+echo "OK: formatting correct"
+
 echo ""
 echo "Validation passed: $(jq '.skills | length' "$HUB_FILE") skills"

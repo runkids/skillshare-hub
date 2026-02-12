@@ -6,7 +6,20 @@
       "description": "Verify and fix ASCII box-drawing diagram alignment in markdown files",
       "source": "runkids/my-skills",
       "skill": "ascii-box-check",
-      "tags": ["docs", "workflow"]
+      "tags": [
+        "docs",
+        "workflow"
+      ]
+    },
+    {
+      "name": "test",
+      "description": "Verify and fix ASCII box-drawing diagram alignment in markdown files",
+      "source": "runkids/my-skills",
+      "skill": "remotion",
+      "tags": [
+        "test",
+        "workflow"
+      ]
     }
   ]
 }
