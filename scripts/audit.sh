@@ -39,6 +39,7 @@ fi
 # --- Audit each source ---
 failed=0
 results=()
+details=()
 
 while IFS= read -r source; do
   [ -z "$source" ] && continue
@@ -54,16 +55,16 @@ while IFS= read -r source; do
 
   log_group "Auditing ${source}"
 
-  if ! git clone --depth 1 "$clone_url" "$clone_dir" 2>&1; then
+  if ! clone_output=$(git clone --depth 1 "$clone_url" "$clone_dir" 2>&1); then
     log_error "Failed to clone ${source}"
     results+=("| \`${source}\` | :x: Clone failed | - |")
+    details+=("DETAIL_SEP### \`${source}\`"$'\n'"Clone failed:"$'\n'"\`\`\`"$'\n'"${clone_output}"$'\n'"\`\`\`")
     failed=1
     log_endgroup
     continue
   fi
 
   audit_output=$(skillshare audit "$clone_dir" --threshold high 2>&1) || true
-  audit_exit=$?
 
   echo "$audit_output"
 
@@ -73,14 +74,17 @@ while IFS= read -r source; do
 
   if echo "$audit_output" | grep -q "Passed:.*0" && echo "$audit_output" | grep -q "Failed:"; then
     results+=("| \`${source}\` | :x: Failed | ${risk} |")
+    details+=("DETAIL_SEP### \`${source}\`"$'\n'"\`\`\`"$'\n'"${audit_output}"$'\n'"\`\`\`")
     log_error "Security audit failed for ${source}"
     failed=1
   elif echo "$audit_output" | grep -q "config not found"; then
     results+=("| \`${source}\` | :x: No config | - |")
+    details+=("DETAIL_SEP### \`${source}\`"$'\n'"No skillshare config found. Run \`skillshare init\` in the source repo.")
     log_error "No skillshare config found for ${source}. Run 'skillshare init' in the source repo."
     failed=1
   else
     results+=("| \`${source}\` | :white_check_mark: Passed | ${risk} |")
+    details+=("DETAIL_SEP### \`${source}\`"$'\n'"\`\`\`"$'\n'"${audit_output}"$'\n'"\`\`\`")
   fi
 
   rm -rf "$clone_dir"
@@ -103,6 +107,15 @@ if [ -n "$REPORT_FILE" ]; then
     else
       echo "> **All skills passed** the security audit."
     fi
+    echo ""
+    echo "<details>"
+    echo "<summary>Audit Details</summary>"
+    echo ""
+    for detail in "${details[@]}"; do
+      echo "${detail}" | sed 's/^DETAIL_SEP//'
+      echo ""
+    done
+    echo "</details>"
   } > "$REPORT_FILE"
 fi
 
