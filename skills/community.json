@@ -42,6 +42,15 @@
     ]
   },
   {
+    "name": "context7",
+    "description": "Retrieve up-to-date documentation for software libraries by querying the Context7 API",
+    "source": "intellectronica/agent-skills/skills/context7",
+    "tags": [
+      "docs",
+      "ai"
+    ]
+  },
+  {
     "name": "create-auth-skill",
     "description": "Create custom authentication skills using Better Auth framework",
     "source": "better-auth/skills/create-auth-skill",

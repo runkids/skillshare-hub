@@ -12,7 +12,7 @@
     {
       "name": "agent-browser",
       "description": "Browser automation agent for web page interactions using Playwright",
-      "source": "vercel-labs/agent-browser",
+      "source": "vercel-labs/agent-browser/skills/agent-browser",
       "tags": [
         "agent",
         "browser"
@@ -134,6 +134,15 @@
       "source": "coreyhaines31/marketingskills/content-strategy",
       "tags": [
         "marketing"
+      ]
+    },
+    {
+      "name": "context7",
+      "description": "Retrieve up-to-date documentation for software libraries by querying the Context7 API",
+      "source": "intellectronica/agent-skills/skills/context7",
+      "tags": [
+        "docs",
+        "ai"
       ]
     },
     {

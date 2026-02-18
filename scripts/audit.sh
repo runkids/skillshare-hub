@@ -48,7 +48,8 @@ audit_target() {
   local source="$1" audit_target="$2"
 
   local audit_json
-  audit_json=$(skillshare audit "$audit_target" --threshold high --json 2>/dev/null) || true
+  # Strip trailing non-JSON output (e.g. upgrade notices) before parsing
+  audit_json=$(skillshare audit "$audit_target" --threshold high --json 2>/dev/null | sed '/^$/,$d') || true
 
   if ! echo "$audit_json" | jq -e '.summary' >/dev/null 2>&1; then
     local audit_err
