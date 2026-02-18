@@ -2,7 +2,7 @@
   {
     "name": "agent-browser",
     "description": "Browser automation agent for web page interactions using Playwright",
-    "source": "vercel-labs/agent-browser",
+    "source": "vercel-labs/agent-browser/skills/agent-browser",
     "tags": [
       "agent",
       "browser"
