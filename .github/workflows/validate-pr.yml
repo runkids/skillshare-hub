@@ -3,8 +3,8 @@ on:
   pull_request:
     paths:
       - 'skills/**'
-      - 'skillshare-hub.json'
       - 'scripts/**'
+      - 'schemas/**'
       - '.github/workflows/validate-pr.yml'
 
 permissions:
@@ -19,21 +19,21 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
 
-      - name: Build hub.json from skills/
+      - name: Validate skills/*.json
+        run: ./scripts/validate.sh
+
+      - name: Build skillshare-hub.json
         run: ./scripts/build.sh
 
-      - name: Auto-commit hub.json if changed
+      - name: Auto-commit skillshare-hub.json if changed
         run: |
-          if ! git diff --quiet skillshare-hub.json; then
+          if ! git diff --quiet --exit-code skillshare-hub.json 2>/dev/null || [ ! -f skillshare-hub.json ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add skillshare-hub.json
             git commit -m "chore: auto-build skillshare-hub.json [skip ci]"
             git push
           fi
-
-      - name: Validate hub.json
-        run: ./scripts/validate.sh
 
   audit:
     needs: validate
