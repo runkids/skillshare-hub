@@ -1,0 +1,815 @@
+{
+  "schemaVersion": 1,
+  "skills": [
+    {
+      "name": "ab-test-setup",
+      "description": "Set up and run A/B tests for marketing optimization",
+      "source": "coreyhaines31/marketingskills/ab-test-setup",
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "name": "agent-browser",
+      "description": "Browser automation agent for web page interactions using Playwright",
+      "source": "vercel-labs/agent-browser/skills/agent-browser",
+      "tags": [
+        "agent",
+        "browser"
+      ]
+    },
+    {
+      "name": "agent-tools",
+      "description": "Run 150+ AI apps in the cloud via inference.sh CLI — image, video, LLM, search, and more",
+      "source": "inf-sh/skills/agent-tools",
+      "tags": [
+        "agent",
+        "ai"
+      ]
+    },
+    {
+      "name": "algorithmic-art",
+      "description": "Generate algorithmic and generative art with code",
+      "source": "anthropics/skills/algorithmic-art",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "name": "analytics-tracking",
+      "description": "Set up analytics tracking and measurement plans for marketing",
+      "source": "coreyhaines31/marketingskills/analytics-tracking",
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "name": "antfu-vue-best-practices",
+      "description": "Vue.js best practices and patterns from Anthony Fu",
+      "source": "antfu/skills/vue-best-practices",
+      "tags": [
+        "vue",
+        "frontend"
+      ]
+    },
+    {
+      "name": "audit-website",
+      "description": "Security audit and vulnerability scanning for websites",
+      "source": "squirrelscan/skills/audit-website",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "name": "better-auth-best-practices",
+      "description": "Better Auth library best practices for authentication and authorization",
+      "source": "better-auth/skills/better-auth-best-practices",
+      "tags": [
+        "security",
+        "backend"
+      ]
+    },
+    {
+      "name": "brainstorming",
+      "description": "Structured creative brainstorming and ideation before implementation",
+      "source": "obra/superpowers/brainstorming",
+      "tags": [
+        "workflow",
+        "superpowers"
+      ]
+    },
+    {
+      "name": "brand-guidelines",
+      "description": "Create and maintain brand identity guidelines and visual standards",
+      "source": "anthropics/skills/brand-guidelines",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "name": "building-native-ui",
+      "description": "Build beautiful native UIs with Expo and React Native",
+      "source": "expo/skills/building-native-ui",
+      "tags": [
+        "react",
+        "frontend"
+      ]
+    },
+    {
+      "name": "canvas-design",
+      "description": "Design and generate HTML canvas-based visuals and interactive graphics",
+      "source": "anthropics/skills/canvas-design",
+      "tags": [
+        "design",
+        "frontend"
+      ]
+    },
+    {
+      "name": "clawdirect",
+      "description": "Directory of social web experiences for AI agents — browse, like, and manage listings",
+      "source": "napoleond/clawdirect/clawdirect",
+      "tags": [
+        "agent"
+      ]
+    },
+    {
+      "name": "clawdirect-dev",
+      "description": "Development tools and utilities for ClawDirect directory extensions",
+      "source": "napoleond/clawdirect/clawdirect-dev",
+      "tags": [
+        "agent"
+      ]
+    },
+    {
+      "name": "competitor-alternatives",
+      "description": "Analyze competitors and craft alternative positioning strategies",
+      "source": "coreyhaines31/marketingskills/competitor-alternatives",
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "name": "content-strategy",
+      "description": "Develop content marketing strategy and editorial plans",
+      "source": "coreyhaines31/marketingskills/content-strategy",
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "name": "context7",
+      "description": "Retrieve up-to-date documentation for software libraries by querying the Context7 API",
+      "source": "intellectronica/agent-skills/skills/context7",
+      "tags": [
+        "docs",
+        "ai"
+      ]
+    },
+    {
+      "name": "copy-editing",
+      "description": "Edit and improve marketing copy for clarity and impact",
+      "source": "coreyhaines31/marketingskills/copy-editing",
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "name": "copywriting",
+      "description": "Write persuasive marketing copy and sales content",
+      "source": "coreyhaines31/marketingskills/copywriting",
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "name": "create-auth-skill",
+      "description": "Create custom authentication skills using Better Auth framework",
+      "source": "better-auth/skills/create-auth-skill",
+      "tags": [
+        "security",
+        "skill"
+      ]
+    },
+    {
+      "name": "design-md",
+      "description": "Design system documentation and component specification in Markdown",
+      "source": "google-labs-code/stitch-skills/design-md",
+      "tags": [
+        "design",
+        "docs"
+      ]
+    },
+    {
+      "name": "dispatching-parallel-agents",
+      "description": "Dispatch and coordinate independent tasks across parallel agents",
+      "source": "obra/superpowers/dispatching-parallel-agents",
+      "tags": [
+        "workflow",
+        "superpowers",
+        "agent"
+      ]
+    },
+    {
+      "name": "doc-coauthoring",
+      "description": "Collaborative document writing, editing, and coauthoring",
+      "source": "anthropics/skills/doc-coauthoring",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "name": "docx",
+      "description": "Create and edit Word documents programmatically",
+      "source": "anthropics/skills/docx",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "name": "email-sequence",
+      "description": "Design email marketing sequences and drip campaign automations",
+      "source": "coreyhaines31/marketingskills/email-sequence",
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "name": "executing-plans",
+      "description": "Execute implementation plans step-by-step with review checkpoints",
+      "source": "obra/superpowers/executing-plans",
+      "tags": [
+        "workflow",
+        "superpowers"
+      ]
+    },
+    {
+      "name": "expo-api-routes",
+      "description": "Create API routes in Expo Router with EAS Hosting",
+      "source": "expo/skills/expo-api-routes",
+      "tags": [
+        "react",
+        "backend"
+      ]
+    },
+    {
+      "name": "expo-cicd-workflows",
+      "description": "Write EAS CI/CD workflow YAML files for Expo projects",
+      "source": "expo/skills/expo-cicd-workflows",
+      "tags": [
+        "devops",
+        "react"
+      ]
+    },
+    {
+      "name": "expo-deployment",
+      "description": "Deploy Expo apps to iOS App Store, Android Play Store, and web hosting",
+      "source": "expo/skills/expo-deployment",
+      "tags": [
+        "devops",
+        "react"
+      ]
+    },
+    {
+      "name": "expo-dev-client",
+      "description": "Build and distribute Expo development clients locally or via TestFlight",
+      "source": "expo/skills/expo-dev-client",
+      "tags": [
+        "react"
+      ]
+    },
+    {
+      "name": "expo-tailwind-setup",
+      "description": "Set up Tailwind CSS v4 in Expo with NativeWind for universal styling",
+      "source": "expo/skills/expo-tailwind-setup",
+      "tags": [
+        "react",
+        "frontend"
+      ]
+    },
+    {
+      "name": "find-skills",
+      "description": "Discover and install skills from the open agent skills ecosystem",
+      "source": "vercel-labs/skills/find-skills",
+      "tags": [
+        "skill",
+        "agent"
+      ]
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "description": "Complete and integrate development branch work with proper review",
+      "source": "obra/superpowers/finishing-a-development-branch",
+      "tags": [
+        "git",
+        "workflow",
+        "superpowers"
+      ]
+    },
+    {
+      "name": "form-cro",
+      "description": "Optimize form design and user flow for higher conversion rates",
+      "source": "coreyhaines31/marketingskills/form-cro",
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "name": "free-tool-strategy",
+      "description": "Create free tools as marketing lead generation and growth strategy",
+      "source": "coreyhaines31/marketingskills/free-tool-strategy",
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "name": "frontend-design",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality",
+      "source": "anthropics/skills/frontend-design",
+      "tags": [
+        "design",
+        "frontend"
+      ]
+    },
+    {
+      "name": "inf-agent-browser",
+      "description": "Browser automation for AI agents via inference.sh with element refs and session management",
+      "source": "inf-sh/skills/agent-browser",
+      "tags": [
+        "agent",
+        "browser"
+      ]
+    },
+    {
+      "name": "instaclaw",
+      "description": "AI agent photo sharing platform — generate, share, and interact with AI-created content",
+      "source": "napoleond/instaclaw",
+      "tags": [
+        "agent"
+      ]
+    },
+    {
+      "name": "internal-comms",
+      "description": "Draft internal communications, announcements, and team updates",
+      "source": "anthropics/skills/internal-comms",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "name": "launch-strategy",
+      "description": "Plan and execute product launch strategies and go-to-market plans",
+      "source": "coreyhaines31/marketingskills/launch-strategy",
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "name": "marketing-ideas",
+      "description": "Generate creative marketing campaign ideas and growth strategies",
+      "source": "coreyhaines31/marketingskills/marketing-ideas",
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "name": "marketing-psychology",
+      "description": "Apply psychological principles to marketing and persuasion strategies",
+      "source": "coreyhaines31/marketingskills/marketing-psychology",
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "name": "mcp-builder",
+      "description": "Build Model Context Protocol (MCP) servers and tools for AI agents",
+      "source": "anthropics/skills/mcp-builder",
+      "tags": [
+        "ai",
+        "agent"
+      ]
+    },
+    {
+      "name": "native-data-fetching",
+      "description": "Implement data fetching patterns in Expo and React Native apps",
+      "source": "expo/skills/native-data-fetching",
+      "tags": [
+        "react"
+      ]
+    },
+    {
+      "name": "next-best-practices",
+      "description": "Next.js performance optimization and best practices from Vercel",
+      "source": "vercel-labs/next-skills/next-best-practices",
+      "tags": [
+        "react",
+        "frontend"
+      ]
+    },
+    {
+      "name": "onboarding-cro",
+      "description": "Optimize user onboarding flows for activation and conversion",
+      "source": "coreyhaines31/marketingskills/onboarding-cro",
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "name": "page-cro",
+      "description": "Optimize landing pages for higher conversion rates",
+      "source": "coreyhaines31/marketingskills/page-cro",
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "name": "paid-ads",
+      "description": "Create and optimize paid advertising campaigns across platforms",
+      "source": "coreyhaines31/marketingskills/paid-ads",
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "name": "paywall-upgrade-cro",
+      "description": "Optimize paywall and upgrade prompts for subscription conversion",
+      "source": "coreyhaines31/marketingskills/paywall-upgrade-cro",
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "name": "pdf",
+      "description": "Generate and manipulate PDF documents programmatically",
+      "source": "anthropics/skills/pdf",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "name": "popup-cro",
+      "description": "Design and optimize marketing popups for conversion and engagement",
+      "source": "coreyhaines31/marketingskills/popup-cro",
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "name": "pptx",
+      "description": "Create and edit PowerPoint presentations programmatically",
+      "source": "anthropics/skills/pptx",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "name": "pricing-strategy",
+      "description": "Design and optimize pricing models, tiers, and monetization strategies",
+      "source": "coreyhaines31/marketingskills/pricing-strategy",
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "name": "product-marketing-context",
+      "description": "Define product positioning, messaging, and marketing context",
+      "source": "coreyhaines31/marketingskills/product-marketing-context",
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "name": "programmatic-seo",
+      "description": "Create programmatic SEO pages at scale for organic traffic growth",
+      "source": "coreyhaines31/marketingskills/programmatic-seo",
+      "tags": [
+        "marketing",
+        "seo"
+      ]
+    },
+    {
+      "name": "ralph-tui-prd",
+      "description": "Generate structured product requirements documents for AI agent execution with ralph-tui",
+      "source": "subsy/ralph-tui/ralph-tui-prd",
+      "tags": [
+        "workflow",
+        "docs"
+      ]
+    },
+    {
+      "name": "react-components",
+      "description": "React component patterns and best practices from Google Labs",
+      "source": "google-labs-code/stitch-skills/react:components",
+      "tags": [
+        "react",
+        "frontend"
+      ]
+    },
+    {
+      "name": "react-doctor",
+      "description": "Scans your React codebase for security, performance, correctness, and architecture issues. Outputs a 0-100 score with actionable diagnostics.",
+      "source": "millionco/react-doctor",
+      "skill": "react-doctor",
+      "tags": [
+        "react",
+        "frontend"
+      ]
+    },
+    {
+      "name": "receiving-code-review",
+      "description": "Process and implement code review feedback effectively",
+      "source": "obra/superpowers/receiving-code-review",
+      "tags": [
+        "code-review"
+      ]
+    },
+    {
+      "name": "referral-program",
+      "description": "Design and implement customer referral programs for growth",
+      "source": "coreyhaines31/marketingskills/referral-program",
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "name": "remotion-best-practices",
+      "description": "Best practices for creating videos programmatically with Remotion in React",
+      "source": "remotion-dev/skills/remotion-best-practices",
+      "tags": [
+        "react"
+      ]
+    },
+    {
+      "name": "requesting-code-review",
+      "description": "Request and structure code reviews for effective feedback",
+      "source": "obra/superpowers/requesting-code-review",
+      "tags": [
+        "code-review"
+      ]
+    },
+    {
+      "name": "schema-markup",
+      "description": "Implement structured data and schema markup for better SEO",
+      "source": "coreyhaines31/marketingskills/schema-markup",
+      "tags": [
+        "seo"
+      ]
+    },
+    {
+      "name": "seo-audit",
+      "description": "Audit website SEO and provide actionable optimization recommendations",
+      "source": "coreyhaines31/marketingskills/seo-audit",
+      "tags": [
+        "marketing",
+        "seo"
+      ]
+    },
+    {
+      "name": "signup-flow-cro",
+      "description": "Optimize signup flows and registration for higher conversion",
+      "source": "coreyhaines31/marketingskills/signup-flow-cro",
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "name": "skill-creator",
+      "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
+      "source": "anthropics/skills",
+      "skill": "skill-creator",
+      "tags": [
+        "skill"
+      ]
+    },
+    {
+      "name": "skillshare",
+      "description": "Built-in AI skill for skillshare – helps install, search, and manage skills from the hub",
+      "source": "https://github.com/runkids/skillshare/tree/main/skills/skillshare",
+      "tags": [
+        "skillshare",
+        "agent",
+        "skill"
+      ]
+    },
+    {
+      "name": "slack-gif-creator",
+      "description": "Create animated GIFs for Slack from text prompts and images",
+      "source": "anthropics/skills/slack-gif-creator",
+      "tags": [
+        "design"
+      ]
+    },
+    {
+      "name": "social-content",
+      "description": "Create engaging social media content and posts across platforms",
+      "source": "coreyhaines31/marketingskills/social-content",
+      "tags": [
+        "marketing"
+      ]
+    },
+    {
+      "name": "subagent-driven-development",
+      "description": "Execute implementation tasks using coordinated parallel subagents",
+      "source": "obra/superpowers/subagent-driven-development",
+      "tags": [
+        "workflow",
+        "superpowers",
+        "agent"
+      ]
+    },
+    {
+      "name": "supabase-postgres-best-practices",
+      "description": "PostgreSQL best practices, query optimization, and security for Supabase",
+      "source": "supabase/agent-skills/supabase-postgres-best-practices",
+      "tags": [
+        "backend"
+      ]
+    },
+    {
+      "name": "systematic-debugging",
+      "description": "Systematic approach to diagnosing and fixing bugs before proposing solutions",
+      "source": "obra/superpowers/systematic-debugging",
+      "tags": [
+        "workflow",
+        "superpowers",
+        "testing"
+      ]
+    },
+    {
+      "name": "template-skill",
+      "description": "Template and starter for creating new AI agent skills",
+      "source": "anthropics/skills",
+      "skill": "template-skill",
+      "tags": [
+        "skill"
+      ]
+    },
+    {
+      "name": "test-driven-development",
+      "description": "Enforce test-driven development workflow — write tests first, then implement",
+      "source": "obra/superpowers/test-driven-development",
+      "tags": [
+        "testing",
+        "workflow",
+        "superpowers"
+      ]
+    },
+    {
+      "name": "theme-factory",
+      "description": "Create and customize UI themes, color palettes, and design tokens",
+      "source": "anthropics/skills/theme-factory",
+      "tags": [
+        "design",
+        "frontend"
+      ]
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "description": "UI/UX design intelligence with 50 styles, 21 palettes, 50 font pairings, and 20 chart types",
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "tags": [
+        "design",
+        "frontend"
+      ]
+    },
+    {
+      "name": "upgrading-expo",
+      "description": "Upgrade Expo SDK versions and resolve dependency compatibility issues",
+      "source": "expo/skills/upgrading-expo",
+      "tags": [
+        "react"
+      ]
+    },
+    {
+      "name": "use-dom",
+      "description": "Use Expo DOM components to run web code in native webviews and incrementally migrate web to native",
+      "source": "expo/skills/use-dom",
+      "tags": [
+        "react",
+        "frontend"
+      ]
+    },
+    {
+      "name": "using-git-worktrees",
+      "description": "Use git worktrees for isolated feature development without stashing",
+      "source": "obra/superpowers/using-git-worktrees",
+      "tags": [
+        "git",
+        "workflow",
+        "superpowers"
+      ]
+    },
+    {
+      "name": "using-superpowers",
+      "description": "Discover and use available superpowers skills at conversation start",
+      "source": "obra/superpowers/using-superpowers",
+      "tags": [
+        "workflow",
+        "superpowers",
+        "skill"
+      ]
+    },
+    {
+      "name": "vercel-composition-patterns",
+      "description": "React composition patterns and component architecture from Vercel Engineering",
+      "source": "vercel-labs/agent-skills/vercel-composition-patterns",
+      "tags": [
+        "react",
+        "frontend"
+      ]
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "description": "React performance optimization and best practices from Vercel Engineering",
+      "source": "vercel-labs/agent-skills/vercel-react-best-practices",
+      "tags": [
+        "react",
+        "frontend"
+      ]
+    },
+    {
+      "name": "vercel-react-native-skills",
+      "description": "React Native performance and best practices from Vercel Engineering",
+      "source": "vercel-labs/agent-skills/vercel-react-native-skills",
+      "tags": [
+        "react",
+        "frontend"
+      ]
+    },
+    {
+      "name": "verification-before-completion",
+      "description": "Run verification commands before claiming work is complete or fixed",
+      "source": "obra/superpowers/verification-before-completion",
+      "tags": [
+        "workflow",
+        "superpowers",
+        "testing"
+      ]
+    },
+    {
+      "name": "vite",
+      "description": "Vite build tool best practices, configuration, and plugin development",
+      "source": "antfu/skills/vite",
+      "tags": [
+        "frontend"
+      ]
+    },
+    {
+      "name": "vitest",
+      "description": "Vitest testing framework best practices and configuration patterns",
+      "source": "antfu/skills/vitest",
+      "tags": [
+        "testing"
+      ]
+    },
+    {
+      "name": "vue",
+      "description": "Vue.js framework best practices and idiomatic patterns from Anthony Fu",
+      "source": "antfu/skills/vue",
+      "tags": [
+        "vue",
+        "frontend"
+      ]
+    },
+    {
+      "name": "vue-best-practices",
+      "description": "Vue 3 best practices with Composition API, script setup, and TypeScript",
+      "source": "hyf0/vue-skills/vue-best-practices",
+      "tags": [
+        "vue",
+        "frontend"
+      ]
+    },
+    {
+      "name": "web-artifacts-builder",
+      "description": "Build multi-component web artifacts using React, Tailwind, and modern frontend tools",
+      "source": "anthropics/skills/web-artifacts-builder",
+      "tags": [
+        "frontend"
+      ]
+    },
+    {
+      "name": "web-design-guidelines",
+      "description": "Review UI code for Web Interface Guidelines compliance and design quality",
+      "source": "vercel-labs/agent-skills/web-design-guidelines",
+      "tags": [
+        "design",
+        "frontend"
+      ]
+    },
+    {
+      "name": "webapp-testing",
+      "description": "End-to-end web application testing with Playwright and modern testing tools",
+      "source": "anthropics/skills/webapp-testing",
+      "tags": [
+        "testing"
+      ]
+    },
+    {
+      "name": "writing-plans",
+      "description": "Create structured, step-by-step implementation plans before writing code",
+      "source": "obra/superpowers/writing-plans",
+      "tags": [
+        "workflow",
+        "superpowers"
+      ]
+    },
+    {
+      "name": "writing-skills",
+      "description": "Create, edit, and verify skills for AI code agents",
+      "source": "obra/superpowers/writing-skills",
+      "tags": [
+        "skill",
+        "workflow",
+        "superpowers"
+      ]
+    },
+    {
+      "name": "xlsx",
+      "description": "Create and edit Excel spreadsheets programmatically",
+      "source": "anthropics/skills/xlsx",
+      "tags": [
+        "docs"
+      ]
+    }
+  ]
+}
