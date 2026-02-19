@@ -1,8 +1,8 @@
 <h1 align="center">skillshare-hub</h1>
 
 <p align="center">
-  <strong>Community-curated catalog of <a href="https://github.com/runkids/skillshare">skillshare</a> skills.</strong><br>
-  Search, discover, and share AI CLI skills with the community.
+  <strong>A curated catalog of <a href="https://github.com/runkids/skillshare">skillshare</a> skills — and a reference for building your own.</strong><br>
+  Search, discover, and install AI CLI skills. Fork this repo to create your organization's internal hub.
 </p>
 
 <p align="center">
@@ -12,9 +12,10 @@
 
 ## What is this?
 
-A community-maintained index of [skillshare](https://github.com/runkids/skillshare) skills. Anyone can submit their skill via Pull Request — every submission is validated by CI and security-scanned with `skillshare audit`.
+A curated index of [skillshare](https://github.com/runkids/skillshare) skills that serves two purposes:
 
-**Built into skillshare** — This hub is pre-configured in `skillshare ui`. Just open **Search** > **Hub** and it's ready to use.
+1. **Ready-to-use catalog** — Pre-configured as the default hub in skillshare. Run `skillshare search --hub` or open **Search** > **Hub** in the Web UI.
+2. **Reference for your own hub** — Fork this repo, replace the skills with your organization's catalog, and customize the CI pipeline. Same schema, same tooling.
 
 ## Usage
 
@@ -91,19 +92,29 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines.
 | `skill` | No | Specific skill name within a multi-skill repo (used with `install -s`) |
 | `tags` | No | 1-3 classification tags |
 
-## Host Your Own Hub
+## Build Your Organization's Hub
 
-Want to share skills within your team or company? Host your own hub — just serve a `skillshare-hub.json` file anywhere (GitHub repo, internal server, S3, etc.):
+Fork this repo to create an internal hub for your team or company. What you get out of the box:
+
+- **CI validation** — JSON format checks and `skillshare audit` security scans on every PR
+- **Contribution workflow** — Fork → add entry → PR, with automated gates
+- **Familiar tooling** — Same schema, same CLI, same Web UI
 
 ```bash
-# Auto-generate an index from your skill directory
-skillshare hub index --dir ./our-team-skills --output skillshare-hub.json
+# 1. Fork this repo and replace skills with your internal sources
+#    e.g. "source": "ghe.internal.company.com/platform/ai-skills/code-review"
 
-# Team members search and install from your hub
-skillshare search --hub https://your-company.com/skillshare-hub.json
+# 2. Or auto-generate an index from installed skills
+skillshare hub index -o ./skillshare-hub.json
+
+# 3. Team members add your hub once
+skillshare hub add https://skills.internal.company.com/skillshare-hub.json --label company
+
+# 4. Search and install — only accessible behind VPN
+skillshare search --hub company
 ```
 
-Same schema, same CLI, same Web UI — no extra infrastructure needed.
+The key advantage: `source` fields can point to **private repos** (GitHub Enterprise, internal GitLab, etc.) that public tools like GitHub Search can never reach. Host the JSON file anywhere — internal Git repo, intranet server, S3, file share.
 
 ## Documentation
 
