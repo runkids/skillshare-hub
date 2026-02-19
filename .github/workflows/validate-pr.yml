@@ -44,9 +44,6 @@ jobs:
           ref: ${{ github.head_ref }}
           fetch-depth: 0
 
-      - name: Build hub.json from skills/
-        run: ./scripts/build.sh
-
       - name: Install skillshare
         run: |
           curl -fsSL https://raw.githubusercontent.com/runkids/skillshare/main/install.sh | sh

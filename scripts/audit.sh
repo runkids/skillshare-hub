@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-HUB_FILE="skillshare-hub.json"
+SKILLS_DIR="skills"
 BASE_REF="${1:-${BASE_SHA:-main}}"
 REPORT_FILE="${AUDIT_REPORT:-}"
 
@@ -85,10 +85,17 @@ audit_target() {
 }
 
 # --- Find new/changed sources ---
-base_sources=$(git show "${BASE_REF}:${HUB_FILE}" 2>/dev/null \
-  | jq -r '.skills[] | "\(.name)|\(.source)|\(.skill // "")"' | sort) || base_sources=""
+# Get base sources from skills/*.json at BASE_REF
+base_sources=""
+for f in $(git ls-tree --name-only "${BASE_REF}" "${SKILLS_DIR}/" 2>/dev/null | grep '\.json$'); do
+  entries=$(git show "${BASE_REF}:${f}" 2>/dev/null \
+    | jq -r '.[] | "\(.name)|\(.source)|\(.skill // "")"' 2>/dev/null) || continue
+  base_sources="${base_sources}${base_sources:+$'\n'}${entries}"
+done
+base_sources=$(echo "$base_sources" | sort)
 
-pr_sources=$(jq -r '.skills[] | "\(.name)|\(.source)|\(.skill // "")"' "$HUB_FILE" | sort)
+# Get current sources from skills/*.json
+pr_sources=$(jq -s -r '[.[][]] | .[] | "\(.name)|\(.source)|\(.skill // "")"' "${SKILLS_DIR}"/*.json | sort)
 
 new_entries=$(comm -13 <(echo "$base_sources") <(echo "$pr_sources"))
 # Carry source and skill (tab-separated) for subpath resolution
