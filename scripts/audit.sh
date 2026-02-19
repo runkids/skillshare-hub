@@ -86,12 +86,13 @@ audit_target() {
 
 # --- Find new/changed sources ---
 base_sources=$(git show "${BASE_REF}:${HUB_FILE}" 2>/dev/null \
-  | jq -r '.skills[] | "\(.name)|\(.source)"' | sort) || base_sources=""
+  | jq -r '.skills[] | "\(.name)|\(.source)|\(.skill // "")"' | sort) || base_sources=""
 
-pr_sources=$(jq -r '.skills[] | "\(.name)|\(.source)"' "$HUB_FILE" | sort)
+pr_sources=$(jq -r '.skills[] | "\(.name)|\(.source)|\(.skill // "")"' "$HUB_FILE" | sort)
 
 new_entries=$(comm -13 <(echo "$base_sources") <(echo "$pr_sources"))
-new_sources=$(echo "$new_entries" | cut -d'|' -f2 | sort -u)
+# Carry source and skill (tab-separated) for subpath resolution
+new_sources=$(echo "$new_entries" | awk -F'|' '{printf "%s\t%s\n", $2, $3}' | sort -u)
 
 if [ -z "$new_entries" ]; then
   echo "No new or changed skill sources to audit"
@@ -112,7 +113,7 @@ trap 'rm -rf "$group_dir"' EXIT
 clone_order_file="$group_dir/_order"
 touch "$clone_order_file"
 
-while IFS= read -r source; do
+while IFS=$'\t' read -r source skill; do
   [ -z "$source" ] && continue
 
   parsed=$(parse_source "$source")
@@ -124,7 +125,8 @@ while IFS= read -r source; do
     echo "$safe_name" >> "$clone_order_file"
     echo "$clone_url" > "$group_dir/${safe_name}.url"
   fi
-  printf '%s\t%s\n' "$source" "$subpath" >> "$group_dir/${safe_name}.sources"
+  # Use | delimiter (not tab) so empty subpath isn't collapsed by bash read
+  printf '%s|%s|%s\n' "$source" "$subpath" "$skill" >> "$group_dir/${safe_name}.sources"
 done <<< "$new_sources"
 
 unique_repos=$(wc -l < "$clone_order_file" | tr -d ' ')
@@ -146,7 +148,7 @@ while IFS= read -r safe_name; do
 
   if ! clone_output=$(git clone --depth 1 "$clone_url" "$clone_dir" 2>&1); then
     # Clone failed — mark all sources in this repo as failed
-    while IFS=$'\t' read -r source subpath; do
+    while IFS='|' read -r source subpath skill; do
       [ -z "$source" ] && continue
       log_error "Failed to clone ${source}"
       results+=("| \`${source}\` | :x: Clone failed | - |")
@@ -161,15 +163,24 @@ while IFS= read -r safe_name; do
   echo "Cloned ${clone_url} — auditing subpaths..."
 
   # Audit each source/subpath in this repo
-  while IFS=$'\t' read -r source subpath; do
+  while IFS='|' read -r source subpath skill; do
     [ -z "$source" ] && continue
 
     local_target="$clone_dir"
     if [ -n "$subpath" ] && [ -d "$clone_dir/$subpath" ]; then
       local_target="$clone_dir/$subpath"
+    elif [ -n "$skill" ] && [ -d "$clone_dir/skills/$skill" ]; then
+      # Multi-skill repo: resolve via skill field to skills/<name>/
+      local_target="$clone_dir/skills/$skill"
+    else
+      # Auto-detect: find SKILL.md and audit its parent directory
+      skill_md=$(find "$clone_dir" -maxdepth 3 -name "SKILL.md" -print -quit 2>/dev/null)
+      if [ -n "$skill_md" ]; then
+        local_target=$(dirname "$skill_md")
+      fi
     fi
 
-    echo "  Auditing: ${source}"
+    echo "  Auditing: ${source} -> ${local_target}"
     audit_target "$source" "$local_target"
   done < "$group_dir/${safe_name}.sources"
 
