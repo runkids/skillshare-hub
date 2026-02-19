@@ -1,7 +1,12 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+ROOT_DIR="$(dirname "$SCRIPT_DIR")"
 HUB_FILE="${1:-skillshare-hub.json}"
+SKILLS_DIR="${2:-skills}"
+HUB_SCHEMA="$ROOT_DIR/schemas/skillshare-hub.schema.json"
+CATEGORY_SCHEMA="$ROOT_DIR/schemas/skill-category.schema.json"
 
 if [ ! -f "$HUB_FILE" ]; then
   echo "ERROR: $HUB_FILE not found"
@@ -14,6 +19,35 @@ if ! jq empty "$HUB_FILE" 2>/dev/null; then
   exit 1
 fi
 echo "OK: valid JSON"
+
+# Schema validation (hub file)
+if [ -f "$HUB_SCHEMA" ] && command -v npx &>/dev/null; then
+  if npx --yes ajv-cli@5 validate -s "$HUB_SCHEMA" -d "$HUB_FILE" --spec=draft2020 2>/dev/null; then
+    echo "OK: hub schema valid"
+  else
+    echo "ERROR: $HUB_FILE does not match schema"
+    exit 1
+  fi
+else
+  echo "SKIP: schema validation (ajv-cli not available)"
+fi
+
+# Schema validation (category files)
+if [ -d "$SKILLS_DIR" ] && [ -f "$CATEGORY_SCHEMA" ] && command -v npx &>/dev/null; then
+  schema_fail=0
+  for f in "$SKILLS_DIR"/*.json; do
+    if ! npx --yes ajv-cli@5 validate -s "$CATEGORY_SCHEMA" -d "$f" --spec=draft2020 2>/dev/null; then
+      echo "ERROR: $f does not match schema"
+      schema_fail=1
+    fi
+  done
+  if [ "$schema_fail" -eq 1 ]; then
+    exit 1
+  fi
+  echo "OK: category schemas valid"
+else
+  echo "SKIP: category schema validation"
+fi
 
 # Check required fields
 missing=$(jq -r '.skills[] | select(.name == "" or .name == null or .description == "" or .description == null or .source == "" or .source == null) | .name // "unnamed"' "$HUB_FILE")

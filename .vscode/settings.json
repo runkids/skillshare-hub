@@ -1,0 +1,12 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["skills/*.json"],
+      "url": "./schemas/skill-category.schema.json"
+    },
+    {
+      "fileMatch": ["skillshare-hub.json"],
+      "url": "./schemas/skillshare-hub.schema.json"
+    }
+  ]
+}

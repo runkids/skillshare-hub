@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/runkids/skillshare-hub/schemas/skillshare-hub.schema.json",
+  "title": "Skillshare Hub",
+  "description": "The auto-generated hub registry file (skillshare-hub.json)",
+  "type": "object",
+  "required": ["schemaVersion", "skills"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1,
+      "description": "Hub schema version"
+    },
+    "skills": {
+      "type": "array",
+      "description": "All skills sorted alphabetically by name",
+      "items": {
+        "$ref": "#/$defs/skill"
+      },
+      "uniqueItems": true
+    }
+  },
+  "$defs": {
+    "skill": {
+      "type": "object",
+      "required": ["name", "description", "source"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Unique skill name — lowercase, hyphens only",
+          "pattern": "^[a-z0-9][a-z0-9-]*$",
+          "minLength": 1,
+          "examples": ["commit-helper", "react-doctor"]
+        },
+        "description": {
+          "type": "string",
+          "description": "One-line description of what the skill does",
+          "minLength": 1,
+          "maxLength": 300
+        },
+        "source": {
+          "type": "string",
+          "description": "GitHub owner/repo[/subpath], full git URL, or any platform URL",
+          "minLength": 1,
+          "examples": [
+            "anthropics/skills/frontend-design",
+            "runkids/my-skills",
+            "https://gitlab.com/team/deploy-guard"
+          ]
+        },
+        "skill": {
+          "type": "string",
+          "description": "Specific skill name within a multi-skill repo (installs via -s)",
+          "pattern": "^[a-z0-9][a-z0-9-]*$",
+          "minLength": 1
+        },
+        "tags": {
+          "type": "array",
+          "description": "1-3 classification tags",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "maxItems": 3,
+          "uniqueItems": true
+        }
+      }
+    }
+  }
+}
