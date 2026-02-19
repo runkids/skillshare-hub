@@ -1,0 +1,12 @@
+[
+  {
+    "name": "react-doctor",
+    "description": "Scans your React codebase for security, performance, correctness, and architecture issues. Outputs a 0-100 score with actionable diagnostics.",
+    "source": "millionco/react-doctor",
+    "skill": "react-doctor",
+    "tags": [
+      "react",
+      "frontend"
+    ]
+  }
+]
