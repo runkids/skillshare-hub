@@ -1,0 +1,58 @@
+name: Sync skills.sh
+on:
+  schedule:
+    - cron: '0 5 * * 1'  # Every Monday 05:00 UTC (after update-index)
+  workflow_dispatch:
+    inputs:
+      top_n:
+        description: 'Number of top skills to sync'
+        default: '200'
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build current hub
+        run: ./scripts/build.sh
+
+      - name: Sync from skills.sh
+        env:
+          TOP_N: ${{ inputs.top_n || '200' }}
+        run: ./scripts/sync-skills-sh.sh --top "$TOP_N"
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if ! git diff --quiet skills/ skillshare-hub.json; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create Pull Request
+        if: steps.changes.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BRANCH="sync/skills-sh-$(date +%Y%m%d)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add skills/ skillshare-hub.json
+          git commit -m "feat: sync new skills from skills.sh"
+          git push -u origin "$BRANCH"
+          gh pr create \
+            --title "feat: sync new skills from skills.sh ($(date +%Y-%m-%d))" \
+            --body "## Summary
+          Automated weekly sync from [skills.sh](https://skills.sh/) leaderboard.
+          New skills have auto-generated descriptions and tags. **Please review before merging.**
+
+          ## Checklist
+          - [ ] Review skill descriptions for accuracy
+          - [ ] Review tag assignments
+          - [ ] Check for duplicates or irrelevant skills"
