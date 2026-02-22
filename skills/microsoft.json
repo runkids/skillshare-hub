@@ -1,0 +1,192 @@
+[
+  {
+    "name": "appinsights-instrumentation",
+    "description": "Application Insights instrumentation and telemetry for Azure applications",
+    "source": "microsoft/github-copilot-for-azure/appinsights-instrumentation",
+    "skill": "appinsights-instrumentation",
+    "tags": [
+      "devops",
+      "backend"
+    ]
+  },
+  {
+    "name": "azure-ai",
+    "description": "Azure AI services integration and management",
+    "source": "microsoft/github-copilot-for-azure/azure-ai",
+    "skill": "azure-ai",
+    "tags": [
+      "devops",
+      "backend"
+    ]
+  },
+  {
+    "name": "azure-aigateway",
+    "description": "Azure AI Gateway configuration and API management",
+    "source": "microsoft/github-copilot-for-azure/azure-aigateway",
+    "skill": "azure-aigateway",
+    "tags": [
+      "devops",
+      "backend"
+    ]
+  },
+  {
+    "name": "azure-compliance",
+    "description": "Azure compliance assessment and policy management",
+    "source": "microsoft/github-copilot-for-azure/azure-compliance",
+    "skill": "azure-compliance",
+    "tags": [
+      "devops",
+      "backend"
+    ]
+  },
+  {
+    "name": "azure-cost-optimization",
+    "description": "Azure cost optimization and spending analysis",
+    "source": "microsoft/github-copilot-for-azure/azure-cost-optimization",
+    "skill": "azure-cost-optimization",
+    "tags": [
+      "devops",
+      "backend"
+    ]
+  },
+  {
+    "name": "azure-deploy",
+    "description": "Azure deployment automation and resource provisioning",
+    "source": "microsoft/github-copilot-for-azure/azure-deploy",
+    "skill": "azure-deploy",
+    "tags": [
+      "devops",
+      "backend"
+    ]
+  },
+  {
+    "name": "azure-diagnostics",
+    "description": "Azure diagnostics and troubleshooting for cloud services",
+    "source": "microsoft/github-copilot-for-azure/azure-diagnostics",
+    "skill": "azure-diagnostics",
+    "tags": [
+      "devops",
+      "backend"
+    ]
+  },
+  {
+    "name": "azure-kusto",
+    "description": "Azure Data Explorer (Kusto) query and analytics",
+    "source": "microsoft/github-copilot-for-azure/azure-kusto",
+    "skill": "azure-kusto",
+    "tags": [
+      "devops",
+      "backend"
+    ]
+  },
+  {
+    "name": "azure-messaging",
+    "description": "Azure messaging services (Service Bus, Event Hubs) patterns",
+    "source": "microsoft/github-copilot-for-azure/azure-messaging",
+    "skill": "azure-messaging",
+    "tags": [
+      "devops",
+      "backend"
+    ]
+  },
+  {
+    "name": "azure-observability",
+    "description": "Azure monitoring, logging, and observability best practices",
+    "source": "microsoft/github-copilot-for-azure/azure-observability",
+    "skill": "azure-observability",
+    "tags": [
+      "devops",
+      "backend"
+    ]
+  },
+  {
+    "name": "azure-postgres",
+    "description": "Azure Database for PostgreSQL management and optimization",
+    "source": "microsoft/github-copilot-for-azure/azure-postgres",
+    "skill": "azure-postgres",
+    "tags": [
+      "devops",
+      "backend"
+    ]
+  },
+  {
+    "name": "azure-prepare",
+    "description": "Azure environment preparation and prerequisite setup",
+    "source": "microsoft/github-copilot-for-azure/azure-prepare",
+    "skill": "azure-prepare",
+    "tags": [
+      "devops",
+      "backend"
+    ]
+  },
+  {
+    "name": "azure-rbac",
+    "description": "Azure role-based access control and identity management",
+    "source": "microsoft/github-copilot-for-azure/azure-rbac",
+    "skill": "azure-rbac",
+    "tags": [
+      "devops",
+      "backend"
+    ]
+  },
+  {
+    "name": "azure-resource-lookup",
+    "description": "Azure resource discovery and inventory management",
+    "source": "microsoft/github-copilot-for-azure/azure-resource-lookup",
+    "skill": "azure-resource-lookup",
+    "tags": [
+      "devops",
+      "backend"
+    ]
+  },
+  {
+    "name": "azure-resource-visualizer",
+    "description": "Azure resource topology visualization and dependency mapping",
+    "source": "microsoft/github-copilot-for-azure/azure-resource-visualizer",
+    "skill": "azure-resource-visualizer",
+    "tags": [
+      "devops",
+      "backend"
+    ]
+  },
+  {
+    "name": "azure-storage",
+    "description": "Azure Storage services configuration and best practices",
+    "source": "microsoft/github-copilot-for-azure/azure-storage",
+    "skill": "azure-storage",
+    "tags": [
+      "devops",
+      "backend"
+    ]
+  },
+  {
+    "name": "azure-validate",
+    "description": "Azure resource validation and configuration verification",
+    "source": "microsoft/github-copilot-for-azure/azure-validate",
+    "skill": "azure-validate",
+    "tags": [
+      "devops",
+      "backend"
+    ]
+  },
+  {
+    "name": "entra-app-registration",
+    "description": "Microsoft Entra ID app registration and authentication setup",
+    "source": "microsoft/github-copilot-for-azure/entra-app-registration",
+    "skill": "entra-app-registration",
+    "tags": [
+      "devops",
+      "backend"
+    ]
+  },
+  {
+    "name": "microsoft-foundry",
+    "description": "Microsoft AI Foundry platform integration and management",
+    "source": "microsoft/github-copilot-for-azure/microsoft-foundry",
+    "skill": "microsoft-foundry",
+    "tags": [
+      "devops",
+      "backend"
+    ]
+  }
+]

@@ -9,11 +9,36 @@
     ]
   },
   {
+    "name": "agentation",
+    "description": "Agent coordination framework for multi-agent task execution",
+    "source": "benjitaylor/agentation/agentation",
+    "tags": [
+      "agent",
+      "ai"
+    ]
+  },
+  {
+    "name": "angular-component",
+    "description": "Angular component architecture patterns and best practices",
+    "source": "analogjs/angular-skills/angular-component",
+    "tags": [
+      "frontend"
+    ]
+  },
+  {
     "name": "audit-website",
     "description": "Security audit and vulnerability scanning for websites",
     "source": "squirrelscan/skills/audit-website",
     "tags": [
       "security"
+    ]
+  },
+  {
+    "name": "backlink-analyzer",
+    "description": "SEO backlink analysis and link building strategy tool",
+    "source": "aaron-he-zhu/seo-geo-claude-skills/backlink-analyzer",
+    "tags": [
+      "seo"
     ]
   },
   {
@@ -23,6 +48,25 @@
     "tags": [
       "security",
       "backend"
+    ]
+  },
+  {
+    "name": "browser-use",
+    "description": "Browser automation CLI for persistent session-based web interactions",
+    "source": "browser-use/browser-use",
+    "skill": "browser-use",
+    "tags": [
+      "agent",
+      "browser"
+    ]
+  },
+  {
+    "name": "chatgpt-app-builder",
+    "description": "Build ChatGPT-powered applications with MCP integration",
+    "source": "mcp-use/mcp-use/chatgpt-app-builder",
+    "tags": [
+      "ai",
+      "agent"
     ]
   },
   {
@@ -51,6 +95,14 @@
     ]
   },
   {
+    "name": "convex",
+    "description": "Convex backend platform patterns and real-time data sync",
+    "source": "waynesutton/convexskills/convex",
+    "tags": [
+      "backend"
+    ]
+  },
+  {
     "name": "create-auth-skill",
     "description": "Create custom authentication skills using Better Auth framework",
     "source": "better-auth/skills/create-auth-skill",
@@ -69,6 +121,64 @@
     ]
   },
   {
+    "name": "docker-expert",
+    "description": "Docker containerization best practices and multi-stage builds",
+    "source": "sickn33/antigravity-awesome-skills/docker-expert",
+    "tags": [
+      "devops"
+    ]
+  },
+  {
+    "name": "enhance-prompt",
+    "description": "AI prompt enhancement and optimization techniques",
+    "source": "google-labs-code/stitch-skills/enhance-prompt",
+    "tags": [
+      "ai",
+      "workflow"
+    ]
+  },
+  {
+    "name": "firecrawl",
+    "description": "Web scraping and crawling with Firecrawl for structured data extraction",
+    "source": "firecrawl/cli/firecrawl",
+    "tags": [
+      "agent"
+    ]
+  },
+  {
+    "name": "flutter-animations",
+    "description": "Flutter animation patterns and motion design best practices",
+    "source": "madteacher/mad-agents-skills/flutter-animations",
+    "tags": [
+      "frontend"
+    ]
+  },
+  {
+    "name": "flutter-expert",
+    "description": "Flutter framework expertise and cross-platform development patterns",
+    "source": "jeffallan/claude-skills/flutter-expert",
+    "tags": [
+      "frontend"
+    ]
+  },
+  {
+    "name": "golang-pro",
+    "description": "Go programming best practices, idioms, and performance patterns",
+    "source": "jeffallan/claude-skills/golang-pro",
+    "tags": [
+      "backend"
+    ]
+  },
+  {
+    "name": "humanizer-zh",
+    "description": "Chinese text humanization for natural-sounding AI-generated content",
+    "source": "op7418/humanizer-zh/humanizer-zh",
+    "tags": [
+      "ai",
+      "workflow"
+    ]
+  },
+  {
     "name": "inf-agent-browser",
     "description": "Browser automation for AI agents via inference.sh with element refs and session management",
     "source": "inf-sh/skills/agent-browser",
@@ -83,6 +193,74 @@
     "source": "napoleond/instaclaw",
     "tags": [
       "agent"
+    ]
+  },
+  {
+    "name": "interface-design",
+    "description": "User interface design principles and interaction patterns",
+    "source": "dammyjay93/interface-design/interface-design",
+    "tags": [
+      "design",
+      "frontend"
+    ]
+  },
+  {
+    "name": "laravel-specialist",
+    "description": "Laravel PHP framework best practices and application patterns",
+    "source": "jeffallan/claude-skills/laravel-specialist",
+    "tags": [
+      "backend"
+    ]
+  },
+  {
+    "name": "mastra",
+    "description": "Mastra AI agent framework patterns and workflow orchestration",
+    "source": "mastra-ai/skills/mastra",
+    "tags": [
+      "agent",
+      "ai"
+    ]
+  },
+  {
+    "name": "mcp-builder-mcp-use",
+    "description": "MCP server builder and integration patterns via mcp-use",
+    "source": "mcp-use/mcp-use/mcp-builder",
+    "tags": [
+      "ai",
+      "agent"
+    ]
+  },
+  {
+    "name": "nblm",
+    "description": "NBLM natural language business logic modeling and generation",
+    "source": "magicseek/nblm/nblm",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
+    "name": "nestjs-best-practices",
+    "description": "NestJS framework best practices for scalable Node.js applications",
+    "source": "kadajett/agent-nestjs-skills/nestjs-best-practices",
+    "tags": [
+      "backend"
+    ]
+  },
+  {
+    "name": "obsidian-bases",
+    "description": "Obsidian knowledge base patterns and plugin development",
+    "source": "kepano/obsidian-skills/obsidian-bases",
+    "tags": [
+      "docs",
+      "workflow"
+    ]
+  },
+  {
+    "name": "planning-with-files",
+    "description": "File-based planning and task management for AI agent workflows",
+    "source": "othmanadi/planning-with-files/planning-with-files",
+    "tags": [
+      "workflow"
     ]
   },
   {
@@ -104,11 +282,71 @@
     ]
   },
   {
+    "name": "react-native-best-practices",
+    "description": "React Native best practices and performance optimization from Callstack",
+    "source": "callstackincubator/agent-skills/react-native-best-practices",
+    "tags": [
+      "react",
+      "frontend"
+    ]
+  },
+  {
+    "name": "remembering-conversations",
+    "description": "Episodic memory for AI agents to maintain conversation context",
+    "source": "obra/episodic-memory/remembering-conversations",
+    "tags": [
+      "agent",
+      "ai"
+    ]
+  },
+  {
+    "name": "remotion",
+    "description": "Remotion video creation framework patterns from Google Labs",
+    "source": "google-labs-code/stitch-skills/remotion",
+    "tags": [
+      "react"
+    ]
+  },
+  {
     "name": "remotion-best-practices",
     "description": "Best practices for creating videos programmatically with Remotion in React",
     "source": "remotion-dev/skills/remotion-best-practices",
     "tags": [
       "react"
+    ]
+  },
+  {
+    "name": "remotion-render",
+    "description": "Cloud-based Remotion video rendering via inference.sh",
+    "source": "inference-sh-6/skills/remotion-render",
+    "tags": [
+      "react"
+    ]
+  },
+  {
+    "name": "seedance2-api",
+    "description": "Seedance2 video generation API integration and workflow",
+    "source": "hexiaochun/seedance2-api/seedance2-api",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
+    "name": "seo-geo",
+    "description": "Geographic SEO optimization and local search strategies",
+    "source": "resciencelab/opc-skills/seo-geo",
+    "tags": [
+      "seo",
+      "marketing"
+    ]
+  },
+  {
+    "name": "shadcn-ui",
+    "description": "shadcn/ui component library patterns and customization",
+    "source": "giuseppe-trisciuoglio/developer-kit/shadcn-ui",
+    "tags": [
+      "design",
+      "frontend"
     ]
   },
   {
@@ -122,11 +360,37 @@
     ]
   },
   {
+    "name": "stitch-loop",
+    "description": "Iterative design-code loop patterns from Google Labs Stitch",
+    "source": "google-labs-code/stitch-skills/stitch-loop",
+    "tags": [
+      "workflow",
+      "design"
+    ]
+  },
+  {
     "name": "supabase-postgres-best-practices",
     "description": "PostgreSQL best practices, query optimization, and security for Supabase",
     "source": "supabase/agent-skills/supabase-postgres-best-practices",
     "tags": [
       "backend"
+    ]
+  },
+  {
+    "name": "swiftui-expert-skill",
+    "description": "SwiftUI best practices and modern iOS app development patterns",
+    "source": "avdlee/swiftui-agent-skill/swiftui-expert-skill",
+    "tags": [
+      "frontend"
+    ]
+  },
+  {
+    "name": "tailwind-v4-shadcn",
+    "description": "Tailwind CSS v4 with shadcn/ui integration and component patterns",
+    "source": "jezweb/claude-skills/tailwind-v4-shadcn",
+    "tags": [
+      "design",
+      "frontend"
     ]
   },
   {
@@ -142,6 +406,15 @@
     "name": "vue-best-practices",
     "description": "Vue 3 best practices with Composition API, script setup, and TypeScript",
     "source": "hyf0/vue-skills/vue-best-practices",
+    "tags": [
+      "vue",
+      "frontend"
+    ]
+  },
+  {
+    "name": "vue-debug-guides",
+    "description": "Vue 3 debugging techniques and error handling patterns",
+    "source": "hyf0/vue-skills/vue-debug-guides",
     "tags": [
       "vue",
       "frontend"

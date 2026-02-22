@@ -9,6 +9,15 @@
     ]
   },
   {
+    "name": "ai-sdk",
+    "description": "Vercel AI SDK patterns for building AI-powered applications",
+    "source": "vercel/ai/ai-sdk",
+    "tags": [
+      "ai",
+      "frontend"
+    ]
+  },
+  {
     "name": "find-skills",
     "description": "Discover and install skills from the open agent skills ecosystem",
     "source": "vercel-labs/skills/find-skills",
@@ -23,6 +32,33 @@
     "source": "vercel-labs/next-skills/next-best-practices",
     "tags": [
       "react",
+      "frontend"
+    ]
+  },
+  {
+    "name": "next-cache-components",
+    "description": "Next.js caching strategies and optimized component patterns",
+    "source": "vercel-labs/next-skills/next-cache-components",
+    "tags": [
+      "react",
+      "frontend"
+    ]
+  },
+  {
+    "name": "next-upgrade",
+    "description": "Next.js version upgrade guide and migration patterns",
+    "source": "vercel-labs/next-skills/next-upgrade",
+    "tags": [
+      "react",
+      "frontend"
+    ]
+  },
+  {
+    "name": "turborepo",
+    "description": "Turborepo monorepo build system configuration and optimization",
+    "source": "vercel/turborepo/turborepo",
+    "tags": [
+      "devops",
       "frontend"
     ]
   },

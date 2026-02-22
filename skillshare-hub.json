@@ -10,6 +10,15 @@
       ]
     },
     {
+      "name": "accessibility-compliance",
+      "description": "Web accessibility compliance patterns and WCAG guidelines",
+      "source": "wshobson/agents/accessibility-compliance",
+      "skill": "accessibility-compliance",
+      "tags": [
+        "frontend"
+      ]
+    },
+    {
       "name": "agent-browser",
       "description": "Browser automation agent for web page interactions using Playwright",
       "source": "vercel-labs/agent-browser/skills/agent-browser",
@@ -25,6 +34,24 @@
       "tags": [
         "agent",
         "ai"
+      ]
+    },
+    {
+      "name": "agentation",
+      "description": "Agent coordination framework for multi-agent task execution",
+      "source": "benjitaylor/agentation/agentation",
+      "tags": [
+        "agent",
+        "ai"
+      ]
+    },
+    {
+      "name": "ai-sdk",
+      "description": "Vercel AI SDK patterns for building AI-powered applications",
+      "source": "vercel/ai/ai-sdk",
+      "tags": [
+        "ai",
+        "frontend"
       ]
     },
     {
@@ -44,6 +71,23 @@
       ]
     },
     {
+      "name": "angular-component",
+      "description": "Angular component architecture patterns and best practices",
+      "source": "analogjs/angular-skills/angular-component",
+      "tags": [
+        "frontend"
+      ]
+    },
+    {
+      "name": "antfu",
+      "description": "Anthony Fu's coding conventions and project setup preferences",
+      "source": "antfu/skills/antfu",
+      "skill": "antfu",
+      "tags": [
+        "workflow"
+      ]
+    },
+    {
       "name": "antfu-vue-best-practices",
       "description": "Vue.js best practices and patterns from Anthony Fu",
       "source": "antfu/skills/vue-best-practices",
@@ -53,11 +97,346 @@
       ]
     },
     {
+      "name": "api-design-principles",
+      "description": "REST API design principles and best practices",
+      "source": "wshobson/agents/api-design-principles",
+      "skill": "api-design-principles",
+      "tags": [
+        "backend"
+      ]
+    },
+    {
+      "name": "appinsights-instrumentation",
+      "description": "Application Insights instrumentation and telemetry for Azure applications",
+      "source": "microsoft/github-copilot-for-azure/appinsights-instrumentation",
+      "skill": "appinsights-instrumentation",
+      "tags": [
+        "devops",
+        "backend"
+      ]
+    },
+    {
+      "name": "architecture-patterns",
+      "description": "Software architecture patterns and design decisions",
+      "source": "wshobson/agents/architecture-patterns",
+      "skill": "architecture-patterns",
+      "tags": [
+        "backend"
+      ]
+    },
+    {
+      "name": "async-python-patterns",
+      "description": "Asynchronous Python patterns with asyncio and concurrent programming",
+      "source": "wshobson/agents/async-python-patterns",
+      "skill": "async-python-patterns",
+      "tags": [
+        "backend"
+      ]
+    },
+    {
       "name": "audit-website",
       "description": "Security audit and vulnerability scanning for websites",
       "source": "squirrelscan/skills/audit-website",
       "tags": [
         "security"
+      ]
+    },
+    {
+      "name": "azure-ai",
+      "description": "Azure AI services integration and management",
+      "source": "microsoft/github-copilot-for-azure/azure-ai",
+      "skill": "azure-ai",
+      "tags": [
+        "devops",
+        "backend"
+      ]
+    },
+    {
+      "name": "azure-aigateway",
+      "description": "Azure AI Gateway configuration and API management",
+      "source": "microsoft/github-copilot-for-azure/azure-aigateway",
+      "skill": "azure-aigateway",
+      "tags": [
+        "devops",
+        "backend"
+      ]
+    },
+    {
+      "name": "azure-compliance",
+      "description": "Azure compliance assessment and policy management",
+      "source": "microsoft/github-copilot-for-azure/azure-compliance",
+      "skill": "azure-compliance",
+      "tags": [
+        "devops",
+        "backend"
+      ]
+    },
+    {
+      "name": "azure-cost-optimization",
+      "description": "Azure cost optimization and spending analysis",
+      "source": "microsoft/github-copilot-for-azure/azure-cost-optimization",
+      "skill": "azure-cost-optimization",
+      "tags": [
+        "devops",
+        "backend"
+      ]
+    },
+    {
+      "name": "azure-deploy",
+      "description": "Azure deployment automation and resource provisioning",
+      "source": "microsoft/github-copilot-for-azure/azure-deploy",
+      "skill": "azure-deploy",
+      "tags": [
+        "devops",
+        "backend"
+      ]
+    },
+    {
+      "name": "azure-diagnostics",
+      "description": "Azure diagnostics and troubleshooting for cloud services",
+      "source": "microsoft/github-copilot-for-azure/azure-diagnostics",
+      "skill": "azure-diagnostics",
+      "tags": [
+        "devops",
+        "backend"
+      ]
+    },
+    {
+      "name": "azure-kusto",
+      "description": "Azure Data Explorer (Kusto) query and analytics",
+      "source": "microsoft/github-copilot-for-azure/azure-kusto",
+      "skill": "azure-kusto",
+      "tags": [
+        "devops",
+        "backend"
+      ]
+    },
+    {
+      "name": "azure-messaging",
+      "description": "Azure messaging services (Service Bus, Event Hubs) patterns",
+      "source": "microsoft/github-copilot-for-azure/azure-messaging",
+      "skill": "azure-messaging",
+      "tags": [
+        "devops",
+        "backend"
+      ]
+    },
+    {
+      "name": "azure-observability",
+      "description": "Azure monitoring, logging, and observability best practices",
+      "source": "microsoft/github-copilot-for-azure/azure-observability",
+      "skill": "azure-observability",
+      "tags": [
+        "devops",
+        "backend"
+      ]
+    },
+    {
+      "name": "azure-postgres",
+      "description": "Azure Database for PostgreSQL management and optimization",
+      "source": "microsoft/github-copilot-for-azure/azure-postgres",
+      "skill": "azure-postgres",
+      "tags": [
+        "devops",
+        "backend"
+      ]
+    },
+    {
+      "name": "azure-prepare",
+      "description": "Azure environment preparation and prerequisite setup",
+      "source": "microsoft/github-copilot-for-azure/azure-prepare",
+      "skill": "azure-prepare",
+      "tags": [
+        "devops",
+        "backend"
+      ]
+    },
+    {
+      "name": "azure-rbac",
+      "description": "Azure role-based access control and identity management",
+      "source": "microsoft/github-copilot-for-azure/azure-rbac",
+      "skill": "azure-rbac",
+      "tags": [
+        "devops",
+        "backend"
+      ]
+    },
+    {
+      "name": "azure-resource-lookup",
+      "description": "Azure resource discovery and inventory management",
+      "source": "microsoft/github-copilot-for-azure/azure-resource-lookup",
+      "skill": "azure-resource-lookup",
+      "tags": [
+        "devops",
+        "backend"
+      ]
+    },
+    {
+      "name": "azure-resource-visualizer",
+      "description": "Azure resource topology visualization and dependency mapping",
+      "source": "microsoft/github-copilot-for-azure/azure-resource-visualizer",
+      "skill": "azure-resource-visualizer",
+      "tags": [
+        "devops",
+        "backend"
+      ]
+    },
+    {
+      "name": "azure-storage",
+      "description": "Azure Storage services configuration and best practices",
+      "source": "microsoft/github-copilot-for-azure/azure-storage",
+      "skill": "azure-storage",
+      "tags": [
+        "devops",
+        "backend"
+      ]
+    },
+    {
+      "name": "azure-validate",
+      "description": "Azure resource validation and configuration verification",
+      "source": "microsoft/github-copilot-for-azure/azure-validate",
+      "skill": "azure-validate",
+      "tags": [
+        "devops",
+        "backend"
+      ]
+    },
+    {
+      "name": "backlink-analyzer",
+      "description": "SEO backlink analysis and link building strategy tool",
+      "source": "aaron-he-zhu/seo-geo-claude-skills/backlink-analyzer",
+      "tags": [
+        "seo"
+      ]
+    },
+    {
+      "name": "baoyu-article-illustrator",
+      "description": "Generate illustrations for articles and blog posts",
+      "source": "jimliu/baoyu-skills/baoyu-article-illustrator",
+      "skill": "baoyu-article-illustrator",
+      "tags": [
+        "ai",
+        "workflow"
+      ]
+    },
+    {
+      "name": "baoyu-comic",
+      "description": "Create comic strips and visual stories from text prompts",
+      "source": "jimliu/baoyu-skills/baoyu-comic",
+      "skill": "baoyu-comic",
+      "tags": [
+        "ai",
+        "workflow"
+      ]
+    },
+    {
+      "name": "baoyu-compress-image",
+      "description": "Compress and optimize images for web and social media",
+      "source": "jimliu/baoyu-skills/baoyu-compress-image",
+      "skill": "baoyu-compress-image",
+      "tags": [
+        "ai",
+        "workflow"
+      ]
+    },
+    {
+      "name": "baoyu-cover-image",
+      "description": "Generate cover images for articles, posts, and social media",
+      "source": "jimliu/baoyu-skills/baoyu-cover-image",
+      "skill": "baoyu-cover-image",
+      "tags": [
+        "ai",
+        "workflow"
+      ]
+    },
+    {
+      "name": "baoyu-danger-gemini-web",
+      "description": "Web browsing and research using Gemini API integration",
+      "source": "jimliu/baoyu-skills/baoyu-danger-gemini-web",
+      "skill": "baoyu-danger-gemini-web",
+      "tags": [
+        "ai",
+        "workflow"
+      ]
+    },
+    {
+      "name": "baoyu-danger-x-to-markdown",
+      "description": "Convert X/Twitter posts and threads to Markdown format",
+      "source": "jimliu/baoyu-skills/baoyu-danger-x-to-markdown",
+      "skill": "baoyu-danger-x-to-markdown",
+      "tags": [
+        "ai",
+        "workflow"
+      ]
+    },
+    {
+      "name": "baoyu-image-gen",
+      "description": "Generate images from text prompts using AI models",
+      "source": "jimliu/baoyu-skills/baoyu-image-gen",
+      "skill": "baoyu-image-gen",
+      "tags": [
+        "ai",
+        "workflow"
+      ]
+    },
+    {
+      "name": "baoyu-infographic",
+      "description": "Create infographic visualizations from data and text",
+      "source": "jimliu/baoyu-skills/baoyu-infographic",
+      "skill": "baoyu-infographic",
+      "tags": [
+        "ai",
+        "workflow"
+      ]
+    },
+    {
+      "name": "baoyu-post-to-wechat",
+      "description": "Publish and format content for WeChat Official Accounts",
+      "source": "jimliu/baoyu-skills/baoyu-post-to-wechat",
+      "skill": "baoyu-post-to-wechat",
+      "tags": [
+        "ai",
+        "workflow"
+      ]
+    },
+    {
+      "name": "baoyu-post-to-x",
+      "description": "Compose and publish posts to X/Twitter with media support",
+      "source": "jimliu/baoyu-skills/baoyu-post-to-x",
+      "skill": "baoyu-post-to-x",
+      "tags": [
+        "ai",
+        "workflow"
+      ]
+    },
+    {
+      "name": "baoyu-slide-deck",
+      "description": "Generate presentation slide decks from text content",
+      "source": "jimliu/baoyu-skills/baoyu-slide-deck",
+      "skill": "baoyu-slide-deck",
+      "tags": [
+        "ai",
+        "workflow"
+      ]
+    },
+    {
+      "name": "baoyu-url-to-markdown",
+      "description": "Convert web page content to clean Markdown format",
+      "source": "jimliu/baoyu-skills/baoyu-url-to-markdown",
+      "skill": "baoyu-url-to-markdown",
+      "tags": [
+        "ai",
+        "workflow"
+      ]
+    },
+    {
+      "name": "baoyu-xhs-images",
+      "description": "Create image posts optimized for Xiaohongshu (RED) platform",
+      "source": "jimliu/baoyu-skills/baoyu-xhs-images",
+      "skill": "baoyu-xhs-images",
+      "tags": [
+        "ai",
+        "workflow"
       ]
     },
     {
@@ -87,6 +466,16 @@
       ]
     },
     {
+      "name": "browser-use",
+      "description": "Browser automation CLI for persistent session-based web interactions",
+      "source": "browser-use/browser-use",
+      "skill": "browser-use",
+      "tags": [
+        "agent",
+        "browser"
+      ]
+    },
+    {
       "name": "building-native-ui",
       "description": "Build beautiful native UIs with Expo and React Native",
       "source": "expo/skills/building-native-ui",
@@ -105,6 +494,15 @@
       ]
     },
     {
+      "name": "chatgpt-app-builder",
+      "description": "Build ChatGPT-powered applications with MCP integration",
+      "source": "mcp-use/mcp-use/chatgpt-app-builder",
+      "tags": [
+        "ai",
+        "agent"
+      ]
+    },
+    {
       "name": "clawdirect",
       "description": "Directory of social web experiences for AI agents — browse, like, and manage listings",
       "source": "napoleond/clawdirect/clawdirect",
@@ -118,6 +516,15 @@
       "source": "napoleond/clawdirect/clawdirect-dev",
       "tags": [
         "agent"
+      ]
+    },
+    {
+      "name": "code-review-excellence",
+      "description": "Code review best practices for effective and constructive feedback",
+      "source": "wshobson/agents/code-review-excellence",
+      "skill": "code-review-excellence",
+      "tags": [
+        "code-review"
       ]
     },
     {
@@ -143,6 +550,14 @@
       "tags": [
         "docs",
         "ai"
+      ]
+    },
+    {
+      "name": "convex",
+      "description": "Convex backend platform patterns and real-time data sync",
+      "source": "waynesutton/convexskills/convex",
+      "tags": [
+        "backend"
       ]
     },
     {
@@ -180,6 +595,16 @@
       ]
     },
     {
+      "name": "design-system-patterns",
+      "description": "Design system architecture and component library patterns",
+      "source": "wshobson/agents/design-system-patterns",
+      "skill": "design-system-patterns",
+      "tags": [
+        "design",
+        "frontend"
+      ]
+    },
+    {
       "name": "dispatching-parallel-agents",
       "description": "Dispatch and coordinate independent tasks across parallel agents",
       "source": "obra/superpowers/dispatching-parallel-agents",
@@ -198,6 +623,14 @@
       ]
     },
     {
+      "name": "docker-expert",
+      "description": "Docker containerization best practices and multi-stage builds",
+      "source": "sickn33/antigravity-awesome-skills/docker-expert",
+      "tags": [
+        "devops"
+      ]
+    },
+    {
       "name": "docx",
       "description": "Create and edit Word documents programmatically",
       "source": "anthropics/skills/docx",
@@ -206,11 +639,48 @@
       ]
     },
     {
+      "name": "e2e-testing-patterns",
+      "description": "End-to-end testing patterns with Playwright and Cypress",
+      "source": "wshobson/agents/e2e-testing-patterns",
+      "skill": "e2e-testing-patterns",
+      "tags": [
+        "testing"
+      ]
+    },
+    {
       "name": "email-sequence",
       "description": "Design email marketing sequences and drip campaign automations",
       "source": "coreyhaines31/marketingskills/email-sequence",
       "tags": [
         "marketing"
+      ]
+    },
+    {
+      "name": "enhance-prompt",
+      "description": "AI prompt enhancement and optimization techniques",
+      "source": "google-labs-code/stitch-skills/enhance-prompt",
+      "tags": [
+        "ai",
+        "workflow"
+      ]
+    },
+    {
+      "name": "entra-app-registration",
+      "description": "Microsoft Entra ID app registration and authentication setup",
+      "source": "microsoft/github-copilot-for-azure/entra-app-registration",
+      "skill": "entra-app-registration",
+      "tags": [
+        "devops",
+        "backend"
+      ]
+    },
+    {
+      "name": "error-handling-patterns",
+      "description": "Error handling patterns and resilient application design",
+      "source": "wshobson/agents/error-handling-patterns",
+      "skill": "error-handling-patterns",
+      "tags": [
+        "backend"
       ]
     },
     {
@@ -267,6 +737,15 @@
       ]
     },
     {
+      "name": "fastapi-templates",
+      "description": "FastAPI project templates and REST API patterns for Python",
+      "source": "wshobson/agents/fastapi-templates",
+      "skill": "fastapi-templates",
+      "tags": [
+        "backend"
+      ]
+    },
+    {
       "name": "find-skills",
       "description": "Discover and install skills from the open agent skills ecosystem",
       "source": "vercel-labs/skills/find-skills",
@@ -283,6 +762,30 @@
         "git",
         "workflow",
         "superpowers"
+      ]
+    },
+    {
+      "name": "firecrawl",
+      "description": "Web scraping and crawling with Firecrawl for structured data extraction",
+      "source": "firecrawl/cli/firecrawl",
+      "tags": [
+        "agent"
+      ]
+    },
+    {
+      "name": "flutter-animations",
+      "description": "Flutter animation patterns and motion design best practices",
+      "source": "madteacher/mad-agents-skills/flutter-animations",
+      "tags": [
+        "frontend"
+      ]
+    },
+    {
+      "name": "flutter-expert",
+      "description": "Flutter framework expertise and cross-platform development patterns",
+      "source": "jeffallan/claude-skills/flutter-expert",
+      "tags": [
+        "frontend"
       ]
     },
     {
@@ -311,6 +814,42 @@
       ]
     },
     {
+      "name": "git-advanced-workflows",
+      "description": "Advanced Git workflows, branching strategies, and collaboration patterns",
+      "source": "wshobson/agents/git-advanced-workflows",
+      "skill": "git-advanced-workflows",
+      "tags": [
+        "git",
+        "workflow"
+      ]
+    },
+    {
+      "name": "github-actions-templates",
+      "description": "GitHub Actions workflow templates for CI/CD automation",
+      "source": "wshobson/agents/github-actions-templates",
+      "skill": "github-actions-templates",
+      "tags": [
+        "devops"
+      ]
+    },
+    {
+      "name": "golang-pro",
+      "description": "Go programming best practices, idioms, and performance patterns",
+      "source": "jeffallan/claude-skills/golang-pro",
+      "tags": [
+        "backend"
+      ]
+    },
+    {
+      "name": "humanizer-zh",
+      "description": "Chinese text humanization for natural-sounding AI-generated content",
+      "source": "op7418/humanizer-zh/humanizer-zh",
+      "tags": [
+        "ai",
+        "workflow"
+      ]
+    },
+    {
       "name": "inf-agent-browser",
       "description": "Browser automation for AI agents via inference.sh with element refs and session management",
       "source": "inf-sh/skills/agent-browser",
@@ -328,11 +867,37 @@
       ]
     },
     {
+      "name": "interface-design",
+      "description": "User interface design principles and interaction patterns",
+      "source": "dammyjay93/interface-design/interface-design",
+      "tags": [
+        "design",
+        "frontend"
+      ]
+    },
+    {
       "name": "internal-comms",
       "description": "Draft internal communications, announcements, and team updates",
       "source": "anthropics/skills/internal-comms",
       "tags": [
         "docs"
+      ]
+    },
+    {
+      "name": "javascript-testing-patterns",
+      "description": "JavaScript testing patterns with Jest, Vitest, and Testing Library",
+      "source": "wshobson/agents/javascript-testing-patterns",
+      "skill": "javascript-testing-patterns",
+      "tags": [
+        "testing"
+      ]
+    },
+    {
+      "name": "laravel-specialist",
+      "description": "Laravel PHP framework best practices and application patterns",
+      "source": "jeffallan/claude-skills/laravel-specialist",
+      "tags": [
+        "backend"
       ]
     },
     {
@@ -360,12 +925,69 @@
       ]
     },
     {
+      "name": "mastra",
+      "description": "Mastra AI agent framework patterns and workflow orchestration",
+      "source": "mastra-ai/skills/mastra",
+      "tags": [
+        "agent",
+        "ai"
+      ]
+    },
+    {
       "name": "mcp-builder",
       "description": "Build Model Context Protocol (MCP) servers and tools for AI agents",
       "source": "anthropics/skills/mcp-builder",
       "tags": [
         "ai",
         "agent"
+      ]
+    },
+    {
+      "name": "mcp-builder-mcp-use",
+      "description": "MCP server builder and integration patterns via mcp-use",
+      "source": "mcp-use/mcp-use/mcp-builder",
+      "tags": [
+        "ai",
+        "agent"
+      ]
+    },
+    {
+      "name": "microsoft-foundry",
+      "description": "Microsoft AI Foundry platform integration and management",
+      "source": "microsoft/github-copilot-for-azure/microsoft-foundry",
+      "skill": "microsoft-foundry",
+      "tags": [
+        "devops",
+        "backend"
+      ]
+    },
+    {
+      "name": "mobile-android-design",
+      "description": "Android mobile UI design patterns and Material Design guidelines",
+      "source": "wshobson/agents/mobile-android-design",
+      "skill": "mobile-android-design",
+      "tags": [
+        "design",
+        "frontend"
+      ]
+    },
+    {
+      "name": "mobile-ios-design",
+      "description": "iOS mobile UI design patterns and Human Interface Guidelines",
+      "source": "wshobson/agents/mobile-ios-design",
+      "skill": "mobile-ios-design",
+      "tags": [
+        "design",
+        "frontend"
+      ]
+    },
+    {
+      "name": "modern-javascript-patterns",
+      "description": "Modern JavaScript patterns and ES2024+ best practices",
+      "source": "wshobson/agents/modern-javascript-patterns",
+      "skill": "modern-javascript-patterns",
+      "tags": [
+        "frontend"
       ]
     },
     {
@@ -377,12 +999,84 @@
       ]
     },
     {
+      "name": "nblm",
+      "description": "NBLM natural language business logic modeling and generation",
+      "source": "magicseek/nblm/nblm",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "name": "nestjs-best-practices",
+      "description": "NestJS framework best practices for scalable Node.js applications",
+      "source": "kadajett/agent-nestjs-skills/nestjs-best-practices",
+      "tags": [
+        "backend"
+      ]
+    },
+    {
       "name": "next-best-practices",
       "description": "Next.js performance optimization and best practices from Vercel",
       "source": "vercel-labs/next-skills/next-best-practices",
       "tags": [
         "react",
         "frontend"
+      ]
+    },
+    {
+      "name": "next-cache-components",
+      "description": "Next.js caching strategies and optimized component patterns",
+      "source": "vercel-labs/next-skills/next-cache-components",
+      "tags": [
+        "react",
+        "frontend"
+      ]
+    },
+    {
+      "name": "next-upgrade",
+      "description": "Next.js version upgrade guide and migration patterns",
+      "source": "vercel-labs/next-skills/next-upgrade",
+      "tags": [
+        "react",
+        "frontend"
+      ]
+    },
+    {
+      "name": "nextjs-app-router-patterns",
+      "description": "Next.js App Router patterns for server components and routing",
+      "source": "wshobson/agents/nextjs-app-router-patterns",
+      "skill": "nextjs-app-router-patterns",
+      "tags": [
+        "react",
+        "frontend"
+      ]
+    },
+    {
+      "name": "nodejs-backend-patterns",
+      "description": "Node.js backend architecture patterns and best practices",
+      "source": "wshobson/agents/nodejs-backend-patterns",
+      "skill": "nodejs-backend-patterns",
+      "tags": [
+        "backend"
+      ]
+    },
+    {
+      "name": "nuxt",
+      "description": "Nuxt.js framework best practices and server-side rendering patterns",
+      "source": "antfu/skills/nuxt",
+      "skill": "nuxt",
+      "tags": [
+        "vue",
+        "frontend"
+      ]
+    },
+    {
+      "name": "obsidian-bases",
+      "description": "Obsidian knowledge base patterns and plugin development",
+      "source": "kepano/obsidian-skills/obsidian-bases",
+      "tags": [
+        "docs",
+        "workflow"
       ]
     },
     {
@@ -426,11 +1120,47 @@
       ]
     },
     {
+      "name": "pinia",
+      "description": "Pinia state management best practices for Vue applications",
+      "source": "antfu/skills/pinia",
+      "skill": "pinia",
+      "tags": [
+        "vue",
+        "frontend"
+      ]
+    },
+    {
+      "name": "planning-with-files",
+      "description": "File-based planning and task management for AI agent workflows",
+      "source": "othmanadi/planning-with-files/planning-with-files",
+      "tags": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "pnpm",
+      "description": "pnpm package manager best practices and workspace patterns",
+      "source": "antfu/skills/pnpm",
+      "skill": "pnpm",
+      "tags": [
+        "workflow"
+      ]
+    },
+    {
       "name": "popup-cro",
       "description": "Design and optimize marketing popups for conversion and engagement",
       "source": "coreyhaines31/marketingskills/popup-cro",
       "tags": [
         "marketing"
+      ]
+    },
+    {
+      "name": "postgresql-table-design",
+      "description": "PostgreSQL table design, indexing, and schema optimization",
+      "source": "wshobson/agents/postgresql-table-design",
+      "skill": "postgresql-table-design",
+      "tags": [
+        "backend"
       ]
     },
     {
@@ -467,6 +1197,33 @@
       ]
     },
     {
+      "name": "prompt-engineering-patterns",
+      "description": "Prompt engineering patterns for effective AI agent interactions",
+      "source": "wshobson/agents/prompt-engineering-patterns",
+      "skill": "prompt-engineering-patterns",
+      "tags": [
+        "ai"
+      ]
+    },
+    {
+      "name": "python-performance-optimization",
+      "description": "Python performance optimization techniques and profiling",
+      "source": "wshobson/agents/python-performance-optimization",
+      "skill": "python-performance-optimization",
+      "tags": [
+        "backend"
+      ]
+    },
+    {
+      "name": "python-testing-patterns",
+      "description": "Python testing patterns with pytest and test automation",
+      "source": "wshobson/agents/python-testing-patterns",
+      "skill": "python-testing-patterns",
+      "tags": [
+        "testing"
+      ]
+    },
+    {
       "name": "ralph-tui-prd",
       "description": "Generate structured product requirements documents for AI agent execution with ralph-tui",
       "source": "subsy/ralph-tui/ralph-tui-prd",
@@ -495,6 +1252,35 @@
       ]
     },
     {
+      "name": "react-native-architecture",
+      "description": "React Native application architecture and scalability patterns",
+      "source": "wshobson/agents/react-native-architecture",
+      "skill": "react-native-architecture",
+      "tags": [
+        "react",
+        "frontend"
+      ]
+    },
+    {
+      "name": "react-native-best-practices",
+      "description": "React Native best practices and performance optimization from Callstack",
+      "source": "callstackincubator/agent-skills/react-native-best-practices",
+      "tags": [
+        "react",
+        "frontend"
+      ]
+    },
+    {
+      "name": "react-native-design",
+      "description": "React Native UI design patterns and cross-platform styling",
+      "source": "wshobson/agents/react-native-design",
+      "skill": "react-native-design",
+      "tags": [
+        "react",
+        "frontend"
+      ]
+    },
+    {
       "name": "receiving-code-review",
       "description": "Process and implement code review feedback effectively",
       "source": "obra/superpowers/receiving-code-review",
@@ -511,9 +1297,44 @@
       ]
     },
     {
+      "name": "release-skills",
+      "description": "Automate release notes and changelog generation",
+      "source": "jimliu/baoyu-skills/release-skills",
+      "skill": "release-skills",
+      "tags": [
+        "ai",
+        "workflow"
+      ]
+    },
+    {
+      "name": "remembering-conversations",
+      "description": "Episodic memory for AI agents to maintain conversation context",
+      "source": "obra/episodic-memory/remembering-conversations",
+      "tags": [
+        "agent",
+        "ai"
+      ]
+    },
+    {
+      "name": "remotion",
+      "description": "Remotion video creation framework patterns from Google Labs",
+      "source": "google-labs-code/stitch-skills/remotion",
+      "tags": [
+        "react"
+      ]
+    },
+    {
       "name": "remotion-best-practices",
       "description": "Best practices for creating videos programmatically with Remotion in React",
       "source": "remotion-dev/skills/remotion-best-practices",
+      "tags": [
+        "react"
+      ]
+    },
+    {
+      "name": "remotion-render",
+      "description": "Cloud-based Remotion video rendering via inference.sh",
+      "source": "inference-sh-6/skills/remotion-render",
       "tags": [
         "react"
       ]
@@ -527,11 +1348,38 @@
       ]
     },
     {
+      "name": "responsive-design",
+      "description": "Responsive web design patterns for multi-device experiences",
+      "source": "wshobson/agents/responsive-design",
+      "skill": "responsive-design",
+      "tags": [
+        "design",
+        "frontend"
+      ]
+    },
+    {
       "name": "schema-markup",
       "description": "Implement structured data and schema markup for better SEO",
       "source": "coreyhaines31/marketingskills/schema-markup",
       "tags": [
         "seo"
+      ]
+    },
+    {
+      "name": "security-requirement-extraction",
+      "description": "Security requirement extraction and threat modeling patterns",
+      "source": "wshobson/agents/security-requirement-extraction",
+      "skill": "security-requirement-extraction",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "name": "seedance2-api",
+      "description": "Seedance2 video generation API integration and workflow",
+      "source": "hexiaochun/seedance2-api/seedance2-api",
+      "tags": [
+        "ai"
       ]
     },
     {
@@ -541,6 +1389,24 @@
       "tags": [
         "marketing",
         "seo"
+      ]
+    },
+    {
+      "name": "seo-geo",
+      "description": "Geographic SEO optimization and local search strategies",
+      "source": "resciencelab/opc-skills/seo-geo",
+      "tags": [
+        "seo",
+        "marketing"
+      ]
+    },
+    {
+      "name": "shadcn-ui",
+      "description": "shadcn/ui component library patterns and customization",
+      "source": "giuseppe-trisciuoglio/developer-kit/shadcn-ui",
+      "tags": [
+        "design",
+        "frontend"
       ]
     },
     {
@@ -587,6 +1453,33 @@
       ]
     },
     {
+      "name": "sql-optimization-patterns",
+      "description": "SQL query optimization patterns and database performance tuning",
+      "source": "wshobson/agents/sql-optimization-patterns",
+      "skill": "sql-optimization-patterns",
+      "tags": [
+        "backend"
+      ]
+    },
+    {
+      "name": "stitch-loop",
+      "description": "Iterative design-code loop patterns from Google Labs Stitch",
+      "source": "google-labs-code/stitch-skills/stitch-loop",
+      "tags": [
+        "workflow",
+        "design"
+      ]
+    },
+    {
+      "name": "stripe-integration",
+      "description": "Stripe payment integration patterns and best practices",
+      "source": "wshobson/agents/stripe-integration",
+      "skill": "stripe-integration",
+      "tags": [
+        "backend"
+      ]
+    },
+    {
       "name": "subagent-driven-development",
       "description": "Execute implementation tasks using coordinated parallel subagents",
       "source": "obra/superpowers/subagent-driven-development",
@@ -605,6 +1498,14 @@
       ]
     },
     {
+      "name": "swiftui-expert-skill",
+      "description": "SwiftUI best practices and modern iOS app development patterns",
+      "source": "avdlee/swiftui-agent-skill/swiftui-expert-skill",
+      "tags": [
+        "frontend"
+      ]
+    },
+    {
       "name": "systematic-debugging",
       "description": "Systematic approach to diagnosing and fixing bugs before proposing solutions",
       "source": "obra/superpowers/systematic-debugging",
@@ -612,6 +1513,25 @@
         "workflow",
         "superpowers",
         "testing"
+      ]
+    },
+    {
+      "name": "tailwind-design-system",
+      "description": "Tailwind CSS design system setup and component patterns",
+      "source": "wshobson/agents/tailwind-design-system",
+      "skill": "tailwind-design-system",
+      "tags": [
+        "design",
+        "frontend"
+      ]
+    },
+    {
+      "name": "tailwind-v4-shadcn",
+      "description": "Tailwind CSS v4 with shadcn/ui integration and component patterns",
+      "source": "jezweb/claude-skills/tailwind-v4-shadcn",
+      "tags": [
+        "design",
+        "frontend"
       ]
     },
     {
@@ -643,11 +1563,38 @@
       ]
     },
     {
+      "name": "turborepo",
+      "description": "Turborepo monorepo build system configuration and optimization",
+      "source": "vercel/turborepo/turborepo",
+      "tags": [
+        "devops",
+        "frontend"
+      ]
+    },
+    {
+      "name": "typescript-advanced-types",
+      "description": "Advanced TypeScript type patterns and type-level programming",
+      "source": "wshobson/agents/typescript-advanced-types",
+      "skill": "typescript-advanced-types",
+      "tags": [
+        "frontend"
+      ]
+    },
+    {
       "name": "ui-ux-pro-max",
       "description": "UI/UX design intelligence with 50 styles, 21 palettes, 50 font pairings, and 20 chart types",
       "source": "nextlevelbuilder/ui-ux-pro-max-skill",
       "tags": [
         "design",
+        "frontend"
+      ]
+    },
+    {
+      "name": "unocss",
+      "description": "UnoCSS atomic CSS engine configuration and utility patterns",
+      "source": "antfu/skills/unocss",
+      "skill": "unocss",
+      "tags": [
         "frontend"
       ]
     },
@@ -734,6 +1681,16 @@
       ]
     },
     {
+      "name": "vitepress",
+      "description": "VitePress static site generator configuration and customization",
+      "source": "antfu/skills/vitepress",
+      "skill": "vitepress",
+      "tags": [
+        "docs",
+        "frontend"
+      ]
+    },
+    {
       "name": "vitest",
       "description": "Vitest testing framework best practices and configuration patterns",
       "source": "antfu/skills/vitest",
@@ -754,6 +1711,25 @@
       "name": "vue-best-practices",
       "description": "Vue 3 best practices with Composition API, script setup, and TypeScript",
       "source": "hyf0/vue-skills/vue-best-practices",
+      "tags": [
+        "vue",
+        "frontend"
+      ]
+    },
+    {
+      "name": "vue-debug-guides",
+      "description": "Vue 3 debugging techniques and error handling patterns",
+      "source": "hyf0/vue-skills/vue-debug-guides",
+      "tags": [
+        "vue",
+        "frontend"
+      ]
+    },
+    {
+      "name": "vueuse-functions",
+      "description": "VueUse composable functions and utility patterns for Vue",
+      "source": "antfu/skills/vueuse-functions",
+      "skill": "vueuse-functions",
       "tags": [
         "vue",
         "frontend"

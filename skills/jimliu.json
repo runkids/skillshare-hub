@@ -1,0 +1,142 @@
+[
+  {
+    "name": "baoyu-article-illustrator",
+    "description": "Generate illustrations for articles and blog posts",
+    "source": "jimliu/baoyu-skills/baoyu-article-illustrator",
+    "skill": "baoyu-article-illustrator",
+    "tags": [
+      "ai",
+      "workflow"
+    ]
+  },
+  {
+    "name": "baoyu-comic",
+    "description": "Create comic strips and visual stories from text prompts",
+    "source": "jimliu/baoyu-skills/baoyu-comic",
+    "skill": "baoyu-comic",
+    "tags": [
+      "ai",
+      "workflow"
+    ]
+  },
+  {
+    "name": "baoyu-compress-image",
+    "description": "Compress and optimize images for web and social media",
+    "source": "jimliu/baoyu-skills/baoyu-compress-image",
+    "skill": "baoyu-compress-image",
+    "tags": [
+      "ai",
+      "workflow"
+    ]
+  },
+  {
+    "name": "baoyu-cover-image",
+    "description": "Generate cover images for articles, posts, and social media",
+    "source": "jimliu/baoyu-skills/baoyu-cover-image",
+    "skill": "baoyu-cover-image",
+    "tags": [
+      "ai",
+      "workflow"
+    ]
+  },
+  {
+    "name": "baoyu-danger-gemini-web",
+    "description": "Web browsing and research using Gemini API integration",
+    "source": "jimliu/baoyu-skills/baoyu-danger-gemini-web",
+    "skill": "baoyu-danger-gemini-web",
+    "tags": [
+      "ai",
+      "workflow"
+    ]
+  },
+  {
+    "name": "baoyu-danger-x-to-markdown",
+    "description": "Convert X/Twitter posts and threads to Markdown format",
+    "source": "jimliu/baoyu-skills/baoyu-danger-x-to-markdown",
+    "skill": "baoyu-danger-x-to-markdown",
+    "tags": [
+      "ai",
+      "workflow"
+    ]
+  },
+  {
+    "name": "baoyu-image-gen",
+    "description": "Generate images from text prompts using AI models",
+    "source": "jimliu/baoyu-skills/baoyu-image-gen",
+    "skill": "baoyu-image-gen",
+    "tags": [
+      "ai",
+      "workflow"
+    ]
+  },
+  {
+    "name": "baoyu-infographic",
+    "description": "Create infographic visualizations from data and text",
+    "source": "jimliu/baoyu-skills/baoyu-infographic",
+    "skill": "baoyu-infographic",
+    "tags": [
+      "ai",
+      "workflow"
+    ]
+  },
+  {
+    "name": "baoyu-post-to-wechat",
+    "description": "Publish and format content for WeChat Official Accounts",
+    "source": "jimliu/baoyu-skills/baoyu-post-to-wechat",
+    "skill": "baoyu-post-to-wechat",
+    "tags": [
+      "ai",
+      "workflow"
+    ]
+  },
+  {
+    "name": "baoyu-post-to-x",
+    "description": "Compose and publish posts to X/Twitter with media support",
+    "source": "jimliu/baoyu-skills/baoyu-post-to-x",
+    "skill": "baoyu-post-to-x",
+    "tags": [
+      "ai",
+      "workflow"
+    ]
+  },
+  {
+    "name": "baoyu-slide-deck",
+    "description": "Generate presentation slide decks from text content",
+    "source": "jimliu/baoyu-skills/baoyu-slide-deck",
+    "skill": "baoyu-slide-deck",
+    "tags": [
+      "ai",
+      "workflow"
+    ]
+  },
+  {
+    "name": "baoyu-url-to-markdown",
+    "description": "Convert web page content to clean Markdown format",
+    "source": "jimliu/baoyu-skills/baoyu-url-to-markdown",
+    "skill": "baoyu-url-to-markdown",
+    "tags": [
+      "ai",
+      "workflow"
+    ]
+  },
+  {
+    "name": "baoyu-xhs-images",
+    "description": "Create image posts optimized for Xiaohongshu (RED) platform",
+    "source": "jimliu/baoyu-skills/baoyu-xhs-images",
+    "skill": "baoyu-xhs-images",
+    "tags": [
+      "ai",
+      "workflow"
+    ]
+  },
+  {
+    "name": "release-skills",
+    "description": "Automate release notes and changelog generation",
+    "source": "jimliu/baoyu-skills/release-skills",
+    "skill": "release-skills",
+    "tags": [
+      "ai",
+      "workflow"
+    ]
+  }
+]
