@@ -13,6 +13,7 @@ concurrency:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   update:
@@ -34,12 +35,25 @@ jobs:
       - name: Generate README catalog
         run: ./scripts/readme.sh
 
-      - name: Commit if changed
+      - name: Check for changes
+        id: changes
         run: |
+          if ! git diff --quiet skillshare-hub.json README.md; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create Pull Request
+        if: steps.changes.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BRANCH="chore/update-index-$(date +%Y%m%d)"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
           git add skillshare-hub.json README.md
-          if ! git diff --staged --quiet; then
-            git commit -m "chore: update audit scores and catalog [skip ci]"
-            git push
-          fi
+          git commit -m "chore: update audit scores and catalog"
+          git push -u origin "$BRANCH"
+          gh pr create \
+            --title "chore: update audit scores and catalog ($(date +%Y-%m-%d))" \
+            --body "Automated weekly update — audit scores and README catalog regenerated."

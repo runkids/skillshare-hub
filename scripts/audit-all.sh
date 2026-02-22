@@ -103,16 +103,33 @@ while IFS= read -r safe_name; do
   while IFS='|' read -r name source subpath skill; do
     [ -z "$name" ] && continue
 
-    local_target="$clone_dir"
+    # Resolve the exact skill directory within the cloned repo
+    local_target=""
+    lookup="${skill:-$name}"
+
+    # 1. Explicit subpath from source (e.g. owner/repo/my-skill → subpath=my-skill)
     if [ -n "$subpath" ] && [ -d "$clone_dir/$subpath" ]; then
       local_target="$clone_dir/$subpath"
-    elif [ -n "$skill" ] && [ -d "$clone_dir/skills/$skill" ]; then
-      local_target="$clone_dir/skills/$skill"
+    # 2. skills/<name> convention
+    elif [ -d "$clone_dir/skills/$lookup" ]; then
+      local_target="$clone_dir/skills/$lookup"
+    # 3. plugins/<name> convention (e.g. wshobson/agents)
+    elif [ -d "$clone_dir/plugins/$lookup" ]; then
+      local_target="$clone_dir/plugins/$lookup"
+    # 4. Find SKILL.md matching this specific skill name
     else
-      skill_md=$(find "$clone_dir" -maxdepth 3 -name "SKILL.md" -print -quit 2>/dev/null)
+      skill_md=$(find "$clone_dir" -maxdepth 4 -name "SKILL.md" -path "*/$lookup/*" -print -quit 2>/dev/null)
+      if [ -z "$skill_md" ] && [ -n "$skill" ] && [ "$skill" != "$name" ]; then
+        skill_md=$(find "$clone_dir" -maxdepth 4 -name "SKILL.md" -path "*/$name/*" -print -quit 2>/dev/null)
+      fi
       if [ -n "$skill_md" ]; then
         local_target=$(dirname "$skill_md")
       fi
+    fi
+
+    # Fallback: scan the whole repo (may produce inflated scores)
+    if [ -z "$local_target" ]; then
+      local_target="$clone_dir"
     fi
 
     echo "  Auditing: ${name} -> ${local_target}"
