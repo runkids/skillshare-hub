@@ -42,15 +42,6 @@
     ]
   },
   {
-    "name": "better-auth-best-practices",
-    "description": "Better Auth library best practices for authentication and authorization",
-    "source": "better-auth/skills/better-auth-best-practices",
-    "tags": [
-      "security",
-      "backend"
-    ]
-  },
-  {
     "name": "browser-use",
     "description": "Browser automation CLI for persistent session-based web interactions",
     "source": "browser-use/browser-use",
@@ -103,15 +94,6 @@
     ]
   },
   {
-    "name": "create-auth-skill",
-    "description": "Create custom authentication skills using Better Auth framework",
-    "source": "better-auth/skills/create-auth-skill",
-    "tags": [
-      "security",
-      "skill"
-    ]
-  },
-  {
     "name": "design-md",
     "description": "Design system documentation and component specification in Markdown",
     "source": "google-labs-code/stitch-skills/design-md",
@@ -135,14 +117,6 @@
     "tags": [
       "ai",
       "workflow"
-    ]
-  },
-  {
-    "name": "firecrawl",
-    "description": "Web scraping and crawling with Firecrawl for structured data extraction",
-    "source": "firecrawl/cli/firecrawl",
-    "tags": [
-      "agent"
     ]
   },
   {
@@ -170,32 +144,6 @@
     ]
   },
   {
-    "name": "humanizer-zh",
-    "description": "Chinese text humanization for natural-sounding AI-generated content",
-    "source": "op7418/humanizer-zh/humanizer-zh",
-    "tags": [
-      "ai",
-      "workflow"
-    ]
-  },
-  {
-    "name": "inf-agent-browser",
-    "description": "Browser automation for AI agents via inference.sh with element refs and session management",
-    "source": "inf-sh/skills/agent-browser",
-    "tags": [
-      "agent",
-      "browser"
-    ]
-  },
-  {
-    "name": "instaclaw",
-    "description": "AI agent photo sharing platform — generate, share, and interact with AI-created content",
-    "source": "napoleond/instaclaw",
-    "tags": [
-      "agent"
-    ]
-  },
-  {
     "name": "interface-design",
     "description": "User interface design principles and interaction patterns",
     "source": "dammyjay93/interface-design/interface-design",
@@ -219,31 +167,6 @@
     "tags": [
       "agent",
       "ai"
-    ]
-  },
-  {
-    "name": "mcp-builder-mcp-use",
-    "description": "MCP server builder and integration patterns via mcp-use",
-    "source": "mcp-use/mcp-use/mcp-builder",
-    "tags": [
-      "ai",
-      "agent"
-    ]
-  },
-  {
-    "name": "nblm",
-    "description": "NBLM natural language business logic modeling and generation",
-    "source": "magicseek/nblm/nblm",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
-    "name": "nestjs-best-practices",
-    "description": "NestJS framework best practices for scalable Node.js applications",
-    "source": "kadajett/agent-nestjs-skills/nestjs-best-practices",
-    "tags": [
-      "backend"
     ]
   },
   {
@@ -308,14 +231,6 @@
     ]
   },
   {
-    "name": "remotion-best-practices",
-    "description": "Best practices for creating videos programmatically with Remotion in React",
-    "source": "remotion-dev/skills/remotion-best-practices",
-    "tags": [
-      "react"
-    ]
-  },
-  {
     "name": "remotion-render",
     "description": "Cloud-based Remotion video rendering via inference.sh",
     "source": "inference-sh-6/skills/remotion-render",
@@ -338,15 +253,6 @@
     "tags": [
       "seo",
       "marketing"
-    ]
-  },
-  {
-    "name": "shadcn-ui",
-    "description": "shadcn/ui component library patterns and customization",
-    "source": "giuseppe-trisciuoglio/developer-kit/shadcn-ui",
-    "tags": [
-      "design",
-      "frontend"
     ]
   },
   {
@@ -381,15 +287,6 @@
     "description": "SwiftUI best practices and modern iOS app development patterns",
     "source": "avdlee/swiftui-agent-skill/swiftui-expert-skill",
     "tags": [
-      "frontend"
-    ]
-  },
-  {
-    "name": "tailwind-v4-shadcn",
-    "description": "Tailwind CSS v4 with shadcn/ui integration and component patterns",
-    "source": "jezweb/claude-skills/tailwind-v4-shadcn",
-    "tags": [
-      "design",
       "frontend"
     ]
   },

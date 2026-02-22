@@ -100,15 +100,6 @@
     ]
   },
   {
-    "name": "template-skill",
-    "description": "Template and starter for creating new AI agent skills",
-    "source": "anthropics/skills",
-    "skill": "template-skill",
-    "tags": [
-      "skill"
-    ]
-  },
-  {
     "name": "theme-factory",
     "description": "Create and customize UI themes, color palettes, and design tokens",
     "source": "anthropics/skills/theme-factory",

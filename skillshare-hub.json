@@ -46,15 +46,6 @@
       ]
     },
     {
-      "name": "ai-sdk",
-      "description": "Vercel AI SDK patterns for building AI-powered applications",
-      "source": "vercel/ai/ai-sdk",
-      "tags": [
-        "ai",
-        "frontend"
-      ]
-    },
-    {
       "name": "algorithmic-art",
       "description": "Generate algorithmic and generative art with code",
       "source": "anthropics/skills/algorithmic-art",
@@ -88,48 +79,12 @@
       ]
     },
     {
-      "name": "antfu-vue-best-practices",
-      "description": "Vue.js best practices and patterns from Anthony Fu",
-      "source": "antfu/skills/vue-best-practices",
-      "tags": [
-        "vue",
-        "frontend"
-      ]
-    },
-    {
-      "name": "api-design-principles",
-      "description": "REST API design principles and best practices",
-      "source": "wshobson/agents/api-design-principles",
-      "skill": "api-design-principles",
-      "tags": [
-        "backend"
-      ]
-    },
-    {
       "name": "appinsights-instrumentation",
       "description": "Application Insights instrumentation and telemetry for Azure applications",
       "source": "microsoft/github-copilot-for-azure/appinsights-instrumentation",
       "skill": "appinsights-instrumentation",
       "tags": [
         "devops",
-        "backend"
-      ]
-    },
-    {
-      "name": "architecture-patterns",
-      "description": "Software architecture patterns and design decisions",
-      "source": "wshobson/agents/architecture-patterns",
-      "skill": "architecture-patterns",
-      "tags": [
-        "backend"
-      ]
-    },
-    {
-      "name": "async-python-patterns",
-      "description": "Asynchronous Python patterns with asyncio and concurrent programming",
-      "source": "wshobson/agents/async-python-patterns",
-      "skill": "async-python-patterns",
-      "tags": [
         "backend"
       ]
     },
@@ -440,15 +395,6 @@
       ]
     },
     {
-      "name": "better-auth-best-practices",
-      "description": "Better Auth library best practices for authentication and authorization",
-      "source": "better-auth/skills/better-auth-best-practices",
-      "tags": [
-        "security",
-        "backend"
-      ]
-    },
-    {
       "name": "brainstorming",
       "description": "Structured creative brainstorming and ideation before implementation",
       "source": "obra/superpowers/brainstorming",
@@ -473,15 +419,6 @@
       "tags": [
         "agent",
         "browser"
-      ]
-    },
-    {
-      "name": "building-native-ui",
-      "description": "Build beautiful native UIs with Expo and React Native",
-      "source": "expo/skills/building-native-ui",
-      "tags": [
-        "react",
-        "frontend"
       ]
     },
     {
@@ -516,15 +453,6 @@
       "source": "napoleond/clawdirect/clawdirect-dev",
       "tags": [
         "agent"
-      ]
-    },
-    {
-      "name": "code-review-excellence",
-      "description": "Code review best practices for effective and constructive feedback",
-      "source": "wshobson/agents/code-review-excellence",
-      "skill": "code-review-excellence",
-      "tags": [
-        "code-review"
       ]
     },
     {
@@ -577,31 +505,12 @@
       ]
     },
     {
-      "name": "create-auth-skill",
-      "description": "Create custom authentication skills using Better Auth framework",
-      "source": "better-auth/skills/create-auth-skill",
-      "tags": [
-        "security",
-        "skill"
-      ]
-    },
-    {
       "name": "design-md",
       "description": "Design system documentation and component specification in Markdown",
       "source": "google-labs-code/stitch-skills/design-md",
       "tags": [
         "design",
         "docs"
-      ]
-    },
-    {
-      "name": "design-system-patterns",
-      "description": "Design system architecture and component library patterns",
-      "source": "wshobson/agents/design-system-patterns",
-      "skill": "design-system-patterns",
-      "tags": [
-        "design",
-        "frontend"
       ]
     },
     {
@@ -639,15 +548,6 @@
       ]
     },
     {
-      "name": "e2e-testing-patterns",
-      "description": "End-to-end testing patterns with Playwright and Cypress",
-      "source": "wshobson/agents/e2e-testing-patterns",
-      "skill": "e2e-testing-patterns",
-      "tags": [
-        "testing"
-      ]
-    },
-    {
       "name": "email-sequence",
       "description": "Design email marketing sequences and drip campaign automations",
       "source": "coreyhaines31/marketingskills/email-sequence",
@@ -675,15 +575,6 @@
       ]
     },
     {
-      "name": "error-handling-patterns",
-      "description": "Error handling patterns and resilient application design",
-      "source": "wshobson/agents/error-handling-patterns",
-      "skill": "error-handling-patterns",
-      "tags": [
-        "backend"
-      ]
-    },
-    {
       "name": "executing-plans",
       "description": "Execute implementation plans step-by-step with review checkpoints",
       "source": "obra/superpowers/executing-plans",
@@ -693,56 +584,12 @@
       ]
     },
     {
-      "name": "expo-api-routes",
-      "description": "Create API routes in Expo Router with EAS Hosting",
-      "source": "expo/skills/expo-api-routes",
-      "tags": [
-        "react",
-        "backend"
-      ]
-    },
-    {
-      "name": "expo-cicd-workflows",
-      "description": "Write EAS CI/CD workflow YAML files for Expo projects",
-      "source": "expo/skills/expo-cicd-workflows",
-      "tags": [
-        "devops",
-        "react"
-      ]
-    },
-    {
       "name": "expo-deployment",
       "description": "Deploy Expo apps to iOS App Store, Android Play Store, and web hosting",
       "source": "expo/skills/expo-deployment",
       "tags": [
         "devops",
         "react"
-      ]
-    },
-    {
-      "name": "expo-dev-client",
-      "description": "Build and distribute Expo development clients locally or via TestFlight",
-      "source": "expo/skills/expo-dev-client",
-      "tags": [
-        "react"
-      ]
-    },
-    {
-      "name": "expo-tailwind-setup",
-      "description": "Set up Tailwind CSS v4 in Expo with NativeWind for universal styling",
-      "source": "expo/skills/expo-tailwind-setup",
-      "tags": [
-        "react",
-        "frontend"
-      ]
-    },
-    {
-      "name": "fastapi-templates",
-      "description": "FastAPI project templates and REST API patterns for Python",
-      "source": "wshobson/agents/fastapi-templates",
-      "skill": "fastapi-templates",
-      "tags": [
-        "backend"
       ]
     },
     {
@@ -762,14 +609,6 @@
         "git",
         "workflow",
         "superpowers"
-      ]
-    },
-    {
-      "name": "firecrawl",
-      "description": "Web scraping and crawling with Firecrawl for structured data extraction",
-      "source": "firecrawl/cli/firecrawl",
-      "tags": [
-        "agent"
       ]
     },
     {
@@ -814,56 +653,11 @@
       ]
     },
     {
-      "name": "git-advanced-workflows",
-      "description": "Advanced Git workflows, branching strategies, and collaboration patterns",
-      "source": "wshobson/agents/git-advanced-workflows",
-      "skill": "git-advanced-workflows",
-      "tags": [
-        "git",
-        "workflow"
-      ]
-    },
-    {
-      "name": "github-actions-templates",
-      "description": "GitHub Actions workflow templates for CI/CD automation",
-      "source": "wshobson/agents/github-actions-templates",
-      "skill": "github-actions-templates",
-      "tags": [
-        "devops"
-      ]
-    },
-    {
       "name": "golang-pro",
       "description": "Go programming best practices, idioms, and performance patterns",
       "source": "jeffallan/claude-skills/golang-pro",
       "tags": [
         "backend"
-      ]
-    },
-    {
-      "name": "humanizer-zh",
-      "description": "Chinese text humanization for natural-sounding AI-generated content",
-      "source": "op7418/humanizer-zh/humanizer-zh",
-      "tags": [
-        "ai",
-        "workflow"
-      ]
-    },
-    {
-      "name": "inf-agent-browser",
-      "description": "Browser automation for AI agents via inference.sh with element refs and session management",
-      "source": "inf-sh/skills/agent-browser",
-      "tags": [
-        "agent",
-        "browser"
-      ]
-    },
-    {
-      "name": "instaclaw",
-      "description": "AI agent photo sharing platform — generate, share, and interact with AI-created content",
-      "source": "napoleond/instaclaw",
-      "tags": [
-        "agent"
       ]
     },
     {
@@ -881,15 +675,6 @@
       "source": "anthropics/skills/internal-comms",
       "tags": [
         "docs"
-      ]
-    },
-    {
-      "name": "javascript-testing-patterns",
-      "description": "JavaScript testing patterns with Jest, Vitest, and Testing Library",
-      "source": "wshobson/agents/javascript-testing-patterns",
-      "skill": "javascript-testing-patterns",
-      "tags": [
-        "testing"
       ]
     },
     {
@@ -943,74 +728,12 @@
       ]
     },
     {
-      "name": "mcp-builder-mcp-use",
-      "description": "MCP server builder and integration patterns via mcp-use",
-      "source": "mcp-use/mcp-use/mcp-builder",
-      "tags": [
-        "ai",
-        "agent"
-      ]
-    },
-    {
       "name": "microsoft-foundry",
       "description": "Microsoft AI Foundry platform integration and management",
       "source": "microsoft/github-copilot-for-azure/microsoft-foundry",
       "skill": "microsoft-foundry",
       "tags": [
         "devops",
-        "backend"
-      ]
-    },
-    {
-      "name": "mobile-android-design",
-      "description": "Android mobile UI design patterns and Material Design guidelines",
-      "source": "wshobson/agents/mobile-android-design",
-      "skill": "mobile-android-design",
-      "tags": [
-        "design",
-        "frontend"
-      ]
-    },
-    {
-      "name": "mobile-ios-design",
-      "description": "iOS mobile UI design patterns and Human Interface Guidelines",
-      "source": "wshobson/agents/mobile-ios-design",
-      "skill": "mobile-ios-design",
-      "tags": [
-        "design",
-        "frontend"
-      ]
-    },
-    {
-      "name": "modern-javascript-patterns",
-      "description": "Modern JavaScript patterns and ES2024+ best practices",
-      "source": "wshobson/agents/modern-javascript-patterns",
-      "skill": "modern-javascript-patterns",
-      "tags": [
-        "frontend"
-      ]
-    },
-    {
-      "name": "native-data-fetching",
-      "description": "Implement data fetching patterns in Expo and React Native apps",
-      "source": "expo/skills/native-data-fetching",
-      "tags": [
-        "react"
-      ]
-    },
-    {
-      "name": "nblm",
-      "description": "NBLM natural language business logic modeling and generation",
-      "source": "magicseek/nblm/nblm",
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "name": "nestjs-best-practices",
-      "description": "NestJS framework best practices for scalable Node.js applications",
-      "source": "kadajett/agent-nestjs-skills/nestjs-best-practices",
-      "tags": [
         "backend"
       ]
     },
@@ -1039,25 +762,6 @@
       "tags": [
         "react",
         "frontend"
-      ]
-    },
-    {
-      "name": "nextjs-app-router-patterns",
-      "description": "Next.js App Router patterns for server components and routing",
-      "source": "wshobson/agents/nextjs-app-router-patterns",
-      "skill": "nextjs-app-router-patterns",
-      "tags": [
-        "react",
-        "frontend"
-      ]
-    },
-    {
-      "name": "nodejs-backend-patterns",
-      "description": "Node.js backend architecture patterns and best practices",
-      "source": "wshobson/agents/nodejs-backend-patterns",
-      "skill": "nodejs-backend-patterns",
-      "tags": [
-        "backend"
       ]
     },
     {
@@ -1155,15 +859,6 @@
       ]
     },
     {
-      "name": "postgresql-table-design",
-      "description": "PostgreSQL table design, indexing, and schema optimization",
-      "source": "wshobson/agents/postgresql-table-design",
-      "skill": "postgresql-table-design",
-      "tags": [
-        "backend"
-      ]
-    },
-    {
       "name": "pptx",
       "description": "Create and edit PowerPoint presentations programmatically",
       "source": "anthropics/skills/pptx",
@@ -1197,33 +892,6 @@
       ]
     },
     {
-      "name": "prompt-engineering-patterns",
-      "description": "Prompt engineering patterns for effective AI agent interactions",
-      "source": "wshobson/agents/prompt-engineering-patterns",
-      "skill": "prompt-engineering-patterns",
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "name": "python-performance-optimization",
-      "description": "Python performance optimization techniques and profiling",
-      "source": "wshobson/agents/python-performance-optimization",
-      "skill": "python-performance-optimization",
-      "tags": [
-        "backend"
-      ]
-    },
-    {
-      "name": "python-testing-patterns",
-      "description": "Python testing patterns with pytest and test automation",
-      "source": "wshobson/agents/python-testing-patterns",
-      "skill": "python-testing-patterns",
-      "tags": [
-        "testing"
-      ]
-    },
-    {
       "name": "ralph-tui-prd",
       "description": "Generate structured product requirements documents for AI agent execution with ralph-tui",
       "source": "subsy/ralph-tui/ralph-tui-prd",
@@ -1252,29 +920,9 @@
       ]
     },
     {
-      "name": "react-native-architecture",
-      "description": "React Native application architecture and scalability patterns",
-      "source": "wshobson/agents/react-native-architecture",
-      "skill": "react-native-architecture",
-      "tags": [
-        "react",
-        "frontend"
-      ]
-    },
-    {
       "name": "react-native-best-practices",
       "description": "React Native best practices and performance optimization from Callstack",
       "source": "callstackincubator/agent-skills/react-native-best-practices",
-      "tags": [
-        "react",
-        "frontend"
-      ]
-    },
-    {
-      "name": "react-native-design",
-      "description": "React Native UI design patterns and cross-platform styling",
-      "source": "wshobson/agents/react-native-design",
-      "skill": "react-native-design",
       "tags": [
         "react",
         "frontend"
@@ -1324,14 +972,6 @@
       ]
     },
     {
-      "name": "remotion-best-practices",
-      "description": "Best practices for creating videos programmatically with Remotion in React",
-      "source": "remotion-dev/skills/remotion-best-practices",
-      "tags": [
-        "react"
-      ]
-    },
-    {
       "name": "remotion-render",
       "description": "Cloud-based Remotion video rendering via inference.sh",
       "source": "inference-sh-6/skills/remotion-render",
@@ -1348,30 +988,11 @@
       ]
     },
     {
-      "name": "responsive-design",
-      "description": "Responsive web design patterns for multi-device experiences",
-      "source": "wshobson/agents/responsive-design",
-      "skill": "responsive-design",
-      "tags": [
-        "design",
-        "frontend"
-      ]
-    },
-    {
       "name": "schema-markup",
       "description": "Implement structured data and schema markup for better SEO",
       "source": "coreyhaines31/marketingskills/schema-markup",
       "tags": [
         "seo"
-      ]
-    },
-    {
-      "name": "security-requirement-extraction",
-      "description": "Security requirement extraction and threat modeling patterns",
-      "source": "wshobson/agents/security-requirement-extraction",
-      "skill": "security-requirement-extraction",
-      "tags": [
-        "security"
       ]
     },
     {
@@ -1398,15 +1019,6 @@
       "tags": [
         "seo",
         "marketing"
-      ]
-    },
-    {
-      "name": "shadcn-ui",
-      "description": "shadcn/ui component library patterns and customization",
-      "source": "giuseppe-trisciuoglio/developer-kit/shadcn-ui",
-      "tags": [
-        "design",
-        "frontend"
       ]
     },
     {
@@ -1453,30 +1065,12 @@
       ]
     },
     {
-      "name": "sql-optimization-patterns",
-      "description": "SQL query optimization patterns and database performance tuning",
-      "source": "wshobson/agents/sql-optimization-patterns",
-      "skill": "sql-optimization-patterns",
-      "tags": [
-        "backend"
-      ]
-    },
-    {
       "name": "stitch-loop",
       "description": "Iterative design-code loop patterns from Google Labs Stitch",
       "source": "google-labs-code/stitch-skills/stitch-loop",
       "tags": [
         "workflow",
         "design"
-      ]
-    },
-    {
-      "name": "stripe-integration",
-      "description": "Stripe payment integration patterns and best practices",
-      "source": "wshobson/agents/stripe-integration",
-      "skill": "stripe-integration",
-      "tags": [
-        "backend"
       ]
     },
     {
@@ -1516,34 +1110,6 @@
       ]
     },
     {
-      "name": "tailwind-design-system",
-      "description": "Tailwind CSS design system setup and component patterns",
-      "source": "wshobson/agents/tailwind-design-system",
-      "skill": "tailwind-design-system",
-      "tags": [
-        "design",
-        "frontend"
-      ]
-    },
-    {
-      "name": "tailwind-v4-shadcn",
-      "description": "Tailwind CSS v4 with shadcn/ui integration and component patterns",
-      "source": "jezweb/claude-skills/tailwind-v4-shadcn",
-      "tags": [
-        "design",
-        "frontend"
-      ]
-    },
-    {
-      "name": "template-skill",
-      "description": "Template and starter for creating new AI agent skills",
-      "source": "anthropics/skills",
-      "skill": "template-skill",
-      "tags": [
-        "skill"
-      ]
-    },
-    {
       "name": "test-driven-development",
       "description": "Enforce test-driven development workflow — write tests first, then implement",
       "source": "obra/superpowers/test-driven-development",
@@ -1568,15 +1134,6 @@
       "source": "vercel/turborepo/turborepo",
       "tags": [
         "devops",
-        "frontend"
-      ]
-    },
-    {
-      "name": "typescript-advanced-types",
-      "description": "Advanced TypeScript type patterns and type-level programming",
-      "source": "wshobson/agents/typescript-advanced-types",
-      "skill": "typescript-advanced-types",
-      "tags": [
         "frontend"
       ]
     },
@@ -1607,15 +1164,6 @@
       ]
     },
     {
-      "name": "use-dom",
-      "description": "Use Expo DOM components to run web code in native webviews and incrementally migrate web to native",
-      "source": "expo/skills/use-dom",
-      "tags": [
-        "react",
-        "frontend"
-      ]
-    },
-    {
       "name": "using-git-worktrees",
       "description": "Use git worktrees for isolated feature development without stashing",
       "source": "obra/superpowers/using-git-worktrees",
@@ -1633,33 +1181,6 @@
         "workflow",
         "superpowers",
         "skill"
-      ]
-    },
-    {
-      "name": "vercel-composition-patterns",
-      "description": "React composition patterns and component architecture from Vercel Engineering",
-      "source": "vercel-labs/agent-skills/vercel-composition-patterns",
-      "tags": [
-        "react",
-        "frontend"
-      ]
-    },
-    {
-      "name": "vercel-react-best-practices",
-      "description": "React performance optimization and best practices from Vercel Engineering",
-      "source": "vercel-labs/agent-skills/vercel-react-best-practices",
-      "tags": [
-        "react",
-        "frontend"
-      ]
-    },
-    {
-      "name": "vercel-react-native-skills",
-      "description": "React Native performance and best practices from Vercel Engineering",
-      "source": "vercel-labs/agent-skills/vercel-react-native-skills",
-      "tags": [
-        "react",
-        "frontend"
       ]
     },
     {

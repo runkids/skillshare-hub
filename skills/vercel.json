@@ -9,15 +9,6 @@
     ]
   },
   {
-    "name": "ai-sdk",
-    "description": "Vercel AI SDK patterns for building AI-powered applications",
-    "source": "vercel/ai/ai-sdk",
-    "tags": [
-      "ai",
-      "frontend"
-    ]
-  },
-  {
     "name": "find-skills",
     "description": "Discover and install skills from the open agent skills ecosystem",
     "source": "vercel-labs/skills/find-skills",
@@ -59,33 +50,6 @@
     "source": "vercel/turborepo/turborepo",
     "tags": [
       "devops",
-      "frontend"
-    ]
-  },
-  {
-    "name": "vercel-composition-patterns",
-    "description": "React composition patterns and component architecture from Vercel Engineering",
-    "source": "vercel-labs/agent-skills/vercel-composition-patterns",
-    "tags": [
-      "react",
-      "frontend"
-    ]
-  },
-  {
-    "name": "vercel-react-best-practices",
-    "description": "React performance optimization and best practices from Vercel Engineering",
-    "source": "vercel-labs/agent-skills/vercel-react-best-practices",
-    "tags": [
-      "react",
-      "frontend"
-    ]
-  },
-  {
-    "name": "vercel-react-native-skills",
-    "description": "React Native performance and best practices from Vercel Engineering",
-    "source": "vercel-labs/agent-skills/vercel-react-native-skills",
-    "tags": [
-      "react",
       "frontend"
     ]
   },

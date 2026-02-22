@@ -46,46 +46,30 @@ skillshare install <source>
 ## Skills Catalog
 
 <!-- CATALOG:START -->
-**199 skills** across 11 categories — browse via `skillshare search --hub` or the Web UI
+**146 skills** across 11 categories — browse via `skillshare search --hub` or the Web UI
 
-### Frontend (39)
+### Frontend (23)
 
 <details>
-<summary>Show 39 skills</summary>
+<summary>Show 23 skills</summary>
 
 - [**accessibility-compliance**](https://github.com/wshobson/agents) — Web accessibility compliance patterns and WCAG guidelines
 - [**angular-component**](https://github.com/analogjs/angular-skills) — Angular component architecture patterns and best practices
-- [**antfu-vue-best-practices**](https://github.com/antfu/skills) — Vue.js best practices and patterns from Anthony Fu
-- [**building-native-ui**](https://github.com/expo/skills) — Build beautiful native UIs with Expo and React Native
-- [**expo-api-routes**](https://github.com/expo/skills) — Create API routes in Expo Router with EAS Hosting
-- [**expo-dev-client**](https://github.com/expo/skills) — Build and distribute Expo development clients locally or via TestFlight
-- [**expo-tailwind-setup**](https://github.com/expo/skills) — Set up Tailwind CSS v4 in Expo with NativeWind for universal styling
 - [**flutter-animations**](https://github.com/madteacher/mad-agents-skills) — Flutter animation patterns and motion design best practices
 - [**flutter-expert**](https://github.com/jeffallan/claude-skills) — Flutter framework expertise and cross-platform development patterns
-- [**modern-javascript-patterns**](https://github.com/wshobson/agents) — Modern JavaScript patterns and ES2024+ best practices
-- [**native-data-fetching**](https://github.com/expo/skills) — Implement data fetching patterns in Expo and React Native apps
 - [**next-best-practices**](https://github.com/vercel-labs/next-skills) — Next.js performance optimization and best practices from Vercel
 - [**next-cache-components**](https://github.com/vercel-labs/next-skills) — Next.js caching strategies and optimized component patterns
 - [**next-upgrade**](https://github.com/vercel-labs/next-skills) — Next.js version upgrade guide and migration patterns
-- [**nextjs-app-router-patterns**](https://github.com/wshobson/agents) — Next.js App Router patterns for server components and routing
 - [**nuxt**](https://github.com/antfu/skills) — Nuxt.js framework best practices and server-side rendering patterns
 - [**pinia**](https://github.com/antfu/skills) — Pinia state management best practices for Vue applications
 - [**react-components**](https://github.com/google-labs-code/stitch-skills) — React component patterns and best practices from Google Labs
 - [**react-doctor**](https://github.com/millionco/react-doctor) — Scans your React codebase for security, performance, correctness, and architecture issues. Outputs a 0-100 score with actionable diagnostics.
-- [**react-native-architecture**](https://github.com/wshobson/agents) — React Native application architecture and scalability patterns
 - [**react-native-best-practices**](https://github.com/callstackincubator/agent-skills) — React Native best practices and performance optimization from Callstack
-- [**react-native-design**](https://github.com/wshobson/agents) — React Native UI design patterns and cross-platform styling
 - [**remotion**](https://github.com/google-labs-code/stitch-skills) — Remotion video creation framework patterns from Google Labs
-- [**remotion-best-practices**](https://github.com/remotion-dev/skills) — Best practices for creating videos programmatically with Remotion in React
 - [**remotion-render**](https://github.com/inference-sh-6/skills) — Cloud-based Remotion video rendering via inference.sh
 - [**swiftui-expert-skill**](https://github.com/avdlee/swiftui-agent-skill) — SwiftUI best practices and modern iOS app development patterns
-- [**typescript-advanced-types**](https://github.com/wshobson/agents) — Advanced TypeScript type patterns and type-level programming
 - [**unocss**](https://github.com/antfu/skills) — UnoCSS atomic CSS engine configuration and utility patterns
 - [**upgrading-expo**](https://github.com/expo/skills) — Upgrade Expo SDK versions and resolve dependency compatibility issues
-- [**use-dom**](https://github.com/expo/skills) — Use Expo DOM components to run web code in native webviews and incrementally migrate web to native
-- [**vercel-composition-patterns**](https://github.com/vercel-labs/agent-skills) — React composition patterns and component architecture from Vercel Engineering
-- [**vercel-react-best-practices**](https://github.com/vercel-labs/agent-skills) — React performance optimization and best practices from Vercel Engineering
-- [**vercel-react-native-skills**](https://github.com/vercel-labs/agent-skills) — React Native performance and best practices from Vercel Engineering
 - [**vite**](https://github.com/antfu/skills) — Vite build tool best practices, configuration, and plugin development
 - [**vue**](https://github.com/antfu/skills) — Vue.js framework best practices and idiomatic patterns from Anthony Fu
 - [**vue-best-practices**](https://github.com/hyf0/vue-skills) — Vue 3 best practices with Composition API, script setup, and TypeScript
@@ -130,10 +114,10 @@ skillshare install <source>
 
 </details>
 
-### Workflow (21)
+### Workflow (19)
 
 <details>
-<summary>Show 21 skills</summary>
+<summary>Show 19 skills</summary>
 
 - [**antfu**](https://github.com/antfu/skills) — Anthony Fu's coding conventions and project setup preferences
 - [**brainstorming**](https://github.com/obra/superpowers) — Structured creative brainstorming and ideation before implementation
@@ -141,7 +125,6 @@ skillshare install <source>
 - [**executing-plans**](https://github.com/obra/superpowers) — Execute implementation plans step-by-step with review checkpoints
 - [**find-skills**](https://github.com/vercel-labs/skills) — Discover and install skills from the open agent skills ecosystem
 - [**finishing-a-development-branch**](https://github.com/obra/superpowers) — Complete and integrate development branch work with proper review
-- [**git-advanced-workflows**](https://github.com/wshobson/agents) — Advanced Git workflows, branching strategies, and collaboration patterns
 - [**planning-with-files**](https://github.com/othmanadi/planning-with-files) — File-based planning and task management for AI agent workflows
 - [**pnpm**](https://github.com/antfu/skills) — pnpm package manager best practices and workspace patterns
 - [**ralph-tui-prd**](https://github.com/subsy/ralph-tui) — Generate structured product requirements documents for AI agent execution with ralph-tui
@@ -150,7 +133,6 @@ skillshare install <source>
 - [**stitch-loop**](https://github.com/google-labs-code/stitch-skills) — Iterative design-code loop patterns from Google Labs Stitch
 - [**subagent-driven-development**](https://github.com/obra/superpowers) — Execute implementation tasks using coordinated parallel subagents
 - [**systematic-debugging**](https://github.com/obra/superpowers) — Systematic approach to diagnosing and fixing bugs before proposing solutions
-- [**template-skill**](https://github.com/anthropics/skills) — Template and starter for creating new AI agent skills
 - [**using-git-worktrees**](https://github.com/obra/superpowers) — Use git worktrees for isolated feature development without stashing
 - [**using-superpowers**](https://github.com/obra/superpowers) — Discover and use available superpowers skills at conversation start
 - [**verification-before-completion**](https://github.com/obra/superpowers) — Run verification commands before claiming work is complete or fixed
@@ -159,15 +141,14 @@ skillshare install <source>
 
 </details>
 
-### Agent (34)
+### Agent (26)
 
 <details>
-<summary>Show 34 skills</summary>
+<summary>Show 26 skills</summary>
 
 - [**agent-browser**](https://github.com/vercel-labs/agent-browser) — Browser automation agent for web page interactions using Playwright
 - [**agent-tools**](https://github.com/inf-sh/skills) — Run 150+ AI apps in the cloud via inference.sh CLI — image, video, LLM, search, and more
 - [**agentation**](https://github.com/benjitaylor/agentation) — Agent coordination framework for multi-agent task execution
-- [**ai-sdk**](https://github.com/vercel/ai) — Vercel AI SDK patterns for building AI-powered applications
 - [**baoyu-article-illustrator**](https://github.com/jimliu/baoyu-skills) — Generate illustrations for articles and blog posts
 - [**baoyu-comic**](https://github.com/jimliu/baoyu-skills) — Create comic strips and visual stories from text prompts
 - [**baoyu-compress-image**](https://github.com/jimliu/baoyu-skills) — Compress and optimize images for web and social media
@@ -186,40 +167,26 @@ skillshare install <source>
 - [**clawdirect**](https://github.com/napoleond/clawdirect) — Directory of social web experiences for AI agents — browse, like, and manage listings
 - [**clawdirect-dev**](https://github.com/napoleond/clawdirect) — Development tools and utilities for ClawDirect directory extensions
 - [**enhance-prompt**](https://github.com/google-labs-code/stitch-skills) — AI prompt enhancement and optimization techniques
-- [**firecrawl**](https://github.com/firecrawl/cli) — Web scraping and crawling with Firecrawl for structured data extraction
-- [**humanizer-zh**](https://github.com/op7418/humanizer-zh) — Chinese text humanization for natural-sounding AI-generated content
-- [**inf-agent-browser**](https://github.com/inf-sh/skills) — Browser automation for AI agents via inference.sh with element refs and session management
-- [**instaclaw**](https://github.com/napoleond/instaclaw) — AI agent photo sharing platform — generate, share, and interact with AI-created content
 - [**mastra**](https://github.com/mastra-ai/skills) — Mastra AI agent framework patterns and workflow orchestration
 - [**mcp-builder**](https://github.com/anthropics/skills) — Build Model Context Protocol (MCP) servers and tools for AI agents
-- [**mcp-builder-mcp-use**](https://github.com/mcp-use/mcp-use) — MCP server builder and integration patterns via mcp-use
-- [**nblm**](https://github.com/magicseek/nblm) — NBLM natural language business logic modeling and generation
-- [**prompt-engineering-patterns**](https://github.com/wshobson/agents) — Prompt engineering patterns for effective AI agent interactions
 - [**release-skills**](https://github.com/jimliu/baoyu-skills) — Automate release notes and changelog generation
 - [**remembering-conversations**](https://github.com/obra/episodic-memory) — Episodic memory for AI agents to maintain conversation context
 - [**seedance2-api**](https://github.com/hexiaochun/seedance2-api) — Seedance2 video generation API integration and workflow
 
 </details>
 
-### Design (17)
+### Design (10)
 
 <details>
-<summary>Show 17 skills</summary>
+<summary>Show 10 skills</summary>
 
 - [**algorithmic-art**](https://github.com/anthropics/skills) — Generate algorithmic and generative art with code
 - [**brand-guidelines**](https://github.com/anthropics/skills) — Create and maintain brand identity guidelines and visual standards
 - [**canvas-design**](https://github.com/anthropics/skills) — Design and generate HTML canvas-based visuals and interactive graphics
 - [**design-md**](https://github.com/google-labs-code/stitch-skills) — Design system documentation and component specification in Markdown
-- [**design-system-patterns**](https://github.com/wshobson/agents) — Design system architecture and component library patterns
 - [**frontend-design**](https://github.com/anthropics/skills) — Create distinctive, production-grade frontend interfaces with high design quality
 - [**interface-design**](https://github.com/dammyjay93/interface-design) — User interface design principles and interaction patterns
-- [**mobile-android-design**](https://github.com/wshobson/agents) — Android mobile UI design patterns and Material Design guidelines
-- [**mobile-ios-design**](https://github.com/wshobson/agents) — iOS mobile UI design patterns and Human Interface Guidelines
-- [**responsive-design**](https://github.com/wshobson/agents) — Responsive web design patterns for multi-device experiences
-- [**shadcn-ui**](https://github.com/giuseppe-trisciuoglio/developer-kit) — shadcn/ui component library patterns and customization
 - [**slack-gif-creator**](https://github.com/anthropics/skills) — Create animated GIFs for Slack from text prompts and images
-- [**tailwind-design-system**](https://github.com/wshobson/agents) — Tailwind CSS design system setup and component patterns
-- [**tailwind-v4-shadcn**](https://github.com/jezweb/claude-skills) — Tailwind CSS v4 with shadcn/ui integration and component patterns
 - [**theme-factory**](https://github.com/anthropics/skills) — Create and customize UI themes, color palettes, and design tokens
 - [**ui-ux-pro-max**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) — UI/UX design intelligence with 50 styles, 21 palettes, 50 font pairings, and 20 chart types
 - [**web-design-guidelines**](https://github.com/vercel-labs/agent-skills) — Review UI code for Web Interface Guidelines compliance and design quality
@@ -243,15 +210,11 @@ skillshare install <source>
 
 </details>
 
-### Testing (9)
+### Testing (5)
 
 <details>
-<summary>Show 9 skills</summary>
+<summary>Show 5 skills</summary>
 
-- [**code-review-excellence**](https://github.com/wshobson/agents) — Code review best practices for effective and constructive feedback
-- [**e2e-testing-patterns**](https://github.com/wshobson/agents) — End-to-end testing patterns with Playwright and Cypress
-- [**javascript-testing-patterns**](https://github.com/wshobson/agents) — JavaScript testing patterns with Jest, Vitest, and Testing Library
-- [**python-testing-patterns**](https://github.com/wshobson/agents) — Python testing patterns with pytest and test automation
 - [**receiving-code-review**](https://github.com/obra/superpowers) — Process and implement code review feedback effectively
 - [**requesting-code-review**](https://github.com/obra/superpowers) — Request and structure code reviews for effective feedback
 - [**test-driven-development**](https://github.com/obra/superpowers) — Enforce test-driven development workflow — write tests first, then implement
@@ -260,33 +223,22 @@ skillshare install <source>
 
 </details>
 
-### Backend (15)
+### Backend (4)
 
 <details>
-<summary>Show 15 skills</summary>
+<summary>Show 4 skills</summary>
 
-- [**api-design-principles**](https://github.com/wshobson/agents) — REST API design principles and best practices
-- [**architecture-patterns**](https://github.com/wshobson/agents) — Software architecture patterns and design decisions
-- [**async-python-patterns**](https://github.com/wshobson/agents) — Asynchronous Python patterns with asyncio and concurrent programming
 - [**convex**](https://github.com/waynesutton/convexskills) — Convex backend platform patterns and real-time data sync
-- [**error-handling-patterns**](https://github.com/wshobson/agents) — Error handling patterns and resilient application design
-- [**fastapi-templates**](https://github.com/wshobson/agents) — FastAPI project templates and REST API patterns for Python
 - [**golang-pro**](https://github.com/jeffallan/claude-skills) — Go programming best practices, idioms, and performance patterns
 - [**laravel-specialist**](https://github.com/jeffallan/claude-skills) — Laravel PHP framework best practices and application patterns
-- [**nestjs-best-practices**](https://github.com/kadajett/agent-nestjs-skills) — NestJS framework best practices for scalable Node.js applications
-- [**nodejs-backend-patterns**](https://github.com/wshobson/agents) — Node.js backend architecture patterns and best practices
-- [**postgresql-table-design**](https://github.com/wshobson/agents) — PostgreSQL table design, indexing, and schema optimization
-- [**python-performance-optimization**](https://github.com/wshobson/agents) — Python performance optimization techniques and profiling
-- [**sql-optimization-patterns**](https://github.com/wshobson/agents) — SQL query optimization patterns and database performance tuning
-- [**stripe-integration**](https://github.com/wshobson/agents) — Stripe payment integration patterns and best practices
 - [**supabase-postgres-best-practices**](https://github.com/supabase/agent-skills) — PostgreSQL best practices, query optimization, and security for Supabase
 
 </details>
 
-### DevOps (24)
+### DevOps (22)
 
 <details>
-<summary>Show 24 skills</summary>
+<summary>Show 22 skills</summary>
 
 - [**appinsights-instrumentation**](https://github.com/microsoft/github-copilot-for-azure) — Application Insights instrumentation and telemetry for Azure applications
 - [**azure-ai**](https://github.com/microsoft/github-copilot-for-azure) — Azure AI services integration and management
@@ -307,23 +259,18 @@ skillshare install <source>
 - [**azure-validate**](https://github.com/microsoft/github-copilot-for-azure) — Azure resource validation and configuration verification
 - [**docker-expert**](https://github.com/sickn33/antigravity-awesome-skills) — Docker containerization best practices and multi-stage builds
 - [**entra-app-registration**](https://github.com/microsoft/github-copilot-for-azure) — Microsoft Entra ID app registration and authentication setup
-- [**expo-cicd-workflows**](https://github.com/expo/skills) — Write EAS CI/CD workflow YAML files for Expo projects
 - [**expo-deployment**](https://github.com/expo/skills) — Deploy Expo apps to iOS App Store, Android Play Store, and web hosting
-- [**github-actions-templates**](https://github.com/wshobson/agents) — GitHub Actions workflow templates for CI/CD automation
 - [**microsoft-foundry**](https://github.com/microsoft/github-copilot-for-azure) — Microsoft AI Foundry platform integration and management
 - [**turborepo**](https://github.com/vercel/turborepo) — Turborepo monorepo build system configuration and optimization
 
 </details>
 
-### Security (4)
+### Security (1)
 
 <details>
-<summary>Show 4 skills</summary>
+<summary>Show 1 skills</summary>
 
 - [**audit-website**](https://github.com/squirrelscan/skills) — Security audit and vulnerability scanning for websites
-- [**better-auth-best-practices**](https://github.com/better-auth/skills) — Better Auth library best practices for authentication and authorization
-- [**create-auth-skill**](https://github.com/better-auth/skills) — Create custom authentication skills using Better Auth framework
-- [**security-requirement-extraction**](https://github.com/wshobson/agents) — Security requirement extraction and threat modeling patterns
 
 </details>
 

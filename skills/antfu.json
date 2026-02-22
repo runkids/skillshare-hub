@@ -9,15 +9,6 @@
     ]
   },
   {
-    "name": "antfu-vue-best-practices",
-    "description": "Vue.js best practices and patterns from Anthony Fu",
-    "source": "antfu/skills/vue-best-practices",
-    "tags": [
-      "vue",
-      "frontend"
-    ]
-  },
-  {
     "name": "nuxt",
     "description": "Nuxt.js framework best practices and server-side rendering patterns",
     "source": "antfu/skills/nuxt",
