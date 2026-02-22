@@ -127,9 +127,11 @@ while IFS= read -r safe_name; do
       fi
     fi
 
-    # Fallback: scan the whole repo (may produce inflated scores)
+    # Skip if no specific skill directory found (scanning repo root gives inflated scores)
     if [ -z "$local_target" ]; then
-      local_target="$clone_dir"
+      echo "  SKIP: ${name} — could not resolve skill directory"
+      skipped=$(( skipped + 1 ))
+      continue
     fi
 
     echo "  Auditing: ${name} -> ${local_target}"
