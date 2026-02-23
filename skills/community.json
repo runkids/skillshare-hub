@@ -136,6 +136,14 @@
     ]
   },
   {
+    "name": "git-commit",
+    "description": "Git Commit skill for AI agent workflows",
+    "source": "github/awesome-copilot/git-commit",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "golang-pro",
     "description": "Go programming best practices, idioms, and performance patterns",
     "source": "jeffallan/claude-skills/golang-pro",
