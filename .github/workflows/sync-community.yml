@@ -1,4 +1,4 @@
-name: Sync skills.sh
+name: Sync Community Skills
 on:
   schedule:
     - cron: '0 5 * * 1'  # Every Monday 05:00 UTC (after update-index)
@@ -22,10 +22,10 @@ jobs:
       - name: Build current hub
         run: ./scripts/build.sh
 
-      - name: Sync from skills.sh
+      - name: Sync community skills
         env:
           TOP_N: ${{ inputs.top_n || '200' }}
-        run: ./scripts/sync-skills-sh.sh --top "$TOP_N"
+        run: ./scripts/sync-community.sh --top "$TOP_N"
 
       - name: Check for changes
         id: changes
@@ -39,18 +39,17 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          BRANCH="sync/skills-sh-$(date +%Y%m%d-%H%M%S)"
+          BRANCH="sync/community-$(date +%Y%m%d-%H%M%S)"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b "$BRANCH"
           git add skills/ skillshare-hub.json
-          git commit -m "feat: sync new skills from skills.sh"
+          git commit -m "feat: sync community skills"
           git push -u origin "$BRANCH"
           gh pr create \
-            --title "feat: sync new skills from skills.sh ($(date +%Y-%m-%d))" \
+            --title "feat: sync community skills ($(date +%Y-%m-%d))" \
             --body "## Summary
-          Automated weekly sync from [skills.sh](https://skills.sh/) leaderboard.
-          New skills have auto-generated descriptions and tags. **Please review before merging.**
+          Automated sync of new community skills. New skills have auto-generated descriptions and tags. **Please review before merging.**
 
           ## Checklist
           - [ ] Review skill descriptions for accuracy

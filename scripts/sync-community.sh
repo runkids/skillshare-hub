@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Sync top skills from skills.sh into the hub.
+# Sync top community skills into the hub.
 # Fetches the leaderboard, diffs against existing skills, generates new entries,
 # and writes them to skills/community.json (or owner-specific files).
 #
-# Usage: ./scripts/sync-skills-sh.sh [--top N] [--dry-run]
+# Usage: ./scripts/sync-community.sh [--top N] [--dry-run]
 
 TOP_N=200
 DRY_RUN=false
@@ -26,11 +26,11 @@ if [ ! -f "$HUB_FILE" ]; then
   exit 1
 fi
 
-# --- Fetch skills.sh leaderboard ---
-echo "Fetching top $TOP_N skills from skills.sh..."
+# --- Fetch community leaderboard ---
+echo "Fetching top $TOP_N community skills..."
 
 html=$(curl -fsSL "https://skills.sh/" 2>/dev/null) || {
-  echo "ERROR: Failed to fetch skills.sh"
+  echo "ERROR: Failed to fetch community leaderboard"
   exit 1
 }
 
@@ -58,13 +58,13 @@ if [ -z "$skills_json" ] || ! echo "$skills_json" | jq -e '.[0].name' >/dev/null
     }
     console.log(inner.substring(arrStart, i + 1));
   " <<< "$html") || {
-    echo "ERROR: Failed to parse skills.sh data. Page format may have changed."
+    echo "ERROR: Failed to parse leaderboard data. Page format may have changed."
     exit 1
   }
 fi
 
 fetched_count=$(echo "$skills_json" | jq 'length')
-echo "Fetched $fetched_count skills from skills.sh"
+echo "Fetched $fetched_count community skills"
 
 # Take top N
 top_skills=$(echo "$skills_json" | jq --argjson n "$TOP_N" '.[:$n]')

@@ -18,8 +18,8 @@ audit-all: build ## Audit ALL skills, enrich hub JSON
 readme: ## Generate README catalog
 	@./scripts/readme.sh
 
-sync: build ## Sync new skills from skills.sh top 200
-	@./scripts/sync-skills-sh.sh
+sync: build ## Sync new community skills (top 200)
+	@./scripts/sync-community.sh
 
 update: build audit-all readme ## Full update flow
 

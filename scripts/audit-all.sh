@@ -173,7 +173,7 @@ if [ "$audited" -gt 0 ]; then
       if $audit[.name] then
         . + $audit[.name]
       else
-        del(.riskScore, .riskLabel, .auditedAt)
+        .
       end
     ]
   ' "$HUB_FILE" > "${HUB_FILE}.tmp" && mv "${HUB_FILE}.tmp" "$HUB_FILE"
