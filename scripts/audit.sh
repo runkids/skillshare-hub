@@ -4,6 +4,7 @@ set -euo pipefail
 SKILLS_DIR="skills"
 BASE_REF="${1:-${BASE_SHA:-main}}"
 REPORT_FILE="${AUDIT_REPORT:-}"
+SARIF_FILE="${AUDIT_SARIF:-}"
 
 # Detect environment
 is_ci() { [ "${CI:-}" = "true" ]; }
@@ -72,6 +73,16 @@ audit_target() {
   audit_display="Risk: ${risk}"
   [ -n "$findings_text" ] && audit_display="${audit_display}"$'\n\n'"${findings_text}"
   echo "$audit_display"
+
+  # Collect SARIF output alongside JSON
+  if [ -n "$SARIF_FILE" ]; then
+    local sarif_out
+    sarif_out=$(skillshare audit "$audit_target" --threshold high --format sarif 2>/dev/null) || true
+    if echo "$sarif_out" | jq -e '.runs' >/dev/null 2>&1; then
+      echo "$sarif_out" > "$group_dir/sarif_${sarif_count}.json"
+      sarif_count=$((sarif_count + 1))
+    fi
+  fi
 
   if [[ "$risk_label" == "HIGH" || "$risk_label" == "CRITICAL" ]]; then
     results+=("| \`${source}\` | :x: Risk ${risk_label} | ${risk} |")
@@ -144,6 +155,7 @@ echo ""
 failed=0
 results=()
 details=()
+sarif_count=0
 
 while IFS= read -r safe_name; do
   [ -z "$safe_name" ] && continue
@@ -223,6 +235,19 @@ if [ -n "$REPORT_FILE" ]; then
     done
     echo "</details>"
   } > "$REPORT_FILE"
+fi
+
+# --- Merge SARIF outputs ---
+if [ -n "$SARIF_FILE" ] && compgen -G "$group_dir/sarif_*.json" >/dev/null; then
+  jq -s '{
+    "$schema": .[0]["$schema"],
+    "version": .[0].version,
+    "runs": [{
+      "tool": .[0].runs[0].tool,
+      "results": [.[].runs[0].results[]]
+    }]
+  }' "$group_dir"/sarif_*.json > "$SARIF_FILE"
+  echo "SARIF report saved to ${SARIF_FILE}"
 fi
 
 if [ "$failed" -ne 0 ]; then
