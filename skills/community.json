@@ -1,11 +1,27 @@
 [
   {
+    "name": "agent-email-cli",
+    "description": "Agent Email Cli skill for AI agent workflows",
+    "source": "zaddy6/agent-email-skill/agent-email-cli",
+    "tags": [
+      "agent"
+    ]
+  },
+  {
     "name": "agent-tools",
     "description": "Run 150+ AI apps in the cloud via inference.sh CLI — image, video, LLM, search, and more",
     "source": "inf-sh/skills/agent-tools",
     "tags": [
       "agent",
       "ai"
+    ]
+  },
+  {
+    "name": "agent-ui",
+    "description": "Agent Ui skill for AI agent workflows",
+    "source": "inference-sh-9/skills/agent-ui",
+    "tags": [
+      "agent"
     ]
   },
   {
@@ -18,6 +34,78 @@
     ]
   },
   {
+    "name": "ai-automation-workflows",
+    "description": "Ai Automation Workflows skill for AI agent workflows",
+    "source": "inference-sh-9/skills/ai-automation-workflows",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
+    "name": "ai-image-generation",
+    "description": "Ai Image Generation skill for AI agent workflows",
+    "source": "inference-sh-9/skills/ai-image-generation",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
+    "name": "ai-marketing-videos",
+    "description": "Ai Marketing Videos skill for AI agent workflows",
+    "source": "inference-sh-9/skills/ai-marketing-videos",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "name": "ai-podcast-creation",
+    "description": "Ai Podcast Creation skill for AI agent workflows",
+    "source": "inference-sh-9/skills/ai-podcast-creation",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
+    "name": "ai-product-photography",
+    "description": "Ai Product Photography skill for AI agent workflows",
+    "source": "inference-sh-9/skills/ai-product-photography",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
+    "name": "ai-rag-pipeline",
+    "description": "Ai Rag Pipeline skill for AI agent workflows",
+    "source": "inference-sh-9/skills/ai-rag-pipeline",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
+    "name": "ai-social-media-content",
+    "description": "Ai Social Media Content skill for AI agent workflows",
+    "source": "inference-sh-9/skills/ai-social-media-content",
+    "tags": [
+      "marketing"
+    ]
+  },
+  {
+    "name": "ai-video-generation",
+    "description": "Ai Video Generation skill for AI agent workflows",
+    "source": "inference-sh-9/skills/ai-video-generation",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
+    "name": "ai-voice-cloning",
+    "description": "Ai Voice Cloning skill for AI agent workflows",
+    "source": "inference-sh-9/skills/ai-voice-cloning",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
     "name": "angular-component",
     "description": "Angular component architecture patterns and best practices",
     "source": "analogjs/angular-skills/angular-component",
@@ -26,11 +114,46 @@
     ]
   },
   {
+    "name": "app-store-screenshots",
+    "description": "App Store Screenshots skill for AI agent workflows",
+    "source": "inference-sh-9/skills/app-store-screenshots",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "audit-website",
     "description": "Security audit and vulnerability scanning for websites",
     "source": "squirrelscan/skills/audit-website",
     "tags": [
       "security"
+    ]
+  },
+  {
+    "name": "azure-cloud-migrate",
+    "description": "Azure Cloud Migrate management and best practices",
+    "source": "microsoft/github-copilot-for-azure/azure-cloud-migrate",
+    "tags": [
+      "devops",
+      "backend"
+    ]
+  },
+  {
+    "name": "azure-compute",
+    "description": "Azure Compute management and best practices",
+    "source": "microsoft/github-copilot-for-azure/azure-compute",
+    "tags": [
+      "devops",
+      "backend"
+    ]
+  },
+  {
+    "name": "azure-hosted-copilot-sdk",
+    "description": "Azure Hosted Copilot Sdk management and best practices",
+    "source": "microsoft/github-copilot-for-azure/azure-hosted-copilot-sdk",
+    "tags": [
+      "devops",
+      "backend"
     ]
   },
   {
@@ -49,6 +172,14 @@
     "tags": [
       "agent",
       "browser"
+    ]
+  },
+  {
+    "name": "chat-ui",
+    "description": "Chat Ui skill for AI agent workflows",
+    "source": "inference-sh-9/skills/chat-ui",
+    "tags": [
+      "workflow"
     ]
   },
   {
@@ -94,6 +225,22 @@
     ]
   },
   {
+    "name": "customer-persona",
+    "description": "Customer Persona skill for AI agent workflows",
+    "source": "inference-sh-9/skills/customer-persona",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "data-visualization",
+    "description": "Data Visualization skill for AI agent workflows",
+    "source": "inference-sh-9/skills/data-visualization",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "design-md",
     "description": "Design system documentation and component specification in Markdown",
     "source": "google-labs-code/stitch-skills/design-md",
@@ -111,12 +258,29 @@
     ]
   },
   {
+    "name": "email-design",
+    "description": "Email Design skill for AI agent workflows",
+    "source": "inference-sh-9/skills/email-design",
+    "tags": [
+      "design",
+      "frontend"
+    ]
+  },
+  {
     "name": "enhance-prompt",
     "description": "AI prompt enhancement and optimization techniques",
     "source": "google-labs-code/stitch-skills/enhance-prompt",
     "tags": [
       "ai",
       "workflow"
+    ]
+  },
+  {
+    "name": "explainer-video-guide",
+    "description": "Explainer Video Guide skill for AI agent workflows",
+    "source": "inference-sh-9/skills/explainer-video-guide",
+    "tags": [
+      "ai"
     ]
   },
   {
@@ -136,6 +300,14 @@
     ]
   },
   {
+    "name": "git-commit",
+    "description": "Git Commit skill for AI agent workflows",
+    "source": "github/awesome-copilot/git-commit",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "golang-pro",
     "description": "Go programming best practices, idioms, and performance patterns",
     "source": "jeffallan/claude-skills/golang-pro",
@@ -149,6 +321,14 @@
     "source": "dammyjay93/interface-design/interface-design",
     "tags": [
       "design",
+      "frontend"
+    ]
+  },
+  {
+    "name": "javascript-sdk",
+    "description": "Javascript Sdk skill for AI agent workflows",
+    "source": "inference-sh-9/skills/javascript-sdk",
+    "tags": [
       "frontend"
     ]
   },
@@ -170,6 +350,30 @@
     ]
   },
   {
+    "name": "nano-banana",
+    "description": "Nano Banana skill for AI agent workflows",
+    "source": "inference-sh-9/skills/nano-banana",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "nano-banana-2",
+    "description": "Nano Banana 2 skill for AI agent workflows",
+    "source": "inference-sh-9/skills/nano-banana-2",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "newsletter-curation",
+    "description": "Newsletter Curation skill for AI agent workflows",
+    "source": "inference-sh-9/skills/newsletter-curation",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "obsidian-bases",
     "description": "Obsidian knowledge base patterns and plugin development",
     "source": "kepano/obsidian-skills/obsidian-bases",
@@ -179,11 +383,60 @@
     ]
   },
   {
+    "name": "og-image-design",
+    "description": "Og Image Design skill for AI agent workflows",
+    "source": "inference-sh-9/skills/og-image-design",
+    "tags": [
+      "design",
+      "frontend"
+    ]
+  },
+  {
     "name": "planning-with-files",
     "description": "File-based planning and task management for AI agent workflows",
     "source": "othmanadi/planning-with-files/planning-with-files",
     "tags": [
       "workflow"
+    ]
+  },
+  {
+    "name": "product-changelog",
+    "description": "Product Changelog skill for AI agent workflows",
+    "source": "inference-sh-9/skills/product-changelog",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "product-hunt-launch",
+    "description": "Product Hunt Launch skill for AI agent workflows",
+    "source": "inference-sh-9/skills/product-hunt-launch",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "prompt-engineering",
+    "description": "Prompt Engineering skill for AI agent workflows",
+    "source": "inference-sh-9/skills/prompt-engineering",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
+    "name": "python-executor",
+    "description": "Python Executor skill for AI agent workflows",
+    "source": "inference-sh-9/skills/python-executor",
+    "tags": [
+      "backend"
+    ]
+  },
+  {
+    "name": "python-sdk",
+    "description": "Python Sdk skill for AI agent workflows",
+    "source": "inference-sh-9/skills/python-sdk",
+    "tags": [
+      "backend"
     ]
   },
   {
@@ -247,12 +500,28 @@
     ]
   },
   {
+    "name": "seo-content-brief",
+    "description": "Seo Content Brief skill for AI agent workflows",
+    "source": "inference-sh-9/skills/seo-content-brief",
+    "tags": [
+      "seo"
+    ]
+  },
+  {
     "name": "seo-geo",
     "description": "Geographic SEO optimization and local search strategies",
     "source": "resciencelab/opc-skills/seo-geo",
     "tags": [
       "seo",
       "marketing"
+    ]
+  },
+  {
+    "name": "simple-brainstorm",
+    "description": "Simple Brainstorm skill for AI agent workflows",
+    "source": "roin-orca/skills/simple-brainstorm",
+    "tags": [
+      "ai"
     ]
   },
   {
@@ -266,12 +535,28 @@
     ]
   },
   {
+    "name": "speech-to-text",
+    "description": "Speech To Text skill for AI agent workflows",
+    "source": "inference-sh-9/skills/speech-to-text",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "stitch-loop",
     "description": "Iterative design-code loop patterns from Google Labs Stitch",
     "source": "google-labs-code/stitch-skills/stitch-loop",
     "tags": [
       "workflow",
       "design"
+    ]
+  },
+  {
+    "name": "storyboard-creation",
+    "description": "Storyboard Creation skill for AI agent workflows",
+    "source": "inference-sh-9/skills/storyboard-creation",
+    "tags": [
+      "workflow"
     ]
   },
   {
@@ -291,12 +576,52 @@
     ]
   },
   {
+    "name": "technical-blog-writing",
+    "description": "Technical Blog Writing skill for AI agent workflows",
+    "source": "inference-sh-9/skills/technical-blog-writing",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "text-to-speech",
+    "description": "Text To Speech skill for AI agent workflows",
+    "source": "inference-sh-9/skills/text-to-speech",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "tools-ui",
+    "description": "Tools Ui skill for AI agent workflows",
+    "source": "inference-sh-9/skills/tools-ui",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "twitter-automation",
+    "description": "Twitter Automation skill for AI agent workflows",
+    "source": "inference-sh-9/skills/twitter-automation",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "ui-ux-pro-max",
     "description": "UI/UX design intelligence with 50 styles, 21 palettes, 50 font pairings, and 20 chart types",
     "source": "nextlevelbuilder/ui-ux-pro-max-skill",
     "tags": [
       "design",
       "frontend"
+    ]
+  },
+  {
+    "name": "video-prompting-guide",
+    "description": "Video Prompting Guide skill for AI agent workflows",
+    "source": "inference-sh-9/skills/video-prompting-guide",
+    "tags": [
+      "ai"
     ]
   },
   {
@@ -315,6 +640,22 @@
     "tags": [
       "vue",
       "frontend"
+    ]
+  },
+  {
+    "name": "web-search",
+    "description": "Web Search skill for AI agent workflows",
+    "source": "inference-sh-9/skills/web-search",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "widgets-ui",
+    "description": "Widgets Ui skill for AI agent workflows",
+    "source": "inference-sh-9/skills/widgets-ui",
+    "tags": [
+      "workflow"
     ]
   }
 ]
