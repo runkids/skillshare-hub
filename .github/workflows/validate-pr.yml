@@ -10,6 +10,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  security-events: write
 
 jobs:
   validate:
@@ -55,9 +56,11 @@ jobs:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
           CI: "true"
           AUDIT_REPORT: /tmp/audit-report.md
+          AUDIT_SARIF: /tmp/audit-results.sarif
         run: |
           ./scripts/audit.sh || echo "audit_failed=true" >> "$GITHUB_OUTPUT"
           [ -f /tmp/audit-report.md ] && echo "has_report=true" >> "$GITHUB_OUTPUT"
+          [ -f /tmp/audit-results.sarif ] && echo "has_sarif=true" >> "$GITHUB_OUTPUT"
 
       - name: Comment PR with audit results
         if: always() && steps.audit.outputs.has_report == 'true'
@@ -77,6 +80,13 @@ jobs:
       - name: Show audit summary
         if: always() && steps.audit.outputs.has_report == 'true'
         run: cat /tmp/audit-report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload SARIF to Code Scanning
+        if: always() && steps.audit.outputs.has_sarif == 'true'
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: /tmp/audit-results.sarif
+          category: skillshare-audit
 
       - name: Fail if audit failed
         if: steps.audit.outputs.audit_failed == 'true'
