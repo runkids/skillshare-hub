@@ -1,7 +1,7 @@
 name: Sync Community Skills
 on:
   schedule:
-    - cron: '0 5 * * 1'  # Every Monday 05:00 UTC (after update-index)
+    - cron: '0 5 * * 1'  # Every Monday 05:00 UTC
   workflow_dispatch:
     inputs:
       top_n:
@@ -27,10 +27,24 @@ jobs:
           TOP_N: ${{ inputs.top_n || '200' }}
         run: ./scripts/sync-community.sh --top "$TOP_N"
 
+      - name: Rebuild hub with new skills
+        run: ./scripts/build.sh
+
+      - name: Install skillshare CLI
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/runkids/skillshare/main/install.sh | sh
+          skillshare version
+
+      - name: Audit all skills
+        run: ./scripts/audit-all.sh
+
+      - name: Generate README catalog
+        run: ./scripts/readme.sh
+
       - name: Check for changes
         id: changes
         run: |
-          if ! git diff --quiet skills/ skillshare-hub.json; then
+          if ! git diff --quiet skills/ skillshare-hub.json README.md; then
             echo "has_changes=true" >> "$GITHUB_OUTPUT"
           fi
 
@@ -43,13 +57,13 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b "$BRANCH"
-          git add skills/ skillshare-hub.json
+          git add skills/ skillshare-hub.json README.md
           git commit -m "feat: sync community skills"
           git push -u origin "$BRANCH"
           gh pr create \
             --title "feat: sync community skills ($(date +%Y-%m-%d))" \
             --body "## Summary
-          Automated sync of new community skills. New skills have auto-generated descriptions and tags. **Please review before merging.**
+          Automated sync of new community skills with audit scores and catalog update. **Please review before merging.**
 
           ## Checklist
           - [ ] Review skill descriptions for accuracy

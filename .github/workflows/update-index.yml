@@ -3,8 +3,6 @@ on:
   push:
     branches: [main]
     paths: ['skills/**']
-  schedule:
-    - cron: '0 4 * * 1'  # Every Monday 04:00 UTC
   workflow_dispatch:
 
 concurrency:
@@ -17,6 +15,8 @@ permissions:
 
 jobs:
   update:
+    # Skip if triggered by a sync-community merge (already includes audit+readme)
+    if: "!contains(github.event.head_commit.message, 'feat: sync community skills')"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

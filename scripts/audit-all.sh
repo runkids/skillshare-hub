@@ -136,7 +136,7 @@ while IFS= read -r safe_name; do
 
     echo "  Auditing: ${name} -> ${local_target}"
 
-    audit_json=$(skillshare audit "$local_target" --json 2>/dev/null | sed '/^$/,$d') || true
+    audit_json=$(skillshare audit "$local_target" --format json --yes 2>/dev/null | sed '/^$/,$d') || true
 
     if ! echo "$audit_json" | jq -e '.summary' >/dev/null 2>&1; then
       echo "    WARN: Audit failed for ${name} — skipping"

@@ -67,15 +67,28 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
+          SERVER_URL: ${{ github.server_url }}
+          REPO: ${{ github.repository }}
+          RUN_ID: ${{ github.run_id }}
         run: |
           # Delete previous audit comment if exists
-          gh api "repos/${{ github.repository }}/issues/${PR_NUMBER}/comments" \
+          gh api "repos/${REPO}/issues/${PR_NUMBER}/comments" \
             --jq '.[] | select(.body | startswith("## Skill Audit Results")) | .id' \
             | while read -r id; do
-                gh api -X DELETE "repos/${{ github.repository }}/issues/comments/${id}"
+                gh api -X DELETE "repos/${REPO}/issues/comments/${id}"
               done
 
-          gh pr comment "${PR_NUMBER}" --body-file /tmp/audit-report.md
+          # Truncate if report exceeds GitHub comment limit (65536 chars)
+          REPORT=/tmp/audit-report.md
+          if [ "$(wc -c < "$REPORT")" -gt 60000 ]; then
+            head -c 59500 "$REPORT" > /tmp/audit-comment.md
+            printf '\n\n---\n> **Truncated** — full report available in the [workflow summary](%s/%s/actions/runs/%s).\n' \
+              "$SERVER_URL" "$REPO" "$RUN_ID" \
+              >> /tmp/audit-comment.md
+            REPORT=/tmp/audit-comment.md
+          fi
+
+          gh pr comment "${PR_NUMBER}" --body-file "$REPORT"
 
       - name: Show audit summary
         if: always() && steps.audit.outputs.has_report == 'true'

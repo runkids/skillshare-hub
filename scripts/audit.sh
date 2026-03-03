@@ -50,11 +50,11 @@ audit_target() {
 
   local audit_json
   # Strip trailing non-JSON output (e.g. upgrade notices) before parsing
-  audit_json=$(skillshare audit "$audit_target" --threshold high --json 2>/dev/null | sed '/^$/,$d') || true
+  audit_json=$(skillshare audit "$audit_target" --threshold high --format json --yes 2>/dev/null | sed '/^$/,$d') || true
 
   if ! echo "$audit_json" | jq -e '.summary' >/dev/null 2>&1; then
     local audit_err
-    audit_err=$(skillshare audit "$audit_target" --threshold high 2>&1) || true
+    audit_err=$(skillshare audit "$audit_target" --threshold high --yes 2>&1) || true
     echo "$audit_err"
     results+=("| \`${source}\` | :x: Error | - |")
     details+=("DETAIL_SEP### \`${source}\`"$'\n'"\`\`\`"$'\n'"${audit_err}"$'\n'"\`\`\`")
@@ -76,11 +76,12 @@ audit_target() {
 
   # Collect SARIF output alongside JSON
   if [ -n "$SARIF_FILE" ]; then
-    local sarif_out
-    sarif_out=$(skillshare audit "$audit_target" --threshold high --format sarif 2>/dev/null) || true
-    if echo "$sarif_out" | jq -e '.runs' >/dev/null 2>&1; then
-      echo "$sarif_out" > "$group_dir/sarif_${sarif_count}.json"
+    skillshare audit "$audit_target" --threshold high --format sarif --yes 2>/dev/null \
+      > "$group_dir/sarif_${sarif_count}.json" || true
+    if jq -e '.runs' "$group_dir/sarif_${sarif_count}.json" >/dev/null 2>&1; then
       sarif_count=$((sarif_count + 1))
+    else
+      rm -f "$group_dir/sarif_${sarif_count}.json"
     fi
   fi
 
@@ -109,8 +110,8 @@ base_sources=$(echo "$base_sources" | sort)
 pr_sources=$(jq -s -r '[.[][]] | .[] | "\(.name)|\(.source)|\(.skill // "")"' "${SKILLS_DIR}"/*.json | sort)
 
 new_entries=$(comm -13 <(echo "$base_sources") <(echo "$pr_sources"))
-# Carry source and skill (tab-separated) for subpath resolution
-new_sources=$(echo "$new_entries" | awk -F'|' '{printf "%s\t%s\n", $2, $3}' | sort -u)
+# Carry name, source, and skill (tab-separated) for subpath resolution
+new_sources=$(echo "$new_entries" | awk -F'|' '{printf "%s\t%s\t%s\n", $1, $2, $3}' | sort -u)
 
 if [ -z "$new_entries" ]; then
   echo "No new or changed skill sources to audit"
@@ -131,7 +132,7 @@ trap 'rm -rf "$group_dir"' EXIT
 clone_order_file="$group_dir/_order"
 touch "$clone_order_file"
 
-while IFS=$'\t' read -r source skill; do
+while IFS=$'\t' read -r name source skill; do
   [ -z "$source" ] && continue
 
   parsed=$(parse_source "$source")
@@ -144,7 +145,7 @@ while IFS=$'\t' read -r source skill; do
     echo "$clone_url" > "$group_dir/${safe_name}.url"
   fi
   # Use | delimiter (not tab) so empty subpath isn't collapsed by bash read
-  printf '%s|%s|%s\n' "$source" "$subpath" "$skill" >> "$group_dir/${safe_name}.sources"
+  printf '%s|%s|%s|%s\n' "$name" "$source" "$subpath" "$skill" >> "$group_dir/${safe_name}.sources"
 done <<< "$new_sources"
 
 unique_repos=$(wc -l < "$clone_order_file" | tr -d ' ')
@@ -167,7 +168,7 @@ while IFS= read -r safe_name; do
 
   if ! clone_output=$(git clone --depth 1 "$clone_url" "$clone_dir" 2>&1); then
     # Clone failed — mark all sources in this repo as failed
-    while IFS='|' read -r source subpath skill; do
+    while IFS='|' read -r name source subpath skill; do
       [ -z "$source" ] && continue
       log_error "Failed to clone ${source}"
       results+=("| \`${source}\` | :x: Clone failed | - |")
@@ -182,21 +183,38 @@ while IFS= read -r safe_name; do
   echo "Cloned ${clone_url} — auditing subpaths..."
 
   # Audit each source/subpath in this repo
-  while IFS='|' read -r source subpath skill; do
+  while IFS='|' read -r name source subpath skill; do
     [ -z "$source" ] && continue
 
-    local_target="$clone_dir"
+    local_target=""
+    lookup="${skill:-$name}"
+
+    # 1. Explicit subpath from source (e.g. owner/repo/my-skill → subpath=my-skill)
     if [ -n "$subpath" ] && [ -d "$clone_dir/$subpath" ]; then
       local_target="$clone_dir/$subpath"
-    elif [ -n "$skill" ] && [ -d "$clone_dir/skills/$skill" ]; then
-      # Multi-skill repo: resolve via skill field to skills/<name>/
-      local_target="$clone_dir/skills/$skill"
+    # 2. skills/<lookup> convention
+    elif [ -d "$clone_dir/skills/$lookup" ]; then
+      local_target="$clone_dir/skills/$lookup"
+    # 3. plugins/<lookup> convention
+    elif [ -d "$clone_dir/plugins/$lookup" ]; then
+      local_target="$clone_dir/plugins/$lookup"
+    # 4. Find SKILL.md matching skill name via path pattern
     else
-      # Auto-detect: find SKILL.md and audit its parent directory
-      skill_md=$(find "$clone_dir" -maxdepth 3 -name "SKILL.md" -print -quit 2>/dev/null)
+      skill_md=$(find "$clone_dir" -maxdepth 4 -name "SKILL.md" -path "*/$lookup/*" -print -quit 2>/dev/null)
+      if [ -z "$skill_md" ] && [ -n "$skill" ] && [ "$skill" != "$name" ]; then
+        skill_md=$(find "$clone_dir" -maxdepth 4 -name "SKILL.md" -path "*/$name/*" -print -quit 2>/dev/null)
+      fi
       if [ -n "$skill_md" ]; then
         local_target=$(dirname "$skill_md")
       fi
+    fi
+
+    # Skip if no specific directory found — auditing repo root gives inflated scores
+    if [ -z "$local_target" ]; then
+      echo "  SKIP: ${source} — could not resolve skill directory"
+      results+=("| \`${source}\` | :warning: Skipped | Could not resolve dir |")
+      details+=("DETAIL_SEP### \`${source}\`"$'\n'"Could not resolve skill directory within the cloned repository.")
+      continue
     fi
 
     echo "  Auditing: ${source} -> ${local_target}"
