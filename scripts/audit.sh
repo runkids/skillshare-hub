@@ -264,7 +264,11 @@ if [ -n "$SARIF_FILE" ] && compgen -G "$group_dir/sarif_*.json" >/dev/null; then
       "tool": .[0].runs[0].tool,
       "results": [.[].runs[0].results[]]
     }]
-  }' "$group_dir"/sarif_*.json > "$SARIF_FILE"
+  }' "$group_dir"/sarif_*.json \
+  | jq 'walk(if type == "object" and has("security-severity") and (.["security-severity"] | type) == "number"
+         then .["security-severity"] = (.["security-severity"] | tostring)
+         else . end)' \
+  > "$SARIF_FILE"
   echo "SARIF report saved to ${SARIF_FILE}"
 fi
 
