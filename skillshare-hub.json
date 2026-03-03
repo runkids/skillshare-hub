@@ -237,15 +237,6 @@
       ]
     },
     {
-      "name": "azure-cloud-migrate",
-      "description": "Azure Cloud Migrate management and best practices",
-      "source": "microsoft/github-copilot-for-azure/azure-cloud-migrate",
-      "tags": [
-        "devops",
-        "backend"
-      ]
-    },
-    {
       "name": "azure-compliance",
       "description": "Azure compliance assessment and policy management",
       "source": "microsoft/github-copilot-for-azure/azure-compliance",

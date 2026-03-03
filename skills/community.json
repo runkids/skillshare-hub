@@ -154,15 +154,6 @@
     ]
   },
   {
-    "name": "azure-cloud-migrate",
-    "description": "Azure Cloud Migrate management and best practices",
-    "source": "microsoft/github-copilot-for-azure/azure-cloud-migrate",
-    "tags": [
-      "devops",
-      "backend"
-    ]
-  },
-  {
     "name": "azure-compute",
     "description": "Azure Compute management and best practices",
     "source": "microsoft/github-copilot-for-azure/azure-compute",
