@@ -7,7 +7,10 @@
       "source": "coreyhaines31/marketingskills/ab-test-setup",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 6,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "accessibility-compliance",
@@ -16,7 +19,10 @@
       "skill": "accessibility-compliance",
       "tags": [
         "frontend"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "agent-browser",
@@ -25,7 +31,21 @@
       "tags": [
         "agent",
         "browser"
-      ]
+      ],
+      "riskScore": 15,
+      "riskLabel": "high",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "agent-configuration",
+      "description": "Agent Configuration skill for AI agent workflows",
+      "source": "supercent-io/skills-template/agent-configuration",
+      "tags": [
+        "agent"
+      ],
+      "riskScore": 31,
+      "riskLabel": "high",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "agent-email-cli",
@@ -33,7 +53,21 @@
       "source": "zaddy6/agent-email-skill/agent-email-cli",
       "tags": [
         "agent"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "agent-evaluation",
+      "description": "Agent Evaluation skill for AI agent workflows",
+      "source": "supercent-io/skills-template/agent-evaluation",
+      "tags": [
+        "agent"
+      ],
+      "riskScore": 13,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "agent-tools",
@@ -42,7 +76,10 @@
       "tags": [
         "agent",
         "ai"
-      ]
+      ],
+      "riskScore": 78,
+      "riskLabel": "critical",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "agent-ui",
@@ -50,7 +87,10 @@
       "source": "inference-sh-9/skills/agent-ui",
       "tags": [
         "agent"
-      ]
+      ],
+      "riskScore": 22,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "agentation",
@@ -59,7 +99,32 @@
       "tags": [
         "agent",
         "ai"
-      ]
+      ],
+      "riskScore": 3,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "agentic-development-principles",
+      "description": "Agentic Development Principles skill for AI agent workflows",
+      "source": "supercent-io/skills-template/agentic-development-principles",
+      "tags": [
+        "agent"
+      ],
+      "riskScore": 12,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "agentic-workflow",
+      "description": "Agentic Workflow skill for AI agent workflows",
+      "source": "supercent-io/skills-template/agentic-workflow",
+      "tags": [
+        "agent"
+      ],
+      "riskScore": 15,
+      "riskLabel": "high",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "ai-automation-workflows",
@@ -67,7 +132,10 @@
       "source": "inference-sh-9/skills/ai-automation-workflows",
       "tags": [
         "ai"
-      ]
+      ],
+      "riskScore": 12,
+      "riskLabel": "medium",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "ai-avatar-video",
@@ -75,7 +143,10 @@
       "source": "inference-sh-9/skills/ai-avatar-video",
       "tags": [
         "ai"
-      ]
+      ],
+      "riskScore": 13,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "ai-content-pipeline",
@@ -83,7 +154,10 @@
       "source": "inference-sh-9/skills/ai-content-pipeline",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 10,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "ai-image-generation",
@@ -91,7 +165,10 @@
       "source": "inference-sh-9/skills/ai-image-generation",
       "tags": [
         "ai"
-      ]
+      ],
+      "riskScore": 13,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "ai-marketing-videos",
@@ -99,7 +176,10 @@
       "source": "inference-sh-9/skills/ai-marketing-videos",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "ai-music-generation",
@@ -107,7 +187,10 @@
       "source": "inference-sh-9/skills/ai-music-generation",
       "tags": [
         "ai"
-      ]
+      ],
+      "riskScore": 13,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "ai-podcast-creation",
@@ -115,7 +198,10 @@
       "source": "inference-sh-9/skills/ai-podcast-creation",
       "tags": [
         "ai"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "ai-product-photography",
@@ -123,7 +209,10 @@
       "source": "inference-sh-9/skills/ai-product-photography",
       "tags": [
         "ai"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "ai-rag-pipeline",
@@ -131,7 +220,10 @@
       "source": "inference-sh-9/skills/ai-rag-pipeline",
       "tags": [
         "ai"
-      ]
+      ],
+      "riskScore": 10,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "ai-social-media-content",
@@ -139,7 +231,10 @@
       "source": "inference-sh-9/skills/ai-social-media-content",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "ai-video-generation",
@@ -147,7 +242,10 @@
       "source": "inference-sh-9/skills/ai-video-generation",
       "tags": [
         "ai"
-      ]
+      ],
+      "riskScore": 13,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "ai-voice-cloning",
@@ -155,7 +253,10 @@
       "source": "inference-sh-9/skills/ai-voice-cloning",
       "tags": [
         "ai"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "algorithmic-art",
@@ -163,7 +264,10 @@
       "source": "anthropics/skills/algorithmic-art",
       "tags": [
         "design"
-      ]
+      ],
+      "riskScore": 16,
+      "riskLabel": "high",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "analytics-tracking",
@@ -171,7 +275,10 @@
       "source": "coreyhaines31/marketingskills/analytics-tracking",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "angular-component",
@@ -179,7 +286,10 @@
       "source": "analogjs/angular-skills/angular-component",
       "tags": [
         "frontend"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "antfu",
@@ -188,7 +298,33 @@
       "skill": "antfu",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "api-design",
+      "description": "Api Design skill for AI agent workflows",
+      "source": "supercent-io/skills-template/api-design",
+      "tags": [
+        "design",
+        "frontend"
+      ],
+      "riskScore": 12,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "api-documentation",
+      "description": "Api Documentation skill for AI agent workflows",
+      "source": "supercent-io/skills-template/api-documentation",
+      "tags": [
+        "docs"
+      ],
+      "riskScore": 9,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "app-store-screenshots",
@@ -196,7 +332,10 @@
       "source": "inference-sh-9/skills/app-store-screenshots",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "appinsights-instrumentation",
@@ -206,7 +345,10 @@
       "tags": [
         "devops",
         "backend"
-      ]
+      ],
+      "riskScore": 3,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "audit-website",
@@ -214,7 +356,21 @@
       "source": "squirrelscan/skills/audit-website",
       "tags": [
         "security"
-      ]
+      ],
+      "riskScore": 26,
+      "riskLabel": "medium",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "authentication-setup",
+      "description": "Authentication Setup skill for AI agent workflows",
+      "source": "supercent-io/skills-template/authentication-setup",
+      "tags": [
+        "security"
+      ],
+      "riskScore": 30,
+      "riskLabel": "medium",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "azure-ai",
@@ -224,7 +380,10 @@
       "tags": [
         "devops",
         "backend"
-      ]
+      ],
+      "riskScore": 30,
+      "riskLabel": "medium",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "azure-aigateway",
@@ -234,7 +393,22 @@
       "tags": [
         "devops",
         "backend"
-      ]
+      ],
+      "riskScore": 54,
+      "riskLabel": "high",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "azure-cloud-migrate",
+      "description": "Azure Cloud Migrate management and best practices",
+      "source": "microsoft/github-copilot-for-azure/azure-cloud-migrate",
+      "tags": [
+        "devops",
+        "backend"
+      ],
+      "riskScore": 100,
+      "riskLabel": "critical",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "azure-compliance",
@@ -244,7 +418,10 @@
       "tags": [
         "devops",
         "backend"
-      ]
+      ],
+      "riskScore": 66,
+      "riskLabel": "high",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "azure-compute",
@@ -253,7 +430,10 @@
       "tags": [
         "devops",
         "backend"
-      ]
+      ],
+      "riskScore": 27,
+      "riskLabel": "medium",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "azure-cost-optimization",
@@ -263,7 +443,10 @@
       "tags": [
         "devops",
         "backend"
-      ]
+      ],
+      "riskScore": 24,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "azure-deploy",
@@ -273,7 +456,10 @@
       "tags": [
         "devops",
         "backend"
-      ]
+      ],
+      "riskScore": 42,
+      "riskLabel": "medium",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "azure-diagnostics",
@@ -283,7 +469,10 @@
       "tags": [
         "devops",
         "backend"
-      ]
+      ],
+      "riskScore": 6,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "azure-hosted-copilot-sdk",
@@ -292,7 +481,10 @@
       "tags": [
         "devops",
         "backend"
-      ]
+      ],
+      "riskScore": 24,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "azure-kusto",
@@ -302,7 +494,10 @@
       "tags": [
         "devops",
         "backend"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "azure-messaging",
@@ -312,7 +507,10 @@
       "tags": [
         "devops",
         "backend"
-      ]
+      ],
+      "riskScore": 100,
+      "riskLabel": "critical",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "azure-observability",
@@ -342,7 +540,10 @@
       "tags": [
         "devops",
         "backend"
-      ]
+      ],
+      "riskScore": 100,
+      "riskLabel": "critical",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "azure-rbac",
@@ -352,7 +553,10 @@
       "tags": [
         "devops",
         "backend"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "azure-resource-lookup",
@@ -362,7 +566,10 @@
       "tags": [
         "devops",
         "backend"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "azure-resource-visualizer",
@@ -372,7 +579,10 @@
       "tags": [
         "devops",
         "backend"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "azure-storage",
@@ -382,7 +592,10 @@
       "tags": [
         "devops",
         "backend"
-      ]
+      ],
+      "riskScore": 33,
+      "riskLabel": "medium",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "azure-validate",
@@ -392,7 +605,21 @@
       "tags": [
         "devops",
         "backend"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "backend-testing",
+      "description": "Backend Testing skill for AI agent workflows",
+      "source": "supercent-io/skills-template/backend-testing",
+      "tags": [
+        "testing"
+      ],
+      "riskScore": 27,
+      "riskLabel": "medium",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "background-removal",
@@ -400,7 +627,10 @@
       "source": "inference-sh-9/skills/background-removal",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 13,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "backlink-analyzer",
@@ -408,7 +638,10 @@
       "source": "aaron-he-zhu/seo-geo-claude-skills/backlink-analyzer",
       "tags": [
         "seo"
-      ]
+      ],
+      "riskScore": 3,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "baoyu-article-illustrator",
@@ -418,7 +651,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 12,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "baoyu-comic",
@@ -428,7 +664,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 11,
+      "riskLabel": "medium",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "baoyu-compress-image",
@@ -438,7 +677,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 8,
+      "riskLabel": "medium",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "baoyu-cover-image",
@@ -448,7 +690,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "baoyu-danger-gemini-web",
@@ -458,7 +703,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 16,
+      "riskLabel": "medium",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "baoyu-danger-x-to-markdown",
@@ -468,7 +716,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 40,
+      "riskLabel": "high",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "baoyu-image-gen",
@@ -478,7 +729,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 33,
+      "riskLabel": "medium",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "baoyu-infographic",
@@ -488,7 +742,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "baoyu-post-to-wechat",
@@ -498,7 +755,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 100,
+      "riskLabel": "critical",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "baoyu-post-to-x",
@@ -508,7 +768,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 100,
+      "riskLabel": "critical",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "baoyu-slide-deck",
@@ -518,7 +781,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 14,
+      "riskLabel": "medium",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "baoyu-url-to-markdown",
@@ -528,7 +794,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 24,
+      "riskLabel": "high",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "baoyu-xhs-images",
@@ -538,7 +807,21 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "bmad-orchestrator",
+      "description": "Bmad Orchestrator skill for AI agent workflows",
+      "source": "supercent-io/skills-template/bmad-orchestrator",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 57,
+      "riskLabel": "high",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "book-cover-design",
@@ -547,7 +830,10 @@
       "tags": [
         "design",
         "frontend"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "brainstorming",
@@ -556,7 +842,10 @@
       "tags": [
         "workflow",
         "superpowers"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "brand-guidelines",
@@ -564,7 +853,10 @@
       "source": "anthropics/skills/brand-guidelines",
       "tags": [
         "design"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "browser-use",
@@ -574,7 +866,10 @@
       "tags": [
         "agent",
         "browser"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "canvas-design",
@@ -583,7 +878,10 @@
       "tags": [
         "design",
         "frontend"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "case-study-writing",
@@ -591,7 +889,21 @@
       "source": "inference-sh-9/skills/case-study-writing",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "changelog-maintenance",
+      "description": "Changelog Maintenance skill for AI agent workflows",
+      "source": "supercent-io/skills-template/changelog-maintenance",
+      "tags": [
+        "ai"
+      ],
+      "riskScore": 6,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "character-design-sheet",
@@ -600,7 +912,10 @@
       "tags": [
         "design",
         "frontend"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "chat-ui",
@@ -608,7 +923,10 @@
       "source": "inference-sh-9/skills/chat-ui",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 16,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "chatgpt-app-builder",
@@ -617,7 +935,10 @@
       "tags": [
         "ai",
         "agent"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "clawdirect",
@@ -625,7 +946,10 @@
       "source": "napoleond/clawdirect/clawdirect",
       "tags": [
         "agent"
-      ]
+      ],
+      "riskScore": 9,
+      "riskLabel": "medium",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "clawdirect-dev",
@@ -633,7 +957,43 @@
       "source": "napoleond/clawdirect/clawdirect-dev",
       "tags": [
         "agent"
-      ]
+      ],
+      "riskScore": 16,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "code-refactoring",
+      "description": "Code Refactoring skill for AI agent workflows",
+      "source": "supercent-io/skills-template/code-refactoring",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 13,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "code-review",
+      "description": "Code Review skill for AI agent workflows",
+      "source": "supercent-io/skills-template/code-review",
+      "tags": [
+        "code-review"
+      ],
+      "riskScore": 9,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "codebase-search",
+      "description": "Codebase Search skill for AI agent workflows",
+      "source": "supercent-io/skills-template/codebase-search",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 9,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "competitor-alternatives",
@@ -641,7 +1001,10 @@
       "source": "coreyhaines31/marketingskills/competitor-alternatives",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "competitor-teardown",
@@ -649,7 +1012,10 @@
       "source": "inference-sh-9/skills/competitor-teardown",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "content-repurposing",
@@ -657,7 +1023,10 @@
       "source": "inference-sh-9/skills/content-repurposing",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "content-strategy",
@@ -665,7 +1034,10 @@
       "source": "coreyhaines31/marketingskills/content-strategy",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "context7",
@@ -674,7 +1046,10 @@
       "tags": [
         "docs",
         "ai"
-      ]
+      ],
+      "riskScore": 8,
+      "riskLabel": "medium",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "convex",
@@ -682,7 +1057,21 @@
       "source": "waynesutton/convexskills/convex",
       "tags": [
         "backend"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "copilot-coding-agent",
+      "description": "Copilot Coding Agent skill for AI agent workflows",
+      "source": "supercent-io/skills-template/copilot-coding-agent",
+      "tags": [
+        "agent"
+      ],
+      "riskScore": 15,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "copy-editing",
@@ -690,7 +1079,10 @@
       "source": "coreyhaines31/marketingskills/copy-editing",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "copywriting",
@@ -698,7 +1090,10 @@
       "source": "coreyhaines31/marketingskills/copywriting",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "customer-persona",
@@ -706,7 +1101,21 @@
       "source": "inference-sh-9/skills/customer-persona",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "data-analysis",
+      "description": "Data Analysis skill for AI agent workflows",
+      "source": "supercent-io/skills-template/data-analysis",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 9,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "data-visualization",
@@ -714,7 +1123,44 @@
       "source": "inference-sh-9/skills/data-visualization",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "database-schema-design",
+      "description": "Database Schema Design skill for AI agent workflows",
+      "source": "supercent-io/skills-template/database-schema-design",
+      "tags": [
+        "design",
+        "frontend"
+      ],
+      "riskScore": 27,
+      "riskLabel": "medium",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "debugging",
+      "description": "Debugging skill for AI agent workflows",
+      "source": "supercent-io/skills-template/debugging",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 9,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "deployment-automation",
+      "description": "Deployment Automation skill for AI agent workflows",
+      "source": "supercent-io/skills-template/deployment-automation",
+      "tags": [
+        "devops"
+      ],
+      "riskScore": 21,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "design-md",
@@ -723,7 +1169,10 @@
       "tags": [
         "design",
         "docs"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "dialogue-audio",
@@ -731,7 +1180,10 @@
       "source": "inference-sh-9/skills/dialogue-audio",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "dispatching-parallel-agents",
@@ -741,7 +1193,10 @@
         "workflow",
         "superpowers",
         "agent"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "doc-coauthoring",
@@ -749,7 +1204,10 @@
       "source": "anthropics/skills/doc-coauthoring",
       "tags": [
         "docs"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "docker-expert",
@@ -757,7 +1215,10 @@
       "source": "sickn33/antigravity-awesome-skills/docker-expert",
       "tags": [
         "devops"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "docx",
@@ -765,7 +1226,10 @@
       "source": "anthropics/skills/docx",
       "tags": [
         "docs"
-      ]
+      ],
+      "riskScore": 100,
+      "riskLabel": "critical",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "email-design",
@@ -774,7 +1238,10 @@
       "tags": [
         "design",
         "frontend"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "email-sequence",
@@ -782,7 +1249,10 @@
       "source": "coreyhaines31/marketingskills/email-sequence",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "enhance-prompt",
@@ -791,7 +1261,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "entra-app-registration",
@@ -801,7 +1274,10 @@
       "tags": [
         "devops",
         "backend"
-      ]
+      ],
+      "riskScore": 73,
+      "riskLabel": "high",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "executing-plans",
@@ -810,7 +1286,10 @@
       "tags": [
         "workflow",
         "superpowers"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "explainer-video-guide",
@@ -818,7 +1297,10 @@
       "source": "inference-sh-9/skills/explainer-video-guide",
       "tags": [
         "ai"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "expo-deployment",
@@ -827,7 +1309,21 @@
       "tags": [
         "devops",
         "react"
-      ]
+      ],
+      "riskScore": 10,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "file-organization",
+      "description": "File Organization skill for AI agent workflows",
+      "source": "supercent-io/skills-template/file-organization",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 9,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "find-skills",
@@ -836,7 +1332,10 @@
       "tags": [
         "skill",
         "agent"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "finishing-a-development-branch",
@@ -846,7 +1345,21 @@
         "git",
         "workflow",
         "superpowers"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "firebase-ai-logic",
+      "description": "Firebase Ai Logic skill for AI agent workflows",
+      "source": "supercent-io/skills-template/firebase-ai-logic",
+      "tags": [
+        "ai"
+      ],
+      "riskScore": 9,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "flutter-animations",
@@ -854,7 +1367,10 @@
       "source": "madteacher/mad-agents-skills/flutter-animations",
       "tags": [
         "frontend"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "flutter-expert",
@@ -862,7 +1378,10 @@
       "source": "jeffallan/claude-skills/flutter-expert",
       "tags": [
         "frontend"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "flux-image",
@@ -871,7 +1390,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 13,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "form-cro",
@@ -879,7 +1401,10 @@
       "source": "coreyhaines31/marketingskills/form-cro",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "free-tool-strategy",
@@ -887,7 +1412,10 @@
       "source": "coreyhaines31/marketingskills/free-tool-strategy",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "frontend-design",
@@ -896,7 +1424,32 @@
       "tags": [
         "design",
         "frontend"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "fun-brainstorming",
+      "description": "Fun Brainstorming skill for AI agent workflows",
+      "source": "roin-orca/skills/fun-brainstorming",
+      "tags": [
+        "ai"
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "gemini-computer-use",
+      "description": "Gemini Computer Use skill for AI agent workflows",
+      "source": "am-will/codex-skills/gemini-computer-use",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "git-commit",
@@ -904,7 +1457,21 @@
       "source": "github/awesome-copilot/git-commit",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "git-workflow",
+      "description": "Git Workflow skill for AI agent workflows",
+      "source": "supercent-io/skills-template/git-workflow",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 15,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "golang-pro",
@@ -912,7 +1479,10 @@
       "source": "jeffallan/claude-skills/golang-pro",
       "tags": [
         "backend"
-      ]
+      ],
+      "riskScore": 30,
+      "riskLabel": "high",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "google-veo",
@@ -920,7 +1490,10 @@
       "source": "inference-sh-9/skills/google-veo",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 13,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "image-to-video",
@@ -929,7 +1502,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "image-upscaling",
@@ -938,7 +1514,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 13,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "interface-design",
@@ -947,7 +1526,10 @@
       "tags": [
         "design",
         "frontend"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "internal-comms",
@@ -955,7 +1537,10 @@
       "source": "anthropics/skills/internal-comms",
       "tags": [
         "docs"
-      ]
+      ],
+      "riskScore": 3,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "javascript-sdk",
@@ -963,7 +1548,10 @@
       "source": "inference-sh-9/skills/javascript-sdk",
       "tags": [
         "frontend"
-      ]
+      ],
+      "riskScore": 25,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "landing-page-design",
@@ -972,7 +1560,10 @@
       "tags": [
         "design",
         "frontend"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "laravel-specialist",
@@ -980,7 +1571,10 @@
       "source": "jeffallan/claude-skills/laravel-specialist",
       "tags": [
         "backend"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "launch-strategy",
@@ -988,7 +1582,10 @@
       "source": "coreyhaines31/marketingskills/launch-strategy",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "linkedin-content",
@@ -996,7 +1593,21 @@
       "source": "inference-sh-9/skills/linkedin-content",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "llm-council",
+      "description": "Llm Council skill for AI agent workflows",
+      "source": "am-will/codex-skills/llm-council",
+      "tags": [
+        "ai"
+      ],
+      "riskScore": 31,
+      "riskLabel": "high",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "llm-models",
@@ -1004,7 +1615,21 @@
       "source": "inference-sh-9/skills/llm-models",
       "tags": [
         "ai"
-      ]
+      ],
+      "riskScore": 13,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "log-analysis",
+      "description": "Log Analysis skill for AI agent workflows",
+      "source": "supercent-io/skills-template/log-analysis",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 9,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "logo-design-guide",
@@ -1013,7 +1638,32 @@
       "tags": [
         "design",
         "frontend"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "looker-studio-bigquery",
+      "description": "Looker Studio Bigquery skill for AI agent workflows",
+      "source": "supercent-io/skills-template/looker-studio-bigquery",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 18,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "markdown-url",
+      "description": "Markdown Url skill for AI agent workflows",
+      "source": "am-will/codex-skills/markdown-url",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "marketing-ideas",
@@ -1021,7 +1671,10 @@
       "source": "coreyhaines31/marketingskills/marketing-ideas",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "marketing-psychology",
@@ -1029,7 +1682,10 @@
       "source": "coreyhaines31/marketingskills/marketing-psychology",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "mastra",
@@ -1038,7 +1694,10 @@
       "tags": [
         "agent",
         "ai"
-      ]
+      ],
+      "riskScore": 34,
+      "riskLabel": "medium",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "mcp-builder",
@@ -1047,7 +1706,10 @@
       "tags": [
         "ai",
         "agent"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "microsoft-foundry",
@@ -1057,7 +1719,21 @@
       "tags": [
         "devops",
         "backend"
-      ]
+      ],
+      "riskScore": 100,
+      "riskLabel": "critical",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "monitoring-observability",
+      "description": "Monitoring Observability skill for AI agent workflows",
+      "source": "supercent-io/skills-template/monitoring-observability",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 15,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "nano-banana",
@@ -1065,7 +1741,10 @@
       "source": "inference-sh-9/skills/nano-banana",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 13,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "nano-banana-2",
@@ -1073,7 +1752,10 @@
       "source": "inference-sh-9/skills/nano-banana-2",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 13,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "newsletter-curation",
@@ -1081,7 +1763,10 @@
       "source": "inference-sh-9/skills/newsletter-curation",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "next-best-practices",
@@ -1090,7 +1775,10 @@
       "tags": [
         "react",
         "frontend"
-      ]
+      ],
+      "riskScore": 86,
+      "riskLabel": "critical",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "next-cache-components",
@@ -1099,7 +1787,10 @@
       "tags": [
         "react",
         "frontend"
-      ]
+      ],
+      "riskScore": 9,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "next-upgrade",
@@ -1108,7 +1799,21 @@
       "tags": [
         "react",
         "frontend"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "npm-git-install",
+      "description": "Npm Git Install skill for AI agent workflows",
+      "source": "supercent-io/skills-template/npm-git-install",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 12,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "nuxt",
@@ -1118,7 +1823,10 @@
       "tags": [
         "vue",
         "frontend"
-      ]
+      ],
+      "riskScore": 20,
+      "riskLabel": "medium",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "obsidian-bases",
@@ -1127,7 +1835,10 @@
       "tags": [
         "docs",
         "workflow"
-      ]
+      ],
+      "riskScore": 12,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "og-image-design",
@@ -1136,7 +1847,10 @@
       "tags": [
         "design",
         "frontend"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "onboarding-cro",
@@ -1144,7 +1858,32 @@
       "source": "coreyhaines31/marketingskills/onboarding-cro",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "openai-docs-skill",
+      "description": "Openai Docs Skill skill for AI agent workflows",
+      "source": "am-will/codex-skills/openai-docs-skill",
+      "tags": [
+        "ai"
+      ],
+      "riskScore": 15,
+      "riskLabel": "high",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "opencontext",
+      "description": "Opencontext skill for AI agent workflows",
+      "source": "supercent-io/skills-template/opencontext",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 13,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "page-cro",
@@ -1152,7 +1891,10 @@
       "source": "coreyhaines31/marketingskills/page-cro",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "paid-ads",
@@ -1160,7 +1902,43 @@
       "source": "coreyhaines31/marketingskills/paid-ads",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "parallel-task",
+      "description": "Parallel Task skill for AI agent workflows",
+      "source": "am-will/codex-skills/parallel-task",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "parallel-task-spark",
+      "description": "Parallel Task Spark skill for AI agent workflows",
+      "source": "am-will/codex-skills/parallel-task-spark",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "pattern-detection",
+      "description": "Pattern Detection skill for AI agent workflows",
+      "source": "supercent-io/skills-template/pattern-detection",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 9,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "paywall-upgrade-cro",
@@ -1168,7 +1946,10 @@
       "source": "coreyhaines31/marketingskills/paywall-upgrade-cro",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "pdf",
@@ -1176,7 +1957,21 @@
       "source": "anthropics/skills/pdf",
       "tags": [
         "docs"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "performance-optimization",
+      "description": "Performance Optimization skill for AI agent workflows",
+      "source": "supercent-io/skills-template/performance-optimization",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 9,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "pinia",
@@ -1186,7 +1981,10 @@
       "tags": [
         "vue",
         "frontend"
-      ]
+      ],
+      "riskScore": 10,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "pitch-deck-visuals",
@@ -1194,7 +1992,32 @@
       "source": "inference-sh-9/skills/pitch-deck-visuals",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "plan-harder",
+      "description": "Plan Harder skill for AI agent workflows",
+      "source": "am-will/codex-skills/plan-harder",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "planner",
+      "description": "Planner skill for AI agent workflows",
+      "source": "am-will/codex-skills/planner",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "planning-with-files",
@@ -1202,7 +2025,10 @@
       "source": "othmanadi/planning-with-files/planning-with-files",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "pnpm",
@@ -1211,7 +2037,21 @@
       "skill": "pnpm",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "pollinations-ai",
+      "description": "Pollinations Ai skill for AI agent workflows",
+      "source": "supercent-io/skills-template/pollinations-ai",
+      "tags": [
+        "ai"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "popup-cro",
@@ -1219,7 +2059,10 @@
       "source": "coreyhaines31/marketingskills/popup-cro",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "pptx",
@@ -1227,7 +2070,10 @@
       "source": "anthropics/skills/pptx",
       "tags": [
         "docs"
-      ]
+      ],
+      "riskScore": 100,
+      "riskLabel": "critical",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "press-release-writing",
@@ -1235,7 +2081,10 @@
       "source": "inference-sh-9/skills/press-release-writing",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "pricing-strategy",
@@ -1243,7 +2092,10 @@
       "source": "coreyhaines31/marketingskills/pricing-strategy",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "product-changelog",
@@ -1251,7 +2103,10 @@
       "source": "inference-sh-9/skills/product-changelog",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "product-hunt-launch",
@@ -1259,7 +2114,10 @@
       "source": "inference-sh-9/skills/product-hunt-launch",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "product-marketing-context",
@@ -1267,7 +2125,10 @@
       "source": "coreyhaines31/marketingskills/product-marketing-context",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "product-photography",
@@ -1275,7 +2136,10 @@
       "source": "inference-sh-9/skills/product-photography",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "programmatic-seo",
@@ -1284,7 +2148,10 @@
       "tags": [
         "marketing",
         "seo"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "prompt-engineering",
@@ -1292,7 +2159,21 @@
       "source": "inference-sh-9/skills/prompt-engineering",
       "tags": [
         "ai"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "prompt-repetition",
+      "description": "Prompt Repetition skill for AI agent workflows",
+      "source": "supercent-io/skills-template/prompt-repetition",
+      "tags": [
+        "ai"
+      ],
+      "riskScore": 9,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "python-executor",
@@ -1300,7 +2181,10 @@
       "source": "inference-sh-9/skills/python-executor",
       "tags": [
         "backend"
-      ]
+      ],
+      "riskScore": 13,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "python-sdk",
@@ -1308,7 +2192,45 @@
       "source": "inference-sh-9/skills/python-sdk",
       "tags": [
         "backend"
-      ]
+      ],
+      "riskScore": 22,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "qwen-image-2",
+      "description": "Qwen Image 2 skill for AI agent workflows",
+      "source": "toolshell/skills/qwen-image-2",
+      "tags": [
+        "ai",
+        "workflow"
+      ],
+      "riskScore": 13,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "qwen-image-2-pro",
+      "description": "Qwen Image 2 Pro skill for AI agent workflows",
+      "source": "toolshell/skills/qwen-image-2-pro",
+      "tags": [
+        "ai",
+        "workflow"
+      ],
+      "riskScore": 13,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "ralph",
+      "description": "Ralph skill for AI agent workflows",
+      "source": "supercent-io/skills-template/ralph",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "ralph-tui-prd",
@@ -1317,7 +2239,10 @@
       "tags": [
         "workflow",
         "docs"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "react-components",
@@ -1326,7 +2251,10 @@
       "tags": [
         "react",
         "frontend"
-      ]
+      ],
+      "riskScore": 9,
+      "riskLabel": "medium",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "react-doctor",
@@ -1336,7 +2264,10 @@
       "tags": [
         "react",
         "frontend"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "react-native-best-practices",
@@ -1345,7 +2276,21 @@
       "tags": [
         "react",
         "frontend"
-      ]
+      ],
+      "riskScore": 64,
+      "riskLabel": "high",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "read-github",
+      "description": "Read Github skill for AI agent workflows",
+      "source": "am-will/codex-skills/read-github",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 31,
+      "riskLabel": "high",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "receiving-code-review",
@@ -1353,7 +2298,10 @@
       "source": "obra/superpowers/receiving-code-review",
       "tags": [
         "code-review"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "referral-program",
@@ -1361,7 +2309,10 @@
       "source": "coreyhaines31/marketingskills/referral-program",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "related-skill",
@@ -1369,7 +2320,10 @@
       "source": "inference-sh-9/skills/related-skill",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 19,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "release-skills",
@@ -1379,7 +2333,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 15,
+      "riskLabel": "high",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "remembering-conversations",
@@ -1388,7 +2345,10 @@
       "tags": [
         "agent",
         "ai"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "remotion",
@@ -1396,7 +2356,10 @@
       "source": "google-labs-code/stitch-skills/remotion",
       "tags": [
         "react"
-      ]
+      ],
+      "riskScore": 9,
+      "riskLabel": "medium",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "remotion-render",
@@ -1404,7 +2367,10 @@
       "source": "inference-sh-6/skills/remotion-render",
       "tags": [
         "react"
-      ]
+      ],
+      "riskScore": 13,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "requesting-code-review",
@@ -1412,7 +2378,33 @@
       "source": "obra/superpowers/requesting-code-review",
       "tags": [
         "code-review"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "responsive-design",
+      "description": "Responsive Design skill for AI agent workflows",
+      "source": "supercent-io/skills-template/responsive-design",
+      "tags": [
+        "design",
+        "frontend"
+      ],
+      "riskScore": 12,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "role-creator",
+      "description": "Role Creator skill for AI agent workflows",
+      "source": "am-will/codex-skills/role-creator",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "schema-markup",
@@ -1420,7 +2412,21 @@
       "source": "coreyhaines31/marketingskills/schema-markup",
       "tags": [
         "seo"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "security-best-practices",
+      "description": "Security best practices and recommended patterns",
+      "source": "supercent-io/skills-template/security-best-practices",
+      "tags": [
+        "security"
+      ],
+      "riskScore": 24,
+      "riskLabel": "high",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "seedance2-api",
@@ -1437,7 +2443,10 @@
       "tags": [
         "marketing",
         "seo"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "seo-content-brief",
@@ -1445,7 +2454,10 @@
       "source": "inference-sh-9/skills/seo-content-brief",
       "tags": [
         "seo"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "seo-geo",
@@ -1454,7 +2466,10 @@
       "tags": [
         "seo",
         "marketing"
-      ]
+      ],
+      "riskScore": 17,
+      "riskLabel": "medium",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "signup-flow-cro",
@@ -1462,7 +2477,10 @@
       "source": "coreyhaines31/marketingskills/signup-flow-cro",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "simple-brainstorm",
@@ -1479,7 +2497,21 @@
       "skill": "skill-creator",
       "tags": [
         "skill"
-      ]
+      ],
+      "riskScore": 46,
+      "riskLabel": "high",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "skill-standardization",
+      "description": "Skill Standardization skill for AI agent workflows",
+      "source": "supercent-io/skills-template/skill-standardization",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "skillshare",
@@ -1489,7 +2521,10 @@
         "skillshare",
         "agent",
         "skill"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "slack-gif-creator",
@@ -1497,7 +2532,10 @@
       "source": "anthropics/skills/slack-gif-creator",
       "tags": [
         "design"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "social-content",
@@ -1505,7 +2543,10 @@
       "source": "coreyhaines31/marketingskills/social-content",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 6,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "social-media-carousel",
@@ -1513,7 +2554,10 @@
       "source": "inference-sh-9/skills/social-media-carousel",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "speech-to-text",
@@ -1521,7 +2565,32 @@
       "source": "inference-sh-9/skills/speech-to-text",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 13,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "standup-meeting",
+      "description": "Standup Meeting skill for AI agent workflows",
+      "source": "supercent-io/skills-template/standup-meeting",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 6,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "state-management",
+      "description": "State Management skill for AI agent workflows",
+      "source": "supercent-io/skills-template/state-management",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 18,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "stitch-loop",
@@ -1530,7 +2599,10 @@
       "tags": [
         "workflow",
         "design"
-      ]
+      ],
+      "riskScore": 16,
+      "riskLabel": "high",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "storyboard-creation",
@@ -1538,7 +2610,10 @@
       "source": "inference-sh-9/skills/storyboard-creation",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "subagent-driven-development",
@@ -1548,7 +2623,10 @@
         "workflow",
         "superpowers",
         "agent"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "supabase-postgres-best-practices",
@@ -1556,7 +2634,32 @@
       "source": "supabase/agent-skills/supabase-postgres-best-practices",
       "tags": [
         "backend"
-      ]
+      ],
+      "riskScore": 99,
+      "riskLabel": "critical",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "super-swarm-spark",
+      "description": "Super Swarm Spark skill for AI agent workflows",
+      "source": "am-will/codex-skills/super-swarm-spark",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "swarm-planner",
+      "description": "Swarm Planner skill for AI agent workflows",
+      "source": "am-will/codex-skills/swarm-planner",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "swiftui-expert-skill",
@@ -1564,7 +2667,21 @@
       "source": "avdlee/swiftui-agent-skill/swiftui-expert-skill",
       "tags": [
         "frontend"
-      ]
+      ],
+      "riskScore": 15,
+      "riskLabel": "high",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "system-environment-setup",
+      "description": "System Environment Setup skill for AI agent workflows",
+      "source": "supercent-io/skills-template/system-environment-setup",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 15,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "systematic-debugging",
@@ -1574,7 +2691,10 @@
         "workflow",
         "superpowers",
         "testing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "talking-head-production",
@@ -1582,7 +2702,32 @@
       "source": "inference-sh-9/skills/talking-head-production",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "task-estimation",
+      "description": "Task Estimation skill for AI agent workflows",
+      "source": "supercent-io/skills-template/task-estimation",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 9,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "task-planning",
+      "description": "Task Planning skill for AI agent workflows",
+      "source": "supercent-io/skills-template/task-planning",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 6,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "technical-blog-writing",
@@ -1590,7 +2735,21 @@
       "source": "inference-sh-9/skills/technical-blog-writing",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "technical-writing",
+      "description": "Technical Writing skill for AI agent workflows",
+      "source": "supercent-io/skills-template/technical-writing",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 8,
+      "riskLabel": "medium",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "test-driven-development",
@@ -1600,7 +2759,21 @@
         "testing",
         "workflow",
         "superpowers"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "testing-strategies",
+      "description": "Testing Strategies skill for AI agent workflows",
+      "source": "supercent-io/skills-template/testing-strategies",
+      "tags": [
+        "testing"
+      ],
+      "riskScore": 12,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "text-to-speech",
@@ -1608,7 +2781,10 @@
       "source": "inference-sh-9/skills/text-to-speech",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 13,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "theme-factory",
@@ -1617,7 +2793,10 @@
       "tags": [
         "design",
         "frontend"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "tools-ui",
@@ -1625,7 +2804,10 @@
       "source": "inference-sh-9/skills/tools-ui",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 16,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "turborepo",
@@ -1634,7 +2816,10 @@
       "tags": [
         "devops",
         "frontend"
-      ]
+      ],
+      "riskScore": 7,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "twitter-automation",
@@ -1642,7 +2827,10 @@
       "source": "inference-sh-9/skills/twitter-automation",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 13,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "twitter-thread-creation",
@@ -1650,7 +2838,22 @@
       "source": "inference-sh-9/skills/twitter-thread-creation",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 7,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "ui-component-patterns",
+      "description": "Ui Component patterns and implementation guidelines",
+      "source": "supercent-io/skills-template/ui-component-patterns",
+      "tags": [
+        "design",
+        "frontend"
+      ],
+      "riskScore": 15,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "ui-ux-pro-max",
@@ -1659,7 +2862,10 @@
       "tags": [
         "design",
         "frontend"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "unocss",
@@ -1668,7 +2874,10 @@
       "skill": "unocss",
       "tags": [
         "frontend"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "upgrading-expo",
@@ -1676,7 +2885,21 @@
       "source": "expo/skills/upgrading-expo",
       "tags": [
         "react"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "user-guide-writing",
+      "description": "User Guide Writing skill for AI agent workflows",
+      "source": "supercent-io/skills-template/user-guide-writing",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 6,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "using-git-worktrees",
@@ -1686,7 +2909,10 @@
         "git",
         "workflow",
         "superpowers"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "using-superpowers",
@@ -1696,7 +2922,21 @@
         "workflow",
         "superpowers",
         "skill"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "vercel-deploy",
+      "description": "Vercel Deploy skill for AI agent workflows",
+      "source": "supercent-io/skills-template/vercel-deploy",
+      "tags": [
+        "devops"
+      ],
+      "riskScore": 21,
+      "riskLabel": "high",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "verification-before-completion",
@@ -1706,7 +2946,21 @@
         "workflow",
         "superpowers",
         "testing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "vet",
+      "description": "Vet skill for AI agent workflows",
+      "source": "imbue-ai/vet/vet",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 100,
+      "riskLabel": "critical",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "video-ad-specs",
@@ -1714,7 +2968,10 @@
       "source": "inference-sh-9/skills/video-ad-specs",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "video-prompting-guide",
@@ -1722,7 +2979,10 @@
       "source": "inference-sh-9/skills/video-prompting-guide",
       "tags": [
         "ai"
-      ]
+      ],
+      "riskScore": 10,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "vite",
@@ -1730,7 +2990,10 @@
       "source": "antfu/skills/vite",
       "tags": [
         "frontend"
-      ]
+      ],
+      "riskScore": 50,
+      "riskLabel": "critical",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "vitepress",
@@ -1740,7 +3003,10 @@
       "tags": [
         "docs",
         "frontend"
-      ]
+      ],
+      "riskScore": 84,
+      "riskLabel": "critical",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "vitest",
@@ -1748,7 +3014,10 @@
       "source": "antfu/skills/vitest",
       "tags": [
         "testing"
-      ]
+      ],
+      "riskScore": 75,
+      "riskLabel": "critical",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "vue",
@@ -1757,7 +3026,10 @@
       "tags": [
         "vue",
         "frontend"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "vue-best-practices",
@@ -1766,7 +3038,10 @@
       "tags": [
         "vue",
         "frontend"
-      ]
+      ],
+      "riskScore": 6,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "vue-debug-guides",
@@ -1775,7 +3050,10 @@
       "tags": [
         "vue",
         "frontend"
-      ]
+      ],
+      "riskScore": 100,
+      "riskLabel": "critical",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "vueuse-functions",
@@ -1785,7 +3063,21 @@
       "tags": [
         "vue",
         "frontend"
-      ]
+      ],
+      "riskScore": 100,
+      "riskLabel": "critical",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "web-accessibility",
+      "description": "Web Accessibility skill for AI agent workflows",
+      "source": "supercent-io/skills-template/web-accessibility",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 15,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "web-artifacts-builder",
@@ -1793,7 +3085,10 @@
       "source": "anthropics/skills/web-artifacts-builder",
       "tags": [
         "frontend"
-      ]
+      ],
+      "riskScore": 2,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "web-design-guidelines",
@@ -1802,7 +3097,10 @@
       "tags": [
         "design",
         "frontend"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "web-search",
@@ -1810,7 +3108,10 @@
       "source": "inference-sh-9/skills/web-search",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 13,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "webapp-testing",
@@ -1818,7 +3119,10 @@
       "source": "anthropics/skills/webapp-testing",
       "tags": [
         "testing"
-      ]
+      ],
+      "riskScore": 31,
+      "riskLabel": "high",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "widgets-ui",
@@ -1826,7 +3130,21 @@
       "source": "inference-sh-9/skills/widgets-ui",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 16,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
+    },
+    {
+      "name": "workflow-automation",
+      "description": "Workflow Automation skill for AI agent workflows",
+      "source": "supercent-io/skills-template/workflow-automation",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 33,
+      "riskLabel": "high",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "writing-plans",
@@ -1835,7 +3153,10 @@
       "tags": [
         "workflow",
         "superpowers"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "writing-skills",
@@ -1845,7 +3166,10 @@
         "skill",
         "workflow",
         "superpowers"
-      ]
+      ],
+      "riskScore": 42,
+      "riskLabel": "high",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "xlsx",
@@ -1853,7 +3177,10 @@
       "source": "anthropics/skills/xlsx",
       "tags": [
         "docs"
-      ]
+      ],
+      "riskScore": 100,
+      "riskLabel": "critical",
+      "auditedAt": "2026-03-09T05:29:01Z"
     },
     {
       "name": "youtube-thumbnail-design",
@@ -1862,7 +3189,10 @@
       "tags": [
         "design",
         "frontend"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-03-09T05:29:01Z"
     }
   ]
 }
