@@ -1,5 +1,13 @@
 [
   {
+    "name": "adapt",
+    "description": "Adapt skill for AI agent workflows",
+    "source": "pbakaus/impeccable/adapt",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "agent-configuration",
     "description": "Agent Configuration skill for AI agent workflows",
     "source": "supercent-io/skills-template/agent-configuration",
@@ -138,6 +146,14 @@
     ]
   },
   {
+    "name": "ai-seo",
+    "description": "Ai Seo skill for AI agent workflows",
+    "source": "coreyhaines31/marketingskills/ai-seo",
+    "tags": [
+      "seo"
+    ]
+  },
+  {
     "name": "ai-social-media-content",
     "description": "Ai Social Media Content skill for AI agent workflows",
     "source": "inference-sh-9/skills/ai-social-media-content",
@@ -170,6 +186,14 @@
     ]
   },
   {
+    "name": "animate",
+    "description": "Animate skill for AI agent workflows",
+    "source": "pbakaus/impeccable/animate",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "api-design",
     "description": "Api Design skill for AI agent workflows",
     "source": "supercent-io/skills-template/api-design",
@@ -190,6 +214,14 @@
     "name": "app-store-screenshots",
     "description": "App Store Screenshots skill for AI agent workflows",
     "source": "inference-sh-9/skills/app-store-screenshots",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "audit",
+    "description": "Audit skill for AI agent workflows",
+    "source": "pbakaus/impeccable/audit",
     "tags": [
       "workflow"
     ]
@@ -238,6 +270,14 @@
     ]
   },
   {
+    "name": "azure-quotas",
+    "description": "Azure Quotas management and best practices",
+    "source": "microsoft/azure-skills/azure-quotas",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "backend-testing",
     "description": "Backend Testing skill for AI agent workflows",
     "source": "supercent-io/skills-template/backend-testing",
@@ -265,6 +305,14 @@
     "name": "bmad-orchestrator",
     "description": "Bmad Orchestrator skill for AI agent workflows",
     "source": "supercent-io/skills-template/bmad-orchestrator",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "bolder",
+    "description": "Bolder skill for AI agent workflows",
+    "source": "pbakaus/impeccable/bolder",
     "tags": [
       "workflow"
     ]
@@ -331,6 +379,14 @@
     ]
   },
   {
+    "name": "clarify",
+    "description": "Clarify skill for AI agent workflows",
+    "source": "pbakaus/impeccable/clarify",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "clawdirect",
     "description": "Directory of social web experiences for AI agents — browse, like, and manage listings",
     "source": "napoleond/clawdirect/clawdirect",
@@ -366,6 +422,22 @@
     "name": "codebase-search",
     "description": "Codebase Search skill for AI agent workflows",
     "source": "supercent-io/skills-template/codebase-search",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "cold-email",
+    "description": "Cold Email skill for AI agent workflows",
+    "source": "coreyhaines31/marketingskills/cold-email",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
+    "name": "colorize",
+    "description": "Colorize skill for AI agent workflows",
+    "source": "pbakaus/impeccable/colorize",
     "tags": [
       "workflow"
     ]
@@ -412,6 +484,14 @@
     ]
   },
   {
+    "name": "critique",
+    "description": "Critique skill for AI agent workflows",
+    "source": "pbakaus/impeccable/critique",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "customer-persona",
     "description": "Customer Persona skill for AI agent workflows",
     "source": "inference-sh-9/skills/customer-persona",
@@ -453,6 +533,14 @@
     ]
   },
   {
+    "name": "delight",
+    "description": "Delight skill for AI agent workflows",
+    "source": "pbakaus/impeccable/delight",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "deployment-automation",
     "description": "Deployment Automation skill for AI agent workflows",
     "source": "supercent-io/skills-template/deployment-automation",
@@ -473,6 +561,14 @@
     "name": "dialogue-audio",
     "description": "Dialogue Audio skill for AI agent workflows",
     "source": "inference-sh-9/skills/dialogue-audio",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "distill",
+    "description": "Distill skill for AI agent workflows",
+    "source": "pbakaus/impeccable/distill",
     "tags": [
       "workflow"
     ]
@@ -509,6 +605,14 @@
     "source": "inference-sh-9/skills/explainer-video-guide",
     "tags": [
       "ai"
+    ]
+  },
+  {
+    "name": "extract",
+    "description": "Extract skill for AI agent workflows",
+    "source": "pbakaus/impeccable/extract",
+    "tags": [
+      "workflow"
     ]
   },
   {
@@ -569,6 +673,14 @@
     ]
   },
   {
+    "name": "gh-cli",
+    "description": "Gh Cli skill for AI agent workflows",
+    "source": "github/awesome-copilot/gh-cli",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "git-commit",
     "description": "Git Commit skill for AI agent workflows",
     "source": "github/awesome-copilot/git-commit",
@@ -601,6 +713,22 @@
     ]
   },
   {
+    "name": "grimoire-polymarket",
+    "description": "Grimoire Polymarket skill for AI agent workflows",
+    "source": "franalgaba/grimoire/grimoire-polymarket",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "harden",
+    "description": "Harden skill for AI agent workflows",
+    "source": "pbakaus/impeccable/harden",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "image-to-video",
     "description": "Image To Video skill for AI agent workflows",
     "source": "inference-sh-9/skills/image-to-video",
@@ -615,6 +743,14 @@
     "source": "inference-sh-9/skills/image-upscaling",
     "tags": [
       "ai",
+      "workflow"
+    ]
+  },
+  {
+    "name": "infsh-cli",
+    "description": "Infsh Cli skill for AI agent workflows",
+    "source": "inferen-sh/skills/infsh-cli",
+    "tags": [
       "workflow"
     ]
   },
@@ -751,6 +887,14 @@
     ]
   },
   {
+    "name": "normalize",
+    "description": "Normalize skill for AI agent workflows",
+    "source": "pbakaus/impeccable/normalize",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "npm-git-install",
     "description": "Npm Git Install skill for AI agent workflows",
     "source": "supercent-io/skills-template/npm-git-install",
@@ -777,6 +921,14 @@
     ]
   },
   {
+    "name": "onboard",
+    "description": "Onboard skill for AI agent workflows",
+    "source": "pbakaus/impeccable/onboard",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "openai-docs-skill",
     "description": "Openai Docs Skill skill for AI agent workflows",
     "source": "am-will/codex-skills/openai-docs-skill",
@@ -788,6 +940,31 @@
     "name": "opencontext",
     "description": "Opencontext skill for AI agent workflows",
     "source": "supercent-io/skills-template/opencontext",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "optimize",
+    "description": "Optimize skill for AI agent workflows",
+    "source": "pbakaus/impeccable/optimize",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "p-image",
+    "description": "P Image skill for AI agent workflows",
+    "source": "inferen-sh/skills/p-image",
+    "tags": [
+      "ai",
+      "workflow"
+    ]
+  },
+  {
+    "name": "p-video",
+    "description": "P Video skill for AI agent workflows",
+    "source": "inferen-sh/skills/p-video",
     "tags": [
       "workflow"
     ]
@@ -852,6 +1029,14 @@
     "name": "planning-with-files",
     "description": "File-based planning and task management for AI agent workflows",
     "source": "othmanadi/planning-with-files/planning-with-files",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "polish",
+    "description": "Polish skill for AI agent workflows",
+    "source": "pbakaus/impeccable/polish",
     "tags": [
       "workflow"
     ]
@@ -926,6 +1111,14 @@
     "source": "inference-sh-9/skills/python-sdk",
     "tags": [
       "backend"
+    ]
+  },
+  {
+    "name": "quieter",
+    "description": "Quieter skill for AI agent workflows",
+    "source": "pbakaus/impeccable/quieter",
+    "tags": [
+      "workflow"
     ]
   },
   {
@@ -1040,6 +1233,14 @@
     ]
   },
   {
+    "name": "search",
+    "description": "Search skill for AI agent workflows",
+    "source": "tavily-ai/skills/search",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "security-best-practices",
     "description": "Security best practices and recommended patterns",
     "source": "supercent-io/skills-template/security-best-practices",
@@ -1070,6 +1271,32 @@
     "tags": [
       "seo",
       "marketing"
+    ]
+  },
+  {
+    "name": "shadcn",
+    "description": "Shadcn skill for AI agent workflows",
+    "source": "shadcn/ui/shadcn",
+    "tags": [
+      "design",
+      "frontend"
+    ]
+  },
+  {
+    "name": "shadcn-ui",
+    "description": "Shadcn Ui skill for AI agent workflows",
+    "source": "google-labs-code/stitch-skills/shadcn-ui",
+    "tags": [
+      "design",
+      "frontend"
+    ]
+  },
+  {
+    "name": "simple",
+    "description": "Simple skill for AI agent workflows",
+    "source": "roin-orca/skills/simple",
+    "tags": [
+      "workflow"
     ]
   },
   {
@@ -1207,6 +1434,14 @@
     "name": "task-planning",
     "description": "Task Planning skill for AI agent workflows",
     "source": "supercent-io/skills-template/task-planning",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "teach-impeccable",
+    "description": "Teach Impeccable skill for AI agent workflows",
+    "source": "pbakaus/impeccable/teach-impeccable",
     "tags": [
       "workflow"
     ]
