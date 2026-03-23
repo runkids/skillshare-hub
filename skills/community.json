@@ -1,5 +1,13 @@
 [
   {
+    "name": "ad-creative",
+    "description": "Ad Creative skill for AI agent workflows",
+    "source": "coreyhaines31/marketingskills/ad-creative",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "adapt",
     "description": "Adapt skill for AI agent workflows",
     "source": "pbakaus/impeccable/adapt",
@@ -278,6 +286,14 @@
     ]
   },
   {
+    "name": "azure-upgrade",
+    "description": "Azure Upgrade management and best practices",
+    "source": "microsoft/azure-skills/azure-upgrade",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "backend-testing",
     "description": "Backend Testing skill for AI agent workflows",
     "source": "supercent-io/skills-template/backend-testing",
@@ -376,6 +392,14 @@
     "tags": [
       "ai",
       "agent"
+    ]
+  },
+  {
+    "name": "churn-prevention",
+    "description": "Churn Prevention skill for AI agent workflows",
+    "source": "coreyhaines31/marketingskills/churn-prevention",
+    "tags": [
+      "workflow"
     ]
   },
   {
@@ -541,6 +565,14 @@
     ]
   },
   {
+    "name": "deploy-to-vercel",
+    "description": "Deploy To Vercel skill for AI agent workflows",
+    "source": "vercel-labs/agent-skills/deploy-to-vercel",
+    "tags": [
+      "devops"
+    ]
+  },
+  {
     "name": "deployment-automation",
     "description": "Deployment Automation skill for AI agent workflows",
     "source": "supercent-io/skills-template/deployment-automation",
@@ -579,6 +611,30 @@
     "source": "sickn33/antigravity-awesome-skills/docker-expert",
     "tags": [
       "devops"
+    ]
+  },
+  {
+    "name": "dogfood",
+    "description": "Dogfood skill for AI agent workflows",
+    "source": "vercel-labs/agent-browser/dogfood",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "elevenlabs-music",
+    "description": "Elevenlabs Music skill for AI agent workflows",
+    "source": "inferen-sh/skills/elevenlabs-music",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "elevenlabs-tts",
+    "description": "Elevenlabs Tts skill for AI agent workflows",
+    "source": "inferen-sh/skills/elevenlabs-tts",
+    "tags": [
+      "workflow"
     ]
   },
   {
@@ -876,6 +932,14 @@
     "source": "inference-sh-9/skills/nano-banana-2",
     "tags": [
       "workflow"
+    ]
+  },
+  {
+    "name": "neon-postgres",
+    "description": "Neon Postgres skill for AI agent workflows",
+    "source": "neondatabase/agent-skills/neon-postgres",
+    "tags": [
+      "backend"
     ]
   },
   {
@@ -1254,6 +1318,14 @@
     "source": "hexiaochun/seedance2-api/seedance2-api",
     "tags": [
       "ai"
+    ]
+  },
+  {
+    "name": "self-improving-agent",
+    "description": "Self Improving Agent skill for AI agent workflows",
+    "source": "charon-fan/agent-playbook/self-improving-agent",
+    "tags": [
+      "agent"
     ]
   },
   {
