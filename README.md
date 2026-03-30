@@ -46,7 +46,7 @@ skillshare install <source>
 ## Skills Catalog
 
 <!-- CATALOG:START -->
-**315 skills** across 11 categories — browse via `skillshare search --hub` or the Web UI
+**335 skills** across 11 categories — browse via `skillshare search --hub` or the Web UI
 
 ### Frontend (24)
 
@@ -91,7 +91,7 @@ skillshare install <source>
 - [**ai-seo**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Ai Seo skill for AI agent workflows
 - [**ai-social-media-content**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Ai Social Media Content skill for AI agent workflows
 - [**analytics-tracking**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Set up analytics tracking and measurement plans for marketing
-- [**backlink-analyzer**](https://github.com/aaron-he-zhu/seo-geo-claude-skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — SEO backlink analysis and link building strategy tool
+- [**backlink-analyzer**](https://github.com/aaron-he-zhu/seo-geo-claude-skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — SEO backlink analysis and link building strategy tool
 - [**competitor-alternatives**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Analyze competitors and craft alternative positioning strategies
 - [**content-repurposing**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Content Repurposing skill for AI agent workflows
 - [**content-strategy**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Develop content marketing strategy and editorial plans
@@ -122,17 +122,19 @@ skillshare install <source>
 
 </details>
 
-### Workflow (116)
+### Workflow (132)
 
 <details>
-<summary>Show 116 skills</summary>
+<summary>Show 132 skills</summary>
 
 - [**ad-creative**](https://github.com/coreyhaines31/marketingskills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Ad Creative skill for AI agent workflows
 - [**adapt**](https://github.com/pbakaus/impeccable) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Adapt skill for AI agent workflows
 - [**animate**](https://github.com/pbakaus/impeccable) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Animate skill for AI agent workflows
 - [**antfu**](https://github.com/antfu/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Anthony Fu's coding conventions and project setup preferences
 - [**app-store-screenshots**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — App Store Screenshots skill for AI agent workflows
+- [**arrange**](https://github.com/pbakaus/impeccable) ![risk-low](https://img.shields.io/badge/risk-low-green) — Arrange skill for AI agent workflows
 - [**audit**](https://github.com/pbakaus/impeccable) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Audit skill for AI agent workflows
+- [**azure-enterprise-infra-planner**](https://github.com/microsoft/azure-skills) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Azure Enterprise Infra Planner management and best practices
 - [**azure-quotas**](https://github.com/microsoft/azure-skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Azure Quotas management and best practices
 - [**azure-upgrade**](https://github.com/microsoft/azure-skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Azure Upgrade management and best practices
 - [**background-removal**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Background Removal skill for AI agent workflows
@@ -182,8 +184,11 @@ skillshare install <source>
 - [**normalize**](https://github.com/pbakaus/impeccable) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Normalize skill for AI agent workflows
 - [**npm-git-install**](https://github.com/supercent-io/skills-template) — Npm Git Install skill for AI agent workflows
 - [**onboard**](https://github.com/pbakaus/impeccable) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Onboard skill for AI agent workflows
+- [**openclaw-secure-linux-cloud**](https://github.com/xixu-me/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Openclaw Secure Linux Cloud skill for AI agent workflows
 - [**opencontext**](https://github.com/supercent-io/skills-template) — Opencontext skill for AI agent workflows
+- [**opensource-guide-coach**](https://github.com/xixu-me/skills) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Opensource Guide Coach skill for AI agent workflows
 - [**optimize**](https://github.com/pbakaus/impeccable) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Optimize skill for AI agent workflows
+- [**overdrive**](https://github.com/pbakaus/impeccable) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Overdrive skill for AI agent workflows
 - [**p-video**](https://github.com/inferen-sh/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — P Video skill for AI agent workflows
 - [**parallel-task**](https://github.com/am-will/codex-skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Parallel Task skill for AI agent workflows
 - [**parallel-task-spark**](https://github.com/am-will/codex-skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Parallel Task Spark skill for AI agent workflows
@@ -203,12 +208,18 @@ skillshare install <source>
 - [**ralph**](https://github.com/supercent-io/skills-template) — Ralph skill for AI agent workflows
 - [**ralph-tui-prd**](https://github.com/subsy/ralph-tui) ![risk-low](https://img.shields.io/badge/risk-low-green) — Generate structured product requirements documents for AI agent execution with ralph-tui
 - [**read-github**](https://github.com/am-will/codex-skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Read Github skill for AI agent workflows
+- [**readme-i18n**](https://github.com/xixu-me/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Readme I18n skill for AI agent workflows
 - [**related-skill**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Related Skill skill for AI agent workflows
+- [**revops**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Revops skill for AI agent workflows
 - [**role-creator**](https://github.com/am-will/codex-skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Role Creator skill for AI agent workflows
+- [**sales-enablement**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Sales Enablement skill for AI agent workflows
 - [**search**](https://github.com/tavily-ai/skills) — Search skill for AI agent workflows
+- [**secure-linux-web-hosting**](https://github.com/xixu-me/skills) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Secure Linux Web Hosting skill for AI agent workflows
 - [**simple**](https://github.com/roin-orca/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Simple skill for AI agent workflows
+- [**site-architecture**](https://github.com/coreyhaines31/marketingskills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Site Architecture skill for AI agent workflows
 - [**skill-creator**](https://github.com/anthropics/skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.
 - [**skill-standardization**](https://github.com/supercent-io/skills-template) — Skill Standardization skill for AI agent workflows
+- [**skills-cli**](https://github.com/xixu-me/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Skills Cli skill for AI agent workflows
 - [**skillshare**](https://github.com/runkids/skillshare/tree/main/skills/skillshare) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Built-in AI skill for skillshare – helps install, search, and manage skills from the hub
 - [**social-media-carousel**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Social Media Carousel skill for AI agent workflows
 - [**speech-to-text**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Speech To Text skill for AI agent workflows
@@ -231,6 +242,9 @@ skillshare install <source>
 - [**tools-ui**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Tools Ui skill for AI agent workflows
 - [**twitter-automation**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Twitter Automation skill for AI agent workflows
 - [**twitter-thread-creation**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Twitter Thread Creation skill for AI agent workflows
+- [**typeset**](https://github.com/pbakaus/impeccable) ![risk-low](https://img.shields.io/badge/risk-low-green) — Typeset skill for AI agent workflows
+- [**tzst**](https://github.com/xixu-me/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Tzst skill for AI agent workflows
+- [**use-my-browser**](https://github.com/xixu-me/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Use My Browser skill for AI agent workflows
 - [**user-guide-writing**](https://github.com/supercent-io/skills-template) — User Guide Writing skill for AI agent workflows
 - [**using-git-worktrees**](https://github.com/obra/superpowers) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Use git worktrees for isolated feature development without stashing
 - [**using-superpowers**](https://github.com/obra/superpowers) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Discover and use available superpowers skills at conversation start
@@ -243,13 +257,15 @@ skillshare install <source>
 - [**workflow-automation**](https://github.com/supercent-io/skills-template) — Workflow Automation skill for AI agent workflows
 - [**writing-plans**](https://github.com/obra/superpowers) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Create structured, step-by-step implementation plans before writing code
 - [**writing-skills**](https://github.com/obra/superpowers) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Create, edit, and verify skills for AI code agents
+- [**xdrop**](https://github.com/xixu-me/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Xdrop skill for AI agent workflows
+- [**xget**](https://github.com/xixu-me/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Xget skill for AI agent workflows
 
 </details>
 
-### Agent (62)
+### Agent (64)
 
 <details>
-<summary>Show 62 skills</summary>
+<summary>Show 64 skills</summary>
 
 - [**agent-browser**](https://github.com/vercel-labs/agent-browser) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Browser automation agent for web page interactions using Playwright
 - [**agent-configuration**](https://github.com/supercent-io/skills-template) — Agent Configuration skill for AI agent workflows
@@ -275,7 +291,7 @@ skillshare install <source>
 - [**baoyu-cover-image**](https://github.com/jimliu/baoyu-skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Generate cover images for articles, posts, and social media
 - [**baoyu-danger-gemini-web**](https://github.com/jimliu/baoyu-skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Web browsing and research using Gemini API integration
 - [**baoyu-danger-x-to-markdown**](https://github.com/jimliu/baoyu-skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Convert X/Twitter posts and threads to Markdown format
-- [**baoyu-image-gen**](https://github.com/jimliu/baoyu-skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Generate images from text prompts using AI models
+- [**baoyu-image-gen**](https://github.com/jimliu/baoyu-skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Generate images from text prompts using AI models
 - [**baoyu-infographic**](https://github.com/jimliu/baoyu-skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Create infographic visualizations from data and text
 - [**baoyu-post-to-wechat**](https://github.com/jimliu/baoyu-skills) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Publish and format content for WeChat Official Accounts
 - [**baoyu-post-to-x**](https://github.com/jimliu/baoyu-skills) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Compose and publish posts to X/Twitter with media support
@@ -302,6 +318,7 @@ skillshare install <source>
 - [**mcp-builder**](https://github.com/anthropics/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Build Model Context Protocol (MCP) servers and tools for AI agents
 - [**openai-docs-skill**](https://github.com/am-will/codex-skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Openai Docs Skill skill for AI agent workflows
 - [**p-image**](https://github.com/inferen-sh/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — P Image skill for AI agent workflows
+- [**pexo-agent**](https://github.com/pexoai/pexo-skills) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Pexo Agent skill for AI agent workflows
 - [**pollinations-ai**](https://github.com/supercent-io/skills-template) — Pollinations Ai skill for AI agent workflows
 - [**prompt-engineering**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Prompt Engineering skill for AI agent workflows
 - [**prompt-repetition**](https://github.com/supercent-io/skills-template) — Prompt Repetition skill for AI agent workflows
@@ -309,6 +326,7 @@ skillshare install <source>
 - [**qwen-image-2-pro**](https://github.com/toolshell/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Qwen Image 2 Pro skill for AI agent workflows
 - [**release-skills**](https://github.com/jimliu/baoyu-skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Automate release notes and changelog generation
 - [**remembering-conversations**](https://github.com/obra/episodic-memory) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Episodic memory for AI agents to maintain conversation context
+- [**running-claude-code-via-litellm-copilot**](https://github.com/xixu-me/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Running Claude Code Via Litellm Copilot skill for AI agent workflows
 - [**seedance2-api**](https://github.com/hexiaochun/seedance2-api) — Seedance2 video generation API integration and workflow
 - [**self-improving-agent**](https://github.com/charon-fan/agent-playbook) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Self Improving Agent skill for AI agent workflows
 - [**simple-brainstorm**](https://github.com/roin-orca/skills) — Simple Brainstorm skill for AI agent workflows
@@ -396,10 +414,10 @@ skillshare install <source>
 
 </details>
 
-### DevOps (28)
+### DevOps (30)
 
 <details>
-<summary>Show 28 skills</summary>
+<summary>Show 30 skills</summary>
 
 - [**appinsights-instrumentation**](https://github.com/microsoft/github-copilot-for-azure) ![risk-low](https://img.shields.io/badge/risk-low-green) — Application Insights instrumentation and telemetry for Azure applications
 - [**azure-ai**](https://github.com/microsoft/github-copilot-for-azure) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Azure AI services integration and management
@@ -411,6 +429,7 @@ skillshare install <source>
 - [**azure-deploy**](https://github.com/microsoft/github-copilot-for-azure) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Azure deployment automation and resource provisioning
 - [**azure-diagnostics**](https://github.com/microsoft/github-copilot-for-azure) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Azure diagnostics and troubleshooting for cloud services
 - [**azure-hosted-copilot-sdk**](https://github.com/microsoft/github-copilot-for-azure) ![risk-low](https://img.shields.io/badge/risk-low-green) — Azure Hosted Copilot Sdk management and best practices
+- [**azure-kubernetes**](https://github.com/microsoft/azure-skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Azure Kubernetes management and best practices
 - [**azure-kusto**](https://github.com/microsoft/github-copilot-for-azure) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Azure Data Explorer (Kusto) query and analytics
 - [**azure-messaging**](https://github.com/microsoft/github-copilot-for-azure) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Azure messaging services (Service Bus, Event Hubs) patterns
 - [**azure-observability**](https://github.com/microsoft/github-copilot-for-azure) — Azure monitoring, logging, and observability best practices
@@ -420,12 +439,13 @@ skillshare install <source>
 - [**azure-resource-lookup**](https://github.com/microsoft/github-copilot-for-azure) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Azure resource discovery and inventory management
 - [**azure-resource-visualizer**](https://github.com/microsoft/github-copilot-for-azure) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Azure resource topology visualization and dependency mapping
 - [**azure-storage**](https://github.com/microsoft/github-copilot-for-azure) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Azure Storage services configuration and best practices
-- [**azure-validate**](https://github.com/microsoft/github-copilot-for-azure) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Azure resource validation and configuration verification
+- [**azure-validate**](https://github.com/microsoft/github-copilot-for-azure) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Azure resource validation and configuration verification
 - [**deploy-to-vercel**](https://github.com/vercel-labs/agent-skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Deploy To Vercel skill for AI agent workflows
 - [**deployment-automation**](https://github.com/supercent-io/skills-template) — Deployment Automation skill for AI agent workflows
 - [**docker-expert**](https://github.com/sickn33/antigravity-awesome-skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Docker containerization best practices and multi-stage builds
 - [**entra-app-registration**](https://github.com/microsoft/github-copilot-for-azure) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Microsoft Entra ID app registration and authentication setup
 - [**expo-deployment**](https://github.com/expo/skills) — Deploy Expo apps to iOS App Store, Android Play Store, and web hosting
+- [**github-actions-docs**](https://github.com/xixu-me/skills) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Github Actions Docs skill for AI agent workflows
 - [**microsoft-foundry**](https://github.com/microsoft/github-copilot-for-azure) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Microsoft AI Foundry platform integration and management
 - [**turborepo**](https://github.com/vercel/turborepo) ![risk-low](https://img.shields.io/badge/risk-low-green) — Turborepo monorepo build system configuration and optimization
 - [**vercel-deploy**](https://github.com/supercent-io/skills-template) — Vercel Deploy skill for AI agent workflows

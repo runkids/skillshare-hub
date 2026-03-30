@@ -227,6 +227,14 @@
     ]
   },
   {
+    "name": "arrange",
+    "description": "Arrange skill for AI agent workflows",
+    "source": "pbakaus/impeccable/arrange",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "audit",
     "description": "Audit skill for AI agent workflows",
     "source": "pbakaus/impeccable/audit",
@@ -269,12 +277,28 @@
     ]
   },
   {
+    "name": "azure-enterprise-infra-planner",
+    "description": "Azure Enterprise Infra Planner management and best practices",
+    "source": "microsoft/azure-skills/azure-enterprise-infra-planner",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "azure-hosted-copilot-sdk",
     "description": "Azure Hosted Copilot Sdk management and best practices",
     "source": "microsoft/github-copilot-for-azure/azure-hosted-copilot-sdk",
     "tags": [
       "devops",
       "backend"
+    ]
+  },
+  {
+    "name": "azure-kubernetes",
+    "description": "Azure Kubernetes management and best practices",
+    "source": "microsoft/azure-skills/azure-kubernetes",
+    "tags": [
+      "devops"
     ]
   },
   {
@@ -753,6 +777,14 @@
     ]
   },
   {
+    "name": "github-actions-docs",
+    "description": "Github Actions Docs skill for AI agent workflows",
+    "source": "xixu-me/skills/github-actions-docs",
+    "tags": [
+      "devops"
+    ]
+  },
+  {
     "name": "golang-pro",
     "description": "Go programming best practices, idioms, and performance patterns",
     "source": "jeffallan/claude-skills/golang-pro",
@@ -1001,6 +1033,14 @@
     ]
   },
   {
+    "name": "openclaw-secure-linux-cloud",
+    "description": "Openclaw Secure Linux Cloud skill for AI agent workflows",
+    "source": "xixu-me/skills/openclaw-secure-linux-cloud",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "opencontext",
     "description": "Opencontext skill for AI agent workflows",
     "source": "supercent-io/skills-template/opencontext",
@@ -1009,9 +1049,25 @@
     ]
   },
   {
+    "name": "opensource-guide-coach",
+    "description": "Opensource Guide Coach skill for AI agent workflows",
+    "source": "xixu-me/skills/opensource-guide-coach",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "optimize",
     "description": "Optimize skill for AI agent workflows",
     "source": "pbakaus/impeccable/optimize",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "overdrive",
+    "description": "Overdrive skill for AI agent workflows",
+    "source": "pbakaus/impeccable/overdrive",
     "tags": [
       "workflow"
     ]
@@ -1063,6 +1119,14 @@
     "source": "supercent-io/skills-template/performance-optimization",
     "tags": [
       "workflow"
+    ]
+  },
+  {
+    "name": "pexo-agent",
+    "description": "Pexo Agent skill for AI agent workflows",
+    "source": "pexoai/pexo-skills/pexo-agent",
+    "tags": [
+      "agent"
     ]
   },
   {
@@ -1247,6 +1311,14 @@
     ]
   },
   {
+    "name": "readme-i18n",
+    "description": "Readme I18n skill for AI agent workflows",
+    "source": "xixu-me/skills/readme-i18n",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "related-skill",
     "description": "Related Skill skill for AI agent workflows",
     "source": "inference-sh-9/skills/related-skill",
@@ -1289,6 +1361,14 @@
     ]
   },
   {
+    "name": "revops",
+    "description": "Revops skill for AI agent workflows",
+    "source": "coreyhaines31/marketingskills/revops",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "role-creator",
     "description": "Role Creator skill for AI agent workflows",
     "source": "am-will/codex-skills/role-creator",
@@ -1297,9 +1377,33 @@
     ]
   },
   {
+    "name": "running-claude-code-via-litellm-copilot",
+    "description": "Running Claude Code Via Litellm Copilot skill for AI agent workflows",
+    "source": "xixu-me/skills/running-claude-code-via-litellm-copilot",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
+    "name": "sales-enablement",
+    "description": "Sales Enablement skill for AI agent workflows",
+    "source": "coreyhaines31/marketingskills/sales-enablement",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "search",
     "description": "Search skill for AI agent workflows",
     "source": "tavily-ai/skills/search",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "secure-linux-web-hosting",
+    "description": "Secure Linux Web Hosting skill for AI agent workflows",
+    "source": "xixu-me/skills/secure-linux-web-hosting",
     "tags": [
       "workflow"
     ]
@@ -1380,9 +1484,25 @@
     ]
   },
   {
+    "name": "site-architecture",
+    "description": "Site Architecture skill for AI agent workflows",
+    "source": "coreyhaines31/marketingskills/site-architecture",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "skill-standardization",
     "description": "Skill Standardization skill for AI agent workflows",
     "source": "supercent-io/skills-template/skill-standardization",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "skills-cli",
+    "description": "Skills Cli skill for AI agent workflows",
+    "source": "xixu-me/skills/skills-cli",
     "tags": [
       "workflow"
     ]
@@ -1575,6 +1695,22 @@
     ]
   },
   {
+    "name": "typeset",
+    "description": "Typeset skill for AI agent workflows",
+    "source": "pbakaus/impeccable/typeset",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "tzst",
+    "description": "Tzst skill for AI agent workflows",
+    "source": "xixu-me/skills/tzst",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "ui-component-patterns",
     "description": "Ui Component patterns and implementation guidelines",
     "source": "supercent-io/skills-template/ui-component-patterns",
@@ -1590,6 +1726,14 @@
     "tags": [
       "design",
       "frontend"
+    ]
+  },
+  {
+    "name": "use-my-browser",
+    "description": "Use My Browser skill for AI agent workflows",
+    "source": "xixu-me/skills/use-my-browser",
+    "tags": [
+      "workflow"
     ]
   },
   {
@@ -1678,6 +1822,22 @@
     "name": "workflow-automation",
     "description": "Workflow Automation skill for AI agent workflows",
     "source": "supercent-io/skills-template/workflow-automation",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "xdrop",
+    "description": "Xdrop skill for AI agent workflows",
+    "source": "xixu-me/skills/xdrop",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "xget",
+    "description": "Xget skill for AI agent workflows",
+    "source": "xixu-me/skills/xget",
     "tags": [
       "workflow"
     ]
