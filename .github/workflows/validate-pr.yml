@@ -23,6 +23,22 @@ jobs:
       - name: Validate skills/*.json
         run: ./scripts/validate.sh
 
+      - name: Check for duplicate skills
+        run: |
+          DUPES=$(jq -s '[.[][]] | group_by(.name) | map(select(length > 1)) | .[] | "\(.name) (\(length)x): \([.[].source] | join(", "))"' skills/*.json)
+          if [ -n "$DUPES" ]; then
+            echo "::error::Duplicate skill names found:"
+            echo "$DUPES"
+            exit 1
+          fi
+          DUPE_SRC=$(jq -s '[.[][]] | group_by(.source) | map(select(length > 1)) | .[] | "\(.source) (\(length)x): \([.[].name] | join(", "))"' skills/*.json)
+          if [ -n "$DUPE_SRC" ]; then
+            echo "::error::Duplicate skill sources found:"
+            echo "$DUPE_SRC"
+            exit 1
+          fi
+          echo "No duplicates found"
+
       - name: Build skillshare-hub.json
         run: ./scripts/build.sh
 
@@ -45,10 +61,7 @@ jobs:
           ref: ${{ github.head_ref }}
           fetch-depth: 0
 
-      - name: Install skillshare
-        run: |
-          curl -fsSL https://raw.githubusercontent.com/runkids/skillshare/main/install.sh | sh
-          skillshare version
+      - uses: runkids/setup-skillshare@v1
 
       - name: Audit new skills
         id: audit
