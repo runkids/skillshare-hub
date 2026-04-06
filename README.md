@@ -298,7 +298,7 @@ skillshare install <source>
 - [**baoyu-slide-deck**](https://github.com/jimliu/baoyu-skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Generate presentation slide decks from text content
 - [**baoyu-url-to-markdown**](https://github.com/jimliu/baoyu-skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Convert web page content to clean Markdown format
 - [**baoyu-xhs-images**](https://github.com/jimliu/baoyu-skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Create image posts optimized for Xiaohongshu (RED) platform
-- [**browser-use**](https://github.com/browser-use/browser-use) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Browser automation CLI for persistent session-based web interactions
+- [**browser-use**](https://github.com/browser-use/browser-use) ![risk-low](https://img.shields.io/badge/risk-low-green) — Browser automation CLI for persistent session-based web interactions
 - [**changelog-maintenance**](https://github.com/supercent-io/skills-template) — Changelog Maintenance skill for AI agent workflows
 - [**chatgpt-app-builder**](https://github.com/mcp-use/mcp-use) ![risk-low](https://img.shields.io/badge/risk-low-green) — Build ChatGPT-powered applications with MCP integration
 - [**clawdirect**](https://github.com/napoleond/clawdirect) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Directory of social web experiences for AI agents — browse, like, and manage listings
@@ -425,7 +425,7 @@ skillshare install <source>
 - [**azure-cloud-migrate**](https://github.com/microsoft/github-copilot-for-azure) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Azure Cloud Migrate management and best practices
 - [**azure-compliance**](https://github.com/microsoft/github-copilot-for-azure) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Azure compliance assessment and policy management
 - [**azure-compute**](https://github.com/microsoft/github-copilot-for-azure) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Azure Compute management and best practices
-- [**azure-cost-optimization**](https://github.com/microsoft/github-copilot-for-azure) ![risk-low](https://img.shields.io/badge/risk-low-green) — Azure cost optimization and spending analysis
+- [**azure-cost-optimization**](https://github.com/microsoft/github-copilot-for-azure) — Azure cost optimization and spending analysis
 - [**azure-deploy**](https://github.com/microsoft/github-copilot-for-azure) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Azure deployment automation and resource provisioning
 - [**azure-diagnostics**](https://github.com/microsoft/github-copilot-for-azure) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Azure diagnostics and troubleshooting for cloud services
 - [**azure-hosted-copilot-sdk**](https://github.com/microsoft/github-copilot-for-azure) ![risk-low](https://img.shields.io/badge/risk-low-green) — Azure Hosted Copilot Sdk management and best practices
