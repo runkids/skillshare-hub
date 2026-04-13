@@ -801,6 +801,14 @@
     ]
   },
   {
+    "name": "grill-me",
+    "description": "Grill Me skill for AI agent workflows",
+    "source": "mattpocock/skills/grill-me",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "grimoire-polymarket",
     "description": "Grimoire Polymarket skill for AI agent workflows",
     "source": "franalgaba/grimoire/grimoire-polymarket",
@@ -874,6 +882,158 @@
     "source": "jeffallan/claude-skills/laravel-specialist",
     "tags": [
       "backend"
+    ]
+  },
+  {
+    "name": "lark-base",
+    "description": "Lark Base skill for AI agent workflows",
+    "source": "larksuite/cli/lark-base",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "lark-calendar",
+    "description": "Lark Calendar skill for AI agent workflows",
+    "source": "larksuite/cli/lark-calendar",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "lark-contact",
+    "description": "Lark Contact skill for AI agent workflows",
+    "source": "larksuite/cli/lark-contact",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "lark-doc",
+    "description": "Lark Doc skill for AI agent workflows",
+    "source": "larksuite/cli/lark-doc",
+    "tags": [
+      "docs"
+    ]
+  },
+  {
+    "name": "lark-drive",
+    "description": "Lark Drive skill for AI agent workflows",
+    "source": "larksuite/cli/lark-drive",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "lark-event",
+    "description": "Lark Event skill for AI agent workflows",
+    "source": "larksuite/cli/lark-event",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "lark-im",
+    "description": "Lark Im skill for AI agent workflows",
+    "source": "larksuite/cli/lark-im",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "lark-mail",
+    "description": "Lark Mail skill for AI agent workflows",
+    "source": "larksuite/cli/lark-mail",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
+    "name": "lark-minutes",
+    "description": "Lark Minutes skill for AI agent workflows",
+    "source": "larksuite/cli/lark-minutes",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "lark-openapi-explorer",
+    "description": "Lark Openapi Explorer skill for AI agent workflows",
+    "source": "larksuite/cli/lark-openapi-explorer",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "lark-shared",
+    "description": "Lark Shared skill for AI agent workflows",
+    "source": "larksuite/cli/lark-shared",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "lark-sheets",
+    "description": "Lark Sheets skill for AI agent workflows",
+    "source": "larksuite/cli/lark-sheets",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "lark-skill-maker",
+    "description": "Lark Skill Maker skill for AI agent workflows",
+    "source": "larksuite/cli/lark-skill-maker",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "lark-task",
+    "description": "Lark Task skill for AI agent workflows",
+    "source": "larksuite/cli/lark-task",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "lark-vc",
+    "description": "Lark Vc skill for AI agent workflows",
+    "source": "larksuite/cli/lark-vc",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "lark-whiteboard",
+    "description": "Lark Whiteboard skill for AI agent workflows",
+    "source": "larksuite/cli/lark-whiteboard",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "lark-wiki",
+    "description": "Lark Wiki skill for AI agent workflows",
+    "source": "larksuite/cli/lark-wiki",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "lark-workflow-meeting-summary",
+    "description": "Lark Workflow Meeting Summary skill for AI agent workflows",
+    "source": "larksuite/cli/lark-workflow-meeting-summary",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "lark-workflow-standup-report",
+    "description": "Lark Workflow Standup Report skill for AI agent workflows",
+    "source": "larksuite/cli/lark-workflow-standup-report",
+    "tags": [
+      "workflow"
     ]
   },
   {
@@ -1352,6 +1512,14 @@
     ]
   },
   {
+    "name": "repo-intake-and-plan",
+    "description": "Repo Intake And Plan skill for AI agent workflows",
+    "source": "lllllllama/ai-paper-reproduction-skill/repo-intake-and-plan",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "responsive-design",
     "description": "Responsive Design skill for AI agent workflows",
     "source": "supercent-io/skills-template/responsive-design",
@@ -1521,6 +1689,14 @@
     "name": "social-media-carousel",
     "description": "Social Media Carousel skill for AI agent workflows",
     "source": "inference-sh-9/skills/social-media-carousel",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "soultrace",
+    "description": "Soultrace skill for AI agent workflows",
+    "source": "soultrace-ai/soultrace-skill/soultrace",
     "tags": [
       "workflow"
     ]
@@ -1740,6 +1916,14 @@
     "name": "user-guide-writing",
     "description": "User Guide Writing skill for AI agent workflows",
     "source": "supercent-io/skills-template/user-guide-writing",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "value",
+    "description": "Value skill for AI agent workflows",
+    "source": "hugmouse/skills/value",
     "tags": [
       "workflow"
     ]
