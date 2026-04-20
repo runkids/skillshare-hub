@@ -277,6 +277,14 @@
     ]
   },
   {
+    "name": "azure-cost",
+    "description": "Azure Cost management and best practices",
+    "source": "microsoft/azure-skills/azure-cost",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "azure-enterprise-infra-planner",
     "description": "Azure Enterprise Infra Planner management and best practices",
     "source": "microsoft/azure-skills/azure-enterprise-infra-planner",
@@ -380,6 +388,30 @@
     "name": "case-study-writing",
     "description": "Case Study Writing skill for AI agent workflows",
     "source": "inference-sh-9/skills/case-study-writing",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "caveman",
+    "description": "Caveman skill for AI agent workflows",
+    "source": "juliusbrussee/caveman/caveman",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "caveman-commit",
+    "description": "Caveman Commit skill for AI agent workflows",
+    "source": "juliusbrussee/caveman/caveman-commit",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "caveman-review",
+    "description": "Caveman Review skill for AI agent workflows",
+    "source": "juliusbrussee/caveman/caveman-review",
     "tags": [
       "workflow"
     ]
@@ -680,6 +712,14 @@
     ]
   },
   {
+    "name": "env-and-assets-bootstrap",
+    "description": "Env And Assets Bootstrap skill for AI agent workflows",
+    "source": "lllllllama/ai-paper-reproduction-skill/env-and-assets-bootstrap",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "explainer-video-guide",
     "description": "Explainer Video Guide skill for AI agent workflows",
     "source": "inference-sh-9/skills/explainer-video-guide",
@@ -693,6 +733,15 @@
     "source": "pbakaus/impeccable/extract",
     "tags": [
       "workflow"
+    ]
+  },
+  {
+    "name": "extract-design-system",
+    "description": "Extract Design System skill for AI agent workflows",
+    "source": "arvindrk/extract-design-system/extract-design-system",
+    "tags": [
+      "design",
+      "frontend"
     ]
   },
   {
@@ -882,6 +931,14 @@
     "source": "jeffallan/claude-skills/laravel-specialist",
     "tags": [
       "backend"
+    ]
+  },
+  {
+    "name": "lark-approval",
+    "description": "Lark Approval skill for AI agent workflows",
+    "source": "larksuite/cli/lark-approval",
+    "tags": [
+      "workflow"
     ]
   },
   {
@@ -1103,6 +1160,14 @@
     ]
   },
   {
+    "name": "minimal-run-and-audit",
+    "description": "Minimal Run And Audit skill for AI agent workflows",
+    "source": "lllllllama/ai-paper-reproduction-skill/minimal-run-and-audit",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "monitoring-observability",
     "description": "Monitoring Observability skill for AI agent workflows",
     "source": "supercent-io/skills-template/monitoring-observability",
@@ -1245,6 +1310,14 @@
     "name": "p-video",
     "description": "P Video skill for AI agent workflows",
     "source": "inferen-sh/skills/p-video",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "paper-context-resolver",
+    "description": "Paper Context Resolver skill for AI agent workflows",
+    "source": "lllllllama/ai-paper-reproduction-skill/paper-context-resolver",
     "tags": [
       "workflow"
     ]
