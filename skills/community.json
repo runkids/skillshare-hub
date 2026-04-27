@@ -409,6 +409,22 @@
     ]
   },
   {
+    "name": "caveman-compress",
+    "description": "Caveman Compress skill for AI agent workflows",
+    "source": "juliusbrussee/caveman/caveman-compress",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "caveman-help",
+    "description": "Caveman Help skill for AI agent workflows",
+    "source": "juliusbrussee/caveman/caveman-help",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "caveman-review",
     "description": "Caveman Review skill for AI agent workflows",
     "source": "juliusbrussee/caveman/caveman-review",
@@ -761,6 +777,22 @@
     ]
   },
   {
+    "name": "firebase-auth-basics",
+    "description": "Firebase Auth Basics skill for AI agent workflows",
+    "source": "firebase/agent-skills/firebase-auth-basics",
+    "tags": [
+      "security"
+    ]
+  },
+  {
+    "name": "firebase-basics",
+    "description": "Firebase Basics skill for AI agent workflows",
+    "source": "firebase/agent-skills/firebase-basics",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "flutter-animations",
     "description": "Flutter animation patterns and motion design best practices",
     "source": "madteacher/mad-agents-skills/flutter-animations",
@@ -888,6 +920,14 @@
     "source": "inference-sh-9/skills/image-upscaling",
     "tags": [
       "ai",
+      "workflow"
+    ]
+  },
+  {
+    "name": "impeccable",
+    "description": "Impeccable skill for AI agent workflows",
+    "source": "pbakaus/impeccable/impeccable",
+    "tags": [
       "workflow"
     ]
   },
@@ -1811,6 +1851,14 @@
     "name": "storyboard-creation",
     "description": "Storyboard Creation skill for AI agent workflows",
     "source": "inference-sh-9/skills/storyboard-creation",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "supabase",
+    "description": "Supabase skill for AI agent workflows",
+    "source": "supabase/agent-skills/supabase",
     "tags": [
       "workflow"
     ]
