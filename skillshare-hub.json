@@ -10,7 +10,7 @@
       ],
       "riskScore": 6,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "accessibility-compliance",
@@ -22,7 +22,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "ad-creative",
@@ -33,7 +33,7 @@
       ],
       "riskScore": 75,
       "riskLabel": "high",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "adapt",
@@ -41,10 +41,7 @@
       "source": "pbakaus/impeccable/adapt",
       "tags": [
         "workflow"
-      ],
-      "riskScore": 0,
-      "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      ]
     },
     {
       "name": "agent-browser",
@@ -56,7 +53,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "agent-configuration",
@@ -75,7 +72,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "agent-evaluation",
@@ -95,7 +92,7 @@
       ],
       "riskScore": 78,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "agent-ui",
@@ -106,7 +103,7 @@
       ],
       "riskScore": 22,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "agentation",
@@ -118,7 +115,7 @@
       ],
       "riskScore": 3,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "agentic-development-principles",
@@ -145,7 +142,7 @@
       ],
       "riskScore": 15,
       "riskLabel": "medium",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "ai-avatar-video",
@@ -156,7 +153,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "ai-content-pipeline",
@@ -167,7 +164,7 @@
       ],
       "riskScore": 13,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "ai-image-generation",
@@ -178,7 +175,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "ai-marketing-videos",
@@ -189,7 +186,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "ai-music-generation",
@@ -200,7 +197,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "ai-podcast-creation",
@@ -211,7 +208,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "ai-product-photography",
@@ -222,7 +219,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "ai-rag-pipeline",
@@ -233,7 +230,7 @@
       ],
       "riskScore": 13,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "ai-seo",
@@ -244,7 +241,7 @@
       ],
       "riskScore": 3,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "ai-social-media-content",
@@ -255,7 +252,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "ai-video-generation",
@@ -266,7 +263,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "ai-voice-cloning",
@@ -277,7 +274,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "algorithmic-art",
@@ -288,7 +285,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "high",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "analytics-tracking",
@@ -299,7 +296,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "angular-component",
@@ -310,7 +307,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "animate",
@@ -318,10 +315,7 @@
       "source": "pbakaus/impeccable/animate",
       "tags": [
         "workflow"
-      ],
-      "riskScore": 0,
-      "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      ]
     },
     {
       "name": "antfu",
@@ -333,7 +327,7 @@
       ],
       "riskScore": 4,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "api-design",
@@ -361,7 +355,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "appinsights-instrumentation",
@@ -374,7 +368,7 @@
       ],
       "riskScore": 3,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "arrange",
@@ -390,10 +384,7 @@
       "source": "pbakaus/impeccable/audit",
       "tags": [
         "workflow"
-      ],
-      "riskScore": 0,
-      "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      ]
     },
     {
       "name": "audit-website",
@@ -404,7 +395,7 @@
       ],
       "riskScore": 26,
       "riskLabel": "medium",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "authentication-setup",
@@ -425,7 +416,7 @@
       ],
       "riskScore": 30,
       "riskLabel": "medium",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "azure-aigateway",
@@ -438,7 +429,7 @@
       ],
       "riskScore": 54,
       "riskLabel": "high",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "azure-cloud-migrate",
@@ -450,7 +441,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "azure-compliance",
@@ -463,7 +454,7 @@
       ],
       "riskScore": 66,
       "riskLabel": "high",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "azure-compute",
@@ -475,7 +466,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "azure-cost",
@@ -486,7 +477,7 @@
       ],
       "riskScore": 45,
       "riskLabel": "medium",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "azure-cost-optimization",
@@ -509,7 +500,7 @@
       ],
       "riskScore": 42,
       "riskLabel": "medium",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "azure-diagnostics",
@@ -522,7 +513,7 @@
       ],
       "riskScore": 45,
       "riskLabel": "high",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "azure-enterprise-infra-planner",
@@ -533,7 +524,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "azure-hosted-copilot-sdk",
@@ -545,7 +536,7 @@
       ],
       "riskScore": 24,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "azure-kubernetes",
@@ -554,9 +545,9 @@
       "tags": [
         "devops"
       ],
-      "riskScore": 0,
-      "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "riskScore": 12,
+      "riskLabel": "low",
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "azure-kusto",
@@ -569,7 +560,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "azure-messaging",
@@ -582,7 +573,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "azure-observability",
@@ -615,7 +606,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "azure-quotas",
@@ -626,7 +617,7 @@
       ],
       "riskScore": 39,
       "riskLabel": "medium",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "azure-rbac",
@@ -639,7 +630,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "azure-resource-lookup",
@@ -652,7 +643,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "azure-resource-visualizer",
@@ -665,7 +656,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "azure-storage",
@@ -678,7 +669,7 @@
       ],
       "riskScore": 33,
       "riskLabel": "medium",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "azure-upgrade",
@@ -689,7 +680,7 @@
       ],
       "riskScore": 27,
       "riskLabel": "medium",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "azure-validate",
@@ -702,7 +693,7 @@
       ],
       "riskScore": 15,
       "riskLabel": "high",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "backend-testing",
@@ -721,7 +712,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "backlink-analyzer",
@@ -730,9 +721,9 @@
       "tags": [
         "seo"
       ],
-      "riskScore": 42,
+      "riskScore": 33,
       "riskLabel": "medium",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "baoyu-article-illustrator",
@@ -745,7 +736,7 @@
       ],
       "riskScore": 13,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "baoyu-comic",
@@ -758,7 +749,7 @@
       ],
       "riskScore": 11,
       "riskLabel": "medium",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "baoyu-compress-image",
@@ -771,7 +762,7 @@
       ],
       "riskScore": 8,
       "riskLabel": "medium",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "baoyu-cover-image",
@@ -784,7 +775,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "baoyu-danger-gemini-web",
@@ -797,7 +788,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "medium",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "baoyu-danger-x-to-markdown",
@@ -810,7 +801,7 @@
       ],
       "riskScore": 40,
       "riskLabel": "high",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "baoyu-image-gen",
@@ -823,7 +814,7 @@
       ],
       "riskScore": 57,
       "riskLabel": "high",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "baoyu-infographic",
@@ -836,7 +827,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "baoyu-post-to-wechat",
@@ -849,7 +840,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "baoyu-post-to-x",
@@ -862,7 +853,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "baoyu-slide-deck",
@@ -875,7 +866,7 @@
       ],
       "riskScore": 8,
       "riskLabel": "medium",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "baoyu-url-to-markdown",
@@ -886,9 +877,9 @@
         "ai",
         "workflow"
       ],
-      "riskScore": 1,
-      "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "riskScore": 31,
+      "riskLabel": "high",
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "baoyu-xhs-images",
@@ -901,7 +892,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "bmad-orchestrator",
@@ -917,10 +908,7 @@
       "source": "pbakaus/impeccable/bolder",
       "tags": [
         "workflow"
-      ],
-      "riskScore": 0,
-      "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      ]
     },
     {
       "name": "book-cover-design",
@@ -932,7 +920,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "brainstorming",
@@ -944,7 +932,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "brand-guidelines",
@@ -955,7 +943,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "browser-use",
@@ -968,7 +956,7 @@
       ],
       "riskScore": 3,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "canvas-design",
@@ -980,7 +968,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "case-study-writing",
@@ -991,7 +979,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "caveman",
@@ -1002,7 +990,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "caveman-commit",
@@ -1013,7 +1001,29 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
+    },
+    {
+      "name": "caveman-compress",
+      "description": "Caveman Compress skill for AI agent workflows",
+      "source": "juliusbrussee/caveman/caveman-compress",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 49,
+      "riskLabel": "high",
+      "auditedAt": "2026-04-27T06:02:00Z"
+    },
+    {
+      "name": "caveman-help",
+      "description": "Caveman Help skill for AI agent workflows",
+      "source": "juliusbrussee/caveman/caveman-help",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "caveman-review",
@@ -1024,7 +1034,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "changelog-maintenance",
@@ -1044,7 +1054,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "chat-ui",
@@ -1055,7 +1065,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "chatgpt-app-builder",
@@ -1065,9 +1075,9 @@
         "ai",
         "agent"
       ],
-      "riskScore": 1,
-      "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "riskScore": 99,
+      "riskLabel": "critical",
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "churn-prevention",
@@ -1078,7 +1088,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "clarify",
@@ -1086,10 +1096,7 @@
       "source": "pbakaus/impeccable/clarify",
       "tags": [
         "workflow"
-      ],
-      "riskScore": 0,
-      "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      ]
     },
     {
       "name": "clawdirect",
@@ -1100,7 +1107,7 @@
       ],
       "riskScore": 9,
       "riskLabel": "medium",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "clawdirect-dev",
@@ -1111,7 +1118,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "code-refactoring",
@@ -1146,7 +1153,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "colorize",
@@ -1154,10 +1161,7 @@
       "source": "pbakaus/impeccable/colorize",
       "tags": [
         "workflow"
-      ],
-      "riskScore": 0,
-      "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      ]
     },
     {
       "name": "competitor-alternatives",
@@ -1168,7 +1172,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "competitor-teardown",
@@ -1179,7 +1183,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "content-repurposing",
@@ -1190,7 +1194,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "content-strategy",
@@ -1201,7 +1205,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "context7",
@@ -1213,7 +1217,7 @@
       ],
       "riskScore": 8,
       "riskLabel": "medium",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "convex",
@@ -1224,7 +1228,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "copilot-coding-agent",
@@ -1243,7 +1247,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "copywriting",
@@ -1254,7 +1258,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "critique",
@@ -1262,10 +1266,7 @@
       "source": "pbakaus/impeccable/critique",
       "tags": [
         "workflow"
-      ],
-      "riskScore": 1,
-      "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      ]
     },
     {
       "name": "customer-persona",
@@ -1276,7 +1277,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "data-analysis",
@@ -1295,7 +1296,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "database-schema-design",
@@ -1320,10 +1321,7 @@
       "source": "pbakaus/impeccable/delight",
       "tags": [
         "workflow"
-      ],
-      "riskScore": 0,
-      "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      ]
     },
     {
       "name": "deploy-to-vercel",
@@ -1334,7 +1332,7 @@
       ],
       "riskScore": 15,
       "riskLabel": "high",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "deployment-automation",
@@ -1354,7 +1352,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "dialogue-audio",
@@ -1365,7 +1363,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "dispatching-parallel-agents",
@@ -1378,7 +1376,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "distill",
@@ -1386,10 +1384,7 @@
       "source": "pbakaus/impeccable/distill",
       "tags": [
         "workflow"
-      ],
-      "riskScore": 0,
-      "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      ]
     },
     {
       "name": "doc-coauthoring",
@@ -1400,7 +1395,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "docker-expert",
@@ -1411,7 +1406,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "docx",
@@ -1422,7 +1417,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "dogfood",
@@ -1433,7 +1428,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "elevenlabs-music",
@@ -1444,7 +1439,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "elevenlabs-tts",
@@ -1455,7 +1450,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "email-design",
@@ -1467,7 +1462,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "email-sequence",
@@ -1478,7 +1473,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "enhance-prompt",
@@ -1490,7 +1485,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "entra-app-registration",
@@ -1503,7 +1498,7 @@
       ],
       "riskScore": 73,
       "riskLabel": "high",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "env-and-assets-bootstrap",
@@ -1514,7 +1509,7 @@
       ],
       "riskScore": 15,
       "riskLabel": "high",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "executing-plans",
@@ -1526,7 +1521,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "explainer-video-guide",
@@ -1537,7 +1532,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "expo-deployment",
@@ -1566,7 +1561,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "file-organization",
@@ -1586,7 +1581,7 @@
       ],
       "riskScore": 4,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "finishing-a-development-branch",
@@ -1599,7 +1594,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "firebase-ai-logic",
@@ -1610,6 +1605,28 @@
       ]
     },
     {
+      "name": "firebase-auth-basics",
+      "description": "Firebase Auth Basics skill for AI agent workflows",
+      "source": "firebase/agent-skills/firebase-auth-basics",
+      "tags": [
+        "security"
+      ],
+      "riskScore": 16,
+      "riskLabel": "medium",
+      "auditedAt": "2026-04-27T06:02:00Z"
+    },
+    {
+      "name": "firebase-basics",
+      "description": "Firebase Basics skill for AI agent workflows",
+      "source": "firebase/agent-skills/firebase-basics",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 48,
+      "riskLabel": "medium",
+      "auditedAt": "2026-04-27T06:02:00Z"
+    },
+    {
       "name": "flutter-animations",
       "description": "Flutter animation patterns and motion design best practices",
       "source": "madteacher/mad-agents-skills/flutter-animations",
@@ -1618,7 +1635,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "flutter-expert",
@@ -1629,7 +1646,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "flux-image",
@@ -1641,7 +1658,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "form-cro",
@@ -1652,7 +1669,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "free-tool-strategy",
@@ -1663,7 +1680,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "frontend-design",
@@ -1675,7 +1692,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "fun-brainstorming",
@@ -1686,7 +1703,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "gemini-computer-use",
@@ -1697,7 +1714,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "gh-cli",
@@ -1708,7 +1725,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "git-commit",
@@ -1719,7 +1736,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "git-workflow",
@@ -1738,7 +1755,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "golang-pro",
@@ -1749,7 +1766,7 @@
       ],
       "riskScore": 30,
       "riskLabel": "high",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "google-veo",
@@ -1760,7 +1777,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "grill-me",
@@ -1771,7 +1788,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "grimoire-polymarket",
@@ -1782,7 +1799,7 @@
       ],
       "riskScore": 8,
       "riskLabel": "medium",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "harden",
@@ -1790,10 +1807,7 @@
       "source": "pbakaus/impeccable/harden",
       "tags": [
         "workflow"
-      ],
-      "riskScore": 0,
-      "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      ]
     },
     {
       "name": "image-to-video",
@@ -1805,7 +1819,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "image-upscaling",
@@ -1817,7 +1831,18 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
+    },
+    {
+      "name": "impeccable",
+      "description": "Impeccable skill for AI agent workflows",
+      "source": "pbakaus/impeccable/impeccable",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 100,
+      "riskLabel": "critical",
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "infsh-cli",
@@ -1828,7 +1853,7 @@
       ],
       "riskScore": 78,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "interface-design",
@@ -1840,7 +1865,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "internal-comms",
@@ -1851,7 +1876,7 @@
       ],
       "riskScore": 3,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "javascript-sdk",
@@ -1862,7 +1887,7 @@
       ],
       "riskScore": 25,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "landing-page-design",
@@ -1874,7 +1899,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "laravel-specialist",
@@ -1885,7 +1910,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "lark-approval",
@@ -1896,7 +1921,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "lark-base",
@@ -1907,7 +1932,7 @@
       ],
       "riskScore": 3,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "lark-calendar",
@@ -1918,7 +1943,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "lark-contact",
@@ -1929,7 +1954,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "lark-doc",
@@ -1940,7 +1965,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "lark-drive",
@@ -1951,7 +1976,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "lark-event",
@@ -1962,7 +1987,7 @@
       ],
       "riskScore": 3,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "lark-im",
@@ -1973,7 +1998,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "lark-mail",
@@ -1984,7 +2009,7 @@
       ],
       "riskScore": 25,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "lark-minutes",
@@ -1995,7 +2020,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "lark-openapi-explorer",
@@ -2006,7 +2031,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "lark-shared",
@@ -2017,7 +2042,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "lark-sheets",
@@ -2028,7 +2053,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "lark-skill-maker",
@@ -2039,7 +2064,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "lark-task",
@@ -2050,7 +2075,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "lark-vc",
@@ -2061,7 +2086,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "lark-whiteboard",
@@ -2070,9 +2095,9 @@
       "tags": [
         "workflow"
       ],
-      "riskScore": 49,
-      "riskLabel": "medium",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "riskScore": 65,
+      "riskLabel": "high",
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "lark-wiki",
@@ -2083,7 +2108,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "lark-workflow-meeting-summary",
@@ -2094,7 +2119,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "lark-workflow-standup-report",
@@ -2105,7 +2130,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "launch-strategy",
@@ -2116,7 +2141,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "linkedin-content",
@@ -2127,7 +2152,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "llm-council",
@@ -2138,7 +2163,7 @@
       ],
       "riskScore": 31,
       "riskLabel": "high",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "llm-models",
@@ -2149,7 +2174,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "log-analysis",
@@ -2169,7 +2194,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "looker-studio-bigquery",
@@ -2188,7 +2213,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "marketing-ideas",
@@ -2199,7 +2224,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "marketing-psychology",
@@ -2210,7 +2235,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "mastra",
@@ -2222,7 +2247,7 @@
       ],
       "riskScore": 34,
       "riskLabel": "medium",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "mcp-builder",
@@ -2234,7 +2259,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "microsoft-foundry",
@@ -2247,7 +2272,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "minimal-run-and-audit",
@@ -2258,7 +2283,7 @@
       ],
       "riskScore": 30,
       "riskLabel": "high",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "monitoring-observability",
@@ -2277,7 +2302,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "nano-banana-2",
@@ -2288,7 +2313,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "neon-postgres",
@@ -2299,7 +2324,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "newsletter-curation",
@@ -2310,7 +2335,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "next-best-practices",
@@ -2322,7 +2347,7 @@
       ],
       "riskScore": 86,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "next-cache-components",
@@ -2334,7 +2359,7 @@
       ],
       "riskScore": 9,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "next-upgrade",
@@ -2346,7 +2371,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "normalize",
@@ -2375,7 +2400,7 @@
       ],
       "riskScore": 20,
       "riskLabel": "medium",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "obsidian-bases",
@@ -2387,7 +2412,7 @@
       ],
       "riskScore": 12,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "og-image-design",
@@ -2399,7 +2424,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "onboard",
@@ -2418,7 +2443,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "openai-docs-skill",
@@ -2429,7 +2454,7 @@
       ],
       "riskScore": 15,
       "riskLabel": "high",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "openclaw-secure-linux-cloud",
@@ -2440,7 +2465,7 @@
       ],
       "riskScore": 3,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "opencontext",
@@ -2459,7 +2484,7 @@
       ],
       "riskScore": 96,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "optimize",
@@ -2467,10 +2492,7 @@
       "source": "pbakaus/impeccable/optimize",
       "tags": [
         "workflow"
-      ],
-      "riskScore": 0,
-      "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      ]
     },
     {
       "name": "overdrive",
@@ -2478,10 +2500,7 @@
       "source": "pbakaus/impeccable/overdrive",
       "tags": [
         "workflow"
-      ],
-      "riskScore": 0,
-      "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      ]
     },
     {
       "name": "p-image",
@@ -2493,7 +2512,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "p-video",
@@ -2504,7 +2523,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "page-cro",
@@ -2515,7 +2534,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "paid-ads",
@@ -2526,7 +2545,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "paper-context-resolver",
@@ -2537,7 +2556,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "parallel-task",
@@ -2548,7 +2567,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "parallel-task-spark",
@@ -2559,7 +2578,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "pattern-detection",
@@ -2578,7 +2597,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "pdf",
@@ -2589,7 +2608,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "performance-optimization",
@@ -2608,7 +2627,7 @@
       ],
       "riskScore": 48,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "pinia",
@@ -2621,7 +2640,7 @@
       ],
       "riskScore": 10,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "pitch-deck-visuals",
@@ -2632,7 +2651,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "plan-harder",
@@ -2643,7 +2662,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "planner",
@@ -2654,7 +2673,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "planning-with-files",
@@ -2665,7 +2684,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "pnpm",
@@ -2677,7 +2696,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "polish",
@@ -2685,10 +2704,7 @@
       "source": "pbakaus/impeccable/polish",
       "tags": [
         "workflow"
-      ],
-      "riskScore": 0,
-      "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      ]
     },
     {
       "name": "pollinations-ai",
@@ -2707,7 +2723,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "pptx",
@@ -2718,7 +2734,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "press-release-writing",
@@ -2729,7 +2745,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "pricing-strategy",
@@ -2740,7 +2756,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "product-changelog",
@@ -2751,7 +2767,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "product-hunt-launch",
@@ -2762,7 +2778,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "product-marketing-context",
@@ -2773,7 +2789,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "product-photography",
@@ -2784,7 +2800,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "programmatic-seo",
@@ -2796,7 +2812,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "prompt-engineering",
@@ -2807,7 +2823,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "prompt-repetition",
@@ -2826,7 +2842,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "python-sdk",
@@ -2837,7 +2853,7 @@
       ],
       "riskScore": 22,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "quieter",
@@ -2845,10 +2861,7 @@
       "source": "pbakaus/impeccable/quieter",
       "tags": [
         "workflow"
-      ],
-      "riskScore": 0,
-      "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      ]
     },
     {
       "name": "qwen-image-2",
@@ -2860,7 +2873,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "qwen-image-2-pro",
@@ -2872,7 +2885,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "ralph",
@@ -2892,7 +2905,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "react-components",
@@ -2904,7 +2917,7 @@
       ],
       "riskScore": 9,
       "riskLabel": "medium",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "react-doctor",
@@ -2917,7 +2930,7 @@
       ],
       "riskScore": 17,
       "riskLabel": "medium",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "react-native-best-practices",
@@ -2929,7 +2942,7 @@
       ],
       "riskScore": 47,
       "riskLabel": "medium",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "read-github",
@@ -2940,7 +2953,7 @@
       ],
       "riskScore": 31,
       "riskLabel": "high",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "readme-i18n",
@@ -2951,7 +2964,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "receiving-code-review",
@@ -2962,7 +2975,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "referral-program",
@@ -2973,7 +2986,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "related-skill",
@@ -2984,7 +2997,7 @@
       ],
       "riskScore": 19,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "release-skills",
@@ -2997,7 +3010,7 @@
       ],
       "riskScore": 15,
       "riskLabel": "high",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "remembering-conversations",
@@ -3009,7 +3022,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "remotion",
@@ -3020,7 +3033,7 @@
       ],
       "riskScore": 9,
       "riskLabel": "medium",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "remotion-render",
@@ -3031,7 +3044,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "repo-intake-and-plan",
@@ -3042,7 +3055,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "requesting-code-review",
@@ -3053,7 +3066,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "responsive-design",
@@ -3073,7 +3086,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "role-creator",
@@ -3084,7 +3097,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "running-claude-code-via-litellm-copilot",
@@ -3095,7 +3108,7 @@
       ],
       "riskScore": 3,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "sales-enablement",
@@ -3106,7 +3119,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "schema-markup",
@@ -3117,7 +3130,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "search",
@@ -3136,7 +3149,7 @@
       ],
       "riskScore": 82,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "security-best-practices",
@@ -3163,7 +3176,7 @@
       ],
       "riskScore": 51,
       "riskLabel": "high",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "seo-audit",
@@ -3173,9 +3186,9 @@
         "marketing",
         "seo"
       ],
-      "riskScore": 0,
-      "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "riskScore": 100,
+      "riskLabel": "critical",
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "seo-content-brief",
@@ -3186,7 +3199,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "seo-geo",
@@ -3198,7 +3211,7 @@
       ],
       "riskScore": 17,
       "riskLabel": "medium",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "shadcn",
@@ -3210,7 +3223,7 @@
       ],
       "riskScore": 4,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "shadcn-ui",
@@ -3222,7 +3235,7 @@
       ],
       "riskScore": 58,
       "riskLabel": "high",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "signup-flow-cro",
@@ -3233,7 +3246,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "simple",
@@ -3244,7 +3257,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "simple-brainstorm",
@@ -3263,7 +3276,7 @@
       ],
       "riskScore": 3,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "skill-creator",
@@ -3275,7 +3288,7 @@
       ],
       "riskScore": 46,
       "riskLabel": "high",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "skill-standardization",
@@ -3294,7 +3307,7 @@
       ],
       "riskScore": 12,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "skillshare",
@@ -3307,7 +3320,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "slack-gif-creator",
@@ -3318,7 +3331,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "social-content",
@@ -3329,7 +3342,7 @@
       ],
       "riskScore": 6,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "social-media-carousel",
@@ -3340,7 +3353,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "soultrace",
@@ -3351,7 +3364,7 @@
       ],
       "riskScore": 3,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "speech-to-text",
@@ -3362,7 +3375,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "standup-meeting",
@@ -3390,7 +3403,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "high",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "storyboard-creation",
@@ -3401,7 +3414,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "subagent-driven-development",
@@ -3414,7 +3427,18 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
+    },
+    {
+      "name": "supabase",
+      "description": "Supabase skill for AI agent workflows",
+      "source": "supabase/agent-skills/supabase",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 15,
+      "riskLabel": "low",
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "supabase-postgres-best-practices",
@@ -3425,7 +3449,7 @@
       ],
       "riskScore": 96,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "super-swarm-spark",
@@ -3436,7 +3460,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "swarm-planner",
@@ -3447,7 +3471,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "swiftui-expert-skill",
@@ -3456,9 +3480,9 @@
       "tags": [
         "frontend"
       ],
-      "riskScore": 36,
-      "riskLabel": "high",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "riskScore": 100,
+      "riskLabel": "critical",
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "system-environment-setup",
@@ -3479,7 +3503,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "talking-head-production",
@@ -3490,7 +3514,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "task-estimation",
@@ -3525,7 +3549,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "technical-writing",
@@ -3546,7 +3570,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "testing-strategies",
@@ -3565,7 +3589,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "theme-factory",
@@ -3577,7 +3601,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "tools-ui",
@@ -3588,7 +3612,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "turborepo",
@@ -3600,7 +3624,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "twitter-automation",
@@ -3611,7 +3635,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "twitter-thread-creation",
@@ -3622,7 +3646,7 @@
       ],
       "riskScore": 10,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "typeset",
@@ -3630,10 +3654,7 @@
       "source": "pbakaus/impeccable/typeset",
       "tags": [
         "workflow"
-      ],
-      "riskScore": 3,
-      "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      ]
     },
     {
       "name": "tzst",
@@ -3644,7 +3665,7 @@
       ],
       "riskScore": 6,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "ui-component-patterns",
@@ -3665,7 +3686,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "unocss",
@@ -3677,7 +3698,7 @@
       ],
       "riskScore": 4,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "upgrading-expo",
@@ -3696,7 +3717,7 @@
       ],
       "riskScore": 61,
       "riskLabel": "high",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "user-guide-writing",
@@ -3717,7 +3738,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "using-superpowers",
@@ -3730,7 +3751,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "value",
@@ -3741,7 +3762,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "vercel-deploy",
@@ -3762,7 +3783,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "vet",
@@ -3773,7 +3794,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "video-ad-specs",
@@ -3784,7 +3805,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "video-prompting-guide",
@@ -3795,7 +3816,7 @@
       ],
       "riskScore": 13,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "vite",
@@ -3806,7 +3827,7 @@
       ],
       "riskScore": 53,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "vitepress",
@@ -3819,7 +3840,7 @@
       ],
       "riskScore": 84,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "vitest",
@@ -3830,7 +3851,7 @@
       ],
       "riskScore": 75,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "vue",
@@ -3842,7 +3863,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "vue-best-practices",
@@ -3854,7 +3875,7 @@
       ],
       "riskScore": 6,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "vue-debug-guides",
@@ -3866,7 +3887,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "vueuse-functions",
@@ -3879,7 +3900,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "web-accessibility",
@@ -3898,7 +3919,7 @@
       ],
       "riskScore": 2,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "web-design-guidelines",
@@ -3910,7 +3931,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "web-search",
@@ -3921,7 +3942,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "webapp-testing",
@@ -3932,7 +3953,7 @@
       ],
       "riskScore": 31,
       "riskLabel": "high",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "widgets-ui",
@@ -3943,7 +3964,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "workflow-automation",
@@ -3963,7 +3984,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "writing-skills",
@@ -3976,7 +3997,7 @@
       ],
       "riskScore": 48,
       "riskLabel": "high",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "xdrop",
@@ -3987,7 +4008,7 @@
       ],
       "riskScore": 2,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "xget",
@@ -3998,7 +4019,7 @@
       ],
       "riskScore": 5,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "xlsx",
@@ -4009,7 +4030,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     },
     {
       "name": "youtube-thumbnail-design",
@@ -4021,7 +4042,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-04-20T05:53:53Z"
+      "auditedAt": "2026-04-27T06:02:00Z"
     }
   ]
 }
