@@ -186,6 +186,14 @@
     ]
   },
   {
+    "name": "airunway-aks-setup",
+    "description": "Airunway Aks Setup skill for AI agent workflows",
+    "source": "microsoft/azure-skills/airunway-aks-setup",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
     "name": "angular-component",
     "description": "Angular component architecture patterns and best practices",
     "source": "analogjs/angular-skills/angular-component",
@@ -572,6 +580,14 @@
     ]
   },
   {
+    "name": "convex-quickstart",
+    "description": "Convex Quickstart skill for AI agent workflows",
+    "source": "get-convex/agent-skills/convex-quickstart",
+    "tags": [
+      "backend"
+    ]
+  },
+  {
     "name": "copilot-coding-agent",
     "description": "Copilot Coding Agent skill for AI agent workflows",
     "source": "supercent-io/skills-template/copilot-coding-agent",
@@ -659,6 +675,30 @@
     "tags": [
       "design",
       "docs"
+    ]
+  },
+  {
+    "name": "develop-userscripts",
+    "description": "Develop Userscripts skill for AI agent workflows",
+    "source": "xixu-me/skills/develop-userscripts",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "developing-genkit-dart",
+    "description": "Developing Genkit Dart skill for AI agent workflows",
+    "source": "firebase/agent-skills/developing-genkit-dart",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "developing-genkit-js",
+    "description": "Developing Genkit Js skill for AI agent workflows",
+    "source": "firebase/agent-skills/developing-genkit-js",
+    "tags": [
+      "workflow"
     ]
   },
   {
@@ -777,6 +817,14 @@
     ]
   },
   {
+    "name": "firebase-app-hosting-basics",
+    "description": "Firebase App Hosting Basics skill for AI agent workflows",
+    "source": "firebase/agent-skills/firebase-app-hosting-basics",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "firebase-auth-basics",
     "description": "Firebase Auth Basics skill for AI agent workflows",
     "source": "firebase/agent-skills/firebase-auth-basics",
@@ -788,6 +836,14 @@
     "name": "firebase-basics",
     "description": "Firebase Basics skill for AI agent workflows",
     "source": "firebase/agent-skills/firebase-basics",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "firebase-hosting-basics",
+    "description": "Firebase Hosting Basics skill for AI agent workflows",
+    "source": "firebase/agent-skills/firebase-hosting-basics",
     "tags": [
       "workflow"
     ]
@@ -932,6 +988,14 @@
     ]
   },
   {
+    "name": "improve-codebase-architecture",
+    "description": "Improve Codebase Architecture skill for AI agent workflows",
+    "source": "mattpocock/skills/improve-codebase-architecture",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "infsh-cli",
     "description": "Infsh Cli skill for AI agent workflows",
     "source": "inferen-sh/skills/infsh-cli",
@@ -977,6 +1041,14 @@
     "name": "lark-approval",
     "description": "Lark Approval skill for AI agent workflows",
     "source": "larksuite/cli/lark-approval",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "lark-attendance",
+    "description": "Lark Attendance skill for AI agent workflows",
+    "source": "larksuite/cli/lark-attendance",
     "tags": [
       "workflow"
     ]
@@ -1082,6 +1154,15 @@
     "description": "Lark Skill Maker skill for AI agent workflows",
     "source": "larksuite/cli/lark-skill-maker",
     "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "lark-slides",
+    "description": "Lark Slides skill for AI agent workflows",
+    "source": "larksuite/cli/lark-slides",
+    "tags": [
+      "ai",
       "workflow"
     ]
   },
@@ -1928,6 +2009,14 @@
     ]
   },
   {
+    "name": "tdd",
+    "description": "Tdd skill for AI agent workflows",
+    "source": "mattpocock/skills/tdd",
+    "tags": [
+      "testing"
+    ]
+  },
+  {
     "name": "teach-impeccable",
     "description": "Teach Impeccable skill for AI agent workflows",
     "source": "pbakaus/impeccable/teach-impeccable",
@@ -2119,6 +2208,14 @@
     "name": "widgets-ui",
     "description": "Widgets Ui skill for AI agent workflows",
     "source": "inference-sh-9/skills/widgets-ui",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "wonda-cli",
+    "description": "Wonda Cli skill for AI agent workflows",
+    "source": "degausai/wonda/wonda-cli",
     "tags": [
       "workflow"
     ]
