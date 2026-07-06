@@ -66,14 +66,6 @@
     ]
   },
   {
-    "name": "azure-cost",
-    "description": "Azure Cost management and best practices",
-    "source": "microsoft/azure-skills/azure-cost",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "azure-enterprise-infra-planner",
     "description": "Azure Enterprise Infra Planner management and best practices",
     "source": "microsoft/azure-skills/azure-enterprise-infra-planner",
@@ -134,14 +126,6 @@
     "name": "controlnet-pose",
     "description": "Controlnet Pose skill for AI agent workflows",
     "source": "agentspace-so/runcomfy-agent-skills/controlnet-pose",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "diagnose",
-    "description": "Diagnose skill for AI agent workflows",
-    "source": "mattpocock/skills/diagnose",
     "tags": [
       "workflow"
     ]
@@ -274,14 +258,6 @@
     "name": "improve-codebase-architecture",
     "description": "Improve Codebase Architecture skill for AI agent workflows",
     "source": "mattpocock/skills/improve-codebase-architecture",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "just-scrape",
-    "description": "Just Scrape skill for AI agent workflows",
-    "source": "scrapegraphai/just-scrape/just-scrape",
     "tags": [
       "workflow"
     ]
@@ -592,23 +568,6 @@
     ]
   },
   {
-    "name": "shadcn",
-    "description": "Shadcn skill for AI agent workflows",
-    "source": "shadcn/ui/shadcn",
-    "tags": [
-      "design",
-      "frontend"
-    ]
-  },
-  {
-    "name": "simple",
-    "description": "Simple skill for AI agent workflows",
-    "source": "roin-orca/skills/simple",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "skills-cli",
     "description": "Skills Cli skill for AI agent workflows",
     "source": "xixu-me/skills/skills-cli",
@@ -730,14 +689,6 @@
     ]
   },
   {
-    "name": "write-a-skill",
-    "description": "Write A Skill skill for AI agent workflows",
-    "source": "mattpocock/skills/write-a-skill",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "xdrop",
     "description": "Xdrop skill for AI agent workflows",
     "source": "xixu-me/skills/xdrop",
@@ -749,14 +700,6 @@
     "name": "xget",
     "description": "Xget skill for AI agent workflows",
     "source": "xixu-me/skills/xget",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "zoom-out",
-    "description": "Zoom Out skill for AI agent workflows",
-    "source": "mattpocock/skills/zoom-out",
     "tags": [
       "workflow"
     ]
