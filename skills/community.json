@@ -1,21 +1,5 @@
 [
   {
-    "name": "ace-step",
-    "description": "ace step skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/ace-step",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "agentspace",
-    "description": "Agentspace skill for AI agent workflows",
-    "source": "agentspace-so/skills/agentspace",
-    "tags": [
-      "agent"
-    ]
-  },
-  {
     "name": "ai-avatar-video",
     "description": "Ai Avatar Video skill for AI agent workflows",
     "source": "inference-sh-9/skills/ai-avatar-video",
@@ -32,9 +16,17 @@
     ]
   },
   {
-    "name": "ai-music",
-    "description": "Ai Music skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/ai-music",
+    "name": "ai-research-explore",
+    "description": "Ai Research Explore skill for AI agent workflows",
+    "source": "lllllllama/rigorpilot-skills/ai-research-explore",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
+    "name": "ai-research-reproduction",
+    "description": "Ai Research Reproduction skill for AI agent workflows",
+    "source": "lllllllama/rigorpilot-skills/ai-research-reproduction",
     "tags": [
       "ai"
     ]
@@ -45,6 +37,30 @@
     "source": "inference-sh-9/skills/ai-video-generation",
     "tags": [
       "ai"
+    ]
+  },
+  {
+    "name": "airunway-aks-setup",
+    "description": "Airunway Aks Setup skill for AI agent workflows",
+    "source": "microsoft/azure-skills/airunway-aks-setup",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
+    "name": "analyze-project",
+    "description": "Analyze Project skill for AI agent workflows",
+    "source": "lllllllama/rigorpilot-skills/analyze-project",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "ask-matt",
+    "description": "Ask Matt skill for AI agent workflows",
+    "source": "mattpocock/skills/ask-matt",
+    "tags": [
+      "workflow"
     ]
   },
   {
@@ -107,9 +123,34 @@
     ]
   },
   {
+    "name": "azure-reliability",
+    "description": "Azure Reliability management and best practices",
+    "source": "microsoft/azure-skills/azure-reliability",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "azure-upgrade",
     "description": "Azure Upgrade management and best practices",
     "source": "microsoft/azure-skills/azure-upgrade",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "brandkit",
+    "description": "Brandkit skill for AI agent workflows",
+    "source": "leonxlnx/taste-skill/brandkit",
+    "tags": [
+      "design",
+      "frontend"
+    ]
+  },
+  {
+    "name": "cavecrew",
+    "description": "Cavecrew skill for AI agent workflows",
+    "source": "juliusbrussee/caveman/cavecrew",
     "tags": [
       "workflow"
     ]
@@ -123,19 +164,61 @@
     ]
   },
   {
-    "name": "codex-pet",
-    "description": "Codex Pet skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/codex-pet",
+    "name": "caveman-commit",
+    "description": "Caveman Commit skill for AI agent workflows",
+    "source": "juliusbrussee/caveman/caveman-commit",
     "tags": [
       "workflow"
     ]
   },
   {
-    "name": "controlnet-pose",
-    "description": "Controlnet Pose skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/controlnet-pose",
+    "name": "caveman-compress",
+    "description": "Caveman Compress skill for AI agent workflows",
+    "source": "juliusbrussee/caveman/caveman-compress",
     "tags": [
       "workflow"
+    ]
+  },
+  {
+    "name": "caveman-help",
+    "description": "Caveman Help skill for AI agent workflows",
+    "source": "juliusbrussee/caveman/caveman-help",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "caveman-review",
+    "description": "Caveman Review skill for AI agent workflows",
+    "source": "juliusbrussee/caveman/caveman-review",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "caveman-stats",
+    "description": "Caveman Stats skill for AI agent workflows",
+    "source": "juliusbrussee/caveman/caveman-stats",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "codebase-design",
+    "description": "Codebase Design skill for AI agent workflows",
+    "source": "mattpocock/skills/codebase-design",
+    "tags": [
+      "design",
+      "frontend"
+    ]
+  },
+  {
+    "name": "design-an-interface",
+    "description": "Design An Interface skill for AI agent workflows",
+    "source": "mattpocock/skills/design-an-interface",
+    "tags": [
+      "design",
+      "frontend"
     ]
   },
   {
@@ -147,61 +230,76 @@
     ]
   },
   {
-    "name": "elevenlabs-music-generation",
-    "description": "elevenlaus music generation skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/elevenlabs-music-generation",
+    "name": "diagnosing-bugs",
+    "description": "Diagnosing Bugs skill for AI agent workflows",
+    "source": "mattpocock/skills/diagnosing-bugs",
     "tags": [
       "workflow"
     ]
   },
   {
-    "name": "face-swap",
-    "description": "Face Swap skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/face-swap",
+    "name": "domain-modeling",
+    "description": "Domain Modeling skill for AI agent workflows",
+    "source": "mattpocock/skills/domain-modeling",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
+    "name": "edit-article",
+    "description": "Edit Article skill for AI agent workflows",
+    "source": "mattpocock/skills/edit-article",
     "tags": [
       "workflow"
     ]
   },
   {
-    "name": "flux-2-klein",
-    "description": "Flux 2 Klein skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/flux-2-klein",
+    "name": "emil-design-eng",
+    "description": "Emil Design Eng skill for AI agent workflows",
+    "source": "emilkowalski/skills/emil-design-eng",
+    "tags": [
+      "design",
+      "frontend"
+    ]
+  },
+  {
+    "name": "entra-agent-id",
+    "description": "Entra Agent Id skill for AI agent workflows",
+    "source": "microsoft/azure-skills/entra-agent-id",
+    "tags": [
+      "agent"
+    ]
+  },
+  {
+    "name": "env-and-assets-bootstrap",
+    "description": "Env And Assets Bootstrap skill for AI agent workflows",
+    "source": "lllllllama/rigorpilot-skills/env-and-assets-bootstrap",
     "tags": [
       "workflow"
     ]
   },
   {
-    "name": "flux-kontext",
-    "description": "Flux Kontext skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/flux-kontext",
+    "name": "explore-code",
+    "description": "Explore Code skill for AI agent workflows",
+    "source": "lllllllama/rigorpilot-skills/explore-code",
     "tags": [
       "workflow"
     ]
   },
   {
-    "name": "github-actions-docs",
-    "description": "Github Actions Docs skill for AI agent workflows",
-    "source": "xixu-me/skills/github-actions-docs",
+    "name": "explore-run",
+    "description": "Explore Run skill for AI agent workflows",
+    "source": "lllllllama/rigorpilot-skills/explore-run",
     "tags": [
-      "devops"
-    ]
-  },
-  {
-    "name": "gpt-image-2",
-    "description": "Gpt Image 2 skill for AI agent workflows",
-    "source": "agentspace-so/agent-skills/gpt-image-2",
-    "tags": [
-      "ai",
       "workflow"
     ]
   },
   {
-    "name": "gpt-image-edit",
-    "description": "Gpt Image Edit skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/gpt-image-edit",
+    "name": "git-guardrails-claude-code",
+    "description": "Git Guardrails Claude Code skill for AI agent workflows",
+    "source": "mattpocock/skills/git-guardrails-claude-code",
     "tags": [
-      "ai",
-      "workflow"
+      "ai"
     ]
   },
   {
@@ -221,6 +319,14 @@
     ]
   },
   {
+    "name": "grilling",
+    "description": "Grilling skill for AI agent workflows",
+    "source": "mattpocock/skills/grilling",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "handoff",
     "description": "handoff skill for AI agent workflows",
     "source": "mattpocock/skills/handoff",
@@ -229,44 +335,82 @@
     ]
   },
   {
-    "name": "happyhorse-1-0",
-    "description": "Happyhorse 1 0 skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/happyhorse-1-0",
+    "name": "hyperframes",
+    "description": "Hyperframes skill for AI agent workflows",
+    "source": "heygen-com/hyperframes/hyperframes",
     "tags": [
       "workflow"
     ]
   },
   {
-    "name": "image-edit",
-    "description": "Image Edit skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/image-edit",
+    "name": "hyperframes-animation",
+    "description": "Hyperframes Animation skill for AI agent workflows",
+    "source": "heygen-com/hyperframes/hyperframes-animation",
     "tags": [
-      "ai",
       "workflow"
     ]
   },
   {
-    "name": "image-inpainting",
-    "description": "Image Inpainting skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/image-inpainting",
+    "name": "hyperframes-cli",
+    "description": "Hyperframes Cli skill for AI agent workflows",
+    "source": "heygen-com/hyperframes/hyperframes-cli",
     "tags": [
-      "ai"
+      "workflow"
     ]
   },
   {
-    "name": "image-outpainting",
-    "description": "Image Outpainting skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/image-outpainting",
+    "name": "hyperframes-core",
+    "description": "Hyperframes Core skill for AI agent workflows",
+    "source": "heygen-com/hyperframes/hyperframes-core",
     "tags": [
-      "ai"
+      "workflow"
     ]
   },
   {
-    "name": "image-to-video",
-    "description": "Image To Video skill for AI agent workflows",
-    "source": "inference-sh-9/skills/image-to-video",
+    "name": "hyperframes-creative",
+    "description": "Hyperframes Creative skill for AI agent workflows",
+    "source": "heygen-com/hyperframes/hyperframes-creative",
     "tags": [
-      "ai",
+      "workflow"
+    ]
+  },
+  {
+    "name": "hyperframes-registry",
+    "description": "Hyperframes Registry skill for AI agent workflows",
+    "source": "heygen-com/hyperframes/hyperframes-registry",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "imagegen-frontend-mobile",
+    "description": "Imagegen Frontend Mobile skill for AI agent workflows",
+    "source": "leonxlnx/taste-skill/imagegen-frontend-mobile",
+    "tags": [
+      "frontend"
+    ]
+  },
+  {
+    "name": "imagegen-frontend-web",
+    "description": "Imagegen Frontend Web skill for AI agent workflows",
+    "source": "leonxlnx/taste-skill/imagegen-frontend-web",
+    "tags": [
+      "frontend"
+    ]
+  },
+  {
+    "name": "impeccable",
+    "description": "Impeccable skill for AI agent workflows",
+    "source": "pbakaus/impeccable/impeccable",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "implement",
+    "description": "Implement skill for AI agent workflows",
+    "source": "mattpocock/skills/implement",
+    "tags": [
       "workflow"
     ]
   },
@@ -282,14 +426,6 @@
     "name": "just-scrape",
     "description": "Just Scrape skill for AI agent workflows",
     "source": "scrapegraphai/just-scrape/just-scrape",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "kling-3-0",
-    "description": "Kling 3 0 skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/kling-3-0",
     "tags": [
       "workflow"
     ]
@@ -480,41 +616,33 @@
     ]
   },
   {
-    "name": "lipsync",
-    "description": "Lipsync skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/lipsync",
+    "name": "migrate-to-shoehorn",
+    "description": "Migrate To Shoehorn skill for AI agent workflows",
+    "source": "mattpocock/skills/migrate-to-shoehorn",
     "tags": [
       "workflow"
     ]
   },
   {
-    "name": "nano-banana-2",
-    "description": "Nano Banana 2 skill for AI agent workflows",
-    "source": "inference-sh-9/skills/nano-banana-2",
+    "name": "minimal-run-and-audit",
+    "description": "Minimal Run And Audit skill for AI agent workflows",
+    "source": "lllllllama/rigorpilot-skills/minimal-run-and-audit",
     "tags": [
       "workflow"
     ]
   },
   {
-    "name": "nano-banana-edit",
-    "description": "Nano Banana Edit skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/nano-banana-edit",
+    "name": "obsidian-vault",
+    "description": "Obsidian Vault skill for AI agent workflows",
+    "source": "mattpocock/skills/obsidian-vault",
     "tags": [
-      "workflow"
+      "docs"
     ]
   },
   {
-    "name": "openclaw-secure-linux-cloud",
-    "description": "Openclaw Secure Linux Cloud skill for AI agent workflows",
-    "source": "xixu-me/skills/openclaw-secure-linux-cloud",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "opensource-guide-coach",
-    "description": "Opensource Guide Coach skill for AI agent workflows",
-    "source": "xixu-me/skills/opensource-guide-coach",
+    "name": "paper-context-resolver",
+    "description": "Paper Context Resolver skill for AI agent workflows",
+    "source": "lllllllama/rigorpilot-skills/paper-context-resolver",
     "tags": [
       "workflow"
     ]
@@ -528,17 +656,17 @@
     ]
   },
   {
-    "name": "readme-i18n",
-    "description": "Readme I18n skill for AI agent workflows",
-    "source": "xixu-me/skills/readme-i18n",
+    "name": "qa",
+    "description": "Qa skill for AI agent workflows",
+    "source": "mattpocock/skills/qa",
     "tags": [
       "workflow"
     ]
   },
   {
-    "name": "relight",
-    "description": "relight skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/relight",
+    "name": "remotion-best-practices",
+    "description": "Remotion best practices and recommended patterns",
+    "source": "remotion-dev/skills/remotion-best-practices",
     "tags": [
       "workflow"
     ]
@@ -552,33 +680,49 @@
     ]
   },
   {
-    "name": "runcomfy-cli",
-    "description": "Runcomfy Cli skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/runcomfy-cli",
+    "name": "remotion-to-hyperframes",
+    "description": "Remotion To Hyperframes skill for AI agent workflows",
+    "source": "heygen-com/hyperframes/remotion-to-hyperframes",
     "tags": [
       "workflow"
     ]
   },
   {
-    "name": "running-claude-code-via-litellm-copilot",
-    "description": "Running Claude Code Via Litellm Copilot skill for AI agent workflows",
-    "source": "xixu-me/skills/running-claude-code-via-litellm-copilot",
+    "name": "repo-intake-and-plan",
+    "description": "Repo Intake And Plan skill for AI agent workflows",
+    "source": "lllllllama/rigorpilot-skills/repo-intake-and-plan",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "request-refactor-plan",
+    "description": "Request Refactor Plan skill for AI agent workflows",
+    "source": "mattpocock/skills/request-refactor-plan",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "run-train",
+    "description": "Run Train skill for AI agent workflows",
+    "source": "lllllllama/rigorpilot-skills/run-train",
     "tags": [
       "ai"
     ]
   },
   {
-    "name": "secure-linux-web-hosting",
-    "description": "Secure Linux Web Hosting skill for AI agent workflows",
-    "source": "xixu-me/skills/secure-linux-web-hosting",
+    "name": "safe-debug",
+    "description": "Safe Debug skill for AI agent workflows",
+    "source": "lllllllama/rigorpilot-skills/safe-debug",
     "tags": [
       "workflow"
     ]
   },
   {
-    "name": "seedance-v2",
-    "description": "Seedance V2 skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/seedance-v2",
+    "name": "scaffold-exercises",
+    "description": "Scaffold Exercises skill for AI agent workflows",
+    "source": "mattpocock/skills/scaffold-exercises",
     "tags": [
       "workflow"
     ]
@@ -587,6 +731,14 @@
     "name": "setup-matt-pocock-skills",
     "description": "Setup Matt Pocock Skills skill for AI agent workflows",
     "source": "mattpocock/skills/setup-matt-pocock-skills",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "setup-pre-commit",
+    "description": "Setup Pre Commit skill for AI agent workflows",
+    "source": "mattpocock/skills/setup-pre-commit",
     "tags": [
       "workflow"
     ]
@@ -609,9 +761,9 @@
     ]
   },
   {
-    "name": "skills-cli",
-    "description": "Skills Cli skill for AI agent workflows",
-    "source": "xixu-me/skills/skills-cli",
+    "name": "supabase",
+    "description": "Supabase skill for AI agent workflows",
+    "source": "supabase/agent-skills/supabase",
     "tags": [
       "workflow"
     ]
@@ -630,6 +782,14 @@
     "source": "mattpocock/skills/tdd",
     "tags": [
       "testing"
+    ]
+  },
+  {
+    "name": "teach",
+    "description": "Teach skill for AI agent workflows",
+    "source": "mattpocock/skills/teach",
+    "tags": [
+      "workflow"
     ]
   },
   {
@@ -665,9 +825,9 @@
     ]
   },
   {
-    "name": "tzst",
-    "description": "Tzst skill for AI agent workflows",
-    "source": "xixu-me/skills/tzst",
+    "name": "ubiquitous-language",
+    "description": "Ubiquitous Language skill for AI agent workflows",
+    "source": "mattpocock/skills/ubiquitous-language",
     "tags": [
       "workflow"
     ]
@@ -682,54 +842,6 @@
     ]
   },
   {
-    "name": "use-my-browser",
-    "description": "Use My Browser skill for AI agent workflows",
-    "source": "xixu-me/skills/use-my-browser",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "video-edit",
-    "description": "Video Edit skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/video-edit",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "video-extend",
-    "description": "Video Extend skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/video-extend",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "video-inpainting",
-    "description": "Video Inpainting skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/video-inpainting",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
-    "name": "video-outpainting",
-    "description": "Video Outpainting skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/video-outpainting",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
-    "name": "wan-2-7",
-    "description": "Wan 2 7 skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/wan-2-7",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "write-a-skill",
     "description": "Write A Skill skill for AI agent workflows",
     "source": "mattpocock/skills/write-a-skill",
@@ -738,17 +850,33 @@
     ]
   },
   {
-    "name": "xdrop",
-    "description": "Xdrop skill for AI agent workflows",
-    "source": "xixu-me/skills/xdrop",
+    "name": "writing-beats",
+    "description": "Writing Beats skill for AI agent workflows",
+    "source": "mattpocock/skills/writing-beats",
     "tags": [
       "workflow"
     ]
   },
   {
-    "name": "xget",
-    "description": "Xget skill for AI agent workflows",
-    "source": "xixu-me/skills/xget",
+    "name": "writing-fragments",
+    "description": "Writing Fragments skill for AI agent workflows",
+    "source": "mattpocock/skills/writing-fragments",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "writing-great-skills",
+    "description": "Writing Great Skills skill for AI agent workflows",
+    "source": "mattpocock/skills/writing-great-skills",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "writing-shape",
+    "description": "Writing Shape skill for AI agent workflows",
+    "source": "mattpocock/skills/writing-shape",
     "tags": [
       "workflow"
     ]
