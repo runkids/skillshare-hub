@@ -16,15 +16,10 @@
       "skill": "accessibility-compliance",
       "tags": [
         "frontend"
-      ]
-    },
-    {
-      "name": "ace-step",
-      "description": "ace step skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/ace-step",
-      "tags": [
-        "workflow"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "agent-browser",
@@ -33,47 +28,43 @@
       "tags": [
         "agent",
         "browser"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
-      "name": "agentspace",
-      "description": "Agentspace skill for AI agent workflows",
-      "source": "agentspace-so/skills/agentspace",
-      "tags": [
-        "agent"
-      ]
-    },
-    {
-      "name": "ai-avatar-video",
-      "description": "Ai Avatar Video skill for AI agent workflows",
-      "source": "inference-sh-9/skills/ai-avatar-video",
+      "name": "ai-research-explore",
+      "description": "Ai Research Explore skill for AI agent workflows",
+      "source": "lllllllama/rigorpilot-skills/ai-research-explore",
       "tags": [
         "ai"
-      ]
+      ],
+      "riskScore": 76,
+      "riskLabel": "critical",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
-      "name": "ai-image-generation",
-      "description": "Ai Image Generation skill for AI agent workflows",
-      "source": "inference-sh-9/skills/ai-image-generation",
+      "name": "ai-research-reproduction",
+      "description": "Ai Research Reproduction skill for AI agent workflows",
+      "source": "lllllllama/rigorpilot-skills/ai-research-reproduction",
       "tags": [
         "ai"
-      ]
+      ],
+      "riskScore": 45,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
-      "name": "ai-music",
-      "description": "Ai Music skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/ai-music",
+      "name": "airunway-aks-setup",
+      "description": "Airunway Aks Setup skill for AI agent workflows",
+      "source": "microsoft/azure-skills/airunway-aks-setup",
       "tags": [
         "ai"
-      ]
-    },
-    {
-      "name": "ai-video-generation",
-      "description": "Ai Video Generation skill for AI agent workflows",
-      "source": "inference-sh-9/skills/ai-video-generation",
-      "tags": [
-        "ai"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "algorithmic-art",
@@ -81,7 +72,10 @@
       "source": "anthropics/skills/algorithmic-art",
       "tags": [
         "design"
-      ]
+      ],
+      "riskScore": 16,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "analytics-tracking",
@@ -92,13 +86,27 @@
       ]
     },
     {
+      "name": "analyze-project",
+      "description": "Analyze Project skill for AI agent workflows",
+      "source": "lllllllama/rigorpilot-skills/analyze-project",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 15,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
       "name": "antfu",
       "description": "Anthony Fu's coding conventions and project setup preferences",
       "source": "antfu/skills/antfu",
       "skill": "antfu",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 13,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "appinsights-instrumentation",
@@ -109,6 +117,17 @@
         "devops",
         "backend"
       ]
+    },
+    {
+      "name": "ask-matt",
+      "description": "Ask Matt skill for AI agent workflows",
+      "source": "mattpocock/skills/ask-matt",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 6,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "azure-ai",
@@ -164,7 +183,10 @@
       "source": "microsoft/azure-skills/azure-cost",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 18,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "azure-cost-optimization",
@@ -202,7 +224,10 @@
       "source": "microsoft/azure-skills/azure-enterprise-infra-planner",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 15,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "azure-hosted-copilot-sdk",
@@ -219,7 +244,10 @@
       "source": "microsoft/azure-skills/azure-kubernetes",
       "tags": [
         "devops"
-      ]
+      ],
+      "riskScore": 9,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "azure-kusto",
@@ -277,7 +305,10 @@
       "source": "microsoft/azure-skills/azure-quotas",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 7,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "azure-rbac",
@@ -288,6 +319,17 @@
         "devops",
         "backend"
       ]
+    },
+    {
+      "name": "azure-reliability",
+      "description": "Azure Reliability management and best practices",
+      "source": "microsoft/azure-skills/azure-reliability",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "azure-resource-lookup",
@@ -325,7 +367,10 @@
       "source": "microsoft/azure-skills/azure-upgrade",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 100,
+      "riskLabel": "critical",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "azure-validate",
@@ -345,7 +390,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "baoyu-comic",
@@ -355,7 +403,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 9,
+      "riskLabel": "medium",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "baoyu-compress-image",
@@ -365,7 +416,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 8,
+      "riskLabel": "medium",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "baoyu-cover-image",
@@ -375,7 +429,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "baoyu-danger-gemini-web",
@@ -385,7 +442,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 16,
+      "riskLabel": "medium",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "baoyu-danger-x-to-markdown",
@@ -395,7 +455,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 40,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "baoyu-image-gen",
@@ -405,7 +468,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 96,
+      "riskLabel": "critical",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "baoyu-infographic",
@@ -415,7 +481,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "baoyu-post-to-wechat",
@@ -425,7 +494,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 100,
+      "riskLabel": "critical",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "baoyu-post-to-x",
@@ -435,7 +507,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 100,
+      "riskLabel": "critical",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "baoyu-slide-deck",
@@ -445,7 +520,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 9,
+      "riskLabel": "medium",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "baoyu-url-to-markdown",
@@ -455,7 +533,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 31,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "baoyu-xhs-images",
@@ -465,7 +546,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "brainstorming",
@@ -474,7 +558,10 @@
       "tags": [
         "workflow",
         "superpowers"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "brand-guidelines",
@@ -482,7 +569,22 @@
       "source": "anthropics/skills/brand-guidelines",
       "tags": [
         "design"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "brandkit",
+      "description": "Brandkit skill for AI agent workflows",
+      "source": "leonxlnx/taste-skill/brandkit",
+      "tags": [
+        "design",
+        "frontend"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "canvas-design",
@@ -491,7 +593,21 @@
       "tags": [
         "design",
         "frontend"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "cavecrew",
+      "description": "Cavecrew skill for AI agent workflows",
+      "source": "juliusbrussee/caveman/cavecrew",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "caveman",
@@ -499,15 +615,88 @@
       "source": "juliusbrussee/caveman/caveman",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
-      "name": "codex-pet",
-      "description": "Codex Pet skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/codex-pet",
+      "name": "caveman-commit",
+      "description": "Caveman Commit skill for AI agent workflows",
+      "source": "juliusbrussee/caveman/caveman-commit",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "caveman-compress",
+      "description": "Caveman Compress skill for AI agent workflows",
+      "source": "juliusbrussee/caveman/caveman-compress",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 49,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "caveman-help",
+      "description": "Caveman Help skill for AI agent workflows",
+      "source": "juliusbrussee/caveman/caveman-help",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "caveman-review",
+      "description": "Caveman Review skill for AI agent workflows",
+      "source": "juliusbrussee/caveman/caveman-review",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "caveman-stats",
+      "description": "Caveman Stats skill for AI agent workflows",
+      "source": "juliusbrussee/caveman/caveman-stats",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "code-review",
+      "description": "Code Review skill for AI agent workflows",
+      "source": "mattpocock/skills/code-review",
+      "tags": [
+        "code-review"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "codebase-design",
+      "description": "Codebase Design skill for AI agent workflows",
+      "source": "mattpocock/skills/codebase-design",
+      "tags": [
+        "design",
+        "frontend"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "competitor-alternatives",
@@ -523,15 +712,10 @@
       "source": "coreyhaines31/marketingskills/content-strategy",
       "tags": [
         "marketing"
-      ]
-    },
-    {
-      "name": "controlnet-pose",
-      "description": "Controlnet Pose skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/controlnet-pose",
-      "tags": [
-        "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "copy-editing",
@@ -539,7 +723,10 @@
       "source": "coreyhaines31/marketingskills/copy-editing",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "copywriting",
@@ -547,7 +734,10 @@
       "source": "coreyhaines31/marketingskills/copywriting",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "diagnose",
@@ -558,6 +748,17 @@
       ]
     },
     {
+      "name": "diagnosing-bugs",
+      "description": "Diagnosing Bugs skill for AI agent workflows",
+      "source": "mattpocock/skills/diagnosing-bugs",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
       "name": "dispatching-parallel-agents",
       "description": "Dispatch and coordinate independent tasks across parallel agents",
       "source": "obra/superpowers/dispatching-parallel-agents",
@@ -565,7 +766,10 @@
         "workflow",
         "superpowers",
         "agent"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "doc-coauthoring",
@@ -573,7 +777,10 @@
       "source": "anthropics/skills/doc-coauthoring",
       "tags": [
         "docs"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "docx",
@@ -581,15 +788,21 @@
       "source": "anthropics/skills/docx",
       "tags": [
         "docs"
-      ]
+      ],
+      "riskScore": 93,
+      "riskLabel": "critical",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
-      "name": "elevenlabs-music-generation",
-      "description": "elevenlaus music generation skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/elevenlabs-music-generation",
+      "name": "domain-modeling",
+      "description": "Domain Modeling skill for AI agent workflows",
+      "source": "mattpocock/skills/domain-modeling",
       "tags": [
-        "workflow"
-      ]
+        "ai"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "email-sequence",
@@ -598,6 +811,29 @@
       "tags": [
         "marketing"
       ]
+    },
+    {
+      "name": "emil-design-eng",
+      "description": "Emil Design Eng skill for AI agent workflows",
+      "source": "emilkowalski/skills/emil-design-eng",
+      "tags": [
+        "design",
+        "frontend"
+      ],
+      "riskScore": 6,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "entra-agent-id",
+      "description": "Entra Agent Id skill for AI agent workflows",
+      "source": "microsoft/azure-skills/entra-agent-id",
+      "tags": [
+        "agent"
+      ],
+      "riskScore": 9,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "entra-app-registration",
@@ -610,13 +846,49 @@
       ]
     },
     {
+      "name": "env-and-assets-bootstrap",
+      "description": "Env And Assets Bootstrap skill for AI agent workflows",
+      "source": "lllllllama/rigorpilot-skills/env-and-assets-bootstrap",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 15,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
       "name": "executing-plans",
       "description": "Execute implementation plans step-by-step with review checkpoints",
       "source": "obra/superpowers/executing-plans",
       "tags": [
         "workflow",
         "superpowers"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "explore-code",
+      "description": "Explore Code skill for AI agent workflows",
+      "source": "lllllllama/rigorpilot-skills/explore-code",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "explore-run",
+      "description": "Explore Run skill for AI agent workflows",
+      "source": "lllllllama/rigorpilot-skills/explore-run",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "expo-deployment",
@@ -628,12 +900,15 @@
       ]
     },
     {
-      "name": "face-swap",
-      "description": "Face Swap skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/face-swap",
+      "name": "faceless-explainer",
+      "description": "Faceless Explainer skill for AI agent workflows",
+      "source": "heygen-com/hyperframes/faceless-explainer",
       "tags": [
-        "workflow"
-      ]
+        "ai"
+      ],
+      "riskScore": 17,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "find-skills",
@@ -642,7 +917,10 @@
       "tags": [
         "skill",
         "agent"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "finishing-a-development-branch",
@@ -652,23 +930,10 @@
         "git",
         "workflow",
         "superpowers"
-      ]
-    },
-    {
-      "name": "flux-2-klein",
-      "description": "Flux 2 Klein skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/flux-2-klein",
-      "tags": [
-        "workflow"
-      ]
-    },
-    {
-      "name": "flux-kontext",
-      "description": "Flux Kontext skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/flux-kontext",
-      "tags": [
-        "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "form-cro",
@@ -693,33 +958,32 @@
       "tags": [
         "design",
         "frontend"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
-      "name": "github-actions-docs",
-      "description": "Github Actions Docs skill for AI agent workflows",
-      "source": "xixu-me/skills/github-actions-docs",
+      "name": "general-video",
+      "description": "General Video skill for AI agent workflows",
+      "source": "heygen-com/hyperframes/general-video",
       "tags": [
-        "devops"
-      ]
-    },
-    {
-      "name": "gpt-image-2",
-      "description": "Gpt Image 2 skill for AI agent workflows",
-      "source": "agentspace-so/agent-skills/gpt-image-2",
-      "tags": [
-        "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
-      "name": "gpt-image-edit",
-      "description": "Gpt Image Edit skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/gpt-image-edit",
+      "name": "git-guardrails-claude-code",
+      "description": "Git Guardrails Claude Code skill for AI agent workflows",
+      "source": "mattpocock/skills/git-guardrails-claude-code",
       "tags": [
-        "ai",
-        "workflow"
-      ]
+        "ai"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "grill-me",
@@ -727,7 +991,10 @@
       "source": "mattpocock/skills/grill-me",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "grill-with-docs",
@@ -735,7 +1002,21 @@
       "source": "mattpocock/skills/grill-with-docs",
       "tags": [
         "docs"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "grilling",
+      "description": "Grilling skill for AI agent workflows",
+      "source": "mattpocock/skills/grilling",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "handoff",
@@ -743,49 +1024,131 @@
       "source": "mattpocock/skills/handoff",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
-      "name": "happyhorse-1-0",
-      "description": "Happyhorse 1 0 skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/happyhorse-1-0",
+      "name": "hyperframes",
+      "description": "Hyperframes skill for AI agent workflows",
+      "source": "heygen-com/hyperframes/hyperframes",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
-      "name": "image-edit",
-      "description": "Image Edit skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/image-edit",
+      "name": "hyperframes-animation",
+      "description": "Hyperframes Animation skill for AI agent workflows",
+      "source": "heygen-com/hyperframes/hyperframes-animation",
       "tags": [
-        "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 100,
+      "riskLabel": "critical",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
-      "name": "image-inpainting",
-      "description": "Image Inpainting skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/image-inpainting",
+      "name": "hyperframes-cli",
+      "description": "Hyperframes Cli skill for AI agent workflows",
+      "source": "heygen-com/hyperframes/hyperframes-cli",
       "tags": [
-        "ai"
-      ]
-    },
-    {
-      "name": "image-outpainting",
-      "description": "Image Outpainting skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/image-outpainting",
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "name": "image-to-video",
-      "description": "Image To Video skill for AI agent workflows",
-      "source": "inference-sh-9/skills/image-to-video",
-      "tags": [
-        "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "hyperframes-core",
+      "description": "Hyperframes Core skill for AI agent workflows",
+      "source": "heygen-com/hyperframes/hyperframes-core",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 100,
+      "riskLabel": "critical",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "hyperframes-creative",
+      "description": "Hyperframes Creative skill for AI agent workflows",
+      "source": "heygen-com/hyperframes/hyperframes-creative",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 59,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "hyperframes-keyframes",
+      "description": "Hyperframes Keyframes skill for AI agent workflows",
+      "source": "heygen-com/hyperframes/hyperframes-keyframes",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "hyperframes-registry",
+      "description": "Hyperframes Registry skill for AI agent workflows",
+      "source": "heygen-com/hyperframes/hyperframes-registry",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 69,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "imagegen-frontend-mobile",
+      "description": "Imagegen Frontend Mobile skill for AI agent workflows",
+      "source": "leonxlnx/taste-skill/imagegen-frontend-mobile",
+      "tags": [
+        "frontend"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "imagegen-frontend-web",
+      "description": "Imagegen Frontend Web skill for AI agent workflows",
+      "source": "leonxlnx/taste-skill/imagegen-frontend-web",
+      "tags": [
+        "frontend"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "impeccable",
+      "description": "Impeccable skill for AI agent workflows",
+      "source": "pbakaus/impeccable/impeccable",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 100,
+      "riskLabel": "critical",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "implement",
+      "description": "Implement skill for AI agent workflows",
+      "source": "mattpocock/skills/implement",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "improve-codebase-architecture",
@@ -793,7 +1156,10 @@
       "source": "mattpocock/skills/improve-codebase-architecture",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "internal-comms",
@@ -801,7 +1167,10 @@
       "source": "anthropics/skills/internal-comms",
       "tags": [
         "docs"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "just-scrape",
@@ -809,15 +1178,10 @@
       "source": "scrapegraphai/just-scrape/just-scrape",
       "tags": [
         "workflow"
-      ]
-    },
-    {
-      "name": "kling-3-0",
-      "description": "Kling 3 0 skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/kling-3-0",
-      "tags": [
-        "workflow"
-      ]
+      ],
+      "riskScore": 15,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "lark-approval",
@@ -825,7 +1189,10 @@
       "source": "larksuite/cli/lark-approval",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "lark-attendance",
@@ -833,7 +1200,10 @@
       "source": "larksuite/cli/lark-attendance",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "lark-base",
@@ -841,7 +1211,10 @@
       "source": "larksuite/cli/lark-base",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "lark-calendar",
@@ -849,7 +1222,10 @@
       "source": "larksuite/cli/lark-calendar",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "lark-contact",
@@ -857,7 +1233,10 @@
       "source": "larksuite/cli/lark-contact",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "lark-doc",
@@ -865,7 +1244,10 @@
       "source": "larksuite/cli/lark-doc",
       "tags": [
         "docs"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "lark-drive",
@@ -873,7 +1255,10 @@
       "source": "larksuite/cli/lark-drive",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "lark-event",
@@ -881,7 +1266,10 @@
       "source": "larksuite/cli/lark-event",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 3,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "lark-im",
@@ -889,7 +1277,10 @@
       "source": "larksuite/cli/lark-im",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 36,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "lark-mail",
@@ -897,7 +1288,10 @@
       "source": "larksuite/cli/lark-mail",
       "tags": [
         "ai"
-      ]
+      ],
+      "riskScore": 46,
+      "riskLabel": "critical",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "lark-minutes",
@@ -905,7 +1299,10 @@
       "source": "larksuite/cli/lark-minutes",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 3,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "lark-okr",
@@ -913,7 +1310,10 @@
       "source": "larksuite/cli/lark-okr",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 3,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "lark-openapi-explorer",
@@ -921,7 +1321,10 @@
       "source": "larksuite/cli/lark-openapi-explorer",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "lark-shared",
@@ -929,7 +1332,10 @@
       "source": "larksuite/cli/lark-shared",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "lark-sheets",
@@ -937,7 +1343,10 @@
       "source": "larksuite/cli/lark-sheets",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 16,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "lark-skill-maker",
@@ -945,7 +1354,10 @@
       "source": "larksuite/cli/lark-skill-maker",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "lark-slides",
@@ -954,7 +1366,10 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 76,
+      "riskLabel": "critical",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "lark-task",
@@ -962,7 +1377,10 @@
       "source": "larksuite/cli/lark-task",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "lark-vc",
@@ -970,7 +1388,10 @@
       "source": "larksuite/cli/lark-vc",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "lark-whiteboard",
@@ -978,7 +1399,10 @@
       "source": "larksuite/cli/lark-whiteboard",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 65,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "lark-wiki",
@@ -986,7 +1410,10 @@
       "source": "larksuite/cli/lark-wiki",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "lark-workflow-meeting-summary",
@@ -994,7 +1421,10 @@
       "source": "larksuite/cli/lark-workflow-meeting-summary",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "lark-workflow-standup-report",
@@ -1002,7 +1432,10 @@
       "source": "larksuite/cli/lark-workflow-standup-report",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "launch-strategy",
@@ -1013,20 +1446,15 @@
       ]
     },
     {
-      "name": "lipsync",
-      "description": "Lipsync skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/lipsync",
-      "tags": [
-        "workflow"
-      ]
-    },
-    {
       "name": "marketing-ideas",
       "description": "Generate creative marketing campaign ideas and growth strategies",
       "source": "coreyhaines31/marketingskills/marketing-ideas",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "marketing-psychology",
@@ -1034,7 +1462,10 @@
       "source": "coreyhaines31/marketingskills/marketing-psychology",
       "tags": [
         "marketing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "mcp-builder",
@@ -1043,7 +1474,21 @@
       "tags": [
         "ai",
         "agent"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "media-use",
+      "description": "Media Use skill for AI agent workflows",
+      "source": "heygen-com/hyperframes/media-use",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 28,
+      "riskLabel": "medium",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "microsoft-foundry",
@@ -1056,20 +1501,37 @@
       ]
     },
     {
-      "name": "nano-banana-2",
-      "description": "Nano Banana 2 skill for AI agent workflows",
-      "source": "inference-sh-9/skills/nano-banana-2",
+      "name": "migrate-to-shoehorn",
+      "description": "Migrate To Shoehorn skill for AI agent workflows",
+      "source": "mattpocock/skills/migrate-to-shoehorn",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
-      "name": "nano-banana-edit",
-      "description": "Nano Banana Edit skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/nano-banana-edit",
+      "name": "minimal-run-and-audit",
+      "description": "Minimal Run And Audit skill for AI agent workflows",
+      "source": "lllllllama/rigorpilot-skills/minimal-run-and-audit",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 30,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "motion-graphics",
+      "description": "Motion Graphics skill for AI agent workflows",
+      "source": "heygen-com/hyperframes/motion-graphics",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 16,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "next-best-practices",
@@ -1106,7 +1568,10 @@
       "tags": [
         "vue",
         "frontend"
-      ]
+      ],
+      "riskScore": 20,
+      "riskLabel": "medium",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "onboarding-cro",
@@ -1114,22 +1579,6 @@
       "source": "coreyhaines31/marketingskills/onboarding-cro",
       "tags": [
         "marketing"
-      ]
-    },
-    {
-      "name": "openclaw-secure-linux-cloud",
-      "description": "Openclaw Secure Linux Cloud skill for AI agent workflows",
-      "source": "xixu-me/skills/openclaw-secure-linux-cloud",
-      "tags": [
-        "workflow"
-      ]
-    },
-    {
-      "name": "opensource-guide-coach",
-      "description": "Opensource Guide Coach skill for AI agent workflows",
-      "source": "xixu-me/skills/opensource-guide-coach",
-      "tags": [
-        "workflow"
       ]
     },
     {
@@ -1149,6 +1598,17 @@
       ]
     },
     {
+      "name": "paper-context-resolver",
+      "description": "Paper Context Resolver skill for AI agent workflows",
+      "source": "lllllllama/rigorpilot-skills/paper-context-resolver",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
       "name": "paywall-upgrade-cro",
       "description": "Optimize paywall and upgrade prompts for subscription conversion",
       "source": "coreyhaines31/marketingskills/paywall-upgrade-cro",
@@ -1162,7 +1622,10 @@
       "source": "anthropics/skills/pdf",
       "tags": [
         "docs"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "pinia",
@@ -1172,7 +1635,10 @@
       "tags": [
         "vue",
         "frontend"
-      ]
+      ],
+      "riskScore": 10,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "pnpm",
@@ -1181,7 +1647,10 @@
       "skill": "pnpm",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "popup-cro",
@@ -1197,7 +1666,10 @@
       "source": "anthropics/skills/pptx",
       "tags": [
         "docs"
-      ]
+      ],
+      "riskScore": 93,
+      "riskLabel": "critical",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "pricing-strategy",
@@ -1206,6 +1678,17 @@
       "tags": [
         "marketing"
       ]
+    },
+    {
+      "name": "product-launch-video",
+      "description": "Product Launch Video skill for AI agent workflows",
+      "source": "heygen-com/hyperframes/product-launch-video",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 32,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "product-marketing-context",
@@ -1222,7 +1705,10 @@
       "tags": [
         "marketing",
         "seo"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "prototype",
@@ -1230,7 +1716,10 @@
       "source": "mattpocock/skills/prototype",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "react-doctor",
@@ -1240,15 +1729,10 @@
       "tags": [
         "react",
         "frontend"
-      ]
-    },
-    {
-      "name": "readme-i18n",
-      "description": "Readme I18n skill for AI agent workflows",
-      "source": "xixu-me/skills/readme-i18n",
-      "tags": [
-        "workflow"
-      ]
+      ],
+      "riskScore": 34,
+      "riskLabel": "critical",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "receiving-code-review",
@@ -1256,7 +1740,10 @@
       "source": "obra/superpowers/receiving-code-review",
       "tags": [
         "code-review"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "referral-program",
@@ -1274,23 +1761,43 @@
       "tags": [
         "ai",
         "workflow"
-      ]
+      ],
+      "riskScore": 15,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
-      "name": "relight",
-      "description": "relight skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/relight",
+      "name": "remotion-best-practices",
+      "description": "Remotion best practices and recommended patterns",
+      "source": "remotion-dev/skills/remotion-best-practices",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 45,
+      "riskLabel": "medium",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
-      "name": "remotion-render",
-      "description": "Remotion Render skill for AI agent workflows",
-      "source": "halt-catch-fire/skills/remotion-render",
+      "name": "remotion-to-hyperframes",
+      "description": "Remotion To Hyperframes skill for AI agent workflows",
+      "source": "heygen-com/hyperframes/remotion-to-hyperframes",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 70,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "repo-intake-and-plan",
+      "description": "Repo Intake And Plan skill for AI agent workflows",
+      "source": "lllllllama/rigorpilot-skills/repo-intake-and-plan",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "requesting-code-review",
@@ -1298,23 +1805,65 @@
       "source": "obra/superpowers/requesting-code-review",
       "tags": [
         "code-review"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
-      "name": "runcomfy-cli",
-      "description": "Runcomfy Cli skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/runcomfy-cli",
+      "name": "research",
+      "description": "Research skill for AI agent workflows",
+      "source": "mattpocock/skills/research",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
-      "name": "running-claude-code-via-litellm-copilot",
-      "description": "Running Claude Code Via Litellm Copilot skill for AI agent workflows",
-      "source": "xixu-me/skills/running-claude-code-via-litellm-copilot",
+      "name": "resolving-merge-conflicts",
+      "description": "Resolving Merge Conflicts skill for AI agent workflows",
+      "source": "mattpocock/skills/resolving-merge-conflicts",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "run-train",
+      "description": "Run Train skill for AI agent workflows",
+      "source": "lllllllama/rigorpilot-skills/run-train",
       "tags": [
         "ai"
-      ]
+      ],
+      "riskScore": 30,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "safe-debug",
+      "description": "Safe Debug skill for AI agent workflows",
+      "source": "lllllllama/rigorpilot-skills/safe-debug",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "scaffold-exercises",
+      "description": "Scaffold Exercises skill for AI agent workflows",
+      "source": "mattpocock/skills/scaffold-exercises",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "schema-markup",
@@ -1325,29 +1874,16 @@
       ]
     },
     {
-      "name": "secure-linux-web-hosting",
-      "description": "Secure Linux Web Hosting skill for AI agent workflows",
-      "source": "xixu-me/skills/secure-linux-web-hosting",
-      "tags": [
-        "workflow"
-      ]
-    },
-    {
-      "name": "seedance-v2",
-      "description": "Seedance V2 skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/seedance-v2",
-      "tags": [
-        "workflow"
-      ]
-    },
-    {
       "name": "seo-audit",
       "description": "Audit website SEO and provide actionable optimization recommendations",
       "source": "coreyhaines31/marketingskills/seo-audit",
       "tags": [
         "marketing",
         "seo"
-      ]
+      ],
+      "riskScore": 100,
+      "riskLabel": "critical",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "setup-matt-pocock-skills",
@@ -1355,7 +1891,21 @@
       "source": "mattpocock/skills/setup-matt-pocock-skills",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 21,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "setup-pre-commit",
+      "description": "Setup Pre Commit skill for AI agent workflows",
+      "source": "mattpocock/skills/setup-pre-commit",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "shadcn",
@@ -1364,7 +1914,10 @@
       "tags": [
         "design",
         "frontend"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "signup-flow-cro",
@@ -1375,29 +1928,16 @@
       ]
     },
     {
-      "name": "simple",
-      "description": "Simple skill for AI agent workflows",
-      "source": "roin-orca/skills/simple",
-      "tags": [
-        "workflow"
-      ]
-    },
-    {
       "name": "skill-creator",
       "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
       "source": "anthropics/skills",
       "skill": "skill-creator",
       "tags": [
         "skill"
-      ]
-    },
-    {
-      "name": "skills-cli",
-      "description": "Skills Cli skill for AI agent workflows",
-      "source": "xixu-me/skills/skills-cli",
-      "tags": [
-        "workflow"
-      ]
+      ],
+      "riskScore": 46,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "slack-gif-creator",
@@ -1405,7 +1945,10 @@
       "source": "anthropics/skills/slack-gif-creator",
       "tags": [
         "design"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "social-content",
@@ -1423,7 +1966,21 @@
         "workflow",
         "superpowers",
         "agent"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "supabase",
+      "description": "Supabase skill for AI agent workflows",
+      "source": "supabase/agent-skills/supabase",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 100,
+      "riskLabel": "critical",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "supabase-postgres-best-practices",
@@ -1431,7 +1988,10 @@
       "source": "supabase/agent-skills/supabase-postgres-best-practices",
       "tags": [
         "backend"
-      ]
+      ],
+      "riskScore": 100,
+      "riskLabel": "critical",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "systematic-debugging",
@@ -1441,7 +2001,10 @@
         "workflow",
         "superpowers",
         "testing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "tdd",
@@ -1449,7 +2012,21 @@
       "source": "mattpocock/skills/tdd",
       "tags": [
         "testing"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "teach",
+      "description": "Teach skill for AI agent workflows",
+      "source": "mattpocock/skills/teach",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "test-driven-development",
@@ -1459,7 +2036,10 @@
         "testing",
         "workflow",
         "superpowers"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "theme-factory",
@@ -1468,7 +2048,10 @@
       "tags": [
         "design",
         "frontend"
-      ]
+      ],
+      "riskScore": 1,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "to-issues",
@@ -1487,12 +2070,37 @@
       ]
     },
     {
+      "name": "to-spec",
+      "description": "To Spec skill for AI agent workflows",
+      "source": "mattpocock/skills/to-spec",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "to-tickets",
+      "description": "To Tickets skill for AI agent workflows",
+      "source": "mattpocock/skills/to-tickets",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
       "name": "triage",
       "description": "Triage skill for AI agent workflows",
       "source": "mattpocock/skills/triage",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "turborepo",
@@ -1501,23 +2109,10 @@
       "tags": [
         "devops",
         "frontend"
-      ]
-    },
-    {
-      "name": "twitter-automation",
-      "description": "Twitter Automation skill for AI agent workflows",
-      "source": "halt-catch-fire/skills/twitter-automation",
-      "tags": [
-        "workflow"
-      ]
-    },
-    {
-      "name": "tzst",
-      "description": "Tzst skill for AI agent workflows",
-      "source": "xixu-me/skills/tzst",
-      "tags": [
-        "workflow"
-      ]
+      ],
+      "riskScore": 16,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "ui-ux-pro-max",
@@ -1526,7 +2121,10 @@
       "tags": [
         "design",
         "frontend"
-      ]
+      ],
+      "riskScore": 2,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "unocss",
@@ -1535,7 +2133,10 @@
       "skill": "unocss",
       "tags": [
         "frontend"
-      ]
+      ],
+      "riskScore": 4,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "upgrading-expo",
@@ -1546,14 +2147,6 @@
       ]
     },
     {
-      "name": "use-my-browser",
-      "description": "Use My Browser skill for AI agent workflows",
-      "source": "xixu-me/skills/use-my-browser",
-      "tags": [
-        "workflow"
-      ]
-    },
-    {
       "name": "using-git-worktrees",
       "description": "Use git worktrees for isolated feature development without stashing",
       "source": "obra/superpowers/using-git-worktrees",
@@ -1561,7 +2154,10 @@
         "git",
         "workflow",
         "superpowers"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "using-superpowers",
@@ -1571,7 +2167,10 @@
         "workflow",
         "superpowers",
         "skill"
-      ]
+      ],
+      "riskScore": 15,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "verification-before-completion",
@@ -1581,39 +2180,10 @@
         "workflow",
         "superpowers",
         "testing"
-      ]
-    },
-    {
-      "name": "video-edit",
-      "description": "Video Edit skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/video-edit",
-      "tags": [
-        "workflow"
-      ]
-    },
-    {
-      "name": "video-extend",
-      "description": "Video Extend skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/video-extend",
-      "tags": [
-        "workflow"
-      ]
-    },
-    {
-      "name": "video-inpainting",
-      "description": "Video Inpainting skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/video-inpainting",
-      "tags": [
-        "ai"
-      ]
-    },
-    {
-      "name": "video-outpainting",
-      "description": "Video Outpainting skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/video-outpainting",
-      "tags": [
-        "ai"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "vite",
@@ -1621,7 +2191,10 @@
       "source": "antfu/skills/vite",
       "tags": [
         "frontend"
-      ]
+      ],
+      "riskScore": 53,
+      "riskLabel": "critical",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "vitepress",
@@ -1631,7 +2204,10 @@
       "tags": [
         "docs",
         "frontend"
-      ]
+      ],
+      "riskScore": 84,
+      "riskLabel": "critical",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "vitest",
@@ -1639,7 +2215,10 @@
       "source": "antfu/skills/vitest",
       "tags": [
         "testing"
-      ]
+      ],
+      "riskScore": 53,
+      "riskLabel": "critical",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "vue",
@@ -1648,7 +2227,10 @@
       "tags": [
         "vue",
         "frontend"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "vueuse-functions",
@@ -1658,15 +2240,21 @@
       "tags": [
         "vue",
         "frontend"
-      ]
+      ],
+      "riskScore": 100,
+      "riskLabel": "critical",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
-      "name": "wan-2-7",
-      "description": "Wan 2 7 skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/wan-2-7",
+      "name": "wayfinder",
+      "description": "Wayfinder skill for AI agent workflows",
+      "source": "mattpocock/skills/wayfinder",
       "tags": [
         "workflow"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "web-artifacts-builder",
@@ -1674,7 +2262,10 @@
       "source": "anthropics/skills/web-artifacts-builder",
       "tags": [
         "frontend"
-      ]
+      ],
+      "riskScore": 2,
+      "riskLabel": "low",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "web-design-guidelines",
@@ -1683,7 +2274,10 @@
       "tags": [
         "design",
         "frontend"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "webapp-testing",
@@ -1691,7 +2285,10 @@
       "source": "anthropics/skills/webapp-testing",
       "tags": [
         "testing"
-      ]
+      ],
+      "riskScore": 31,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "write-a-skill",
@@ -1702,13 +2299,49 @@
       ]
     },
     {
+      "name": "writing-beats",
+      "description": "Writing Beats skill for AI agent workflows",
+      "source": "mattpocock/skills/writing-beats",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "writing-fragments",
+      "description": "Writing Fragments skill for AI agent workflows",
+      "source": "mattpocock/skills/writing-fragments",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
       "name": "writing-plans",
       "description": "Create structured, step-by-step implementation plans before writing code",
       "source": "obra/superpowers/writing-plans",
       "tags": [
         "workflow",
         "superpowers"
-      ]
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
+    },
+    {
+      "name": "writing-shape",
+      "description": "Writing Shape skill for AI agent workflows",
+      "source": "mattpocock/skills/writing-shape",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "writing-skills",
@@ -1718,23 +2351,10 @@
         "skill",
         "workflow",
         "superpowers"
-      ]
-    },
-    {
-      "name": "xdrop",
-      "description": "Xdrop skill for AI agent workflows",
-      "source": "xixu-me/skills/xdrop",
-      "tags": [
-        "workflow"
-      ]
-    },
-    {
-      "name": "xget",
-      "description": "Xget skill for AI agent workflows",
-      "source": "xixu-me/skills/xget",
-      "tags": [
-        "workflow"
-      ]
+      ],
+      "riskScore": 48,
+      "riskLabel": "high",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "xlsx",
@@ -1742,7 +2362,10 @@
       "source": "anthropics/skills/xlsx",
       "tags": [
         "docs"
-      ]
+      ],
+      "riskScore": 92,
+      "riskLabel": "critical",
+      "auditedAt": "2026-08-10T06:09:08Z"
     },
     {
       "name": "zoom-out",
