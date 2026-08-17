@@ -8,14 +8,6 @@
     ]
   },
   {
-    "name": "agentspace",
-    "description": "Agentspace skill for AI agent workflows",
-    "source": "agentspace-so/skills/agentspace",
-    "tags": [
-      "agent"
-    ]
-  },
-  {
     "name": "ai-avatar-video",
     "description": "Ai Avatar Video skill for AI agent workflows",
     "source": "inference-sh-9/skills/ai-avatar-video",
@@ -40,11 +32,51 @@
     ]
   },
   {
+    "name": "ai-research-explore",
+    "description": "Ai Research Explore skill for AI agent workflows",
+    "source": "lllllllama/rigorpilot-skills/ai-research-explore",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
+    "name": "ai-research-reproduction",
+    "description": "Ai Research Reproduction skill for AI agent workflows",
+    "source": "lllllllama/rigorpilot-skills/ai-research-reproduction",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
     "name": "ai-video-generation",
     "description": "Ai Video Generation skill for AI agent workflows",
     "source": "inference-sh-9/skills/ai-video-generation",
     "tags": [
       "ai"
+    ]
+  },
+  {
+    "name": "airunway-aks-setup",
+    "description": "Airunway Aks Setup skill for AI agent workflows",
+    "source": "microsoft/azure-skills/airunway-aks-setup",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
+    "name": "analyze-project",
+    "description": "Analyze Project skill for AI agent workflows",
+    "source": "lllllllama/rigorpilot-skills/analyze-project",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "ask-matt",
+    "description": "Ask Matt skill for AI agent workflows",
+    "source": "mattpocock/skills/ask-matt",
+    "tags": [
+      "workflow"
     ]
   },
   {
@@ -115,11 +147,85 @@
     ]
   },
   {
+    "name": "brandkit",
+    "description": "Brandkit skill for AI agent workflows",
+    "source": "leonxlnx/taste-skill/brandkit",
+    "tags": [
+      "design",
+      "frontend"
+    ]
+  },
+  {
+    "name": "cavecrew",
+    "description": "Cavecrew skill for AI agent workflows",
+    "source": "juliusbrussee/caveman/cavecrew",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "caveman",
     "description": "Caveman skill for AI agent workflows",
     "source": "juliusbrussee/caveman/caveman",
     "tags": [
       "workflow"
+    ]
+  },
+  {
+    "name": "caveman-commit",
+    "description": "Caveman Commit skill for AI agent workflows",
+    "source": "juliusbrussee/caveman/caveman-commit",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "caveman-compress",
+    "description": "Caveman Compress skill for AI agent workflows",
+    "source": "juliusbrussee/caveman/caveman-compress",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "caveman-help",
+    "description": "Caveman Help skill for AI agent workflows",
+    "source": "juliusbrussee/caveman/caveman-help",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "caveman-review",
+    "description": "Caveman Review skill for AI agent workflows",
+    "source": "juliusbrussee/caveman/caveman-review",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "caveman-stats",
+    "description": "Caveman Stats skill for AI agent workflows",
+    "source": "juliusbrussee/caveman/caveman-stats",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "code-review",
+    "description": "Code Review skill for AI agent workflows",
+    "source": "mattpocock/skills/code-review",
+    "tags": [
+      "code-review"
+    ]
+  },
+  {
+    "name": "codebase-design",
+    "description": "Codebase Design skill for AI agent workflows",
+    "source": "mattpocock/skills/codebase-design",
+    "tags": [
+      "design",
+      "frontend"
     ]
   },
   {
@@ -147,9 +253,57 @@
     ]
   },
   {
+    "name": "diagnosing-bugs",
+    "description": "Diagnosing Bugs skill for AI agent workflows",
+    "source": "mattpocock/skills/diagnosing-bugs",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "domain-modeling",
+    "description": "Domain Modeling skill for AI agent workflows",
+    "source": "mattpocock/skills/domain-modeling",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
     "name": "elevenlabs-music-generation",
     "description": "elevenlaus music generation skill for AI agent workflows",
     "source": "agentspace-so/runcomfy-agent-skills/elevenlabs-music-generation",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "entra-agent-id",
+    "description": "Entra Agent Id skill for AI agent workflows",
+    "source": "microsoft/azure-skills/entra-agent-id",
+    "tags": [
+      "agent"
+    ]
+  },
+  {
+    "name": "env-and-assets-bootstrap",
+    "description": "Env And Assets Bootstrap skill for AI agent workflows",
+    "source": "lllllllama/rigorpilot-skills/env-and-assets-bootstrap",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "explore-code",
+    "description": "Explore Code skill for AI agent workflows",
+    "source": "lllllllama/rigorpilot-skills/explore-code",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "explore-run",
+    "description": "Explore Run skill for AI agent workflows",
+    "source": "lllllllama/rigorpilot-skills/explore-run",
     "tags": [
       "workflow"
     ]
@@ -179,20 +333,11 @@
     ]
   },
   {
-    "name": "github-actions-docs",
-    "description": "Github Actions Docs skill for AI agent workflows",
-    "source": "xixu-me/skills/github-actions-docs",
+    "name": "git-guardrails-claude-code",
+    "description": "Git Guardrails Claude Code skill for AI agent workflows",
+    "source": "mattpocock/skills/git-guardrails-claude-code",
     "tags": [
-      "devops"
-    ]
-  },
-  {
-    "name": "gpt-image-2",
-    "description": "Gpt Image 2 skill for AI agent workflows",
-    "source": "agentspace-so/agent-skills/gpt-image-2",
-    "tags": [
-      "ai",
-      "workflow"
+      "ai"
     ]
   },
   {
@@ -221,6 +366,14 @@
     ]
   },
   {
+    "name": "grilling",
+    "description": "Grilling skill for AI agent workflows",
+    "source": "mattpocock/skills/grilling",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "handoff",
     "description": "handoff skill for AI agent workflows",
     "source": "mattpocock/skills/handoff",
@@ -232,6 +385,54 @@
     "name": "happyhorse-1-0",
     "description": "Happyhorse 1 0 skill for AI agent workflows",
     "source": "agentspace-so/runcomfy-agent-skills/happyhorse-1-0",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "hyperframes",
+    "description": "Hyperframes skill for AI agent workflows",
+    "source": "heygen-com/hyperframes/hyperframes",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "hyperframes-animation",
+    "description": "Hyperframes Animation skill for AI agent workflows",
+    "source": "heygen-com/hyperframes/hyperframes-animation",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "hyperframes-cli",
+    "description": "Hyperframes Cli skill for AI agent workflows",
+    "source": "heygen-com/hyperframes/hyperframes-cli",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "hyperframes-core",
+    "description": "Hyperframes Core skill for AI agent workflows",
+    "source": "heygen-com/hyperframes/hyperframes-core",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "hyperframes-creative",
+    "description": "Hyperframes Creative skill for AI agent workflows",
+    "source": "heygen-com/hyperframes/hyperframes-creative",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "hyperframes-registry",
+    "description": "Hyperframes Registry skill for AI agent workflows",
+    "source": "heygen-com/hyperframes/hyperframes-registry",
     "tags": [
       "workflow"
     ]
@@ -267,6 +468,30 @@
     "source": "inference-sh-9/skills/image-to-video",
     "tags": [
       "ai",
+      "workflow"
+    ]
+  },
+  {
+    "name": "imagegen-frontend-web",
+    "description": "Imagegen Frontend Web skill for AI agent workflows",
+    "source": "leonxlnx/taste-skill/imagegen-frontend-web",
+    "tags": [
+      "frontend"
+    ]
+  },
+  {
+    "name": "impeccable",
+    "description": "Impeccable skill for AI agent workflows",
+    "source": "pbakaus/impeccable/impeccable",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "implement",
+    "description": "Implement skill for AI agent workflows",
+    "source": "mattpocock/skills/implement",
+    "tags": [
       "workflow"
     ]
   },
@@ -488,6 +713,30 @@
     ]
   },
   {
+    "name": "media-use",
+    "description": "Media Use skill for AI agent workflows",
+    "source": "heygen-com/hyperframes/media-use",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "migrate-to-shoehorn",
+    "description": "Migrate To Shoehorn skill for AI agent workflows",
+    "source": "mattpocock/skills/migrate-to-shoehorn",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "minimal-run-and-audit",
+    "description": "Minimal Run And Audit skill for AI agent workflows",
+    "source": "lllllllama/rigorpilot-skills/minimal-run-and-audit",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "nano-banana-2",
     "description": "Nano Banana 2 skill for AI agent workflows",
     "source": "inference-sh-9/skills/nano-banana-2",
@@ -504,17 +753,9 @@
     ]
   },
   {
-    "name": "openclaw-secure-linux-cloud",
-    "description": "Openclaw Secure Linux Cloud skill for AI agent workflows",
-    "source": "xixu-me/skills/openclaw-secure-linux-cloud",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "opensource-guide-coach",
-    "description": "Opensource Guide Coach skill for AI agent workflows",
-    "source": "xixu-me/skills/opensource-guide-coach",
+    "name": "paper-context-resolver",
+    "description": "Paper Context Resolver skill for AI agent workflows",
+    "source": "lllllllama/rigorpilot-skills/paper-context-resolver",
     "tags": [
       "workflow"
     ]
@@ -528,14 +769,6 @@
     ]
   },
   {
-    "name": "readme-i18n",
-    "description": "Readme I18n skill for AI agent workflows",
-    "source": "xixu-me/skills/readme-i18n",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "relight",
     "description": "relight skill for AI agent workflows",
     "source": "agentspace-so/runcomfy-agent-skills/relight",
@@ -544,11 +777,51 @@
     ]
   },
   {
-    "name": "remotion-render",
-    "description": "Remotion Render skill for AI agent workflows",
-    "source": "halt-catch-fire/skills/remotion-render",
+    "name": "remotion-best-practices",
+    "description": "Remotion best practices and recommended patterns",
+    "source": "remotion-dev/skills/remotion-best-practices",
     "tags": [
       "workflow"
+    ]
+  },
+  {
+    "name": "remotion-to-hyperframes",
+    "description": "Remotion To Hyperframes skill for AI agent workflows",
+    "source": "heygen-com/hyperframes/remotion-to-hyperframes",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "repo-intake-and-plan",
+    "description": "Repo Intake And Plan skill for AI agent workflows",
+    "source": "lllllllama/rigorpilot-skills/repo-intake-and-plan",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "research",
+    "description": "Research skill for AI agent workflows",
+    "source": "mattpocock/skills/research",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "resolving-merge-conflicts",
+    "description": "Resolving Merge Conflicts skill for AI agent workflows",
+    "source": "mattpocock/skills/resolving-merge-conflicts",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "run-train",
+    "description": "Run Train skill for AI agent workflows",
+    "source": "lllllllama/rigorpilot-skills/run-train",
+    "tags": [
+      "ai"
     ]
   },
   {
@@ -560,17 +833,17 @@
     ]
   },
   {
-    "name": "running-claude-code-via-litellm-copilot",
-    "description": "Running Claude Code Via Litellm Copilot skill for AI agent workflows",
-    "source": "xixu-me/skills/running-claude-code-via-litellm-copilot",
+    "name": "safe-debug",
+    "description": "Safe Debug skill for AI agent workflows",
+    "source": "lllllllama/rigorpilot-skills/safe-debug",
     "tags": [
-      "ai"
+      "workflow"
     ]
   },
   {
-    "name": "secure-linux-web-hosting",
-    "description": "Secure Linux Web Hosting skill for AI agent workflows",
-    "source": "xixu-me/skills/secure-linux-web-hosting",
+    "name": "scaffold-exercises",
+    "description": "Scaffold Exercises skill for AI agent workflows",
+    "source": "mattpocock/skills/scaffold-exercises",
     "tags": [
       "workflow"
     ]
@@ -592,6 +865,14 @@
     ]
   },
   {
+    "name": "setup-pre-commit",
+    "description": "Setup Pre Commit skill for AI agent workflows",
+    "source": "mattpocock/skills/setup-pre-commit",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "shadcn",
     "description": "Shadcn skill for AI agent workflows",
     "source": "shadcn/ui/shadcn",
@@ -601,17 +882,9 @@
     ]
   },
   {
-    "name": "simple",
-    "description": "Simple skill for AI agent workflows",
-    "source": "roin-orca/skills/simple",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "skills-cli",
-    "description": "Skills Cli skill for AI agent workflows",
-    "source": "xixu-me/skills/skills-cli",
+    "name": "supabase",
+    "description": "Supabase skill for AI agent workflows",
+    "source": "supabase/agent-skills/supabase",
     "tags": [
       "workflow"
     ]
@@ -633,6 +906,14 @@
     ]
   },
   {
+    "name": "teach",
+    "description": "Teach skill for AI agent workflows",
+    "source": "mattpocock/skills/teach",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "to-issues",
     "description": "To Issues skill for AI agent workflows",
     "source": "mattpocock/skills/to-issues",
@@ -649,25 +930,25 @@
     ]
   },
   {
+    "name": "to-spec",
+    "description": "To Spec skill for AI agent workflows",
+    "source": "mattpocock/skills/to-spec",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "to-tickets",
+    "description": "To Tickets skill for AI agent workflows",
+    "source": "mattpocock/skills/to-tickets",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "triage",
     "description": "Triage skill for AI agent workflows",
     "source": "mattpocock/skills/triage",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "twitter-automation",
-    "description": "Twitter Automation skill for AI agent workflows",
-    "source": "halt-catch-fire/skills/twitter-automation",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "tzst",
-    "description": "Tzst skill for AI agent workflows",
-    "source": "xixu-me/skills/tzst",
     "tags": [
       "workflow"
     ]
@@ -679,14 +960,6 @@
     "tags": [
       "design",
       "frontend"
-    ]
-  },
-  {
-    "name": "use-my-browser",
-    "description": "Use My Browser skill for AI agent workflows",
-    "source": "xixu-me/skills/use-my-browser",
-    "tags": [
-      "workflow"
     ]
   },
   {
@@ -730,6 +1003,14 @@
     ]
   },
   {
+    "name": "wayfinder",
+    "description": "Wayfinder skill for AI agent workflows",
+    "source": "mattpocock/skills/wayfinder",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "write-a-skill",
     "description": "Write A Skill skill for AI agent workflows",
     "source": "mattpocock/skills/write-a-skill",
@@ -738,17 +1019,25 @@
     ]
   },
   {
-    "name": "xdrop",
-    "description": "Xdrop skill for AI agent workflows",
-    "source": "xixu-me/skills/xdrop",
+    "name": "writing-beats",
+    "description": "Writing Beats skill for AI agent workflows",
+    "source": "mattpocock/skills/writing-beats",
     "tags": [
       "workflow"
     ]
   },
   {
-    "name": "xget",
-    "description": "Xget skill for AI agent workflows",
-    "source": "xixu-me/skills/xget",
+    "name": "writing-fragments",
+    "description": "Writing Fragments skill for AI agent workflows",
+    "source": "mattpocock/skills/writing-fragments",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "writing-shape",
+    "description": "Writing Shape skill for AI agent workflows",
+    "source": "mattpocock/skills/writing-shape",
     "tags": [
       "workflow"
     ]
