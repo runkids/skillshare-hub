@@ -504,6 +504,16 @@
     ]
   },
   {
+    "name": "offload",
+    "description": "Bounded implementation and research with pre-delegation offers and orchestrator review",
+    "source": "anthonyandrei/offload",
+    "tags": [
+      "workflow",
+      "agents",
+      "research"
+    ]
+  },
+  {
     "name": "openclaw-secure-linux-cloud",
     "description": "Openclaw Secure Linux Cloud skill for AI agent workflows",
     "source": "xixu-me/skills/openclaw-secure-linux-cloud",
