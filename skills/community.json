@@ -245,6 +245,15 @@
     ]
   },
   {
+    "name": "design-mobile-apps",
+    "description": "Design Mobile Apps skill for AI agent workflows",
+    "source": "designed-by-ai/skills/design-mobile-apps",
+    "tags": [
+      "design",
+      "frontend"
+    ]
+  },
+  {
     "name": "diagnosing-bugs",
     "description": "Diagnosing Bugs skill for AI agent workflows",
     "source": "mattpocock/skills/diagnosing-bugs",
@@ -320,6 +329,14 @@
     "name": "flux-kontext",
     "description": "Flux Kontext skill for AI agent workflows",
     "source": "agentspace-so/runcomfy-agent-skills/flux-kontext",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "general-video",
+    "description": "General Video skill for AI agent workflows",
+    "source": "heygen-com/hyperframes/general-video",
     "tags": [
       "workflow"
     ]
@@ -469,22 +486,6 @@
     "tags": [
       "ai",
       "workflow"
-    ]
-  },
-  {
-    "name": "imagegen-frontend-mobile",
-    "description": "Imagegen Frontend Mobile skill for AI agent workflows",
-    "source": "leonxlnx/taste-skill/imagegen-frontend-mobile",
-    "tags": [
-      "frontend"
-    ]
-  },
-  {
-    "name": "imagegen-frontend-web",
-    "description": "Imagegen Frontend Web skill for AI agent workflows",
-    "source": "leonxlnx/taste-skill/imagegen-frontend-web",
-    "tags": [
-      "frontend"
     ]
   },
   {
@@ -761,14 +762,6 @@
     ]
   },
   {
-    "name": "prisma-cli",
-    "description": "Prisma Cli skill for AI agent workflows",
-    "source": "prisma/skills/prisma-cli",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "prisma-client-api",
     "description": "Prisma Client Api skill for AI agent workflows",
     "source": "prisma/skills/prisma-client-api",
@@ -812,6 +805,14 @@
     "name": "remotion-best-practices",
     "description": "Remotion best practices and recommended patterns",
     "source": "remotion-dev/skills/remotion-best-practices",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "remotion-to-hyperframes",
+    "description": "Remotion To Hyperframes skill for AI agent workflows",
+    "source": "heygen-com/hyperframes/remotion-to-hyperframes",
     "tags": [
       "workflow"
     ]
