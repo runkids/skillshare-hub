@@ -46,7 +46,7 @@ skillshare install <source>
 ## Skills Catalog
 
 <!-- CATALOG:START -->
-**240 skills** across 11 categories — browse via `skillshare search --hub` or the Web UI
+**235 skills** across 11 categories — browse via `skillshare search --hub` or the Web UI
 
 ### Frontend (13)
 
@@ -102,10 +102,10 @@ skillshare install <source>
 
 </details>
 
-### Workflow (107)
+### Workflow (105)
 
 <details>
-<summary>Show 107 skills</summary>
+<summary>Show 105 skills</summary>
 
 - [**ace-step**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — ace step skill for AI agent workflows
 - [**antfu**](https://github.com/antfu/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Anthony Fu's coding conventions and project setup preferences
@@ -180,13 +180,11 @@ skillshare install <source>
 - [**reddit-automation**](https://github.com/flowkit-labs/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Reddit Automation skill for AI agent workflows
 - [**relight**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — relight skill for AI agent workflows
 - [**remotion-best-practices**](https://github.com/remotion-dev/skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Remotion best practices and recommended patterns
-- [**remotion-to-hyperframes**](https://github.com/heygen-com/hyperframes) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Remotion To Hyperframes skill for AI agent workflows
 - [**repo-intake-and-plan**](https://github.com/lllllllama/rigorpilot-skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Repo Intake And Plan skill for AI agent workflows
 - [**research**](https://github.com/mattpocock/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Research skill for AI agent workflows
 - [**resolving-merge-conflicts**](https://github.com/mattpocock/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Resolving Merge Conflicts skill for AI agent workflows
 - [**runcomfy-cli**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Runcomfy Cli skill for AI agent workflows
 - [**scaffold-exercises**](https://github.com/mattpocock/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Scaffold Exercises skill for AI agent workflows
-- [**seedance-2-5-reference-to-video**](https://github.com/genmedia-labs/skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Seedance 2 5 Reference To Video skill for AI agent workflows
 - [**seedance-v2**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Seedance V2 skill for AI agent workflows
 - [**setup-matt-pocock-skills**](https://github.com/mattpocock/skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Setup Matt Pocock Skills skill for AI agent workflows
 - [**setup-pre-commit**](https://github.com/mattpocock/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Setup Pre Commit skill for AI agent workflows
@@ -217,10 +215,10 @@ skillshare install <source>
 
 </details>
 
-### Agent (42)
+### Agent (39)
 
 <details>
-<summary>Show 42 skills</summary>
+<summary>Show 39 skills</summary>
 
 - [**agent-browser**](https://github.com/vercel-labs/agent-browser) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Browser automation agent for web page interactions using Playwright
 - [**ai-avatar-video**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Ai Avatar Video skill for AI agent workflows
@@ -244,12 +242,9 @@ skillshare install <source>
 - [**domain-modeling**](https://github.com/mattpocock/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Domain Modeling skill for AI agent workflows
 - [**entra-agent-id**](https://github.com/microsoft/azure-skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Entra Agent Id skill for AI agent workflows
 - [**git-guardrails-claude-code**](https://github.com/mattpocock/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Git Guardrails Claude Code skill for AI agent workflows
-- [**google-agents-cli-adk-code**](https://github.com/google/agents-cli) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Google Agents Cli Adk Code skill for AI agent workflows
-- [**google-agents-cli-eval**](https://github.com/google/agents-cli) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Google Agents Cli Eval skill for AI agent workflows
 - [**google-agents-cli-observability**](https://github.com/google/agents-cli) ![risk-low](https://img.shields.io/badge/risk-low-green) — Google Agents Cli Observability skill for AI agent workflows
 - [**google-agents-cli-publish**](https://github.com/google/agents-cli) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Google Agents Cli Publish skill for AI agent workflows
 - [**google-agents-cli-scaffold**](https://github.com/google/agents-cli) ![risk-low](https://img.shields.io/badge/risk-low-green) — Google Agents Cli Scaffold skill for AI agent workflows
-- [**google-agents-cli-workflow**](https://github.com/google/agents-cli) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Google Agents Cli Workflow skill for AI agent workflows
 - [**gpt-image-edit**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Gpt Image Edit skill for AI agent workflows
 - [**image-edit**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Image Edit skill for AI agent workflows
 - [**image-inpainting**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Image Inpainting skill for AI agent workflows

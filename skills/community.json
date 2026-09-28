@@ -285,27 +285,11 @@
     ]
   },
   {
-    "name": "google-agents-cli-adk-code",
-    "description": "Google Agents Cli Adk Code skill for AI agent workflows",
-    "source": "google/agents-cli/google-agents-cli-adk-code",
-    "tags": [
-      "agent"
-    ]
-  },
-  {
     "name": "google-agents-cli-deploy",
     "description": "Google Agents Cli Deploy skill for AI agent workflows",
     "source": "google/agents-cli/google-agents-cli-deploy",
     "tags": [
       "devops"
-    ]
-  },
-  {
-    "name": "google-agents-cli-eval",
-    "description": "Google Agents Cli Eval skill for AI agent workflows",
-    "source": "google/agents-cli/google-agents-cli-eval",
-    "tags": [
-      "agent"
     ]
   },
   {
@@ -328,14 +312,6 @@
     "name": "google-agents-cli-scaffold",
     "description": "Google Agents Cli Scaffold skill for AI agent workflows",
     "source": "google/agents-cli/google-agents-cli-scaffold",
-    "tags": [
-      "agent"
-    ]
-  },
-  {
-    "name": "google-agents-cli-workflow",
-    "description": "Google Agents Cli Workflow skill for AI agent workflows",
-    "source": "google/agents-cli/google-agents-cli-workflow",
     "tags": [
       "agent"
     ]
@@ -785,14 +761,6 @@
     ]
   },
   {
-    "name": "remotion-to-hyperframes",
-    "description": "Remotion To Hyperframes skill for AI agent workflows",
-    "source": "heygen-com/hyperframes/remotion-to-hyperframes",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "repo-intake-and-plan",
     "description": "Repo Intake And Plan skill for AI agent workflows",
     "source": "lllllllama/rigorpilot-skills/repo-intake-and-plan",
@@ -838,14 +806,6 @@
     "source": "genmedia-labs/skills/seedance-2-5-image-to-video",
     "tags": [
       "ai",
-      "workflow"
-    ]
-  },
-  {
-    "name": "seedance-2-5-reference-to-video",
-    "description": "Seedance 2 5 Reference To Video skill for AI agent workflows",
-    "source": "genmedia-labs/skills/seedance-2-5-reference-to-video",
-    "tags": [
       "workflow"
     ]
   },
