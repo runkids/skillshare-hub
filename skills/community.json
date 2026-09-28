@@ -32,22 +32,6 @@
     ]
   },
   {
-    "name": "ai-research-explore",
-    "description": "Ai Research Explore skill for AI agent workflows",
-    "source": "lllllllama/rigorpilot-skills/ai-research-explore",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
-    "name": "ai-research-reproduction",
-    "description": "Ai Research Reproduction skill for AI agent workflows",
-    "source": "lllllllama/rigorpilot-skills/ai-research-reproduction",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
     "name": "ai-video-generation",
     "description": "Ai Video Generation skill for AI agent workflows",
     "source": "inference-sh-9/skills/ai-video-generation",
@@ -61,14 +45,6 @@
     "source": "microsoft/azure-skills/airunway-aks-setup",
     "tags": [
       "ai"
-    ]
-  },
-  {
-    "name": "analyze-project",
-    "description": "Analyze Project skill for AI agent workflows",
-    "source": "lllllllama/rigorpilot-skills/analyze-project",
-    "tags": [
-      "workflow"
     ]
   },
   {
@@ -147,23 +123,6 @@
     ]
   },
   {
-    "name": "brandkit",
-    "description": "Brandkit skill for AI agent workflows",
-    "source": "leonxlnx/taste-skill/brandkit",
-    "tags": [
-      "design",
-      "frontend"
-    ]
-  },
-  {
-    "name": "cavecrew",
-    "description": "Cavecrew skill for AI agent workflows",
-    "source": "juliusbrussee/caveman/cavecrew",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "caveman",
     "description": "Caveman skill for AI agent workflows",
     "source": "juliusbrussee/caveman/caveman",
@@ -204,14 +163,6 @@
     ]
   },
   {
-    "name": "caveman-stats",
-    "description": "Caveman Stats skill for AI agent workflows",
-    "source": "juliusbrussee/caveman/caveman-stats",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "code-review",
     "description": "Code Review skill for AI agent workflows",
     "source": "mattpocock/skills/code-review",
@@ -242,6 +193,15 @@
     "source": "agentspace-so/runcomfy-agent-skills/controlnet-pose",
     "tags": [
       "workflow"
+    ]
+  },
+  {
+    "name": "design-mobile-apps",
+    "description": "Design Mobile Apps skill for AI agent workflows",
+    "source": "designed-by-ai/skills/design-mobile-apps",
+    "tags": [
+      "design",
+      "frontend"
     ]
   },
   {
@@ -285,22 +245,6 @@
     ]
   },
   {
-    "name": "explore-code",
-    "description": "Explore Code skill for AI agent workflows",
-    "source": "lllllllama/rigorpilot-skills/explore-code",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "explore-run",
-    "description": "Explore Run skill for AI agent workflows",
-    "source": "lllllllama/rigorpilot-skills/explore-run",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "face-swap",
     "description": "Face Swap skill for AI agent workflows",
     "source": "agentspace-so/runcomfy-agent-skills/face-swap",
@@ -325,11 +269,75 @@
     ]
   },
   {
+    "name": "general-video",
+    "description": "General Video skill for AI agent workflows",
+    "source": "heygen-com/hyperframes/general-video",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "git-guardrails-claude-code",
     "description": "Git Guardrails Claude Code skill for AI agent workflows",
     "source": "mattpocock/skills/git-guardrails-claude-code",
     "tags": [
       "ai"
+    ]
+  },
+  {
+    "name": "google-agents-cli-adk-code",
+    "description": "Google Agents Cli Adk Code skill for AI agent workflows",
+    "source": "google/agents-cli/google-agents-cli-adk-code",
+    "tags": [
+      "agent"
+    ]
+  },
+  {
+    "name": "google-agents-cli-deploy",
+    "description": "Google Agents Cli Deploy skill for AI agent workflows",
+    "source": "google/agents-cli/google-agents-cli-deploy",
+    "tags": [
+      "devops"
+    ]
+  },
+  {
+    "name": "google-agents-cli-eval",
+    "description": "Google Agents Cli Eval skill for AI agent workflows",
+    "source": "google/agents-cli/google-agents-cli-eval",
+    "tags": [
+      "agent"
+    ]
+  },
+  {
+    "name": "google-agents-cli-observability",
+    "description": "Google Agents Cli Observability skill for AI agent workflows",
+    "source": "google/agents-cli/google-agents-cli-observability",
+    "tags": [
+      "agent"
+    ]
+  },
+  {
+    "name": "google-agents-cli-publish",
+    "description": "Google Agents Cli Publish skill for AI agent workflows",
+    "source": "google/agents-cli/google-agents-cli-publish",
+    "tags": [
+      "agent"
+    ]
+  },
+  {
+    "name": "google-agents-cli-scaffold",
+    "description": "Google Agents Cli Scaffold skill for AI agent workflows",
+    "source": "google/agents-cli/google-agents-cli-scaffold",
+    "tags": [
+      "agent"
+    ]
+  },
+  {
+    "name": "google-agents-cli-workflow",
+    "description": "Google Agents Cli Workflow skill for AI agent workflows",
+    "source": "google/agents-cli/google-agents-cli-workflow",
+    "tags": [
+      "agent"
     ]
   },
   {
@@ -469,22 +477,6 @@
     "tags": [
       "ai",
       "workflow"
-    ]
-  },
-  {
-    "name": "imagegen-frontend-mobile",
-    "description": "Imagegen Frontend Mobile skill for AI agent workflows",
-    "source": "leonxlnx/taste-skill/imagegen-frontend-mobile",
-    "tags": [
-      "frontend"
-    ]
-  },
-  {
-    "name": "imagegen-frontend-web",
-    "description": "Imagegen Frontend Web skill for AI agent workflows",
-    "source": "leonxlnx/taste-skill/imagegen-frontend-web",
-    "tags": [
-      "frontend"
     ]
   },
   {
@@ -761,30 +753,6 @@
     ]
   },
   {
-    "name": "prisma-cli",
-    "description": "Prisma Cli skill for AI agent workflows",
-    "source": "prisma/skills/prisma-cli",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "prisma-client-api",
-    "description": "Prisma Client Api skill for AI agent workflows",
-    "source": "prisma/skills/prisma-client-api",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "prisma-database-setup",
-    "description": "Prisma Database Setup skill for AI agent workflows",
-    "source": "prisma/skills/prisma-database-setup",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "prototype",
     "description": "prototype skill for AI agent workflows",
     "source": "mattpocock/skills/prototype",
@@ -817,6 +785,14 @@
     ]
   },
   {
+    "name": "remotion-to-hyperframes",
+    "description": "Remotion To Hyperframes skill for AI agent workflows",
+    "source": "heygen-com/hyperframes/remotion-to-hyperframes",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "repo-intake-and-plan",
     "description": "Repo Intake And Plan skill for AI agent workflows",
     "source": "lllllllama/rigorpilot-skills/repo-intake-and-plan",
@@ -841,14 +817,6 @@
     ]
   },
   {
-    "name": "run-train",
-    "description": "Run Train skill for AI agent workflows",
-    "source": "lllllllama/rigorpilot-skills/run-train",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
     "name": "runcomfy-cli",
     "description": "Runcomfy Cli skill for AI agent workflows",
     "source": "agentspace-so/runcomfy-agent-skills/runcomfy-cli",
@@ -857,17 +825,26 @@
     ]
   },
   {
-    "name": "safe-debug",
-    "description": "Safe Debug skill for AI agent workflows",
-    "source": "lllllllama/rigorpilot-skills/safe-debug",
+    "name": "scaffold-exercises",
+    "description": "Scaffold Exercises skill for AI agent workflows",
+    "source": "mattpocock/skills/scaffold-exercises",
     "tags": [
       "workflow"
     ]
   },
   {
-    "name": "scaffold-exercises",
-    "description": "Scaffold Exercises skill for AI agent workflows",
-    "source": "mattpocock/skills/scaffold-exercises",
+    "name": "seedance-2-5-image-to-video",
+    "description": "Seedance 2 5 Image To Video skill for AI agent workflows",
+    "source": "genmedia-labs/skills/seedance-2-5-image-to-video",
+    "tags": [
+      "ai",
+      "workflow"
+    ]
+  },
+  {
+    "name": "seedance-2-5-reference-to-video",
+    "description": "Seedance 2 5 Reference To Video skill for AI agent workflows",
+    "source": "genmedia-labs/skills/seedance-2-5-reference-to-video",
     "tags": [
       "workflow"
     ]
@@ -969,6 +946,14 @@
     ]
   },
   {
+    "name": "twitter-automation",
+    "description": "Twitter Automation skill for AI agent workflows",
+    "source": "101-skills/superpowers/twitter-automation",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "ui-ux-pro-max",
     "description": "UI/UX design intelligence with 50 styles, 21 palettes, 50 font pairings, and 20 chart types",
     "source": "nextlevelbuilder/ui-ux-pro-max-skill",
@@ -1018,6 +1003,14 @@
     ]
   },
   {
+    "name": "wan-3-0-prime-reference-to-video",
+    "description": "Wan 3 0 Prime Reference To Video skill for AI agent workflows",
+    "source": "genmedia-labs/skills/wan-3-0-prime-reference-to-video",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "wayfinder",
     "description": "Wayfinder skill for AI agent workflows",
     "source": "mattpocock/skills/wayfinder",
@@ -1039,6 +1032,14 @@
     "source": "mattpocock/skills/writing-beats",
     "tags": [
       "workflow"
+    ]
+  },
+  {
+    "name": "writing-for-agents",
+    "description": "Writing For Agents skill for AI agent workflows",
+    "source": "mattpocock/skills/writing-for-agents",
+    "tags": [
+      "agent"
     ]
   },
   {
