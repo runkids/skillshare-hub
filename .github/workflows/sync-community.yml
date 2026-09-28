@@ -22,6 +22,11 @@ jobs:
       - name: Build current hub
         run: ./scripts/build.sh
 
+      - name: Install skillshare CLI
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/runkids/skillshare/main/install.sh | sh
+          skillshare version
+
       - name: Sync community skills
         env:
           TOP_N: ${{ inputs.top_n || '200' }}
@@ -29,11 +34,6 @@ jobs:
 
       - name: Rebuild hub with new skills
         run: ./scripts/build.sh
-
-      - name: Install skillshare CLI
-        run: |
-          curl -fsSL https://raw.githubusercontent.com/runkids/skillshare/main/install.sh | sh
-          skillshare version
 
       - name: Audit all skills
         run: ./scripts/audit-all.sh
