@@ -14,6 +14,7 @@ on:
         type: string
 
 permissions:
+  actions: write
   contents: write
   pull-requests: write
 
@@ -72,3 +73,4 @@ jobs:
           gh pr create \
             --title "feat: sync community skills ($(date +%Y-%m-%d))" \
             --body-file "$BODY_FILE"
+          gh workflow run validate-pr.yml --ref "$BRANCH"

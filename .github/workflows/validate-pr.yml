@@ -6,6 +6,9 @@ on:
       - 'scripts/**'
       - 'schemas/**'
       - '.github/workflows/validate-pr.yml'
+  # PRs opened with GITHUB_TOKEN (update-index, sync-community) trigger no
+  # pull_request run, so those workflows dispatch this one on their branch.
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -46,6 +49,9 @@ jobs:
         run: ./scripts/build.sh
 
       - name: Auto-commit skillshare-hub.json if changed
+        # A dispatched run checks a bot PR whose hub JSON already carries audit
+        # scores; the plain rebuild would drop them.
+        if: github.event_name == 'pull_request'
         run: |
           if ! git diff --quiet --exit-code skillshare-hub.json 2>/dev/null || [ ! -f skillshare-hub.json ]; then
             git config user.name "github-actions[bot]"
@@ -69,7 +75,7 @@ jobs:
       - name: Audit new skills
         id: audit
         env:
-          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha || 'origin/main' }}
           CI: "true"
           AUDIT_REPORT: /tmp/audit-report.md
           AUDIT_SARIF: /tmp/audit-results.sarif
@@ -79,7 +85,7 @@ jobs:
           [ -f /tmp/audit-results.sarif ] && echo "has_sarif=true" >> "$GITHUB_OUTPUT"
 
       - name: Comment PR with audit results
-        if: always() && steps.audit.outputs.has_report == 'true'
+        if: always() && steps.audit.outputs.has_report == 'true' && github.event_name == 'pull_request'
         env:
           GH_TOKEN: ${{ github.token }}
           PR_NUMBER: ${{ github.event.pull_request.number }}

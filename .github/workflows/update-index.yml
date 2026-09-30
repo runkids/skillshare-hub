@@ -10,6 +10,7 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
+  actions: write
   contents: write
   pull-requests: write
 
@@ -57,3 +58,4 @@ jobs:
           gh pr create \
             --title "chore: update audit scores and catalog ($(date +%Y-%m-%d))" \
             --body "Automated weekly update — audit scores and README catalog regenerated."
+          gh workflow run validate-pr.yml --ref "$BRANCH"
