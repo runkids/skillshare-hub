@@ -80,15 +80,5 @@
       "vue",
       "frontend"
     ]
-  },
-  {
-    "name": "vueuse-functions",
-    "description": "VueUse composable functions and utility patterns for Vue",
-    "source": "antfu/skills/vueuse-functions",
-    "skill": "vueuse-functions",
-    "tags": [
-      "vue",
-      "frontend"
-    ]
   }
 ]

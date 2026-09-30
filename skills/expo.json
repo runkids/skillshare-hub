@@ -1,17 +1,8 @@
 [
   {
-    "name": "expo-deployment",
-    "description": "Deploy Expo apps to iOS App Store, Android Play Store, and web hosting",
-    "source": "expo/skills/expo-deployment",
-    "tags": [
-      "devops",
-      "react"
-    ]
-  },
-  {
-    "name": "upgrading-expo",
-    "description": "Upgrade Expo SDK versions and resolve dependency compatibility issues",
-    "source": "expo/skills/upgrading-expo",
+    "name": "expo-upgrade",
+    "description": "Framework (OSS). Guidelines for upgrading Expo SDK versions and fixing dependency issues",
+    "source": "expo/skills/expo-upgrade",
     "tags": [
       "react"
     ]

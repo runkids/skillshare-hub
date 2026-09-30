@@ -104,8 +104,9 @@ Feel free to introduce new tags if none fit — maintainers may suggest changes 
 ```bash
 make build      # Build skillshare-hub.json from skills/*.json
 make validate   # Validate format and rules
+make test       # Self-check the audit scripts' source parsing
 make audit      # Audit new/changed skills against main
-make ci         # Run all three (build → validate → audit)
+make ci         # Run validate → test → audit
 ```
 
 ## Using Skills from the Hub

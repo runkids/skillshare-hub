@@ -72,71 +72,66 @@ skillshare install <source>
 ## Skills Catalog
 
 <!-- CATALOG:START -->
-**235 skills** across 11 categories — browse via `skillshare search --hub` or the Web UI
+**224 skills** across 11 categories — browse via `skillshare search --hub` or the Web UI
 
-### Frontend (13)
+### Frontend (11)
 
 <details>
-<summary>Show 13 skills</summary>
+<summary>Show 11 skills</summary>
 
 - [**accessibility-compliance**](https://github.com/wshobson/agents) ![risk-low](https://img.shields.io/badge/risk-low-green) — Web accessibility compliance patterns and WCAG guidelines
-- [**next-best-practices**](https://github.com/vercel-labs/next-skills) — Next.js performance optimization and best practices from Vercel
-- [**next-cache-components**](https://github.com/vercel-labs/next-skills) — Next.js caching strategies and optimized component patterns
-- [**next-upgrade**](https://github.com/vercel-labs/next-skills) — Next.js version upgrade guide and migration patterns
+- [**expo-upgrade**](https://github.com/expo/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Framework (OSS). Guidelines for upgrading Expo SDK versions and fixing dependency issues
+- [**next-cache-components-adoption**](https://github.com/vercel/next.js) ![risk-low](https://img.shields.io/badge/risk-low-green) — Turn on Cache Components in a Next.js app and resolve the blocking routes it surfaces.
+- [**next-cache-components-optimizer**](https://github.com/vercel/next.js) ![risk-low](https://img.shields.io/badge/risk-low-green) — Drive a Next.js route to instant navigation by setting up an agentic loop, under Cache Components / PPR, on initial load (hard navigation) and client-side navigation (soft navigation).
 - [**nuxt**](https://github.com/antfu/skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Nuxt.js framework best practices and server-side rendering patterns
 - [**pinia**](https://github.com/antfu/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Pinia state management best practices for Vue applications
 - [**react-doctor**](https://github.com/millionco/react-doctor) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Scans your React codebase for security, performance, correctness, and architecture issues. Outputs a 0-100 score with actionable diagnostics.
 - [**unocss**](https://github.com/antfu/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — UnoCSS atomic CSS engine configuration and utility patterns
-- [**upgrading-expo**](https://github.com/expo/skills) — Upgrade Expo SDK versions and resolve dependency compatibility issues
 - [**vite**](https://github.com/antfu/skills) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Vite build tool best practices, configuration, and plugin development
 - [**vue**](https://github.com/antfu/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Vue.js framework best practices and idiomatic patterns from Anthony Fu
-- [**vueuse-functions**](https://github.com/antfu/skills) — VueUse composable functions and utility patterns for Vue
 - [**web-artifacts-builder**](https://github.com/anthropics/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Build multi-component web artifacts using React, Tailwind, and modern frontend tools
 
 </details>
 
-### Marketing (25)
+### Marketing (23)
 
 <details>
-<summary>Show 25 skills</summary>
+<summary>Show 23 skills</summary>
 
-- [**ab-test-setup**](https://github.com/coreyhaines31/marketingskills) — Set up and run A/B tests for marketing optimization
-- [**analytics-tracking**](https://github.com/coreyhaines31/marketingskills) — Set up analytics tracking and measurement plans for marketing
-- [**competitor-alternatives**](https://github.com/coreyhaines31/marketingskills) — Analyze competitors and craft alternative positioning strategies
+- [**ab-testing**](https://github.com/coreyhaines31/marketingskills) ![risk-low](https://img.shields.io/badge/risk-low-green) — When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program.
+- [**analytics**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — When the user wants to set up, improve, or audit analytics tracking and measurement.
+- [**competitors**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — When the user wants to create competitor comparison or alternative pages for SEO and sales enablement.
 - [**content-strategy**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Develop content marketing strategy and editorial plans
 - [**copy-editing**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Edit and improve marketing copy for clarity and impact
 - [**copywriting**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Write persuasive marketing copy and sales content
-- [**email-sequence**](https://github.com/coreyhaines31/marketingskills) — Design email marketing sequences and drip campaign automations
-- [**form-cro**](https://github.com/coreyhaines31/marketingskills) — Optimize form design and user flow for higher conversion rates
-- [**free-tool-strategy**](https://github.com/coreyhaines31/marketingskills) — Create free tools as marketing lead generation and growth strategy
-- [**launch-strategy**](https://github.com/coreyhaines31/marketingskills) — Plan and execute product launch strategies and go-to-market plans
+- [**cro**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms.
+- [**emails**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program.
+- [**free-tools**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness.
+- [**launch**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — When the user wants to plan a product launch, feature announcement, or release strategy.
 - [**marketing-ideas**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Generate creative marketing campaign ideas and growth strategies
 - [**marketing-psychology**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Apply psychological principles to marketing and persuasion strategies
-- [**onboarding-cro**](https://github.com/coreyhaines31/marketingskills) — Optimize user onboarding flows for activation and conversion
-- [**page-cro**](https://github.com/coreyhaines31/marketingskills) — Optimize landing pages for higher conversion rates
-- [**paid-ads**](https://github.com/coreyhaines31/marketingskills) — Create and optimize paid advertising campaigns across platforms
-- [**paywall-upgrade-cro**](https://github.com/coreyhaines31/marketingskills) — Optimize paywall and upgrade prompts for subscription conversion
-- [**popup-cro**](https://github.com/coreyhaines31/marketingskills) — Design and optimize marketing popups for conversion and engagement
-- [**pricing-strategy**](https://github.com/coreyhaines31/marketingskills) — Design and optimize pricing models, tiers, and monetization strategies
-- [**product-marketing-context**](https://github.com/coreyhaines31/marketingskills) — Define product positioning, messaging, and marketing context
+- [**onboarding**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value.
+- [**paywalls**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates.
+- [**popups**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes.
+- [**pricing**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — When the user wants help with pricing decisions, packaging, or monetization strategy.
+- [**product-marketing**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — When the user wants to create or update their product marketing context document.
 - [**programmatic-seo**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Create programmatic SEO pages at scale for organic traffic growth
-- [**referral-program**](https://github.com/coreyhaines31/marketingskills) — Design and implement customer referral programs for growth
-- [**schema-markup**](https://github.com/coreyhaines31/marketingskills) — Implement structured data and schema markup for better SEO
+- [**referrals**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy.
+- [**schema**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — When the user wants to add, fix, or optimize schema markup and structured data on their site.
 - [**seo-audit**](https://github.com/coreyhaines31/marketingskills) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Audit website SEO and provide actionable optimization recommendations
-- [**signup-flow-cro**](https://github.com/coreyhaines31/marketingskills) — Optimize signup flows and registration for higher conversion
-- [**social-content**](https://github.com/coreyhaines31/marketingskills) — Create engaging social media content and posts across platforms
+- [**signup**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — When the user wants to optimize signup, registration, account creation, or trial activation flows.
+- [**social**](https://github.com/coreyhaines31/marketingskills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms, or wants to do social listening and engagement triage.
 
 </details>
 
-### Workflow (105)
+### Workflow (103)
 
 <details>
-<summary>Show 105 skills</summary>
+<summary>Show 103 skills</summary>
 
 - [**ace-step**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — ace step skill for AI agent workflows
-- [**antfu**](https://github.com/antfu/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Anthony Fu's coding conventions and project setup preferences
+- [**antfu**](https://github.com/antfu/skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Anthony Fu's coding conventions and project setup preferences
 - [**ask-matt**](https://github.com/mattpocock/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Ask Matt skill for AI agent workflows
-- [**azure-cost**](https://github.com/microsoft/azure-skills) — Azure Cost management and best practices
 - [**azure-enterprise-infra-planner**](https://github.com/microsoft/azure-skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Azure Enterprise Infra Planner management and best practices
 - [**azure-quotas**](https://github.com/microsoft/azure-skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Azure Quotas management and best practices
 - [**azure-upgrade**](https://github.com/microsoft/azure-skills) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Azure Upgrade management and best practices
@@ -165,6 +160,7 @@ skillshare install <source>
 - [**happyhorse-1-0**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Happyhorse 1 0 skill for AI agent workflows
 - [**hyperframes**](https://github.com/heygen-com/hyperframes) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Hyperframes skill for AI agent workflows
 - [**hyperframes-animation**](https://github.com/heygen-com/hyperframes) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Hyperframes Animation skill for AI agent workflows
+- [**hyperframes-audio**](https://github.com/heygen-com/hyperframes) ![risk-low](https://img.shields.io/badge/risk-low-green) — Use when audio already placed in a HyperFrames composition needs to be mixed
 - [**hyperframes-cli**](https://github.com/heygen-com/hyperframes) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Hyperframes Cli skill for AI agent workflows
 - [**hyperframes-core**](https://github.com/heygen-com/hyperframes) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Hyperframes Core skill for AI agent workflows
 - [**hyperframes-creative**](https://github.com/heygen-com/hyperframes) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Hyperframes Creative skill for AI agent workflows
@@ -181,6 +177,7 @@ skillshare install <source>
 - [**lark-drive**](https://github.com/larksuite/cli) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Lark Drive skill for AI agent workflows
 - [**lark-event**](https://github.com/larksuite/cli) ![risk-low](https://img.shields.io/badge/risk-low-green) — Lark Event skill for AI agent workflows
 - [**lark-im**](https://github.com/larksuite/cli) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Lark Im skill for AI agent workflows
+- [**lark-markdown**](https://github.com/larksuite/cli) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — 飞书 Markdown：查看、创建、上传、编辑和比较飞书中的原生 Markdown 文件。
 - [**lark-minutes**](https://github.com/larksuite/cli) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Lark Minutes skill for AI agent workflows
 - [**lark-okr**](https://github.com/larksuite/cli) ![risk-low](https://img.shields.io/badge/risk-low-green) — Lark Okr skill for AI agent workflows
 - [**lark-openapi-explorer**](https://github.com/larksuite/cli) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Lark Openapi Explorer skill for AI agent workflows
@@ -205,10 +202,9 @@ skillshare install <source>
 - [**prototype**](https://github.com/mattpocock/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — prototype skill for AI agent workflows
 - [**reddit-automation**](https://github.com/flowkit-labs/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Reddit Automation skill for AI agent workflows
 - [**relight**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — relight skill for AI agent workflows
-- [**remotion-best-practices**](https://github.com/remotion-dev/skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Remotion best practices and recommended patterns
+- [**remotion-best-practices**](https://github.com/remotion-dev/skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Remotion best practices and recommended patterns
 - [**repo-intake-and-plan**](https://github.com/lllllllama/rigorpilot-skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Repo Intake And Plan skill for AI agent workflows
 - [**research**](https://github.com/mattpocock/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Research skill for AI agent workflows
-- [**resolving-merge-conflicts**](https://github.com/mattpocock/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Resolving Merge Conflicts skill for AI agent workflows
 - [**runcomfy-cli**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Runcomfy Cli skill for AI agent workflows
 - [**scaffold-exercises**](https://github.com/mattpocock/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Scaffold Exercises skill for AI agent workflows
 - [**seedance-v2**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Seedance V2 skill for AI agent workflows
@@ -218,8 +214,6 @@ skillshare install <source>
 - [**subagent-driven-development**](https://github.com/obra/superpowers) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Execute implementation tasks using coordinated parallel subagents
 - [**systematic-debugging**](https://github.com/obra/superpowers) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Systematic approach to diagnosing and fixing bugs before proposing solutions
 - [**teach**](https://github.com/mattpocock/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Teach skill for AI agent workflows
-- [**to-issues**](https://github.com/mattpocock/skills) — To Issues skill for AI agent workflows
-- [**to-prd**](https://github.com/mattpocock/skills) — To Prd skill for AI agent workflows
 - [**to-spec**](https://github.com/mattpocock/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — To Spec skill for AI agent workflows
 - [**to-tickets**](https://github.com/mattpocock/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — To Tickets skill for AI agent workflows
 - [**triage**](https://github.com/mattpocock/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Triage skill for AI agent workflows
@@ -347,36 +341,31 @@ skillshare install <source>
 
 </details>
 
-### DevOps (26)
+### DevOps (21)
 
 <details>
-<summary>Show 26 skills</summary>
+<summary>Show 21 skills</summary>
 
-- [**appinsights-instrumentation**](https://github.com/microsoft/github-copilot-for-azure) — Application Insights instrumentation and telemetry for Azure applications
-- [**azure-ai**](https://github.com/microsoft/github-copilot-for-azure) — Azure AI services integration and management
-- [**azure-aigateway**](https://github.com/microsoft/github-copilot-for-azure) — Azure AI Gateway configuration and API management
-- [**azure-cloud-migrate**](https://github.com/microsoft/github-copilot-for-azure) — Azure Cloud Migrate management and best practices
-- [**azure-compliance**](https://github.com/microsoft/github-copilot-for-azure) — Azure compliance assessment and policy management
-- [**azure-compute**](https://github.com/microsoft/github-copilot-for-azure) — Azure Compute management and best practices
-- [**azure-cost-optimization**](https://github.com/microsoft/github-copilot-for-azure) — Azure cost optimization and spending analysis
-- [**azure-deploy**](https://github.com/microsoft/github-copilot-for-azure) — Azure deployment automation and resource provisioning
-- [**azure-diagnostics**](https://github.com/microsoft/github-copilot-for-azure) — Azure diagnostics and troubleshooting for cloud services
-- [**azure-hosted-copilot-sdk**](https://github.com/microsoft/github-copilot-for-azure) — Azure Hosted Copilot Sdk management and best practices
+- [**appinsights-instrumentation**](https://github.com/microsoft/github-copilot-for-azure) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Application Insights instrumentation and telemetry for Azure applications
+- [**azure-ai**](https://github.com/microsoft/github-copilot-for-azure) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Azure AI services integration and management
+- [**azure-aigateway**](https://github.com/microsoft/github-copilot-for-azure) ![risk-low](https://img.shields.io/badge/risk-low-green) — Azure AI Gateway configuration and API management
+- [**azure-cloud-migrate**](https://github.com/microsoft/github-copilot-for-azure) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Azure Cloud Migrate management and best practices
+- [**azure-compliance**](https://github.com/microsoft/github-copilot-for-azure) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Azure compliance assessment and policy management
+- [**azure-compute**](https://github.com/microsoft/github-copilot-for-azure) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Azure Compute management and best practices
+- [**azure-deploy**](https://github.com/microsoft/github-copilot-for-azure) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Azure deployment automation and resource provisioning
+- [**azure-diagnostics**](https://github.com/microsoft/github-copilot-for-azure) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Azure diagnostics and troubleshooting for cloud services
 - [**azure-kubernetes**](https://github.com/microsoft/azure-skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Azure Kubernetes management and best practices
-- [**azure-kusto**](https://github.com/microsoft/github-copilot-for-azure) — Azure Data Explorer (Kusto) query and analytics
-- [**azure-messaging**](https://github.com/microsoft/github-copilot-for-azure) — Azure messaging services (Service Bus, Event Hubs) patterns
-- [**azure-observability**](https://github.com/microsoft/github-copilot-for-azure) — Azure monitoring, logging, and observability best practices
-- [**azure-postgres**](https://github.com/microsoft/github-copilot-for-azure) — Azure Database for PostgreSQL management and optimization
-- [**azure-prepare**](https://github.com/microsoft/github-copilot-for-azure) — Azure environment preparation and prerequisite setup
-- [**azure-rbac**](https://github.com/microsoft/github-copilot-for-azure) — Azure role-based access control and identity management
-- [**azure-resource-lookup**](https://github.com/microsoft/github-copilot-for-azure) — Azure resource discovery and inventory management
-- [**azure-resource-visualizer**](https://github.com/microsoft/github-copilot-for-azure) — Azure resource topology visualization and dependency mapping
-- [**azure-storage**](https://github.com/microsoft/github-copilot-for-azure) — Azure Storage services configuration and best practices
-- [**azure-validate**](https://github.com/microsoft/github-copilot-for-azure) — Azure resource validation and configuration verification
-- [**entra-app-registration**](https://github.com/microsoft/github-copilot-for-azure) — Microsoft Entra ID app registration and authentication setup
-- [**expo-deployment**](https://github.com/expo/skills) — Deploy Expo apps to iOS App Store, Android Play Store, and web hosting
+- [**azure-kusto**](https://github.com/microsoft/github-copilot-for-azure) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Azure Data Explorer (Kusto) query and analytics
+- [**azure-messaging**](https://github.com/microsoft/github-copilot-for-azure) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Azure messaging services (Service Bus, Event Hubs) patterns
+- [**azure-prepare**](https://github.com/microsoft/github-copilot-for-azure) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Azure environment preparation and prerequisite setup
+- [**azure-resource-lookup**](https://github.com/microsoft/github-copilot-for-azure) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Azure resource discovery and inventory management
+- [**azure-resource-visualizer**](https://github.com/microsoft/github-copilot-for-azure) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Azure resource topology visualization and dependency mapping
+- [**azure-storage**](https://github.com/microsoft/github-copilot-for-azure) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Azure Storage services configuration and best practices
+- [**azure-validate**](https://github.com/microsoft/github-copilot-for-azure) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Azure resource validation and configuration verification
+- [**cost-optimization**](https://github.com/microsoft/github-copilot-for-azure) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Optimize existing Azure resources and analyze Reservations or Savings Plans.
+- [**entra-app-registration**](https://github.com/microsoft/github-copilot-for-azure) ![risk-low](https://img.shields.io/badge/risk-low-green) — Microsoft Entra ID app registration and authentication setup
 - [**google-agents-cli-deploy**](https://github.com/google/agents-cli) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Google Agents Cli Deploy skill for AI agent workflows
-- [**microsoft-foundry**](https://github.com/microsoft/github-copilot-for-azure) — Microsoft AI Foundry platform integration and management
+- [**microsoft-foundry**](https://github.com/microsoft/github-copilot-for-azure) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Microsoft AI Foundry platform integration and management
 - [**turborepo**](https://github.com/vercel/turborepo) ![risk-low](https://img.shields.io/badge/risk-low-green) — Turborepo monorepo build system configuration and optimization
 
 </details>
@@ -446,7 +435,8 @@ This hub runs three automated workflows:
 | Workflow | Trigger | What it does |
 |----------|---------|--------------|
 | **Validate PR** | Pull request | Validates schema, runs `skillshare audit`, posts results as PR comment |
-| **Update Index** | Push to main / weekly | Builds hub JSON, audits all skills, generates README catalog, commits |
+| **Update Index** | Push to main / manual | Builds hub JSON, audits all skills, generates README catalog, opens a PR |
+| **Sync Community** | Weekly (Mondays) / manual | Adds the top 200 and trending skills from [skills.sh](https://skills.sh/), prunes entries whose source is gone or that left the ranking and went stale, opens a PR listing every addition and removal |
 
 ## Build Your Organization's Hub
 

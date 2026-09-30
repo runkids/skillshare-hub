@@ -18,27 +18,18 @@
     ]
   },
   {
-    "name": "next-best-practices",
-    "description": "Next.js performance optimization and best practices from Vercel",
-    "source": "vercel-labs/next-skills/next-best-practices",
+    "name": "next-cache-components-adoption",
+    "description": "Turn on Cache Components in a Next.js app and resolve the blocking routes it surfaces.",
+    "source": "vercel/next.js/next-cache-components-adoption",
     "tags": [
       "react",
       "frontend"
     ]
   },
   {
-    "name": "next-cache-components",
-    "description": "Next.js caching strategies and optimized component patterns",
-    "source": "vercel-labs/next-skills/next-cache-components",
-    "tags": [
-      "react",
-      "frontend"
-    ]
-  },
-  {
-    "name": "next-upgrade",
-    "description": "Next.js version upgrade guide and migration patterns",
-    "source": "vercel-labs/next-skills/next-upgrade",
+    "name": "next-cache-components-optimizer",
+    "description": "Drive a Next.js route to instant navigation by setting up an agentic loop, under Cache Components / PPR, on initial load (hard navigation) and client-side navigation (soft navigation).",
+    "source": "vercel/next.js/next-cache-components-optimizer",
     "tags": [
       "react",
       "frontend"

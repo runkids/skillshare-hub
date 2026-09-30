@@ -1,24 +1,24 @@
 [
   {
-    "name": "ab-test-setup",
-    "description": "Set up and run A/B tests for marketing optimization",
-    "source": "coreyhaines31/marketingskills/ab-test-setup",
+    "name": "ab-testing",
+    "description": "When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program.",
+    "source": "coreyhaines31/marketingskills/ab-testing",
     "tags": [
       "marketing"
     ]
   },
   {
-    "name": "analytics-tracking",
-    "description": "Set up analytics tracking and measurement plans for marketing",
-    "source": "coreyhaines31/marketingskills/analytics-tracking",
+    "name": "analytics",
+    "description": "When the user wants to set up, improve, or audit analytics tracking and measurement.",
+    "source": "coreyhaines31/marketingskills/analytics",
     "tags": [
       "marketing"
     ]
   },
   {
-    "name": "competitor-alternatives",
-    "description": "Analyze competitors and craft alternative positioning strategies",
-    "source": "coreyhaines31/marketingskills/competitor-alternatives",
+    "name": "competitors",
+    "description": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement.",
+    "source": "coreyhaines31/marketingskills/competitors",
     "tags": [
       "marketing"
     ]
@@ -48,33 +48,33 @@
     ]
   },
   {
-    "name": "email-sequence",
-    "description": "Design email marketing sequences and drip campaign automations",
-    "source": "coreyhaines31/marketingskills/email-sequence",
+    "name": "cro",
+    "description": "When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms.",
+    "source": "coreyhaines31/marketingskills/cro",
     "tags": [
       "marketing"
     ]
   },
   {
-    "name": "form-cro",
-    "description": "Optimize form design and user flow for higher conversion rates",
-    "source": "coreyhaines31/marketingskills/form-cro",
+    "name": "emails",
+    "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program.",
+    "source": "coreyhaines31/marketingskills/emails",
     "tags": [
       "marketing"
     ]
   },
   {
-    "name": "free-tool-strategy",
-    "description": "Create free tools as marketing lead generation and growth strategy",
-    "source": "coreyhaines31/marketingskills/free-tool-strategy",
+    "name": "free-tools",
+    "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness.",
+    "source": "coreyhaines31/marketingskills/free-tools",
     "tags": [
       "marketing"
     ]
   },
   {
-    "name": "launch-strategy",
-    "description": "Plan and execute product launch strategies and go-to-market plans",
-    "source": "coreyhaines31/marketingskills/launch-strategy",
+    "name": "launch",
+    "description": "When the user wants to plan a product launch, feature announcement, or release strategy.",
+    "source": "coreyhaines31/marketingskills/launch",
     "tags": [
       "marketing"
     ]
@@ -96,57 +96,41 @@
     ]
   },
   {
-    "name": "onboarding-cro",
-    "description": "Optimize user onboarding flows for activation and conversion",
-    "source": "coreyhaines31/marketingskills/onboarding-cro",
+    "name": "onboarding",
+    "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value.",
+    "source": "coreyhaines31/marketingskills/onboarding",
     "tags": [
       "marketing"
     ]
   },
   {
-    "name": "page-cro",
-    "description": "Optimize landing pages for higher conversion rates",
-    "source": "coreyhaines31/marketingskills/page-cro",
+    "name": "paywalls",
+    "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates.",
+    "source": "coreyhaines31/marketingskills/paywalls",
     "tags": [
       "marketing"
     ]
   },
   {
-    "name": "paid-ads",
-    "description": "Create and optimize paid advertising campaigns across platforms",
-    "source": "coreyhaines31/marketingskills/paid-ads",
+    "name": "popups",
+    "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes.",
+    "source": "coreyhaines31/marketingskills/popups",
     "tags": [
       "marketing"
     ]
   },
   {
-    "name": "paywall-upgrade-cro",
-    "description": "Optimize paywall and upgrade prompts for subscription conversion",
-    "source": "coreyhaines31/marketingskills/paywall-upgrade-cro",
+    "name": "pricing",
+    "description": "When the user wants help with pricing decisions, packaging, or monetization strategy.",
+    "source": "coreyhaines31/marketingskills/pricing",
     "tags": [
       "marketing"
     ]
   },
   {
-    "name": "popup-cro",
-    "description": "Design and optimize marketing popups for conversion and engagement",
-    "source": "coreyhaines31/marketingskills/popup-cro",
-    "tags": [
-      "marketing"
-    ]
-  },
-  {
-    "name": "pricing-strategy",
-    "description": "Design and optimize pricing models, tiers, and monetization strategies",
-    "source": "coreyhaines31/marketingskills/pricing-strategy",
-    "tags": [
-      "marketing"
-    ]
-  },
-  {
-    "name": "product-marketing-context",
-    "description": "Define product positioning, messaging, and marketing context",
-    "source": "coreyhaines31/marketingskills/product-marketing-context",
+    "name": "product-marketing",
+    "description": "When the user wants to create or update their product marketing context document.",
+    "source": "coreyhaines31/marketingskills/product-marketing",
     "tags": [
       "marketing"
     ]
@@ -161,17 +145,17 @@
     ]
   },
   {
-    "name": "referral-program",
-    "description": "Design and implement customer referral programs for growth",
-    "source": "coreyhaines31/marketingskills/referral-program",
+    "name": "referrals",
+    "description": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy.",
+    "source": "coreyhaines31/marketingskills/referrals",
     "tags": [
       "marketing"
     ]
   },
   {
-    "name": "schema-markup",
-    "description": "Implement structured data and schema markup for better SEO",
-    "source": "coreyhaines31/marketingskills/schema-markup",
+    "name": "schema",
+    "description": "When the user wants to add, fix, or optimize schema markup and structured data on their site.",
+    "source": "coreyhaines31/marketingskills/schema",
     "tags": [
       "seo"
     ]
@@ -186,17 +170,17 @@
     ]
   },
   {
-    "name": "signup-flow-cro",
-    "description": "Optimize signup flows and registration for higher conversion",
-    "source": "coreyhaines31/marketingskills/signup-flow-cro",
+    "name": "signup",
+    "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows.",
+    "source": "coreyhaines31/marketingskills/signup",
     "tags": [
       "marketing"
     ]
   },
   {
-    "name": "social-content",
-    "description": "Create engaging social media content and posts across platforms",
-    "source": "coreyhaines31/marketingskills/social-content",
+    "name": "social",
+    "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms, or wants to do social listening and engagement triage.",
+    "source": "coreyhaines31/marketingskills/social",
     "tags": [
       "marketing"
     ]

@@ -40,16 +40,6 @@
     ]
   },
   {
-    "name": "azure-cost-optimization",
-    "description": "Azure cost optimization and spending analysis",
-    "source": "microsoft/github-copilot-for-azure/azure-cost-optimization",
-    "skill": "azure-cost-optimization",
-    "tags": [
-      "devops",
-      "backend"
-    ]
-  },
-  {
     "name": "azure-deploy",
     "description": "Azure deployment automation and resource provisioning",
     "source": "microsoft/github-copilot-for-azure/azure-deploy",
@@ -90,40 +80,10 @@
     ]
   },
   {
-    "name": "azure-observability",
-    "description": "Azure monitoring, logging, and observability best practices",
-    "source": "microsoft/github-copilot-for-azure/azure-observability",
-    "skill": "azure-observability",
-    "tags": [
-      "devops",
-      "backend"
-    ]
-  },
-  {
-    "name": "azure-postgres",
-    "description": "Azure Database for PostgreSQL management and optimization",
-    "source": "microsoft/github-copilot-for-azure/azure-postgres",
-    "skill": "azure-postgres",
-    "tags": [
-      "devops",
-      "backend"
-    ]
-  },
-  {
     "name": "azure-prepare",
     "description": "Azure environment preparation and prerequisite setup",
     "source": "microsoft/github-copilot-for-azure/azure-prepare",
     "skill": "azure-prepare",
-    "tags": [
-      "devops",
-      "backend"
-    ]
-  },
-  {
-    "name": "azure-rbac",
-    "description": "Azure role-based access control and identity management",
-    "source": "microsoft/github-copilot-for-azure/azure-rbac",
-    "skill": "azure-rbac",
     "tags": [
       "devops",
       "backend"
@@ -164,6 +124,15 @@
     "description": "Azure resource validation and configuration verification",
     "source": "microsoft/github-copilot-for-azure/azure-validate",
     "skill": "azure-validate",
+    "tags": [
+      "devops",
+      "backend"
+    ]
+  },
+  {
+    "name": "cost-optimization",
+    "description": "Optimize existing Azure resources and analyze Reservations or Savings Plans.",
+    "source": "microsoft/github-copilot-for-azure/cost-optimization",
     "tags": [
       "devops",
       "backend"
