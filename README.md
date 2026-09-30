@@ -14,7 +14,7 @@
 
 A curated index of [skillshare](https://github.com/runkids/skillshare) skills that serves two purposes:
 
-1. **Ready-to-use catalog** — Pre-configured as the default hub in skillshare. Run `skillshare search --hub` or open **Search** > **Hub** in the Web UI.
+1. **Ready-to-use catalog** — Pre-configured as the default hub in skillshare. Run `skillshare search --hub` or open **Skills** > **Hubs** in the Web UI.
 2. **Reference for your own hub** — Fork this repo, replace the skills with your organization's catalog, and customize the CI pipeline. Same schema, same tooling.
 
 ## Usage
@@ -31,11 +31,37 @@ skillshare search --hub https://raw.githubusercontent.com/runkids/skillshare-hub
 
 ### Search via Web UI (built-in)
 
-Run `skillshare ui`, go to **Search** > **Hub** — Skillshare Hub is pre-selected. Browse or search the catalog with one-click install.
+**1. Open the Hubs page.** Run `skillshare ui`, open **Skills** in the sidebar, then click **Hubs**.
 
 <p align="center">
-  <img src="assets/hub-search-ui.png" alt="Hub search in skillshare Web UI" width="960">
+  <img src="assets/hub-ui-1.png" alt="Skills page with the Hubs button" width="960">
 </p>
+
+**2. Pick Skillshare Hub.** It is built in, so it is always in the **Hubs** list. Click it to load the whole catalog.
+
+<p align="center">
+  <img src="assets/hub-ui-2.png" alt="Skillshare Hub selected on the Hubs page" width="960">
+</p>
+
+**3. Narrow the list.** Choose a **Tag** (for example `testing`) and type a word into **Filter**.
+
+<p align="center">
+  <img src="assets/hub-ui-3.png" alt="Hub catalog filtered by tag and keyword" width="960">
+</p>
+
+**4. Install.** Click **Install** on a row. The **Install skills** dialog opens with the source filled in: click **Find skills**, keep the skill checked, then click **Install 1 skill**. Every skill is audited before it is installed, and the row then shows **Installed**.
+
+<p align="center">
+  <img src="assets/hub-ui-4.png" alt="Install skills dialog ready to install one skill" width="760">
+</p>
+
+**5. Preview before installing (optional).** On the Skills page, click **Install**, open the **Search** tab, set **In** to **Skillshare Hub**, and click a result. **Preview** shows the skill's content, license and tags without installing anything.
+
+<p align="center">
+  <img src="assets/hub-ui-5.png" alt="Preview of a hub skill before installing" width="680">
+</p>
+
+To use another hub, click **Add or create a Hub** on the Hubs page, paste the URL of its `skillshare-hub.json` under **Add an existing Hub**, and click **Add**.
 
 ### Install a skill you found
 
@@ -430,26 +456,127 @@ Fork this repo to create an internal hub for your team or company. What you get 
 - **Audit scores** — Weekly security scans with risk scores written to the hub JSON
 - **Contribution workflow** — Fork → add entry → PR, with automated gates
 
+The key advantage: `source` fields can point to **private repos** (GitHub Enterprise, internal GitLab, Gitea, etc.) that public tools like GitHub Search can never reach.
+
+The typical company setup keeps both the skills and the hub in internal Git repos that everyone already reaches over SSH. No public raw URL and no tokens are needed. The steps below walk through that setup. For HTTP hosting, file shares and the full reference, see the [Hub Index guide](https://skillshare.runkids.cc/docs/how-to/sharing/hub-index) and the [`hub` command](https://skillshare.runkids.cc/docs/reference/commands/hub).
+
+### 1. Set up the repos
+
+This guide uses two repos on a fictional `git.company.com`:
+
+| Repo | Holds |
+|------|-------|
+| `git@git.company.com:platform/ai-skills.git` | The skills, e.g. `skills/reviewer/SKILL.md` |
+| `git@git.company.com:platform/skills-hub.git` | `skillshare-hub.json` (a fork of this repo works) |
+
+One repo can hold both. Everyone who uses the hub needs read access to both repos, and SSH must already work:
+
 ```bash
-# 1. Fork this repo and replace skills with your internal sources
-#    e.g. "source": "ghe.internal.company.com/platform/ai-skills/code-review"
-
-# 2. Or auto-generate an index from installed skills
-skillshare hub index -o ./skillshare-hub.json
-
-# 3. Team members add your hub once
-skillshare hub add https://skills.internal.company.com/skillshare-hub.json --label company
-
-# 4. Search and install — only accessible behind VPN
-skillshare search --hub company
+ssh -T git@git.company.com
 ```
 
-The key advantage: `source` fields can point to **private repos** (GitHub Enterprise, internal GitLab, etc.) that public tools like GitHub Search can never reach. Host the JSON file anywhere — internal Git repo, intranet server, S3, file share.
+### 2. Write the index
+
+Give each skill an SSH `source`. The `//` separates the repo from the skill's folder inside it:
+
+```json
+{
+  "schemaVersion": 1,
+  "skills": [
+    {
+      "name": "reviewer",
+      "description": "Company code review checklist",
+      "source": "git@git.company.com:platform/ai-skills.git//skills/reviewer",
+      "tags": ["review"]
+    }
+  ]
+}
+```
+
+The scheme form works too, and it is the one to use when the server listens on another port: `ssh://git@git.company.com:2222/platform/ai-skills.git//skills/reviewer`.
+
+> [!TIP]
+> On GitHub Enterprise, a short entry like `github.company.com/platform/ai-skills/skills/reviewer` also installs over SSH, as long as the hub itself was added over SSH from the same host. This only applies to hosts whose name contains `github` or ends in `.ghe.com`. Anywhere else (GitLab, Gitea, or GHE on a host like `git.company.com`) the short form means HTTPS, so write the full SSH URL.
+
+### 3. Build the index and push it
+
+Build `skillshare-hub.json` with the CLI or the dashboard.
+
+**CLI.** Install the skills once over SSH, then generate the index from them. Each entry keeps the SSH source it was installed from:
+
+```bash
+skillshare install git@git.company.com:platform/ai-skills.git//skills/reviewer
+skillshare hub index -o ./skillshare-hub.json    # add --audit for risk scores
+```
+
+The generated file lists every skill you have installed and records your local `sourcePath`. Review it and remove what you don't want to publish.
+
+**Dashboard.** Run `skillshare ui`, open **Skills** > **Hubs**, click **Add or create a Hub**, and choose **Create a new Hub**. Click **Add skill**, choose **Can’t find it? Enter the source yourself**, enter a name and the SSH source, then click **Save**.
+
+<p align="center">
+  <img src="assets/hub-selfhost-1.png" alt="A new Hub with one skill whose source is an SSH URL" width="960">
+</p>
+
+Click **Share**, then **Download skillshare-hub.json**. Paste the hub repo's SSH URL into the second step to get the command for your team. Its `--label` is the Hub's name.
+
+<p align="center">
+  <img src="assets/hub-selfhost-2.png" alt="Share dialog with an SSH hub URL and the generated hub add command" width="600">
+</p>
+
+Either way, commit the file to the hub repo and push over SSH:
+
+```bash
+git add skillshare-hub.json
+git commit -m "feat: add reviewer skill"
+git push
+```
+
+### 4. Teammates subscribe once
+
+```bash
+skillshare hub add git@git.company.com:platform/skills-hub.git --label company
+skillshare hub default company     # only if you saved other hubs before; the first hub you add becomes the default
+
+skillshare search --hub            # browse the default hub
+skillshare search review --hub company
+skillshare install git@git.company.com:platform/ai-skills.git//skills/reviewer
+```
+
+If the index is not at the repo root, add its path after `//`:
+
+```bash
+skillshare hub add git@git.company.com:platform/skills-hub.git//hubs/team.json --label team
+```
+
+`skillshare search` without `--hub` searches public GitHub, not your hub.
+
+In the dashboard, open **Skills** > **Hubs**, click **Add or create a Hub**, paste the SSH URL under **Add an existing Hub**, and click **Add**. The dashboard runs git on the machine where `skillshare ui` runs, so that machine needs the SSH key.
+
+<p align="center">
+  <img src="assets/hub-selfhost-3.png" alt="Add an existing Hub with an SSH URL" width="460">
+</p>
+
+### 5. Keep it up to date
+
+Contributors change `skillshare-hub.json` through pull requests or merge requests to the hub repo. There is no cache to refresh: every search clones the hub repo again, so teammates see a merged change on their next search.
+
+This repo's automation runs on GitHub Actions (`.github/workflows/`). On another CI system you need to port it yourself. The workflows call the `scripts/*.sh` files, which need bash, `jq` and the skillshare CLI. The audit scripts (`scripts/audit.sh`, `scripts/audit-all.sh`) only turn GitHub and HTTPS sources into clone URLs, so extend their `parse_source()` for SSH sources and give the CI runner read access to the skill repos.
+
+### 6. Troubleshooting
+
+| Symptom | What to do |
+|---------|------------|
+| `Could not read from remote repository.` | skillshare shows only git's `fatal:` line. Run `ssh -T git@git.company.com` or `git ls-remote git@git.company.com:platform/skills-hub.git` to see the real reason: missing key, agent not running, VPN down. |
+| Host key prompt or `Host key verification failed.` | Connect once with `ssh -T git@git.company.com` and accept the host key, so it is in `~/.ssh/known_hosts` before skillshare clones. |
+| Your key has a passphrase | Add it to the SSH agent with `ssh-add` before running skillshare. |
+| `hub index "…" not found in repo` | The path after `//` is wrong, or the file is not on the repo's default branch. |
+| A raw HTTPS URL returns a login page or `not valid JSON` | GitHub Enterprise and GitLab redirect raw URLs of private repos to sign-in. Use the SSH URL instead. |
+| The hub loads but an install fails | The hub only lists skills. Teammates also need read access to every skill repo. |
 
 ## Documentation
 
 - [skillshare documentation](https://skillshare.runkids.cc/docs) — full CLI reference and guides
-- [Hub Index guide](https://skillshare.runkids.cc/docs/hub-index) — create and manage hub indexes
+- [Hub Index guide](https://skillshare.runkids.cc/docs/how-to/sharing/hub-index) — create and manage hub indexes
 - [CONTRIBUTING.md](CONTRIBUTING.md) — how to submit a skill
 
 ## License
