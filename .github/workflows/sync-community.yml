@@ -8,6 +8,10 @@ on:
         description: 'Number of top skills to sync'
         default: '200'
         type: string
+      trending_n:
+        description: 'Number of trending (24h) skills to sync'
+        default: '50'
+        type: string
 
 permissions:
   contents: write
@@ -30,7 +34,10 @@ jobs:
       - name: Sync community skills
         env:
           TOP_N: ${{ inputs.top_n || '200' }}
-        run: ./scripts/sync-community.sh --top "$TOP_N"
+          TRENDING_N: ${{ inputs.trending_n || '50' }}
+          GH_TOKEN: ${{ github.token }}
+          SYNC_SUMMARY: ${{ runner.temp }}/sync-summary.md
+        run: ./scripts/sync-community.sh --top "$TOP_N" --trending "$TRENDING_N"
 
       - name: Rebuild hub with new skills
         run: ./scripts/build.sh
@@ -60,12 +67,8 @@ jobs:
           git add skills/ skillshare-hub.json README.md
           git commit -m "feat: sync community skills"
           git push -u origin "$BRANCH"
+          BODY_FILE="$RUNNER_TEMP/sync-summary.md"
+          [ -f "$BODY_FILE" ] || echo "Automated sync: no skills added or removed; audit scores and catalog updated." > "$BODY_FILE"
           gh pr create \
             --title "feat: sync community skills ($(date +%Y-%m-%d))" \
-            --body "## Summary
-          Automated sync of new community skills with audit scores and catalog update. **Please review before merging.**
-
-          ## Checklist
-          - [ ] Review skill descriptions for accuracy
-          - [ ] Review tag assignments
-          - [ ] Check for duplicates or irrelevant skills"
+            --body-file "$BODY_FILE"

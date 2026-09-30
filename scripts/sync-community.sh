@@ -2,17 +2,33 @@
 set -euo pipefail
 
 # Sync top community skills into the hub.
-# Fetches the leaderboard, diffs against existing skills, generates new entries,
-# and writes them to skills/community.json (or owner-specific files).
+# Fetches the skills.sh all-time and trending (24h) leaderboards, adds newcomers
+# to skills/community.json, and prunes entries that should no longer be listed:
+#   - any entry whose source no longer resolves (repo missing or archived, or
+#     the skill's SKILL.md is gone);
+#   - any entry that duplicates another entry's skill directory;
+#   - community entries that left the ranking AND whose repo has had no commit
+#     in the last --stale-days days.
+# Curated vendor files (everything except community.json) only lose entries
+# for the first two reasons.
 #
-# Usage: ./scripts/sync-community.sh [--top N] [--dry-run]
+# Usage: ./scripts/sync-community.sh [--top N] [--trending N] [--stale-days N] [--dry-run]
+#
+# SYNC_SUMMARY=<file> writes a Markdown summary of adds/removals (used as the PR body).
+# The archived check needs an authenticated `gh` (GH_TOKEN in CI); without it,
+# archived repos are only caught once their files disappear.
 
 TOP_N=200
+TRENDING_N=50
+STALE_DAYS=182
 DRY_RUN=false
+SUMMARY_FILE="${SYNC_SUMMARY:-}"
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --top) TOP_N="$2"; shift 2 ;;
+    --trending) TRENDING_N="$2"; shift 2 ;;
+    --stale-days) STALE_DAYS="$2"; shift 2 ;;
     --dry-run) DRY_RUN=true; shift ;;
     *) echo "Unknown option: $1"; exit 1 ;;
   esac
@@ -26,118 +42,225 @@ if [ ! -f "$HUB_FILE" ]; then
   exit 1
 fi
 
-# --- Fetch community leaderboard ---
-echo "Fetching top $TOP_N community skills..."
+work_dir=$(mktemp -d)
+trap 'rm -rf "$work_dir"' EXIT
 
-html=$(curl -fsSL "https://skills.sh/" 2>/dev/null) || {
-  echo "ERROR: Failed to fetch community leaderboard"
-  exit 1
+# --- Fetch leaderboards ---
+# Prints the initialSkills JSON array embedded in a skills.sh page.
+fetch_ranking() {
+  local url="$1" html skills_json
+  html=$(curl -fsSL "$url" 2>/dev/null) || return 1
+
+  # Extract initialSkills JSON from RSC payload in <script> tags.
+  # The data is in a self.__next_f.push([1,"..."]) call with escaped JSON.
+  skills_json=$(echo "$html" | \
+    grep -o 'initialSkills[^]]*\]' | head -1 | \
+    sed 's/^initialSkills\\":\[/[/' | \
+    sed 's/\\"/"/g' | \
+    sed 's/\\\\/\\/g') || true
+
+  if [ -z "$skills_json" ] || ! echo "$skills_json" | jq -e '.[0].name' >/dev/null 2>&1; then
+    # Fallback: try node to parse (more reliable for complex escaping)
+    skills_json=$(node -e "
+      const html = require('fs').readFileSync('/dev/stdin', 'utf8');
+      // Match each push([1,\"<escaped>\"]) individually — the inner payload is a
+      // JSON-escaped string, so a single push never contains an unescaped quote.
+      // (A lazy .*? across pushes would splice in other pushes' raw quotes and
+      // break JSON.parse, since initialSkills now lives in a later chunk.)
+      const re = /self\.__next_f\.push\(\[1,\"((?:\\\\.|[^\"\\\\])*)\"\]\)/g;
+      let m, payload = null;
+      while ((m = re.exec(html)) !== null) {
+        if (m[1].includes('initialSkills')) { payload = m[1]; break; }
+      }
+      if (!payload) { process.exit(1); }
+      const inner = JSON.parse('\"' + payload + '\"');
+      const idx = inner.indexOf('\"initialSkills\":');
+      const arrStart = idx + '\"initialSkills\":'.length;
+      // State-aware bracket matching: ignore '[' / ']' inside string literals
+      // (e.g. a skill description like \"Support for [Markdown]\"), which would
+      // otherwise unbalance the depth counter and truncate the JSON.
+      let depth = 0, i = arrStart;
+      let inStr = false, esc = false;
+      for (; i < inner.length; i++) {
+        const c = inner[i];
+        if (esc) { esc = false; continue; }
+        if (c === '\\\\') { esc = true; continue; }
+        if (c === '\"') { inStr = !inStr; continue; }
+        if (inStr) continue;
+        if (c === '[') depth++;
+        else if (c === ']') { depth--; if (depth === 0) break; }
+      }
+      console.log(inner.substring(arrStart, i + 1));
+    " <<< "$html") || return 1
+  fi
+
+  echo "$skills_json"
 }
 
-# Extract initialSkills JSON from RSC payload in <script> tags.
-# The data is in a self.__next_f.push([1,"..."]) call with escaped JSON.
-skills_json=$(echo "$html" | \
-  grep -o 'initialSkills[^]]*\]' | head -1 | \
-  sed 's/^initialSkills\\":\[/[/' | \
-  sed 's/\\"/"/g' | \
-  sed 's/\\\\/\\/g') || true
+echo "Fetching top $TOP_N all-time and top $TRENDING_N trending community skills..."
 
-if [ -z "$skills_json" ] || ! echo "$skills_json" | jq -e '.[0].name' >/dev/null 2>&1; then
-  # Fallback: try node to parse (more reliable for complex escaping)
-  skills_json=$(node -e "
-    const html = require('fs').readFileSync('/dev/stdin', 'utf8');
-    // Match each push([1,\"<escaped>\"]) individually — the inner payload is a
-    // JSON-escaped string, so a single push never contains an unescaped quote.
-    // (A lazy .*? across pushes would splice in other pushes' raw quotes and
-    // break JSON.parse, since initialSkills now lives in a later chunk.)
-    const re = /self\.__next_f\.push\(\[1,\"((?:\\\\.|[^\"\\\\])*)\"\]\)/g;
-    let m, payload = null;
-    while ((m = re.exec(html)) !== null) {
-      if (m[1].includes('initialSkills')) { payload = m[1]; break; }
-    }
-    if (!payload) { process.exit(1); }
-    const inner = JSON.parse('\"' + payload + '\"');
-    const idx = inner.indexOf('\"initialSkills\":');
-    const arrStart = idx + '\"initialSkills\":'.length;
-    // State-aware bracket matching: ignore '[' / ']' inside string literals
-    // (e.g. a skill description like \"Support for [Markdown]\"), which would
-    // otherwise unbalance the depth counter and truncate the JSON.
-    let depth = 0, i = arrStart;
-    let inStr = false, esc = false;
-    for (; i < inner.length; i++) {
-      const c = inner[i];
-      if (esc) { esc = false; continue; }
-      if (c === '\\\\') { esc = true; continue; }
-      if (c === '\"') { inStr = !inStr; continue; }
-      if (inStr) continue;
-      if (c === '[') depth++;
-      else if (c === ']') { depth--; if (depth === 0) break; }
-    }
-    console.log(inner.substring(arrStart, i + 1));
-  " <<< "$html") || {
-    echo "ERROR: Failed to parse leaderboard data. Page format may have changed."
+all_time=$(fetch_ranking "https://skills.sh/") || {
+  echo "ERROR: Failed to fetch or parse the leaderboard. Page format may have changed."
+  exit 1
+}
+trending="[]"
+if [ "$TRENDING_N" -gt 0 ]; then
+  trending=$(fetch_ranking "https://skills.sh/trending") || {
+    echo "ERROR: Failed to fetch or parse the trending leaderboard."
     exit 1
   }
 fi
 
-fetched_count=$(echo "$skills_json" | jq 'length')
-echo "Fetched $fetched_count community skills"
+echo "Fetched $(echo "$all_time" | jq 'length') all-time and $(echo "$trending" | jq 'length') trending skills"
 
-# Take top N
-top_skills=$(echo "$skills_json" | jq --argjson n "$TOP_N" '.[:$n]')
-
-community_file="$SKILLS_DIR/community.json"
-
-# --- Rebuild community list to mirror the current top N ---
-# The community list is a snapshot of the leaderboard, not an ever-growing log:
-# skills that fall out of the top N are removed, newcomers are added. Entries
-# from the owner/curated files (everything in the hub that is not community)
-# are excluded so we never duplicate them.
-official_names=$(jq -n \
-  --slurpfile hub "$HUB_FILE" \
-  --slurpfile comm "$community_file" \
-  '([$hub[0].skills[].name] - [($comm[0] // [])[].name]) | unique')
-
-# Ranked candidates: valid names, not already curated, deduped (keep higher rank)
-ranked=$(echo "$top_skills" | jq --argjson official "$official_names" '
+# Ranking = all-time top N + trending top M, GitHub sources with valid names,
+# deduped by name (first occurrence wins; a skill in both lists keeps both signals).
+ranked=$(jq -n --argjson all "$all_time" --argjson trend "$trending" \
+  --argjson n "$TOP_N" --argjson m "$TRENDING_N" '
+  ($all[:$n] | to_entries | map(.value + {signal: "all-time #\(.key + 1)"})) +
+  ($trend[:$m] | to_entries | map(.value + {signal: "trending #\(.key + 1)"})) |
   [.[] |
-    select(.name | test("^[a-z0-9][a-z0-9-]*$")) |
-    select(.name as $n | ($official | index($n)) == null)
+    select(.source | test("^[A-Za-z0-9-]+/[A-Za-z0-9._-]+$")) |
+    select(.name | test("^[a-z0-9][a-z0-9-]*$"))
   ] |
-  reduce .[] as $item ({}; if .[$item.name] then . else . + {($item.name): $item} end) |
+  reduce .[] as $item ({};
+    if .[$item.name] == null then . + {($item.name): $item}
+    elif .[$item.name].source == $item.source then .[$item.name].signal += ", \($item.signal)"
+    else . end) |
   [.[]]
 ')
 ranked_names=$(echo "$ranked" | jq '[.[].name]')
 
-# Keep existing community entries still on the leaderboard (preserves reviewed
-# descriptions/tags); collect newcomers needing validation; track removals.
-kept=$(jq --argjson ranked "$ranked_names" \
-  '[.[] | select(.name as $n | ($ranked | index($n)) != null)]' "$community_file")
-removed_names=$(jq --argjson ranked "$ranked_names" \
-  '[.[] | select(.name as $n | ($ranked | index($n)) == null) | .name]' "$community_file")
-existing_community_names=$(jq '[.[].name]' "$community_file")
-new_skills=$(echo "$ranked" | jq --argjson existing "$existing_community_names" '
+community_file="$SKILLS_DIR/community.json"
+
+# --- Prune: check every hub entry against its repo ---
+echo ""
+echo "Checking sources of existing entries..."
+
+HAS_GH=false
+if command -v gh >/dev/null 2>&1 && gh auth status >/dev/null 2>&1; then
+  HAS_GH=true
+else
+  echo "  WARN: gh not authenticated — skipping archived-repo check."
+fi
+
+cutoff=$(( $(date +%s) - STALE_DAYS * 86400 ))
+
+# Writes <dir>/state (ok|missing|archived|error), and for ok repos
+# <dir>/skill_dirs (every directory holding a SKILL.md, "." for the root)
+# and <dir>/last_commit (epoch of the default branch's HEAD commit).
+inspect_repo() {
+  local repo="$1" dir="$2" err archived
+  mkdir -p "$dir"
+
+  if [ "$HAS_GH" = true ]; then
+    if archived=$(gh api "repos/$repo" --jq '.archived' 2>"$dir/gh.err"); then
+      if [ "$archived" = true ]; then echo archived > "$dir/state"; return 0; fi
+    elif grep -q 'HTTP 404' "$dir/gh.err"; then
+      echo missing > "$dir/state"; return 0
+    fi
+  fi
+
+  # Tree-only shallow clone: file names without file contents.
+  if ! err=$(GIT_TERMINAL_PROMPT=0 git clone -q --depth 1 --filter=blob:none --no-checkout \
+      "https://github.com/${repo}.git" "$dir/repo" 2>&1); then
+    if echo "$err" | grep -qiE 'not found|could not read Username'; then
+      echo missing > "$dir/state"
+    else
+      echo "  WARN: could not inspect $repo (keeping its entries): $(echo "$err" | tail -1)" >&2
+      echo error > "$dir/state"
+    fi
+    return 0
+  fi
+
+  git -C "$dir/repo" ls-tree -r --name-only HEAD | grep -E '(^|/)SKILL\.md$' | \
+    sed -E 's#/?SKILL\.md$##; s#^$#.#' > "$dir/skill_dirs" || true
+  git -C "$dir/repo" log -1 --format=%ct > "$dir/last_commit"
+  echo ok > "$dir/state"
+}
+
+# Prints the entry's skill directory, following audit-all.sh's lookup order
+# (without its depth limit, so plugins/<p>/skills/<name> still resolves),
+# or nothing when no SKILL.md can be found for it.
+resolve_skill_dir() {
+  local dirs="$1" subpath="$2" skill="$3" name="$4" lookup d
+  lookup="${skill:-$name}"
+  for d in "$subpath" "skills/$lookup" "plugins/$lookup"; do
+    if [ -n "$d" ] && grep -qxF "$d" "$dirs"; then echo "$d"; return 0; fi
+  done
+  for d in "$lookup" "$name"; do
+    d=$(awk -F/ -v l="$d" '$NF == l { print; exit }' "$dirs")
+    if [ -n "$d" ]; then echo "$d"; return 0; fi
+  done
+  if [ -z "$subpath" ] && [ -z "$skill" ] && grep -qxF "." "$dirs"; then echo "."; fi
+  return 0
+}
+
+removals="$work_dir/removals.tsv"   # file <TAB> name <TAB> reason
+kept_keys="$work_dir/kept_keys.tsv" # repo:dir <TAB> name
+: > "$removals"
+: > "$kept_keys"
+
+while IFS=$'\t' read -r file name source skill; do
+  # Only GitHub owner/repo[/subpath] sources can be checked; keep the rest.
+  if [[ "$source" == http* ]] || [[ ! "$source" =~ ^[A-Za-z0-9-]+/[A-Za-z0-9._-]+ ]]; then
+    continue
+  fi
+  repo=$(echo "$source" | cut -d'/' -f1-2)
+  subpath=$(echo "$source" | cut -d'/' -f3-)
+  repo_dir="$work_dir/repos/$(echo "$repo" | tr '[:upper:]/' '[:lower:]_')"
+  [ -f "$repo_dir/state" ] || inspect_repo "$repo" "$repo_dir"
+
+  reason=""
+  case "$(cat "$repo_dir/state")" in
+    missing) reason="repo not found" ;;
+    archived) reason="repo archived" ;;
+    error) continue ;;
+    ok)
+      found=$(resolve_skill_dir "$repo_dir/skill_dirs" "$subpath" "$skill" "$name")
+      key="$(echo "$repo" | tr '[:upper:]' '[:lower:]'):$found"
+      if [ -z "$found" ]; then
+        reason="SKILL.md not found in repo"
+      elif dup=$(awk -F'\t' -v k="$key" '$1 == k { print $2; exit }' "$kept_keys") && [ -n "$dup" ]; then
+        reason="duplicate of $dup"
+      elif [ "$(basename "$file")" = "community.json" ] && \
+          ! echo "$ranked_names" | jq -e --arg n "$name" 'index($n)' >/dev/null && \
+          [ "$(cat "$repo_dir/last_commit")" -lt "$cutoff" ]; then
+        reason="left ranking; last commit $(date -u -d "@$(cat "$repo_dir/last_commit")" +%F 2>/dev/null || date -u -r "$(cat "$repo_dir/last_commit")" +%F)"
+      else
+        printf '%s\t%s\n' "$key" "$name" >> "$kept_keys"
+      fi
+      ;;
+  esac
+
+  if [ -n "$reason" ]; then
+    printf '%s\t%s\t%s\n' "$file" "$name" "$reason" >> "$removals"
+  fi
+done < <(jq -r 'input_filename as $f | .[] | [$f, .name, .source, (.skill // "")] | @tsv' "$SKILLS_DIR"/*.json)
+
+removed_count=$(wc -l < "$removals" | tr -d ' ')
+
+# --- Newcomers: ranked skills not already in the hub ---
+hub_names=$(jq '[.skills[].name]' "$HUB_FILE")
+new_skills=$(echo "$ranked" | jq --argjson existing "$hub_names" '
   [.[] | select(.name as $n | ($existing | index($n)) == null)] | sort_by(.name)
 ')
-
 new_count=$(echo "$new_skills" | jq 'length')
-kept_count=$(echo "$kept" | jq 'length')
-removed_count=$(echo "$removed_names" | jq 'length')
 
-echo "Top $TOP_N → keep $kept_count existing, $new_count new candidates, $removed_count to remove"
+echo "Ranking: $(echo "$ranked" | jq 'length') skills → $new_count new candidates, $removed_count to remove"
 
 if [ "$DRY_RUN" = true ]; then
   echo ""
   echo "=== DRY RUN ==="
-  echo "--- Would ADD ($new_count) ---"
-  echo "$new_skills" | jq -r '.[] | "  + \(.name) (\(.source))"'
+  echo "--- Would ADD ($new_count, before directory/audit validation) ---"
+  echo "$new_skills" | jq -r '.[] | "  + \(.name) (\(.source)) [\(.signal)]"'
   echo "--- Would REMOVE ($removed_count) ---"
-  echo "$removed_names" | jq -r '.[] | "  - \(.)"'
+  awk -F'\t' '{ printf "  - %s (%s): %s\n", $2, $1, $3 }' "$removals"
   exit 0
 fi
 
 if [ "$new_count" -eq 0 ] && [ "$removed_count" -eq 0 ]; then
-  echo "Community list already matches top $TOP_N. Nothing to do."
+  echo "Hub already matches the ranking. Nothing to do."
   exit 0
 fi
 
@@ -230,8 +353,8 @@ audit_risk_ok() {
 echo ""
 echo "Validating skill directories..."
 
-clone_cache=$(mktemp -d)
-trap 'rm -rf "$clone_cache"' EXIT
+clone_cache="$work_dir/clones"
+mkdir -p "$clone_cache"
 
 # Group new skills by repo for efficient cloning
 repo_groups=$(echo "$new_skills" | jq -r '.[] | .source' | sort -u)
@@ -266,14 +389,17 @@ validated_skills=$(echo "$new_skills" | jq -c '.[]' | while IFS= read -r skill_o
     found="$lookup"
   else
     # Find SKILL.md matching this skill name
-    skill_md=$(find "$clone_dir" -maxdepth 4 -name "SKILL.md" -path "*/$lookup/*" -print -quit 2>/dev/null)
+    skill_md=$(find "$clone_dir" -name "SKILL.md" -path "*/$lookup/SKILL.md" -not -path "*/.git/*" -print -quit 2>/dev/null)
     if [ -n "$skill_md" ]; then
       found=$(dirname "$skill_md" | sed "s|$clone_dir/||")
     fi
   fi
 
+  key="$(echo "$ssource" | tr '[:upper:]' '[:lower:]'):$found"
   if [ -z "$found" ]; then
     echo "  SKIP: $sname — no directory found in $ssource" >&2
+  elif dup=$(awk -F'\t' -v k="$key" '$1 == k { print $2; exit }' "$kept_keys") && [ -n "$dup" ]; then
+    echo "  SKIP: $sname — same skill as existing entry $dup" >&2
   elif audit_risk_ok "$clone_dir/$found"; then
     echo "$skill_obj"
   else
@@ -284,11 +410,10 @@ done | jq -s '.')
 validated_count=$(echo "$validated_skills" | jq 'length')
 skipped_count=$((new_count - validated_count))
 
-echo "Validated: $validated_count | Skipped (no dir / failed audit): $skipped_count"
+echo "Validated: $validated_count | Skipped (no dir / duplicate / failed audit): $skipped_count"
 
 if [ "$validated_count" -eq 0 ] && [ "$removed_count" -eq 0 ]; then
   echo "No changes after validation."
-  rm -rf "$clone_cache"
   exit 0
 fi
 
@@ -316,17 +441,44 @@ while IFS=$'\t' read -r name source skill_id; do
   new_entries=$(echo "$new_entries" | jq --argjson e "$entry" '. + [$e]')
 done < <(echo "$validated_skills" | jq -r '.[] | [.name, .source, .skillId] | @tsv')
 
-# Rebuild community.json = kept (still on leaderboard) + validated newcomers
-merged=$(jq -n --argjson keep "$kept" --argjson new "$new_entries" '$keep + $new | sort_by(.name)')
-echo "$merged" | jq '.' > "$community_file"
+# --- Apply removals, then add newcomers to community.json ---
+for f in $(cut -f1 "$removals" | sort -u); do
+  names=$(awk -F'\t' -v f="$f" '$1 == f { print $2 }' "$removals" | jq -R . | jq -s '.')
+  jq --argjson rm "$names" '[.[] | select(.name as $n | ($rm | index($n)) == null)]' "$f" > "$f.tmp"
+  mv "$f.tmp" "$f"
+  # The schema requires at least one entry per file; drop vendor files left empty.
+  if [ "$f" != "$community_file" ] && [ "$(jq 'length' "$f")" -eq 0 ]; then
+    rm "$f"
+    echo "Removed $f (no entries left)"
+  fi
+done
 
-total_count=$(echo "$merged" | jq 'length')
-echo "Community list rebuilt: $kept_count kept + $validated_count added − $removed_count removed = $total_count total"
+jq --argjson new "$new_entries" '. + $new | sort_by(.name)' "$community_file" > "$community_file.tmp"
+mv "$community_file.tmp" "$community_file"
+
+echo "Synced: $validated_count added, $removed_count removed"
+
+# --- Markdown summary for the PR body ---
+if [ -n "$SUMMARY_FILE" ]; then
+  {
+    echo "## Summary"
+    echo "Automated sync from skills.sh (all-time top $TOP_N + trending (24h) top $TRENDING_N) with audit scores and catalog update. **Please review before merging.**"
+    echo ""
+    echo "### Added ($validated_count)"
+    echo "$validated_skills" | jq -r '.[] | "- `\(.name)` — `\(.source)` (\(.signal))"'
+    echo ""
+    echo "### Removed ($removed_count)"
+    awk -F'\t' '{ printf "- `%s` (%s) — %s\n", $2, $1, $3 }' "$removals"
+    echo ""
+    echo "## Checklist"
+    echo "- [ ] Review skill descriptions for accuracy"
+    echo "- [ ] Review tag assignments"
+    echo "- [ ] Check removals and duplicates"
+  } > "$SUMMARY_FILE"
+fi
 
 # Rebuild hub JSON
 ./scripts/build.sh
-
-rm -rf "$clone_cache"
 
 echo ""
 echo "Sync complete. Run 'make validate' to verify."

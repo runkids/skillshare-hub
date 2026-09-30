@@ -23,6 +23,9 @@ jobs:
       - name: Validate skills/*.json
         run: ./scripts/validate.sh
 
+      - name: Self-check scripts
+        run: ./scripts/test-scripts.sh
+
       - name: Check for duplicate skills
         run: |
           DUPES=$(jq -s '[.[][]] | group_by(.name) | map(select(length > 1)) | .[] | "\(.name) (\(length)x): \([.[].source] | join(", "))"' skills/*.json)

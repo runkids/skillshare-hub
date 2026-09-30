@@ -33,6 +33,12 @@ parse_source() {
     clone_url="${BASH_REMATCH[1]}/${BASH_REMATCH[2]}.git"
   elif [[ "$source" == http* ]]; then
     clone_url="$source"
+  # SSH: git@host:org/repo.git[//path] or ssh://[user@]host[:port]/path.git[//path]
+  elif [[ "$source" =~ ^(ssh://[^/]+/.+)//(.+)$ ]] || [[ "$source" =~ ^([^@:/]+@[^:/]+:.+)//(.+)$ ]]; then
+    clone_url="${BASH_REMATCH[1]}"
+    subpath="${BASH_REMATCH[2]}"
+  elif [[ "$source" == ssh://* ]] || [[ "$source" =~ ^[^@:/]+@[^:/]+: ]]; then
+    clone_url="$source"
   else
     local owner_repo
     owner_repo=$(echo "$source" | cut -d'/' -f1-2)
@@ -198,11 +204,11 @@ while IFS= read -r safe_name; do
     # 3. plugins/<lookup> convention
     elif [ -d "$clone_dir/plugins/$lookup" ]; then
       local_target="$clone_dir/plugins/$lookup"
-    # 4. Find SKILL.md matching skill name via path pattern
+    # 4. A SKILL.md in a directory named <lookup>, at any depth (as sync-community.sh)
     else
-      skill_md=$(find "$clone_dir" -maxdepth 4 -name "SKILL.md" -path "*/$lookup/*" -print -quit 2>/dev/null)
+      skill_md=$(find "$clone_dir" -name "SKILL.md" -path "*/$lookup/SKILL.md" -not -path "*/.git/*" -print -quit 2>/dev/null)
       if [ -z "$skill_md" ] && [ -n "$skill" ] && [ "$skill" != "$name" ]; then
-        skill_md=$(find "$clone_dir" -maxdepth 4 -name "SKILL.md" -path "*/$name/*" -print -quit 2>/dev/null)
+        skill_md=$(find "$clone_dir" -name "SKILL.md" -path "*/$name/SKILL.md" -not -path "*/.git/*" -print -quit 2>/dev/null)
       fi
       if [ -n "$skill_md" ]; then
         local_target=$(dirname "$skill_md")
