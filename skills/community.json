@@ -930,6 +930,14 @@
     ]
   },
   {
+    "name": "wait-what",
+    "description": "Wait What skill for AI agent workflows",
+    "source": "mattpocock/skills/wait-what",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
     "name": "wan-2-7",
     "description": "Wan 2 7 skill for AI agent workflows",
     "source": "agentspace-so/runcomfy-agent-skills/wan-2-7",
