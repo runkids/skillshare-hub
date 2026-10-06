@@ -825,6 +825,16 @@
     ]
   },
   {
+    "name": "shipvela-publish",
+    "description": "Publish built static websites to Shipvela with owner review, inspect deployment status and logs, and return a verified URL. Requires a Shipvela account; free Hobby quotas and optional paid plans apply.",
+    "source": "stefanautomateed/shipvela-codex/plugins/shipvela/skills/publish",
+    "tags": [
+      "devops",
+      "frontend",
+      "workflow"
+    ]
+  },
+  {
     "name": "supabase-postgres-best-practices",
     "description": "PostgreSQL best practices, query optimization, and security for Supabase",
     "source": "supabase/agent-skills/supabase-postgres-best-practices",
