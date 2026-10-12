@@ -146,6 +146,14 @@
     ]
   },
   {
+    "name": "claude-handoff",
+    "description": "Claude Handoff skill for AI agent workflows",
+    "source": "mattpocock/skills/claude-handoff",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "code-review",
     "description": "Code Review skill for AI agent workflows",
     "source": "mattpocock/skills/code-review",
@@ -207,6 +215,14 @@
     "name": "elevenlabs-music-generation",
     "description": "elevenlaus music generation skill for AI agent workflows",
     "source": "agentspace-so/runcomfy-agent-skills/elevenlabs-music-generation",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "embedded-captions",
+    "description": "Embedded Captions skill for AI agent workflows",
+    "source": "heygen-com/hyperframes/embedded-captions",
     "tags": [
       "workflow"
     ]
@@ -925,6 +941,14 @@
     "name": "video-outpainting",
     "description": "Video Outpainting skill for AI agent workflows",
     "source": "agentspace-so/runcomfy-agent-skills/video-outpainting",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
+    "name": "wait-what",
+    "description": "Wait What skill for AI agent workflows",
+    "source": "mattpocock/skills/wait-what",
     "tags": [
       "ai"
     ]
