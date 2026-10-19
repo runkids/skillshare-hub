@@ -106,6 +106,15 @@
     ]
   },
   {
+    "name": "brandkit",
+    "description": "Brandkit skill for AI agent workflows",
+    "source": "leonxlnx/taste-skill/brandkit",
+    "tags": [
+      "design",
+      "frontend"
+    ]
+  },
+  {
     "name": "caveman",
     "description": "Caveman skill for AI agent workflows",
     "source": "juliusbrussee/caveman/caveman",
@@ -463,6 +472,14 @@
     ]
   },
   {
+    "name": "imagegen-frontend-web",
+    "description": "Imagegen Frontend Web skill for AI agent workflows",
+    "source": "leonxlnx/taste-skill/imagegen-frontend-web",
+    "tags": [
+      "frontend"
+    ]
+  },
+  {
     "name": "implement",
     "description": "Implement skill for AI agent workflows",
     "source": "mattpocock/skills/implement",
@@ -736,6 +753,22 @@
     ]
   },
   {
+    "name": "orca-cli",
+    "description": "Orca Cli skill for AI agent workflows",
+    "source": "stablyai/orca/orca-cli",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "orchestration",
+    "description": "Orchestration skill for AI agent workflows",
+    "source": "stablyai/orca/orchestration",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "paper-context-resolver",
     "description": "Paper Context Resolver skill for AI agent workflows",
     "source": "lllllllama/rigorpilot-skills/paper-context-resolver",
@@ -837,6 +870,15 @@
     "description": "Setup Pre Commit skill for AI agent workflows",
     "source": "mattpocock/skills/setup-pre-commit",
     "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "slideshow",
+    "description": "Slideshow skill for AI agent workflows",
+    "source": "heygen-com/hyperframes/slideshow",
+    "tags": [
+      "ai",
       "workflow"
     ]
   },

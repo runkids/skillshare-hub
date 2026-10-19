@@ -72,15 +72,16 @@ skillshare install <source>
 ## Skills Catalog
 
 <!-- CATALOG:START -->
-**227 skills** across 11 categories — browse via `skillshare search --hub` or the Web UI
+**232 skills** across 11 categories — browse via `skillshare search --hub` or the Web UI
 
-### Frontend (11)
+### Frontend (12)
 
 <details>
-<summary>Show 11 skills</summary>
+<summary>Show 12 skills</summary>
 
 - [**accessibility-compliance**](https://github.com/wshobson/agents) ![risk-low](https://img.shields.io/badge/risk-low-green) — Web accessibility compliance patterns and WCAG guidelines
 - [**expo-upgrade**](https://github.com/expo/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Framework (OSS). Guidelines for upgrading Expo SDK versions and fixing dependency issues
+- [**imagegen-frontend-web**](https://github.com/leonxlnx/taste-skill) ![risk-low](https://img.shields.io/badge/risk-low-green) — Imagegen Frontend Web skill for AI agent workflows
 - [**next-cache-components-adoption**](https://github.com/vercel/next.js) ![risk-low](https://img.shields.io/badge/risk-low-green) — Turn on Cache Components in a Next.js app and resolve the blocking routes it surfaces.
 - [**next-cache-components-optimizer**](https://github.com/vercel/next.js) ![risk-low](https://img.shields.io/badge/risk-low-green) — Drive a Next.js route to instant navigation by setting up an agentic loop, under Cache Components / PPR, on initial load (hard navigation) and client-side navigation (soft navigation).
 - [**nuxt**](https://github.com/antfu/skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Nuxt.js framework best practices and server-side rendering patterns
@@ -102,19 +103,19 @@ skillshare install <source>
 - [**analytics**](https://github.com/coreyhaines31/marketingskills) ![risk-low](https://img.shields.io/badge/risk-low-green) — When the user wants to set up, improve, or audit analytics tracking and measurement.
 - [**competitors**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — When the user wants to create competitor comparison or alternative pages for SEO and sales enablement.
 - [**content-strategy**](https://github.com/coreyhaines31/marketingskills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Develop content marketing strategy and editorial plans
-- [**copy-editing**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Edit and improve marketing copy for clarity and impact
-- [**copywriting**](https://github.com/coreyhaines31/marketingskills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Write persuasive marketing copy and sales content
+- [**copy-editing**](https://github.com/coreyhaines31/marketingskills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Edit and improve marketing copy for clarity and impact
+- [**copywriting**](https://github.com/coreyhaines31/marketingskills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Write persuasive marketing copy and sales content
 - [**cro**](https://github.com/coreyhaines31/marketingskills) ![risk-low](https://img.shields.io/badge/risk-low-green) — When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms.
 - [**emails**](https://github.com/coreyhaines31/marketingskills) ![risk-low](https://img.shields.io/badge/risk-low-green) — When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program.
-- [**free-tools**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness.
+- [**free-tools**](https://github.com/coreyhaines31/marketingskills) ![risk-low](https://img.shields.io/badge/risk-low-green) — When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness.
 - [**launch**](https://github.com/coreyhaines31/marketingskills) ![risk-low](https://img.shields.io/badge/risk-low-green) — When the user wants to plan a product launch, feature announcement, or release strategy.
 - [**marketing-ideas**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Generate creative marketing campaign ideas and growth strategies
 - [**marketing-psychology**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Apply psychological principles to marketing and persuasion strategies
-- [**onboarding**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value.
+- [**onboarding**](https://github.com/coreyhaines31/marketingskills) ![risk-low](https://img.shields.io/badge/risk-low-green) — When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value.
 - [**paywalls**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates.
 - [**popups**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes.
 - [**pricing**](https://github.com/coreyhaines31/marketingskills) ![risk-low](https://img.shields.io/badge/risk-low-green) — When the user wants help with pricing decisions, packaging, or monetization strategy.
-- [**product-marketing**](https://github.com/coreyhaines31/marketingskills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — When the user wants to create or update their product marketing context document.
+- [**product-marketing**](https://github.com/coreyhaines31/marketingskills) ![risk-low](https://img.shields.io/badge/risk-low-green) — When the user wants to create or update their product marketing context document.
 - [**programmatic-seo**](https://github.com/coreyhaines31/marketingskills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Create programmatic SEO pages at scale for organic traffic growth
 - [**referrals**](https://github.com/coreyhaines31/marketingskills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy.
 - [**schema**](https://github.com/coreyhaines31/marketingskills) ![risk-low](https://img.shields.io/badge/risk-low-green) — When the user wants to add, fix, or optimize schema markup and structured data on their site.
@@ -124,10 +125,10 @@ skillshare install <source>
 
 </details>
 
-### Workflow (105)
+### Workflow (107)
 
 <details>
-<summary>Show 105 skills</summary>
+<summary>Show 107 skills</summary>
 
 - [**ace-step**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — ace step skill for AI agent workflows
 - [**antfu**](https://github.com/antfu/skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Anthony Fu's coding conventions and project setup preferences
@@ -199,6 +200,8 @@ skillshare install <source>
 - [**minimal-run-and-audit**](https://github.com/lllllllama/rigorpilot-skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Minimal Run And Audit skill for AI agent workflows
 - [**nano-banana-2**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Nano Banana 2 skill for AI agent workflows
 - [**nano-banana-edit**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Nano Banana Edit skill for AI agent workflows
+- [**orca-cli**](https://github.com/stablyai/orca) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Orca Cli skill for AI agent workflows
+- [**orchestration**](https://github.com/stablyai/orca) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Orchestration skill for AI agent workflows
 - [**paper-context-resolver**](https://github.com/lllllllama/rigorpilot-skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Paper Context Resolver skill for AI agent workflows
 - [**pnpm**](https://github.com/antfu/skills) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — pnpm package manager best practices and workspace patterns
 - [**prototype**](https://github.com/mattpocock/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — prototype skill for AI agent workflows
@@ -237,10 +240,10 @@ skillshare install <source>
 
 </details>
 
-### Agent (40)
+### Agent (41)
 
 <details>
-<summary>Show 40 skills</summary>
+<summary>Show 41 skills</summary>
 
 - [**agent-browser**](https://github.com/vercel-labs/agent-browser) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Browser automation agent for web page interactions using Playwright
 - [**ai-avatar-video**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Ai Avatar Video skill for AI agent workflows
@@ -277,6 +280,7 @@ skillshare install <source>
 - [**mcp-builder**](https://github.com/anthropics/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Build Model Context Protocol (MCP) servers and tools for AI agents
 - [**release-skills**](https://github.com/jimliu/baoyu-skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Automate release notes and changelog generation
 - [**seedance-2-5-image-to-video**](https://github.com/genmedia-labs/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Seedance 2 5 Image To Video skill for AI agent workflows
+- [**slideshow**](https://github.com/heygen-com/hyperframes) ![risk-low](https://img.shields.io/badge/risk-low-green) — Slideshow skill for AI agent workflows
 - [**to-questionnaire**](https://github.com/mattpocock/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — To Questionnaire skill for AI agent workflows
 - [**video-inpainting**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Video Inpainting skill for AI agent workflows
 - [**video-outpainting**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Video Outpainting skill for AI agent workflows
@@ -285,13 +289,14 @@ skillshare install <source>
 
 </details>
 
-### Design (10)
+### Design (11)
 
 <details>
-<summary>Show 10 skills</summary>
+<summary>Show 11 skills</summary>
 
 - [**algorithmic-art**](https://github.com/anthropics/skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Generate algorithmic and generative art with code
 - [**brand-guidelines**](https://github.com/anthropics/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Create and maintain brand identity guidelines and visual standards
+- [**brandkit**](https://github.com/leonxlnx/taste-skill) ![risk-low](https://img.shields.io/badge/risk-low-green) — Brandkit skill for AI agent workflows
 - [**canvas-design**](https://github.com/anthropics/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Design and generate HTML canvas-based visuals and interactive graphics
 - [**codebase-design**](https://github.com/mattpocock/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Codebase Design skill for AI agent workflows
 - [**design-mobile-apps**](https://github.com/designed-by-ai/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Design Mobile Apps skill for AI agent workflows
