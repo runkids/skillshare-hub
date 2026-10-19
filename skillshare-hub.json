@@ -436,6 +436,15 @@
       ]
     },
     {
+      "name": "brandkit",
+      "description": "Brandkit skill for AI agent workflows",
+      "source": "leonxlnx/taste-skill/brandkit",
+      "tags": [
+        "design",
+        "frontend"
+      ]
+    },
+    {
       "name": "canvas-design",
       "description": "Design and generate HTML canvas-based visuals and interactive graphics",
       "source": "anthropics/skills/canvas-design",
@@ -948,6 +957,14 @@
       ]
     },
     {
+      "name": "imagegen-frontend-web",
+      "description": "Imagegen Frontend Web skill for AI agent workflows",
+      "source": "leonxlnx/taste-skill/imagegen-frontend-web",
+      "tags": [
+        "frontend"
+      ]
+    },
+    {
       "name": "implement",
       "description": "Implement skill for AI agent workflows",
       "source": "mattpocock/skills/implement",
@@ -1308,6 +1325,22 @@
       ]
     },
     {
+      "name": "orca-cli",
+      "description": "Orca Cli skill for AI agent workflows",
+      "source": "stablyai/orca/orca-cli",
+      "tags": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "orchestration",
+      "description": "Orchestration skill for AI agent workflows",
+      "source": "stablyai/orca/orchestration",
+      "tags": [
+        "workflow"
+      ]
+    },
+    {
       "name": "paper-context-resolver",
       "description": "Paper Context Resolver skill for AI agent workflows",
       "source": "lllllllama/rigorpilot-skills/paper-context-resolver",
@@ -1572,6 +1605,15 @@
       "source": "anthropics/skills/slack-gif-creator",
       "tags": [
         "design"
+      ]
+    },
+    {
+      "name": "slideshow",
+      "description": "Slideshow skill for AI agent workflows",
+      "source": "heygen-com/hyperframes/slideshow",
+      "tags": [
+        "ai",
+        "workflow"
       ]
     },
     {
