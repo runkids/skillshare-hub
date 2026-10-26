@@ -436,15 +436,6 @@
       ]
     },
     {
-      "name": "brandkit",
-      "description": "Brandkit skill for AI agent workflows",
-      "source": "leonxlnx/taste-skill/brandkit",
-      "tags": [
-        "design",
-        "frontend"
-      ]
-    },
-    {
       "name": "canvas-design",
       "description": "Design and generate HTML canvas-based visuals and interactive graphics",
       "source": "anthropics/skills/canvas-design",
@@ -651,14 +642,6 @@
       ]
     },
     {
-      "name": "embedded-captions",
-      "description": "Embedded Captions skill for AI agent workflows",
-      "source": "heygen-com/hyperframes/embedded-captions",
-      "tags": [
-        "workflow"
-      ]
-    },
-    {
       "name": "entra-agent-id",
       "description": "Entra Agent Id skill for AI agent workflows",
       "source": "microsoft/azure-skills/entra-agent-id",
@@ -762,14 +745,6 @@
       ]
     },
     {
-      "name": "general-video",
-      "description": "General Video skill for AI agent workflows",
-      "source": "heygen-com/hyperframes/general-video",
-      "tags": [
-        "workflow"
-      ]
-    },
-    {
       "name": "git-guardrails-claude-code",
       "description": "Git Guardrails Claude Code skill for AI agent workflows",
       "source": "mattpocock/skills/git-guardrails-claude-code",
@@ -867,49 +842,9 @@
       ]
     },
     {
-      "name": "hyperframes-animation",
-      "description": "Hyperframes Animation skill for AI agent workflows",
-      "source": "heygen-com/hyperframes/hyperframes-animation",
-      "tags": [
-        "workflow"
-      ]
-    },
-    {
-      "name": "hyperframes-audio",
-      "description": "Use when audio already placed in a HyperFrames composition needs to be mixed",
-      "source": "heygen-com/hyperframes/hyperframes-audio",
-      "tags": [
-        "workflow"
-      ]
-    },
-    {
       "name": "hyperframes-cli",
       "description": "Hyperframes Cli skill for AI agent workflows",
       "source": "heygen-com/hyperframes/hyperframes-cli",
-      "tags": [
-        "workflow"
-      ]
-    },
-    {
-      "name": "hyperframes-core",
-      "description": "Hyperframes Core skill for AI agent workflows",
-      "source": "heygen-com/hyperframes/hyperframes-core",
-      "tags": [
-        "workflow"
-      ]
-    },
-    {
-      "name": "hyperframes-creative",
-      "description": "Hyperframes Creative skill for AI agent workflows",
-      "source": "heygen-com/hyperframes/hyperframes-creative",
-      "tags": [
-        "workflow"
-      ]
-    },
-    {
-      "name": "hyperframes-keyframes",
-      "description": "Hyperframes Keyframes skill for AI agent workflows",
-      "source": "heygen-com/hyperframes/hyperframes-keyframes",
       "tags": [
         "workflow"
       ]
@@ -954,14 +889,6 @@
       "tags": [
         "ai",
         "workflow"
-      ]
-    },
-    {
-      "name": "imagegen-frontend-web",
-      "description": "Imagegen Frontend Web skill for AI agent workflows",
-      "source": "leonxlnx/taste-skill/imagegen-frontend-web",
-      "tags": [
-        "frontend"
       ]
     },
     {
@@ -1408,6 +1335,14 @@
       ]
     },
     {
+      "name": "prisma-client-api",
+      "description": "Prisma Client Api skill for AI agent workflows",
+      "source": "prisma/skills/prisma-client-api",
+      "tags": [
+        "workflow"
+      ]
+    },
+    {
       "name": "product-marketing",
       "description": "When the user wants to create or update their product marketing context document.",
       "source": "coreyhaines31/marketingskills/product-marketing",
@@ -1488,6 +1423,70 @@
       "name": "remotion-best-practices",
       "description": "Remotion best practices and recommended patterns",
       "source": "remotion-dev/skills/remotion-best-practices",
+      "tags": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "remotion-captions",
+      "description": "Remotion Captions skill for AI agent workflows",
+      "source": "remotion-dev/skills/remotion-captions",
+      "tags": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "remotion-create",
+      "description": "Remotion Create skill for AI agent workflows",
+      "source": "remotion-dev/skills/remotion-create",
+      "tags": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "remotion-docs",
+      "description": "Remotion Docs skill for AI agent workflows",
+      "source": "remotion-dev/skills/remotion-docs",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "name": "remotion-markup",
+      "description": "Remotion Markup skill for AI agent workflows",
+      "source": "remotion-dev/skills/remotion-markup",
+      "tags": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "remotion-multimedia",
+      "description": "Remotion Multimedia skill for AI agent workflows",
+      "source": "remotion-dev/skills/remotion-multimedia",
+      "tags": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "remotion-render",
+      "description": "Remotion Render skill for AI agent workflows",
+      "source": "remotion-dev/skills/remotion-render",
+      "tags": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "remotion-studio",
+      "description": "Remotion Studio skill for AI agent workflows",
+      "source": "remotion-dev/skills/remotion-studio",
+      "tags": [
+        "workflow"
+      ]
+    },
+    {
+      "name": "remotion-upgrade",
+      "description": "Remotion Upgrade skill for AI agent workflows",
+      "source": "remotion-dev/skills/remotion-upgrade",
       "tags": [
         "workflow"
       ]
