@@ -220,6 +220,15 @@
     ]
   },
   {
+    "name": "emil-design-eng",
+    "description": "Emil Design Eng skill for AI agent workflows",
+    "source": "emilkowalski/skills/emil-design-eng",
+    "tags": [
+      "design",
+      "frontend"
+    ]
+  },
+  {
     "name": "entra-agent-id",
     "description": "Entra Agent Id skill for AI agent workflows",
     "source": "microsoft/azure-skills/entra-agent-id",
@@ -395,6 +404,15 @@
     "source": "agentspace-so/runcomfy-agent-skills/image-outpainting",
     "tags": [
       "ai"
+    ]
+  },
+  {
+    "name": "image-to-ui",
+    "description": "Image To Ui skill for AI agent workflows",
+    "source": "uizze/uizze/image-to-ui",
+    "tags": [
+      "ai",
+      "workflow"
     ]
   },
   {
@@ -707,6 +725,14 @@
     "name": "prisma-client-api",
     "description": "Prisma Client Api skill for AI agent workflows",
     "source": "prisma/skills/prisma-client-api",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "prisma-database-setup",
+    "description": "Prisma Database Setup skill for AI agent workflows",
+    "source": "prisma/skills/prisma-database-setup",
     "tags": [
       "workflow"
     ]
