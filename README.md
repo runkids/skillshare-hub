@@ -72,7 +72,7 @@ skillshare install <source>
 ## Skills Catalog
 
 <!-- CATALOG:START -->
-**232 skills** across 11 categories — browse via `skillshare search --hub` or the Web UI
+**235 skills** across 11 categories — browse via `skillshare search --hub` or the Web UI
 
 ### Frontend (11)
 
@@ -124,10 +124,10 @@ skillshare install <source>
 
 </details>
 
-### Workflow (108)
+### Workflow (109)
 
 <details>
-<summary>Show 108 skills</summary>
+<summary>Show 109 skills</summary>
 
 - [**ace-step**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — ace step skill for AI agent workflows
 - [**antfu**](https://github.com/antfu/skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Anthony Fu's coding conventions and project setup preferences
@@ -187,7 +187,7 @@ skillshare install <source>
 - [**lark-workflow-standup-report**](https://github.com/larksuite/cli) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Lark Workflow Standup Report skill for AI agent workflows
 - [**lipsync**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Lipsync skill for AI agent workflows
 - [**loop-me**](https://github.com/mattpocock/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Loop Me skill for AI agent workflows
-- [**media-use**](https://github.com/heygen-com/hyperframes) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Media Use skill for AI agent workflows
+- [**media-use**](https://github.com/heygen-com/hyperframes) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Media Use skill for AI agent workflows
 - [**migrate-to-shoehorn**](https://github.com/mattpocock/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Migrate To Shoehorn skill for AI agent workflows
 - [**minimal-run-and-audit**](https://github.com/lllllllama/rigorpilot-skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Minimal Run And Audit skill for AI agent workflows
 - [**nano-banana-2**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Nano Banana 2 skill for AI agent workflows
@@ -197,10 +197,11 @@ skillshare install <source>
 - [**paper-context-resolver**](https://github.com/lllllllama/rigorpilot-skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Paper Context Resolver skill for AI agent workflows
 - [**pnpm**](https://github.com/antfu/skills) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — pnpm package manager best practices and workspace patterns
 - [**prisma-client-api**](https://github.com/prisma/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Prisma Client Api skill for AI agent workflows
+- [**prisma-database-setup**](https://github.com/prisma/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Prisma Database Setup skill for AI agent workflows
 - [**prototype**](https://github.com/mattpocock/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — prototype skill for AI agent workflows
 - [**reddit-automation**](https://github.com/flowkit-labs/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Reddit Automation skill for AI agent workflows
 - [**relight**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — relight skill for AI agent workflows
-- [**remotion-best-practices**](https://github.com/remotion-dev/skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Remotion best practices and recommended patterns
+- [**remotion-best-practices**](https://github.com/remotion-dev/skills) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Remotion best practices and recommended patterns
 - [**remotion-captions**](https://github.com/remotion-dev/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Remotion Captions skill for AI agent workflows
 - [**remotion-create**](https://github.com/remotion-dev/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Remotion Create skill for AI agent workflows
 - [**remotion-markup**](https://github.com/remotion-dev/skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Remotion Markup skill for AI agent workflows
@@ -240,10 +241,10 @@ skillshare install <source>
 
 </details>
 
-### Agent (41)
+### Agent (42)
 
 <details>
-<summary>Show 41 skills</summary>
+<summary>Show 42 skills</summary>
 
 - [**agent-browser**](https://github.com/vercel-labs/agent-browser) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Browser automation agent for web page interactions using Playwright
 - [**ai-avatar-video**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Ai Avatar Video skill for AI agent workflows
@@ -274,10 +275,11 @@ skillshare install <source>
 - [**image-edit**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Image Edit skill for AI agent workflows
 - [**image-inpainting**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Image Inpainting skill for AI agent workflows
 - [**image-outpainting**](https://github.com/agentspace-so/runcomfy-agent-skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Image Outpainting skill for AI agent workflows
+- [**image-to-ui**](https://github.com/uizze/uizze) ![risk-low](https://img.shields.io/badge/risk-low-green) — Image To Ui skill for AI agent workflows
 - [**image-to-video**](https://github.com/inference-sh-9/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Image To Video skill for AI agent workflows
 - [**lark-mail**](https://github.com/larksuite/cli) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Lark Mail skill for AI agent workflows
 - [**lark-slides**](https://github.com/larksuite/cli) ![risk-critical](https://img.shields.io/badge/risk-critical-red) — Lark Slides skill for AI agent workflows
-- [**mcp-builder**](https://github.com/anthropics/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Build Model Context Protocol (MCP) servers and tools for AI agents
+- [**mcp-builder**](https://github.com/anthropics/skills) ![risk-medium](https://img.shields.io/badge/risk-medium-yellow) — Build Model Context Protocol (MCP) servers and tools for AI agents
 - [**release-skills**](https://github.com/jimliu/baoyu-skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Automate release notes and changelog generation
 - [**seedance-2-5-image-to-video**](https://github.com/genmedia-labs/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Seedance 2 5 Image To Video skill for AI agent workflows
 - [**slideshow**](https://github.com/heygen-com/hyperframes) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Slideshow skill for AI agent workflows
@@ -289,16 +291,17 @@ skillshare install <source>
 
 </details>
 
-### Design (10)
+### Design (11)
 
 <details>
-<summary>Show 10 skills</summary>
+<summary>Show 11 skills</summary>
 
 - [**algorithmic-art**](https://github.com/anthropics/skills) ![risk-high](https://img.shields.io/badge/risk-high-orange) — Generate algorithmic and generative art with code
 - [**brand-guidelines**](https://github.com/anthropics/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Create and maintain brand identity guidelines and visual standards
 - [**canvas-design**](https://github.com/anthropics/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Design and generate HTML canvas-based visuals and interactive graphics
 - [**codebase-design**](https://github.com/mattpocock/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Codebase Design skill for AI agent workflows
 - [**design-mobile-apps**](https://github.com/designed-by-ai/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Design Mobile Apps skill for AI agent workflows
+- [**emil-design-eng**](https://github.com/emilkowalski/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Emil Design Eng skill for AI agent workflows
 - [**frontend-design**](https://github.com/anthropics/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Create distinctive, production-grade frontend interfaces with high design quality
 - [**slack-gif-creator**](https://github.com/anthropics/skills) ![risk-clean](https://img.shields.io/badge/risk-clean-brightgreen) — Create animated GIFs for Slack from text prompts and images
 - [**theme-factory**](https://github.com/anthropics/skills) ![risk-low](https://img.shields.io/badge/risk-low-green) — Create and customize UI themes, color palettes, and design tokens
