@@ -1,13 +1,5 @@
 [
   {
-    "name": "ace-step",
-    "description": "ace step skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/ace-step",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "ai-avatar-video",
     "description": "Ai Avatar Video skill for AI agent workflows",
     "source": "inference-sh-9/skills/ai-avatar-video",
@@ -98,6 +90,14 @@
     ]
   },
   {
+    "name": "azure-reliability",
+    "description": "Azure Reliability management and best practices",
+    "source": "microsoft/azure-skills/azure-reliability",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "azure-upgrade",
     "description": "Azure Upgrade management and best practices",
     "source": "microsoft/azure-skills/azure-upgrade",
@@ -171,22 +171,6 @@
     ]
   },
   {
-    "name": "codex-pet",
-    "description": "Codex Pet skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/codex-pet",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "controlnet-pose",
-    "description": "Controlnet Pose skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/controlnet-pose",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "design-mobile-apps",
     "description": "Design Mobile Apps skill for AI agent workflows",
     "source": "designed-by-ai/skills/design-mobile-apps",
@@ -212,14 +196,6 @@
     ]
   },
   {
-    "name": "elevenlabs-music-generation",
-    "description": "elevenlaus music generation skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/elevenlabs-music-generation",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "emil-design-eng",
     "description": "Emil Design Eng skill for AI agent workflows",
     "source": "emilkowalski/skills/emil-design-eng",
@@ -240,14 +216,6 @@
     "name": "env-and-assets-bootstrap",
     "description": "Env And Assets Bootstrap skill for AI agent workflows",
     "source": "lllllllama/rigorpilot-skills/env-and-assets-bootstrap",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "face-swap",
-    "description": "Face Swap skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/face-swap",
     "tags": [
       "workflow"
     ]
@@ -391,22 +359,6 @@
     ]
   },
   {
-    "name": "image-inpainting",
-    "description": "Image Inpainting skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/image-inpainting",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
-    "name": "image-outpainting",
-    "description": "Image Outpainting skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/image-outpainting",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
     "name": "image-to-ui",
     "description": "Image To Ui skill for AI agent workflows",
     "source": "uizze/uizze/image-to-ui",
@@ -436,14 +388,6 @@
     "name": "improve-codebase-architecture",
     "description": "Improve Codebase Architecture skill for AI agent workflows",
     "source": "mattpocock/skills/improve-codebase-architecture",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "kling-3-0",
-    "description": "Kling 3 0 skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/kling-3-0",
     "tags": [
       "workflow"
     ]
@@ -537,14 +481,6 @@
     ]
   },
   {
-    "name": "lark-minutes",
-    "description": "Lark Minutes skill for AI agent workflows",
-    "source": "larksuite/cli/lark-minutes",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "lark-okr",
     "description": "Lark Okr skill for AI agent workflows",
     "source": "larksuite/cli/lark-okr",
@@ -602,14 +538,6 @@
     ]
   },
   {
-    "name": "lark-vc",
-    "description": "Lark Vc skill for AI agent workflows",
-    "source": "larksuite/cli/lark-vc",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "lark-whiteboard",
     "description": "Lark Whiteboard skill for AI agent workflows",
     "source": "larksuite/cli/lark-whiteboard",
@@ -637,14 +565,6 @@
     "name": "lark-workflow-standup-report",
     "description": "Lark Workflow Standup Report skill for AI agent workflows",
     "source": "larksuite/cli/lark-workflow-standup-report",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "lipsync",
-    "description": "Lipsync skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/lipsync",
     "tags": [
       "workflow"
     ]
@@ -754,14 +674,6 @@
     ]
   },
   {
-    "name": "relight",
-    "description": "relight skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/relight",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
     "name": "remotion-best-practices",
     "description": "Remotion best practices and recommended patterns",
     "source": "remotion-dev/skills/remotion-best-practices",
@@ -794,6 +706,22 @@
     ]
   },
   {
+    "name": "remotion-interactivity",
+    "description": "Remotion Interactivity skill for AI agent workflows",
+    "source": "remotion-dev/skills/remotion-interactivity",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "remotion-license",
+    "description": "Remotion License skill for AI agent workflows",
+    "source": "remotion-dev/skills/remotion-license",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "remotion-markup",
     "description": "Remotion Markup skill for AI agent workflows",
     "source": "remotion-dev/skills/remotion-markup",
@@ -813,6 +741,14 @@
     "name": "remotion-render",
     "description": "Remotion Render skill for AI agent workflows",
     "source": "remotion-dev/skills/remotion-render",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "remotion-saas",
+    "description": "Remotion Saas skill for AI agent workflows",
+    "source": "remotion-dev/skills/remotion-saas",
     "tags": [
       "workflow"
     ]
@@ -845,14 +781,6 @@
     "name": "research",
     "description": "Research skill for AI agent workflows",
     "source": "mattpocock/skills/research",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "runcomfy-cli",
-    "description": "Runcomfy Cli skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/runcomfy-cli",
     "tags": [
       "workflow"
     ]
@@ -989,30 +917,6 @@
     ]
   },
   {
-    "name": "video-extend",
-    "description": "Video Extend skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/video-extend",
-    "tags": [
-      "workflow"
-    ]
-  },
-  {
-    "name": "video-inpainting",
-    "description": "Video Inpainting skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/video-inpainting",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
-    "name": "video-outpainting",
-    "description": "Video Outpainting skill for AI agent workflows",
-    "source": "agentspace-so/runcomfy-agent-skills/video-outpainting",
-    "tags": [
-      "ai"
-    ]
-  },
-  {
     "name": "wait-what",
     "description": "Wait What skill for AI agent workflows",
     "source": "mattpocock/skills/wait-what",
@@ -1040,6 +944,14 @@
     "name": "wayfinder",
     "description": "Wayfinder skill for AI agent workflows",
     "source": "mattpocock/skills/wayfinder",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
+    "name": "website-builder",
+    "description": "Website Builder skill for AI agent workflows",
+    "source": "flowkit-labs/skills/website-builder",
     "tags": [
       "workflow"
     ]

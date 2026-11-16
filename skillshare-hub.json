@@ -10,7 +10,7 @@
       ],
       "riskScore": 12,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "accessibility-compliance",
@@ -20,20 +20,9 @@
       "tags": [
         "frontend"
       ],
-      "riskScore": 19,
+      "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
-    },
-    {
-      "name": "ace-step",
-      "description": "ace step skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/ace-step",
-      "tags": [
-        "workflow"
-      ],
-      "riskScore": 48,
-      "riskLabel": "medium",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "agent-browser",
@@ -45,7 +34,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "ai-avatar-video",
@@ -56,7 +45,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "ai-image-generation",
@@ -67,7 +56,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "ai-music",
@@ -78,7 +67,7 @@
       ],
       "riskScore": 54,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "ai-video-generation",
@@ -89,7 +78,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "airunway-aks-setup",
@@ -100,7 +89,7 @@
       ],
       "riskScore": 15,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "algorithmic-art",
@@ -111,7 +100,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "analytics",
@@ -122,7 +111,7 @@
       ],
       "riskScore": 21,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "antfu",
@@ -134,7 +123,7 @@
       ],
       "riskScore": 33,
       "riskLabel": "medium",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "appinsights-instrumentation",
@@ -147,7 +136,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "ask-matt",
@@ -158,7 +147,7 @@
       ],
       "riskScore": 6,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "azure-ai",
@@ -171,7 +160,7 @@
       ],
       "riskScore": 49,
       "riskLabel": "medium",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "azure-aigateway",
@@ -184,7 +173,7 @@
       ],
       "riskScore": 6,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "azure-cloud-migrate",
@@ -196,7 +185,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "azure-compliance",
@@ -209,7 +198,7 @@
       ],
       "riskScore": 27,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "azure-compute",
@@ -221,7 +210,7 @@
       ],
       "riskScore": 60,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "azure-deploy",
@@ -234,7 +223,7 @@
       ],
       "riskScore": 12,
       "riskLabel": "medium",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "azure-diagnostics",
@@ -247,7 +236,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "azure-enterprise-infra-planner",
@@ -258,7 +247,7 @@
       ],
       "riskScore": 18,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "azure-kubernetes",
@@ -269,7 +258,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "azure-kusto",
@@ -282,7 +271,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "azure-messaging",
@@ -295,7 +284,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "azure-prepare",
@@ -308,7 +297,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "azure-quotas",
@@ -319,7 +308,18 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
+    },
+    {
+      "name": "azure-reliability",
+      "description": "Azure Reliability management and best practices",
+      "source": "microsoft/azure-skills/azure-reliability",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "azure-resource-lookup",
@@ -332,7 +332,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "azure-resource-visualizer",
@@ -345,7 +345,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "azure-storage",
@@ -358,7 +358,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "azure-upgrade",
@@ -369,7 +369,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "azure-validate",
@@ -382,7 +382,7 @@
       ],
       "riskScore": 40,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "baoyu-article-illustrator",
@@ -395,7 +395,7 @@
       ],
       "riskScore": 4,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "baoyu-comic",
@@ -408,7 +408,7 @@
       ],
       "riskScore": 9,
       "riskLabel": "medium",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "baoyu-compress-image",
@@ -421,7 +421,7 @@
       ],
       "riskScore": 8,
       "riskLabel": "medium",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "baoyu-cover-image",
@@ -434,7 +434,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "baoyu-danger-gemini-web",
@@ -447,7 +447,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "medium",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "baoyu-danger-x-to-markdown",
@@ -460,7 +460,7 @@
       ],
       "riskScore": 39,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "baoyu-image-gen",
@@ -473,7 +473,7 @@
       ],
       "riskScore": 96,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "baoyu-infographic",
@@ -486,7 +486,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "baoyu-post-to-wechat",
@@ -499,7 +499,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "baoyu-post-to-x",
@@ -512,7 +512,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "baoyu-slide-deck",
@@ -525,7 +525,7 @@
       ],
       "riskScore": 9,
       "riskLabel": "medium",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "baoyu-url-to-markdown",
@@ -538,7 +538,7 @@
       ],
       "riskScore": 31,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "baoyu-xhs-images",
@@ -551,7 +551,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "brainstorming",
@@ -563,7 +563,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "brand-guidelines",
@@ -574,7 +574,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "canvas-design",
@@ -586,7 +586,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "caveman",
@@ -597,7 +597,7 @@
       ],
       "riskScore": 45,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "caveman-commit",
@@ -608,7 +608,7 @@
       ],
       "riskScore": 15,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "caveman-compress",
@@ -617,9 +617,9 @@
       "tags": [
         "workflow"
       ],
-      "riskScore": 82,
+      "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "caveman-help",
@@ -630,7 +630,7 @@
       ],
       "riskScore": 15,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "caveman-review",
@@ -641,7 +641,7 @@
       ],
       "riskScore": 15,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "claude-handoff",
@@ -652,7 +652,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "code-review",
@@ -663,7 +663,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "codebase-design",
@@ -675,18 +675,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
-    },
-    {
-      "name": "codex-pet",
-      "description": "Codex Pet skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/codex-pet",
-      "tags": [
-        "workflow"
-      ],
-      "riskScore": 13,
-      "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "competitors",
@@ -697,7 +686,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "content-strategy",
@@ -708,18 +697,7 @@
       ],
       "riskScore": 9,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
-    },
-    {
-      "name": "controlnet-pose",
-      "description": "Controlnet Pose skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/controlnet-pose",
-      "tags": [
-        "workflow"
-      ],
-      "riskScore": 65,
-      "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "copy-editing",
@@ -730,7 +708,7 @@
       ],
       "riskScore": 3,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "copywriting",
@@ -741,7 +719,7 @@
       ],
       "riskScore": 33,
       "riskLabel": "medium",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "cost-optimization",
@@ -753,7 +731,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "cro",
@@ -764,7 +742,7 @@
       ],
       "riskScore": 3,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "design-mobile-apps",
@@ -776,7 +754,7 @@
       ],
       "riskScore": 24,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "diagnosing-bugs",
@@ -787,7 +765,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "dispatching-parallel-agents",
@@ -800,7 +778,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "doc-coauthoring",
@@ -811,7 +789,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "docx",
@@ -820,9 +798,9 @@
       "tags": [
         "docs"
       ],
-      "riskScore": 93,
-      "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "riskScore": 63,
+      "riskLabel": "high",
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "domain-modeling",
@@ -833,18 +811,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
-    },
-    {
-      "name": "elevenlabs-music-generation",
-      "description": "elevenlaus music generation skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/elevenlabs-music-generation",
-      "tags": [
-        "workflow"
-      ],
-      "riskScore": 36,
-      "riskLabel": "medium",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "emails",
@@ -855,7 +822,7 @@
       ],
       "riskScore": 21,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "emil-design-eng",
@@ -867,7 +834,7 @@
       ],
       "riskScore": 3,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "entra-agent-id",
@@ -878,7 +845,7 @@
       ],
       "riskScore": 9,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "entra-app-registration",
@@ -891,7 +858,7 @@
       ],
       "riskScore": 10,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "env-and-assets-bootstrap",
@@ -902,7 +869,7 @@
       ],
       "riskScore": 15,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "executing-plans",
@@ -914,7 +881,7 @@
       ],
       "riskScore": 15,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "expo-upgrade",
@@ -925,18 +892,7 @@
       ],
       "riskScore": 4,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
-    },
-    {
-      "name": "face-swap",
-      "description": "Face Swap skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/face-swap",
-      "tags": [
-        "workflow"
-      ],
-      "riskScore": 78,
-      "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "find-skills",
@@ -948,7 +904,7 @@
       ],
       "riskScore": 4,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "finishing-a-development-branch",
@@ -961,7 +917,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "flux-2-klein",
@@ -972,7 +928,7 @@
       ],
       "riskScore": 25,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "flux-kontext",
@@ -983,7 +939,7 @@
       ],
       "riskScore": 10,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "free-tools",
@@ -994,7 +950,7 @@
       ],
       "riskScore": 21,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "frontend-design",
@@ -1006,7 +962,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "git-guardrails-claude-code",
@@ -1017,7 +973,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "google-agents-cli-deploy",
@@ -1028,7 +984,7 @@
       ],
       "riskScore": 65,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "google-agents-cli-observability",
@@ -1039,7 +995,7 @@
       ],
       "riskScore": 6,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "google-agents-cli-publish",
@@ -1050,7 +1006,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "google-agents-cli-scaffold",
@@ -1059,9 +1015,9 @@
       "tags": [
         "agent"
       ],
-      "riskScore": 21,
+      "riskScore": 24,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "gpt-image-edit",
@@ -1073,7 +1029,7 @@
       ],
       "riskScore": 22,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "grill-me",
@@ -1084,7 +1040,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "grill-with-docs",
@@ -1095,7 +1051,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "grilling",
@@ -1106,7 +1062,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "handoff",
@@ -1117,7 +1073,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "happyhorse-1-0",
@@ -1128,7 +1084,7 @@
       ],
       "riskScore": 22,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "hyperframes",
@@ -1139,7 +1095,7 @@
       ],
       "riskScore": 83,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "hyperframes-cli",
@@ -1150,7 +1106,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "hyperframes-registry",
@@ -1161,7 +1117,7 @@
       ],
       "riskScore": 81,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "image-edit",
@@ -1173,29 +1129,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
-    },
-    {
-      "name": "image-inpainting",
-      "description": "Image Inpainting skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/image-inpainting",
-      "tags": [
-        "ai"
-      ],
-      "riskScore": 59,
-      "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
-    },
-    {
-      "name": "image-outpainting",
-      "description": "Image Outpainting skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/image-outpainting",
-      "tags": [
-        "ai"
-      ],
-      "riskScore": 56,
-      "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "image-to-ui",
@@ -1207,7 +1141,7 @@
       ],
       "riskScore": 3,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "image-to-video",
@@ -1219,7 +1153,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "implement",
@@ -1230,7 +1164,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "improve-codebase-architecture",
@@ -1241,7 +1175,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "internal-comms",
@@ -1252,18 +1186,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
-    },
-    {
-      "name": "kling-3-0",
-      "description": "Kling 3 0 skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/kling-3-0",
-      "tags": [
-        "workflow"
-      ],
-      "riskScore": 27,
-      "riskLabel": "medium",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "lark-approval",
@@ -1274,7 +1197,7 @@
       ],
       "riskScore": 60,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "lark-attendance",
@@ -1285,7 +1208,7 @@
       ],
       "riskScore": 15,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "lark-base",
@@ -1296,7 +1219,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "lark-calendar",
@@ -1307,7 +1230,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "lark-contact",
@@ -1318,7 +1241,7 @@
       ],
       "riskScore": 75,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "lark-doc",
@@ -1329,7 +1252,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "lark-drive",
@@ -1340,7 +1263,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "lark-event",
@@ -1351,7 +1274,7 @@
       ],
       "riskScore": 63,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "lark-im",
@@ -1362,7 +1285,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "lark-mail",
@@ -1373,7 +1296,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "lark-markdown",
@@ -1384,18 +1307,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
-    },
-    {
-      "name": "lark-minutes",
-      "description": "Lark Minutes skill for AI agent workflows",
-      "source": "larksuite/cli/lark-minutes",
-      "tags": [
-        "workflow"
-      ],
-      "riskScore": 15,
-      "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "lark-okr",
@@ -1406,7 +1318,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "lark-openapi-explorer",
@@ -1417,7 +1329,7 @@
       ],
       "riskScore": 45,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "lark-shared",
@@ -1428,7 +1340,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "lark-sheets",
@@ -1439,7 +1351,7 @@
       ],
       "riskScore": 84,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "lark-skill-maker",
@@ -1450,7 +1362,7 @@
       ],
       "riskScore": 15,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "lark-slides",
@@ -1462,7 +1374,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "lark-task",
@@ -1473,18 +1385,7 @@
       ],
       "riskScore": 45,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
-    },
-    {
-      "name": "lark-vc",
-      "description": "Lark Vc skill for AI agent workflows",
-      "source": "larksuite/cli/lark-vc",
-      "tags": [
-        "workflow"
-      ],
-      "riskScore": 15,
-      "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "lark-whiteboard",
@@ -1495,7 +1396,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "lark-wiki",
@@ -1506,7 +1407,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "lark-workflow-meeting-summary",
@@ -1517,7 +1418,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "lark-workflow-standup-report",
@@ -1528,7 +1429,7 @@
       ],
       "riskScore": 60,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "launch",
@@ -1539,18 +1440,7 @@
       ],
       "riskScore": 6,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
-    },
-    {
-      "name": "lipsync",
-      "description": "Lipsync skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/lipsync",
-      "tags": [
-        "workflow"
-      ],
-      "riskScore": 71,
-      "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "loop-me",
@@ -1561,7 +1451,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "marketing-ideas",
@@ -1572,7 +1462,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "marketing-psychology",
@@ -1583,7 +1473,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "mcp-builder",
@@ -1595,7 +1485,7 @@
       ],
       "riskScore": 37,
       "riskLabel": "medium",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "media-use",
@@ -1606,7 +1496,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "microsoft-foundry",
@@ -1619,7 +1509,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "migrate-to-shoehorn",
@@ -1630,7 +1520,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "minimal-run-and-audit",
@@ -1641,7 +1531,7 @@
       ],
       "riskScore": 15,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "nano-banana-2",
@@ -1652,7 +1542,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "nano-banana-edit",
@@ -1663,7 +1553,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "next-cache-components-adoption",
@@ -1675,7 +1565,7 @@
       ],
       "riskScore": 13,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "next-cache-components-optimizer",
@@ -1687,7 +1577,7 @@
       ],
       "riskScore": 6,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "nuxt",
@@ -1700,7 +1590,7 @@
       ],
       "riskScore": 29,
       "riskLabel": "medium",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "onboarding",
@@ -1711,7 +1601,7 @@
       ],
       "riskScore": 6,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "orca-cli",
@@ -1722,7 +1612,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "orchestration",
@@ -1733,7 +1623,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "paper-context-resolver",
@@ -1744,7 +1634,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "paywalls",
@@ -1755,7 +1645,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "pdf",
@@ -1766,7 +1656,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "pinia",
@@ -1779,7 +1669,7 @@
       ],
       "riskScore": 10,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "pnpm",
@@ -1791,7 +1681,7 @@
       ],
       "riskScore": 57,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "popups",
@@ -1802,7 +1692,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "pptx",
@@ -1811,9 +1701,9 @@
       "tags": [
         "docs"
       ],
-      "riskScore": 93,
+      "riskScore": 86,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "pricing",
@@ -1824,7 +1714,7 @@
       ],
       "riskScore": 6,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "prisma-client-api",
@@ -1835,7 +1725,7 @@
       ],
       "riskScore": 9,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "prisma-database-setup",
@@ -1846,7 +1736,7 @@
       ],
       "riskScore": 3,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "product-marketing",
@@ -1857,7 +1747,7 @@
       ],
       "riskScore": 6,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "programmatic-seo",
@@ -1869,7 +1759,7 @@
       ],
       "riskScore": 6,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "prototype",
@@ -1880,7 +1770,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "react-doctor",
@@ -1893,7 +1783,7 @@
       ],
       "riskScore": 9,
       "riskLabel": "medium",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "receiving-code-review",
@@ -1904,7 +1794,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "reddit-automation",
@@ -1915,7 +1805,7 @@
       ],
       "riskScore": 9,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "referrals",
@@ -1926,7 +1816,7 @@
       ],
       "riskScore": 72,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "release-skills",
@@ -1939,18 +1829,7 @@
       ],
       "riskScore": 15,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
-    },
-    {
-      "name": "relight",
-      "description": "relight skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/relight",
-      "tags": [
-        "workflow"
-      ],
-      "riskScore": 50,
-      "riskLabel": "medium",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "remotion-best-practices",
@@ -1961,7 +1840,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "remotion-captions",
@@ -1972,7 +1851,7 @@
       ],
       "riskScore": 25,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "remotion-create",
@@ -1983,7 +1862,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "remotion-docs",
@@ -1994,7 +1873,29 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
+    },
+    {
+      "name": "remotion-interactivity",
+      "description": "Remotion Interactivity skill for AI agent workflows",
+      "source": "remotion-dev/skills/remotion-interactivity",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 7,
+      "riskLabel": "low",
+      "auditedAt": "2026-11-16T13:21:40Z"
+    },
+    {
+      "name": "remotion-license",
+      "description": "Remotion License skill for AI agent workflows",
+      "source": "remotion-dev/skills/remotion-license",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 13,
+      "riskLabel": "low",
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "remotion-markup",
@@ -2003,9 +1904,9 @@
       "tags": [
         "workflow"
       ],
-      "riskScore": 100,
+      "riskScore": 90,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "remotion-multimedia",
@@ -2016,7 +1917,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "remotion-render",
@@ -2027,7 +1928,18 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
+    },
+    {
+      "name": "remotion-saas",
+      "description": "Remotion Saas skill for AI agent workflows",
+      "source": "remotion-dev/skills/remotion-saas",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 0,
+      "riskLabel": "clean",
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "remotion-studio",
@@ -2038,7 +1950,7 @@
       ],
       "riskScore": 2,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "remotion-upgrade",
@@ -2049,7 +1961,7 @@
       ],
       "riskScore": 5,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "repo-intake-and-plan",
@@ -2060,7 +1972,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "requesting-code-review",
@@ -2071,7 +1983,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "research",
@@ -2082,18 +1994,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
-    },
-    {
-      "name": "runcomfy-cli",
-      "description": "Runcomfy Cli skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/runcomfy-cli",
-      "tags": [
-        "workflow"
-      ],
-      "riskScore": 72,
-      "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "scaffold-exercises",
@@ -2104,7 +2005,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "schema",
@@ -2115,7 +2016,7 @@
       ],
       "riskScore": 21,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "seedance-2-5-image-to-video",
@@ -2127,7 +2028,7 @@
       ],
       "riskScore": 19,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "seedance-v2",
@@ -2138,7 +2039,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "seo-audit",
@@ -2150,7 +2051,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "setup-matt-pocock-skills",
@@ -2161,7 +2062,7 @@
       ],
       "riskScore": 21,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "setup-pre-commit",
@@ -2172,7 +2073,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "signup",
@@ -2183,7 +2084,7 @@
       ],
       "riskScore": 3,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "skill-creator",
@@ -2195,7 +2096,7 @@
       ],
       "riskScore": 46,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "slack-gif-creator",
@@ -2206,7 +2107,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "slideshow",
@@ -2218,7 +2119,7 @@
       ],
       "riskScore": 15,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "social",
@@ -2229,7 +2130,7 @@
       ],
       "riskScore": 26,
       "riskLabel": "medium",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "subagent-driven-development",
@@ -2242,7 +2143,7 @@
       ],
       "riskScore": 15,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "supabase-postgres-best-practices",
@@ -2253,7 +2154,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "systematic-debugging",
@@ -2266,7 +2167,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "tdd",
@@ -2277,7 +2178,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "teach",
@@ -2288,7 +2189,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "test-driven-development",
@@ -2301,7 +2202,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "theme-factory",
@@ -2313,7 +2214,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "to-questionnaire",
@@ -2324,7 +2225,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "to-spec",
@@ -2335,7 +2236,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "to-tickets",
@@ -2346,7 +2247,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "triage",
@@ -2357,7 +2258,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "turborepo",
@@ -2369,7 +2270,7 @@
       ],
       "riskScore": 1,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "twitter-automation",
@@ -2380,7 +2281,7 @@
       ],
       "riskScore": 16,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "ui-ux-pro-max",
@@ -2390,9 +2291,9 @@
         "design",
         "frontend"
       ],
-      "riskScore": 77,
+      "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "unocss",
@@ -2404,7 +2305,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "using-git-worktrees",
@@ -2417,7 +2318,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "using-superpowers",
@@ -2430,7 +2331,7 @@
       ],
       "riskScore": 21,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "verification-before-completion",
@@ -2443,7 +2344,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "video-edit",
@@ -2454,40 +2355,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
-    },
-    {
-      "name": "video-extend",
-      "description": "Video Extend skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/video-extend",
-      "tags": [
-        "workflow"
-      ],
-      "riskScore": 56,
-      "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
-    },
-    {
-      "name": "video-inpainting",
-      "description": "Video Inpainting skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/video-inpainting",
-      "tags": [
-        "ai"
-      ],
-      "riskScore": 65,
-      "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
-    },
-    {
-      "name": "video-outpainting",
-      "description": "Video Outpainting skill for AI agent workflows",
-      "source": "agentspace-so/runcomfy-agent-skills/video-outpainting",
-      "tags": [
-        "ai"
-      ],
-      "riskScore": 62,
-      "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "vite",
@@ -2498,7 +2366,7 @@
       ],
       "riskScore": 37,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "vitepress",
@@ -2511,7 +2379,7 @@
       ],
       "riskScore": 100,
       "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "vitest",
@@ -2522,7 +2390,7 @@
       ],
       "riskScore": 6,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "vue",
@@ -2534,7 +2402,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "wait-what",
@@ -2545,7 +2413,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "wan-2-7",
@@ -2556,7 +2424,7 @@
       ],
       "riskScore": 7,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "wan-3-0-prime-reference-to-video",
@@ -2567,7 +2435,7 @@
       ],
       "riskScore": 45,
       "riskLabel": "medium",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "wayfinder",
@@ -2578,7 +2446,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "web-artifacts-builder",
@@ -2589,7 +2457,7 @@
       ],
       "riskScore": 2,
       "riskLabel": "low",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "web-design-guidelines",
@@ -2601,7 +2469,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "webapp-testing",
@@ -2612,7 +2480,18 @@
       ],
       "riskScore": 31,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
+    },
+    {
+      "name": "website-builder",
+      "description": "Website Builder skill for AI agent workflows",
+      "source": "flowkit-labs/skills/website-builder",
+      "tags": [
+        "workflow"
+      ],
+      "riskScore": 12,
+      "riskLabel": "low",
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "wizard",
@@ -2623,7 +2502,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "writing-beats",
@@ -2634,7 +2513,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "writing-for-agents",
@@ -2645,7 +2524,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "writing-fragments",
@@ -2656,7 +2535,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "writing-plans",
@@ -2668,7 +2547,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "writing-shape",
@@ -2679,7 +2558,7 @@
       ],
       "riskScore": 0,
       "riskLabel": "clean",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "writing-skills",
@@ -2692,7 +2571,7 @@
       ],
       "riskScore": 70,
       "riskLabel": "high",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "auditedAt": "2026-11-16T13:21:40Z"
     },
     {
       "name": "xlsx",
@@ -2701,9 +2580,9 @@
       "tags": [
         "docs"
       ],
-      "riskScore": 92,
-      "riskLabel": "critical",
-      "auditedAt": "2026-11-09T13:37:06Z"
+      "riskScore": 70,
+      "riskLabel": "high",
+      "auditedAt": "2026-11-16T13:21:40Z"
     }
   ]
 }
