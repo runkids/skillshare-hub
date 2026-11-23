@@ -827,6 +827,14 @@
     ]
   },
   {
+    "name": "setup-ts-deep-modules",
+    "description": "Setup Ts Deep Modules skill for AI agent workflows",
+    "source": "mattpocock/skills/setup-ts-deep-modules",
+    "tags": [
+      "workflow"
+    ]
+  },
+  {
     "name": "slideshow",
     "description": "Slideshow skill for AI agent workflows",
     "source": "heygen-com/hyperframes/slideshow",
